@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E5C00A68-E6DB-FEA3-938C-F34D364EA738}</ProjectGuid>
+    <ProjectGuid>{4D39FD69-A649-E5DC-9443-4ECC64E5FA4A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,6 +46,65 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanAutoDestroy.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanDragLine.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanDragTrail.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanFingerDown.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanFingerTap.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanFingerUp.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanMultiTap.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanMultiTapInfo.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanOpenUrl.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanRotate.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanScale.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSelect.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSelect2D.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSelect3D.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSelectable.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSelectableBehaviour.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSelectableRendererColor.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSelectableSpriteRendererColor.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSelectableTranslateInertia2D.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSelectableTranslateInertia3D.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSideCamera2D.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSideCamera3D.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSpawnGameObject.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSwipeDirection4.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSwipeDirection8.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSwipeRigidbody2D.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSwipeRigidbody2DNoRelease.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSwipeRigidbody3D.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSwipeRigidbody3DNoRelease.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanTouchEvents.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanTranslate.cs" />
+     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanTranslateSmooth.cs" />
+     <Compile Include="Assets\LeanTouch\Scripts\LeanFinger.cs" />
+     <Compile Include="Assets\LeanTouch\Scripts\LeanGesture.cs" />
+     <Compile Include="Assets\LeanTouch\Scripts\LeanSnapshot.cs" />
+     <Compile Include="Assets\LeanTouch\Scripts\LeanTouch.cs" />
+     <Compile Include="Assets\TouchKit-master\Assets\TouchKit\Helpers\TKRect.cs" />
+     <Compile Include="Assets\TouchKit-master\Assets\TouchKit\Helpers\TKTouch.cs" />
+     <Compile Include="Assets\TouchKit-master\Assets\TouchKit\Helpers\TouchKitEditorSupport.cs" />
+     <Compile Include="Assets\TouchKit-master\Assets\TouchKit\Recognizers\TKAbstractGestureRecognizer.cs" />
+     <Compile Include="Assets\TouchKit-master\Assets\TouchKit\Recognizers\TKAngleSwipeRecognizer.cs" />
+     <Compile Include="Assets\TouchKit-master\Assets\TouchKit\Recognizers\TKAnyTouchRecognizer.cs" />
+     <Compile Include="Assets\TouchKit-master\Assets\TouchKit\Recognizers\TKButtonRecognizer.cs" />
+     <Compile Include="Assets\TouchKit-master\Assets\TouchKit\Recognizers\TKCurveRecognizer.cs" />
+     <Compile Include="Assets\TouchKit-master\Assets\TouchKit\Recognizers\TKLongPressRecognizer.cs" />
+     <Compile Include="Assets\TouchKit-master\Assets\TouchKit\Recognizers\TKOneFingerRotationRecognizer.cs" />
+     <Compile Include="Assets\TouchKit-master\Assets\TouchKit\Recognizers\TKPanRecognizer.cs" />
+     <Compile Include="Assets\TouchKit-master\Assets\TouchKit\Recognizers\TKPinchRecognizer.cs" />
+     <Compile Include="Assets\TouchKit-master\Assets\TouchKit\Recognizers\TKRotationRecognizer.cs" />
+     <Compile Include="Assets\TouchKit-master\Assets\TouchKit\Recognizers\TKSwipeRecognizer.cs" />
+     <Compile Include="Assets\TouchKit-master\Assets\TouchKit\Recognizers\TKTapRecognizer.cs" />
+     <Compile Include="Assets\TouchKit-master\Assets\TouchKit\Recognizers\TKTouchPadRecognizer.cs" />
+     <Compile Include="Assets\TouchKit-master\Assets\TouchKit\TouchKit.cs" />
+     <Compile Include="Assets\TouchKit-master\Assets\TouchKitDemos\DemoOne\DemoOne.cs" />
+     <Compile Include="Assets\TouchKit-master\Assets\TouchKitDemos\DemoTwo\DemoTwo.cs" />
+     <Compile Include="Assets\TouchKit-master\Assets\TouchKitDemos\DemoTwo\VirtualControls.cs" />
+     <Compile Include="Assets\TouchKit-master\Assets\TouchKitLite\TKLSwipeDetector.cs" />
+     <Compile Include="Assets\TouchKit-master\Assets\TouchKitLite\TKLTouch.cs" />
+     <Compile Include="Assets\TouchKit-master\Assets\TouchKitLite\TouchKitLite.cs" />
      <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\CylinderTargetBehaviour.cs" />
@@ -87,11 +146,16 @@
      <Compile Include="Assets\Vuforia\Scripts\WireframeBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\WireframeTrackableEventHandler.cs" />
      <Compile Include="Assets\Vuforia\Scripts\WordBehaviour.cs" />
+     <None Include="Assets\LeanTouch\Examples\Fonts\OFL.txt" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
+     <None Include="Assets\StreamingAssets\QCAR\test.xml" />
      <None Include="Assets\link.xml" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
      <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
+     <None Include="Assets\LeanTouch\Examples\Shaders\BackgroundSkybox.shader" />
+     <None Include="Assets\LeanTouch\Examples\Shaders\Smooth.shader" />
      <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
+     <None Include="Assets\TouchKit-master\ProjectSettings\ProjectVersion.txt" />
      <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
      <None Include="Assets\license_3rdpartynotice.txt" />
@@ -99,34 +163,27 @@
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\readme_SDK.txt" />
-     <None Include="Assets\StreamingAssets\QCAR\test.xml" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UI">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Networking">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.PlaymodeTestsRunner">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Purchasing">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="Vuforia.UnityExtensions">
- <HintPath>/Users/David/test/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
+ <HintPath>/Users/Sandra/Dropbox/CMETE4/Multimodal/MR4BusinessCard/MR4BusinessCard/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
