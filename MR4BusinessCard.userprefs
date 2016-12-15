@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/vbScript.cs">
+    <Files>
+      <File FileName="Assets/vbScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/EasyMovieTexture/FFmpeg.AutoGen/FFmpeg.avcodec.g.cs" Line="1" Column="1" />
+      <File FileName="Assets/MoviePlayer/Readme.txt" Line="1" Column="1" />
+      <File FileName="Assets/MoviePlayer/Scripts/MobileMoviePlayer.cs" Line="1" Column="1" />
+      <File FileName="Assets/EasyMovieTexture/FFmpeg.AutoGen/FFmpeg.swresample.g.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
