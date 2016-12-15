@@ -15,15 +15,13 @@ public class vbScript : MonoBehaviour, IVirtualButtonEventHandler {
 
 	public void OnButtonPressed (VirtualButtonAbstractBehaviour vb){
 
-		Debug.Log ("Button Pressed!!!!!!!!!");
+		Debug.Log ("Button Pressed!!!!!!!!");
+		Application.OpenURL ("http://www.google.com");
 	}
 
 	public void OnButtonReleased (VirtualButtonAbstractBehaviour vb){
 		Debug.Log ("Button Released!!!!!!!!!");
 	}
-
-	void Update () {
-
-	}
+		
 
 }
