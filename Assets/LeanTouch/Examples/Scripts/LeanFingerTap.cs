@@ -21,9 +21,9 @@ namespace Lean.Touch
 		public LeanFingerEvent OnFingerTap;
 
 		//Hitta knappen
-		//public Button2 button;//Its your button
-
-		GameObject knapp = GameObject.Find("Button2");
+		//public Button2 Button2;//Its your button
+		//alt.
+		//GameObject Button2 = GameObject.Find("Button2");
 		
 		protected virtual void OnEnable()
 		{
@@ -60,7 +60,7 @@ namespace Lean.Touch
 			OnFingerTap.Invoke(finger);
 			Debug.Log ("tryckt");
 			//Application.OpenURL("https://www.facebook.com/dsamuelsson");
-			knapp.SetActive(false);
+			//Button2.SetActive(false);
 		}
 	}
 }
