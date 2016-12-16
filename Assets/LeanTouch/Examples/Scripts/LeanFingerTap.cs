@@ -24,13 +24,14 @@ namespace Lean.Touch
 		{
 			// Hook events
 			LeanTouch.OnFingerTap += FingerTap;
-			Debug.Log ("tryckt");
+			Debug.Log ("tryckt - enable");
 		}
 		
 		protected virtual void OnDisable()
 		{
 			// Unhook events
-			//LeanTouch.OnFingerTap -= FingerTap;
+			LeanTouch.OnFingerTap -= FingerTap;
+			Debug.Log ("disabled");
 		}
 		
 		private void FingerTap(LeanFinger finger)
@@ -53,6 +54,7 @@ namespace Lean.Touch
 
 			// Call event
 			OnFingerTap.Invoke(finger);
+			this.GetComponent<AudioSource> ().Play ();
 			Debug.Log ("tryckt");
 		}
 	}
