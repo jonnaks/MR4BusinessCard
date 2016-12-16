@@ -30,7 +30,7 @@ namespace Lean.Touch
 		protected virtual void OnDisable()
 		{
 			// Unhook events
-			//LeanTouch.OnFingerTap -= FingerTap;
+			LeanTouch.OnFingerTap -= FingerTap;
 		}
 		
 		private void FingerTap(LeanFinger finger)
@@ -54,6 +54,7 @@ namespace Lean.Touch
 			// Call event
 			OnFingerTap.Invoke(finger);
 			Debug.Log ("tryckt");
+			Application.OpenURL("https://www.facebook.com/dsamuelsson");
 		}
 	}
 }
