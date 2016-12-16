@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+
+
 namespace Lean.Touch
 {
 	// This script will tell you which direction you swiped in
@@ -8,6 +10,7 @@ namespace Lean.Touch
 	{
 		[Tooltip("The text element we will display the swipe information in")]
 		public Text InfoText;
+
 	
 		protected virtual void OnEnable()
 		{
@@ -41,19 +44,19 @@ namespace Lean.Touch
 					InfoText.text = "You swiped right!";
 				}
 			
-				if (swipe.y < -Mathf.Abs(swipe.x))
-				{
-					Debug.Log ("DOWN");
-
-					InfoText.text = "You swiped down!";
-				}
-			
-				if (swipe.y > Mathf.Abs(swipe.x))
-				{
-					Debug.Log ("UP");
-
-					InfoText.text = "You swiped up!";
-				}
+//				if (swipe.y < -Mathf.Abs(swipe.x))
+//				{
+//					Debug.Log ("DOWN");
+//
+//					InfoText.text = "You swiped down!";
+//				}
+//			
+//				if (swipe.y > Mathf.Abs(swipe.x))
+//				{
+//					Debug.Log ("UP");
+//
+//					InfoText.text = "You swiped up!";
+//				}
 			}
 		}
 	}

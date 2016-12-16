@@ -82,6 +82,7 @@
      <Compile Include="Assets\LeanTouch\Scripts\LeanGesture.cs" />
      <Compile Include="Assets\LeanTouch\Scripts\LeanSnapshot.cs" />
      <Compile Include="Assets\LeanTouch\Scripts\LeanTouch.cs" />
+     <Compile Include="Assets\SwipeImage.cs" />
      <Compile Include="Assets\TouchKit-master\Assets\TouchKit\Helpers\TKRect.cs" />
      <Compile Include="Assets\TouchKit-master\Assets\TouchKit\Helpers\TKTouch.cs" />
      <Compile Include="Assets\TouchKit-master\Assets\TouchKit\Helpers\TouchKitEditorSupport.cs" />
