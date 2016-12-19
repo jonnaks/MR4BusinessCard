@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
-  <Tracking>
-    <ImageTarget name="back-portfolio" size="5.000000 3.126984" />
-    <ImageTarget name="background" size="5.000000 3.242815" />
-    <ImageTarget name="marioCard" size="5.000000 3.242913" />
-  </Tracking>
-</QCARConfig>
