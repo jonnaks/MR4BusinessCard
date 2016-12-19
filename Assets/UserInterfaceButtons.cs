@@ -203,13 +203,18 @@ public class UserInterfaceButtons : MonoBehaviour
 		Application.OpenURL("https://www.facebook.com/dsamuelsson");
 	}
 
-	public void AnyButton2 ()
+	public void InButton ()
 	{
-//		buttonName = GameObject.Find ("Button1");
-//
-//		if buttonName == Button1{}
 
-		Debug.Log ("Any2");
-		//Application.OpenURL("https://www.facebook.com/dsamuelsson");
+		Debug.Log ("InButton");
+		Application.OpenURL("https://www.linkedin.com/in/marioromero");
 	}
+
+	public void FbButton ()
+	{
+
+		Debug.Log ("FbButton");
+		Application.OpenURL("https://www.facebook.com/marioromero73");
+	}
+
 }
