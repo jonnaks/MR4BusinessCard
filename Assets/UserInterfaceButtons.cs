@@ -205,16 +205,29 @@ public class UserInterfaceButtons : MonoBehaviour
 
 	public void InButton ()
 	{
-
-		Debug.Log ("InButton");
 		Application.OpenURL("https://www.linkedin.com/in/marioromero");
+		Debug.Log ("InButton");
 	}
 
 	public void FbButton ()
 	{
 
-		Debug.Log ("FbButton");
 		Application.OpenURL("https://www.facebook.com/marioromero73");
+		Debug.Log ("FbButton");
 	}
+
+	public void AudioButton ()
+	{
+		this.GetComponent<AudioSource> ().Play ();
+		Debug.Log ("AudioButton");
+	}
+
+
+	public void MailButton ()
+	{
+		Application.OpenURL("mailto:marior@kth.se?subject=Email&body=from Unity");
+		Debug.Log ("MailButton");
+	}
+
 
 }
