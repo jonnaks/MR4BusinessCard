@@ -216,6 +216,13 @@ public class UserInterfaceButtons : MonoBehaviour
 		Debug.Log ("FbButton");
 	}
 
+	public void KTHButton ()
+	{
+
+		Application.OpenURL("https://www.kth.se/profile/marior");
+		Debug.Log ("FbButton");
+	}
+
 	public void AudioButton ()
 	{
 		this.GetComponent<AudioSource> ().Play ();
@@ -225,7 +232,7 @@ public class UserInterfaceButtons : MonoBehaviour
 
 	public void MailButton ()
 	{
-		Application.OpenURL("mailto:marior@kth.se?subject=Email&body=from Unity");
+		Application.OpenURL("mailto:marior@kth.se");
 		Debug.Log ("MailButton");
 	}
 
