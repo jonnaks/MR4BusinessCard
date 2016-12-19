@@ -1,0 +1,12 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="UserInterfaceButtons">
+			<method name="AnyButton"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine">
+		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
+		</type>
+	</assembly>
+</linker>

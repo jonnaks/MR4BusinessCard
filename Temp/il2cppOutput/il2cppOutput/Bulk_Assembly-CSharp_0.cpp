@@ -1,0 +1,14874 @@
+﻿#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+#include <cstring>
+#include <string.h>
+#include <stdio.h>
+#include <cmath>
+#include <limits>
+#include <assert.h>
+
+// Lean.Touch.LeanAutoDestroy
+struct LeanAutoDestroy_t1259977209;
+// Lean.Touch.LeanDragLine
+struct LeanDragLine_t550158934;
+// UnityEngine.LineRenderer
+struct LineRenderer_t849157671;
+// Lean.Touch.LeanFinger
+struct LeanFinger_t76062517;
+// Lean.Touch.LeanDragTrail
+struct LeanDragTrail_t3533323662;
+// System.Object
+struct Il2CppObject;
+// Lean.Touch.LeanDragTrail/<OnFingerSet>c__AnonStorey0
+struct U3COnFingerSetU3Ec__AnonStorey0_t1898060249;
+// Lean.Touch.LeanDragTrail/Link
+struct Link_t390936538;
+// Lean.Touch.LeanDragTrail/<OnFingerUp>c__AnonStorey1
+struct U3COnFingerUpU3Ec__AnonStorey1_t1191669119;
+// UnityEngine.Camera
+struct Camera_t189460977;
+// Lean.Touch.LeanFingerDown
+struct LeanFingerDown_t1453848917;
+// Lean.Touch.LeanFingerDown/LeanFingerEvent
+struct LeanFingerEvent_t4217027252;
+// Lean.Touch.LeanFingerTap
+struct LeanFingerTap_t2593896000;
+// Lean.Touch.LeanFingerTap/LeanFingerEvent
+struct LeanFingerEvent_t1916295887;
+// Lean.Touch.LeanFingerUp
+struct LeanFingerUp_t2387037340;
+// Lean.Touch.LeanFingerUp/LeanFingerEvent
+struct LeanFingerEvent_t2500729307;
+// System.Collections.Generic.List`1<Lean.Touch.LeanFinger>
+struct List_1_t3740150945;
+// Lean.Touch.LeanMultiTap
+struct LeanMultiTap_t2693737624;
+// Lean.Touch.LeanMultiTap/IntEvent
+struct IntEvent_t18007207;
+// Lean.Touch.LeanMultiTapInfo
+struct LeanMultiTapInfo_t4075083494;
+// Lean.Touch.LeanOpenUrl
+struct LeanOpenUrl_t3701782623;
+// System.String
+struct String_t;
+// Lean.Touch.LeanRotate
+struct LeanRotate_t827445339;
+// Lean.Touch.LeanScale
+struct LeanScale_t2479469360;
+// Lean.Touch.LeanSelect
+struct LeanSelect_t3606489640;
+// UnityEngine.Component
+struct Component_t3819376471;
+// Lean.Touch.LeanSelectable
+struct LeanSelectable_t3692576450;
+// Lean.Touch.LeanSelect2D
+struct LeanSelect2D_t440051026;
+// Lean.Touch.LeanSelect3D
+struct LeanSelect3D_t2006134967;
+// Lean.Touch.LeanSelectable/LeanFingerEvent
+struct LeanFingerEvent_t2546124889;
+// Lean.Touch.LeanSelectableBehaviour
+struct LeanSelectableBehaviour_t2782920709;
+// Lean.Touch.LeanSelectableRendererColor
+struct LeanSelectableRendererColor_t652725566;
+// UnityEngine.Renderer
+struct Renderer_t257310565;
+// Lean.Touch.LeanSelectableSpriteRendererColor
+struct LeanSelectableSpriteRendererColor_t1641095051;
+// UnityEngine.SpriteRenderer
+struct SpriteRenderer_t1209076198;
+// Lean.Touch.LeanSelectableTranslateInertia2D
+struct LeanSelectableTranslateInertia2D_t2273971066;
+// UnityEngine.Rigidbody2D
+struct Rigidbody2D_t502193897;
+// Lean.Touch.LeanSelectableTranslateInertia3D
+struct LeanSelectableTranslateInertia3D_t3840055007;
+// UnityEngine.Rigidbody
+struct Rigidbody_t4233889191;
+// Lean.Touch.LeanSideCamera2D
+struct LeanSideCamera2D_t2285839808;
+// Lean.Touch.LeanSideCamera3D
+struct LeanSideCamera3D_t719755867;
+// Lean.Touch.LeanSnapshot
+struct LeanSnapshot_t1117222592;
+// Lean.Touch.LeanSpawnGameObject
+struct LeanSpawnGameObject_t1465354280;
+// UnityEngine.GameObject
+struct GameObject_t1756533147;
+// Lean.Touch.LeanSwipeDirection4
+struct LeanSwipeDirection4_t3774896743;
+// Lean.Touch.LeanSwipeDirection8
+struct LeanSwipeDirection8_t1449297915;
+// Lean.Touch.LeanSwipeRigidbody2D
+struct LeanSwipeRigidbody2D_t1364749039;
+// Lean.Touch.LeanSwipeRigidbody2DNoRelease
+struct LeanSwipeRigidbody2DNoRelease_t2933744255;
+// Lean.Touch.LeanSwipeRigidbody3D
+struct LeanSwipeRigidbody3D_t4093632394;
+// Lean.Touch.LeanSwipeRigidbody3DNoRelease
+struct LeanSwipeRigidbody3DNoRelease_t3590775226;
+// Lean.Touch.LeanTouch
+struct LeanTouch_t1022081457;
+// Lean.Touch.LeanTouchEvents
+struct LeanTouchEvents_t41969022;
+// Lean.Touch.LeanTranslate
+struct LeanTranslate_t3292440434;
+// Lean.Touch.LeanTranslateSmooth
+struct LeanTranslateSmooth_t748462924;
+// testScript
+struct testScript_t860672111;
+// UserInterfaceButtons
+struct UserInterfaceButtons_t987458907;
+// VRIntegrationHelper
+struct VRIntegrationHelper_t556656694;
+// Vuforia.HideExcessAreaAbstractBehaviour
+struct HideExcessAreaAbstractBehaviour_t2687577327;
+// Vuforia.BackgroundPlaneBehaviour
+struct BackgroundPlaneBehaviour_t2431285219;
+// Vuforia.AndroidUnityPlayer
+struct AndroidUnityPlayer_t852788525;
+// Vuforia.CloudRecoBehaviour
+struct CloudRecoBehaviour_t3077176941;
+// Vuforia.ComponentFactoryStarterBehaviour
+struct ComponentFactoryStarterBehaviour_t3249343815;
+// System.Collections.Generic.List`1<System.Reflection.MethodInfo>
+struct List_1_t2699667469;
+// System.Collections.Generic.IEnumerable`1<System.Reflection.MethodInfo>
+struct IEnumerable_1_t3622673382;
+// System.Collections.Generic.List`1<System.Object>
+struct List_1_t2058570427;
+// System.Collections.Generic.IEnumerable`1<System.Object>
+struct IEnumerable_1_t2981576340;
+// Vuforia.CylinderTargetBehaviour
+struct CylinderTargetBehaviour_t2091399712;
+// Vuforia.DatabaseLoadBehaviour
+struct DatabaseLoadBehaviour_t450246482;
+// Vuforia.DefaultInitializationErrorHandler
+struct DefaultInitializationErrorHandler_t965510117;
+// Vuforia.DefaultSmartTerrainEventHandler
+struct DefaultSmartTerrainEventHandler_t870608571;
+// Vuforia.ReconstructionBehaviour
+struct ReconstructionBehaviour_t4009935945;
+// Vuforia.Prop
+struct Prop_t444071959;
+// Vuforia.Surface
+struct Surface_t2221641095;
+// Vuforia.DefaultTrackableEventHandler
+struct DefaultTrackableEventHandler_t1082256726;
+// Vuforia.TrackableBehaviour
+struct TrackableBehaviour_t1779888572;
+// UnityEngine.Renderer[]
+struct RendererU5BU5D_t2810717544;
+// System.Object[]
+struct ObjectU5BU5D_t3614634134;
+// UnityEngine.Collider[]
+struct ColliderU5BU5D_t462843629;
+// Vuforia.DeviceTrackerBehaviour
+struct DeviceTrackerBehaviour_t1884988499;
+// Vuforia.DigitalEyewearBehaviour
+struct DigitalEyewearBehaviour_t495394589;
+// Vuforia.GLErrorHandler
+struct GLErrorHandler_t3809113141;
+// Vuforia.HideExcessAreaBehaviour
+struct HideExcessAreaBehaviour_t3495034315;
+// Vuforia.ImageTargetBehaviour
+struct ImageTargetBehaviour_t2654589389;
+// Vuforia.IOSUnityPlayer
+struct IOSUnityPlayer_t3656371703;
+// Vuforia.KeepAliveBehaviour
+struct KeepAliveBehaviour_t1532923751;
+// Vuforia.MarkerBehaviour
+struct MarkerBehaviour_t1265232977;
+// Vuforia.MaskOutBehaviour
+struct MaskOutBehaviour_t2994129365;
+// Vuforia.MultiTargetBehaviour
+struct MultiTargetBehaviour_t3504654311;
+// Vuforia.ObjectTargetBehaviour
+struct ObjectTargetBehaviour_t3836044259;
+// Vuforia.PropBehaviour
+struct PropBehaviour_t966064926;
+// Vuforia.ReconstructionFromTargetBehaviour
+struct ReconstructionFromTargetBehaviour_t2111803406;
+// Vuforia.SmartTerrainTrackerBehaviour
+struct SmartTerrainTrackerBehaviour_t3844158157;
+// Vuforia.SurfaceBehaviour
+struct SurfaceBehaviour_t2405314212;
+// Vuforia.TextRecoBehaviour
+struct TextRecoBehaviour_t3400239837;
+// Vuforia.TurnOffBehaviour
+struct TurnOffBehaviour_t3058161409;
+// UnityEngine.MeshRenderer
+struct MeshRenderer_t1268241104;
+// UnityEngine.MeshFilter
+struct MeshFilter_t3026937449;
+// Vuforia.TurnOffWordBehaviour
+struct TurnOffWordBehaviour_t584991835;
+// Vuforia.UserDefinedTargetBuildingBehaviour
+struct UserDefinedTargetBuildingBehaviour_t4184040062;
+// Vuforia.VideoBackgroundBehaviour
+struct VideoBackgroundBehaviour_t3161817952;
+// Vuforia.VideoBackgroundManager
+struct VideoBackgroundManager_t3515346924;
+// Vuforia.VirtualButtonBehaviour
+struct VirtualButtonBehaviour_t2515041812;
+// Vuforia.VuforiaBehaviour
+struct VuforiaBehaviour_t359035403;
+// Vuforia.VuforiaBehaviourComponentFactory
+struct VuforiaBehaviourComponentFactory_t1383853028;
+// Vuforia.MaskOutAbstractBehaviour
+struct MaskOutAbstractBehaviour_t3489038957;
+// Vuforia.VirtualButtonAbstractBehaviour
+struct VirtualButtonAbstractBehaviour_t2478279366;
+// Vuforia.TurnOffAbstractBehaviour
+struct TurnOffAbstractBehaviour_t4084926705;
+// Vuforia.ImageTargetAbstractBehaviour
+struct ImageTargetAbstractBehaviour_t3327552701;
+// Vuforia.MarkerAbstractBehaviour
+struct MarkerAbstractBehaviour_t1456101953;
+// Vuforia.MultiTargetAbstractBehaviour
+struct MultiTargetAbstractBehaviour_t3616801211;
+// Vuforia.CylinderTargetAbstractBehaviour
+struct CylinderTargetAbstractBehaviour_t665872082;
+// Vuforia.WordAbstractBehaviour
+struct WordAbstractBehaviour_t2878458725;
+// Vuforia.WordBehaviour
+struct WordBehaviour_t3366478421;
+// Vuforia.TextRecoAbstractBehaviour
+struct TextRecoAbstractBehaviour_t2386081773;
+// Vuforia.ObjectTargetAbstractBehaviour
+struct ObjectTargetAbstractBehaviour_t2805337095;
+// Vuforia.VuMarkAbstractBehaviour
+struct VuMarkAbstractBehaviour_t1830666997;
+// Vuforia.VuMarkBehaviour
+struct VuMarkBehaviour_t2060629989;
+// Vuforia.WebCamBehaviour
+struct WebCamBehaviour_t407765638;
+// Vuforia.WireframeBehaviour
+struct WireframeBehaviour_t2494532455;
+// UnityEngine.Camera[]
+struct CameraU5BU5D_t3079764780;
+// Vuforia.WireframeTrackableEventHandler
+struct WireframeTrackableEventHandler_t1535150527;
+// Vuforia.WireframeBehaviour[]
+struct WireframeBehaviourU5BU5D_t2935582494;
+// Vuforia.WSAUnityPlayer
+struct WSAUnityPlayer_t425981959;
+
+#include "class-internals.h"
+#include "codegen/il2cpp-codegen.h"
+#include "mscorlib_System_Array3829468939.h"
+#include "AssemblyU2DCSharp_U3CModuleU3E3783534214.h"
+#include "AssemblyU2DCSharp_U3CModuleU3E3783534214MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanAutoDestroy1259977209.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanAutoDestroy1259977209MethodDeclarations.h"
+#include "mscorlib_System_Void1841601450.h"
+#include "UnityEngine_UnityEngine_MonoBehaviour1158329972MethodDeclarations.h"
+#include "mscorlib_System_Single2076509932.h"
+#include "UnityEngine_UnityEngine_Time31991979MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Component3819376471MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Object1021602117MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_GameObject1756533147.h"
+#include "UnityEngine_UnityEngine_Object1021602117.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanDragLine550158934.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanDragLine550158934MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanDragTrail3533323662MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_LineRenderer849157671.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanFinger76062517.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanFinger76062517MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_LineRenderer849157671MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Vector32243707580.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanDragTrail3533323662.h"
+#include "UnityEngine_UnityEngine_Camera189460977.h"
+#include "mscorlib_System_Int322071877448.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen4055024966MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen4055024966.h"
+#include "mscorlib_System_Action_1_gen4172829195MethodDeclarations.h"
+#include "mscorlib_System_Delegate3022476291MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanTouch1022081457.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanTouch1022081457MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen4172829195.h"
+#include "mscorlib_System_Object2689449295.h"
+#include "mscorlib_System_IntPtr2504060609.h"
+#include "mscorlib_System_Delegate3022476291.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen486343724MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSnapshot1117222592MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSnapshot1117222592.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen486343724.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanDragTrail_U3COnFi1898060249MethodDeclarations.h"
+#include "mscorlib_System_Predicate_1_gen3128873949MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanDragTrail_Link390936538MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanDragTrail_U3COnFi1898060249.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanDragTrail_Link390936538.h"
+#include "mscorlib_System_Boolean3825574718.h"
+#include "mscorlib_System_Predicate_1_gen3128873949.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanDragTrail_U3COnFi1191669119MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanDragTrail_U3COnFi1191669119.h"
+#include "mscorlib_System_Object2689449295MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen3740150945MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen3740150945.h"
+#include "UnityEngine_UnityEngine_Vector22243707579.h"
+#include "UnityEngine_UnityEngine_Vector22243707579MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Ray2469606224.h"
+#include "UnityEngine_UnityEngine_Camera189460977MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Mathf2336485820MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Vector32243707580MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanFingerDown1453848917.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanFingerDown1453848917MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Events_UnityEvent_1_gen114412532MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanFingerDown_LeanFi4217027252.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanFingerDown_LeanFi4217027252MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanFingerTap2593896000.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanFingerTap2593896000MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Debug1368543263MethodDeclarations.h"
+#include "mscorlib_System_String2029220233.h"
+#include "UnityEngine_UnityEngine_Application354826772MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanFingerTap_LeanFin1916295887.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanFingerTap_LeanFin1916295887MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanFingerUp2387037340.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanFingerUp2387037340MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanFingerUp_LeanFing2500729307.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanFingerUp_LeanFing2500729307MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanGesture3747783025.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanGesture3747783025MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanMultiTap2693737624.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanMultiTap2693737624MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Events_UnityEvent_2_gen170329564MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanMultiTap_IntEvent18007207.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanMultiTap_IntEvent18007207MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanMultiTapInfo4075083494.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanMultiTapInfo4075083494MethodDeclarations.h"
+#include "mscorlib_System_String2029220233MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_Text356221433.h"
+#include "mscorlib_ArrayTypes.h"
+#include "UnityEngine_UI_UnityEngine_UI_Text356221433MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanOpenUrl3701782623.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanOpenUrl3701782623MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanRotate827445339.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanRotate827445339MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSelectable3692576450.h"
+#include "UnityEngine_UnityEngine_Transform3275118058MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Quaternion4030073918MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Transform3275118058.h"
+#include "UnityEngine_UnityEngine_Quaternion4030073918.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanScale2479469360.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanScale2479469360MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSelect3606489640.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSelect3606489640MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Component3819376471.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSelect_SearchType3831610778.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSelectable3692576450MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSelect_SearchType3831610778MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSelect2D440051026.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSelect2D440051026MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_LayerMask3188175821MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_LayerMask3188175821.h"
+#include "UnityEngine_UnityEngine_Physics2D2540166467MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Collider2D646061738.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSelect3D2006134967.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSelect3D2006134967MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Physics634932869MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_RaycastHit87180320.h"
+#include "UnityEngine_UnityEngine_RaycastHit87180320MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Collider3497673348.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSelectable_LeanFi2546124889.h"
+#include "UnityEngine_UnityEngine_Events_UnityEvent408735097MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Events_UnityEvent408735097.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSelectable_LeanFi2546124889MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSelectableBehavio2782920709.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSelectableBehavio2782920709MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Events_UnityAction_1_gen1442648268MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Events_UnityAction4025899511MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Events_UnityAction_1_gen1442648268.h"
+#include "UnityEngine_UnityEngine_Events_UnityAction4025899511.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSelectableRenderer652725566.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSelectableRenderer652725566MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Color2020392075MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Color2020392075.h"
+#include "UnityEngine_UnityEngine_Renderer257310565MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Material193706927MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Renderer257310565.h"
+#include "UnityEngine_UnityEngine_Material193706927.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSelectableSpriteR1641095051.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSelectableSpriteR1641095051MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_SpriteRenderer1209076198MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_SpriteRenderer1209076198.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSelectableTransla2273971066.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSelectableTransla2273971066MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Rigidbody2D502193897MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Rigidbody2D502193897.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSelectableTransla3840055007.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSelectableTransla3840055007MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Rigidbody4233889191MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Rigidbody4233889191.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSideCamera2D2285839808.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSideCamera2D2285839808MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSideCamera3D719755867.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSideCamera3D719755867MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSpawnGameObject1465354280.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSpawnGameObject1465354280MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSwipeDirection43774896743.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSwipeDirection43774896743MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSwipeDirection81449297915.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSwipeDirection81449297915MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSwipeRigidbody2D1364749039.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSwipeRigidbody2D1364749039MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Collider2D646061738MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSwipeRigidbody2DN2933744255.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSwipeRigidbody2DN2933744255MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_ForceMode2D4177575466.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSwipeRigidbody3D4093632394.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSwipeRigidbody3D4093632394MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSwipeRigidbody3DN3590775226.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanSwipeRigidbody3DN3590775226MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_ForceMode1856518252.h"
+#include "UnityEngine_UnityEngine_KeyCode2283395152.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen391202589MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen391202589.h"
+#include "UnityEngine_UnityEngine_Screen786852042MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Input1785128008MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_GUIUtility3275770671MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_RaycastResul21186376.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_RaycastResul21186376MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_EventSyste3466835263MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_PointerEve1599784723MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen3685274804MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_GameObject1756533147MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_EventSyste3466835263.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_PointerEve1599784723.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_AbstractEv1333959294MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_AbstractEv1333959294.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen3685274804.h"
+#include "UnityEngine_UnityEngine_GUI4082743951MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Rect3681755626.h"
+#include "UnityEngine_UnityEngine_Texture2D3542995729.h"
+#include "UnityEngine_UnityEngine_Texture2243626319MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Texture2243626319.h"
+#include "UnityEngine_UnityEngine_Rect3681755626MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Touch407273883.h"
+#include "UnityEngine_UnityEngine_Touch407273883MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanTouchEvents41969022.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanTouchEvents41969022MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen3541950327MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen3541950327.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanTranslate3292440434.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanTranslate3292440434MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanTranslateSmooth748462924.h"
+#include "AssemblyU2DCSharp_Lean_Touch_LeanTranslateSmooth748462924MethodDeclarations.h"
+#include "AssemblyU2DCSharp_testScript860672111.h"
+#include "AssemblyU2DCSharp_testScript860672111MethodDeclarations.h"
+#include "AssemblyU2DCSharp_UserInterfaceButtons987458907.h"
+#include "AssemblyU2DCSharp_UserInterfaceButtons987458907MethodDeclarations.h"
+#include "AssemblyU2DCSharp_VRIntegrationHelper556656694.h"
+#include "AssemblyU2DCSharp_VRIntegrationHelper556656694MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_VuforiaBehaviour359035403MethodDeclarations.h"
+#include "System_Core_System_Action3226471752MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_VuforiaAbstractBeh3319870759MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_VuforiaBehaviour359035403.h"
+#include "System_Core_System_Action3226471752.h"
+#include "AssemblyU2DCSharp_Vuforia_DigitalEyewearBehaviour495394589MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_DigitalEyewearAbst3719235061MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_DigitalEyewearBehaviour495394589.h"
+#include "Vuforia_UnityExtensions_Vuforia_HideExcessAreaAbst2687577327.h"
+#include "Vuforia_UnityExtensions_Vuforia_BackgroundPlaneAbs3732945727MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_HideExcessAreaAbst2687577327MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_BackgroundPlaneBehaviour2431285219.h"
+#include "UnityEngine_UnityEngine_Matrix4x42933234003.h"
+#include "Vuforia_UnityExtensions_Vuforia_VuforiaRuntimeUtil3083157244MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_AndroidUnityPlayer852788525.h"
+#include "AssemblyU2DCSharp_Vuforia_AndroidUnityPlayer852788525MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_VuforiaUnity_InitE2149396216.h"
+#include "Vuforia_UnityExtensions_Vuforia_SurfaceUtilities4096327849MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_ScreenOrientation4019489636.h"
+#include "Vuforia_UnityExtensions_Vuforia_VuforiaUnity657456673MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_BackgroundPlaneBehaviour2431285219MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_CloudRecoBehaviour3077176941.h"
+#include "AssemblyU2DCSharp_Vuforia_CloudRecoBehaviour3077176941MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_CloudRecoAbstractB2070832277MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_ComponentFactoryStarterB3249343815.h"
+#include "AssemblyU2DCSharp_Vuforia_ComponentFactoryStarterB3249343815MethodDeclarations.h"
+#include "System_Core_System_Linq_Enumerable2148412300MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen2699667469MethodDeclarations.h"
+#include "mscorlib_System_Type1303803226MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen2699667469.h"
+#include "mscorlib_System_Reflection_MethodInfo3330546337.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumera2234397143.h"
+#include "mscorlib_System_Attribute542643598.h"
+#include "mscorlib_System_Type1303803226.h"
+#include "mscorlib_System_Reflection_BindingFlags1082350898.h"
+#include "System_Core_System_Linq_Enumerable2148412300.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumera2234397143MethodDeclarations.h"
+#include "mscorlib_System_Reflection_MemberInfo4043097260MethodDeclarations.h"
+#include "mscorlib_System_Reflection_MemberInfo4043097260.h"
+#include "Vuforia_UnityExtensions_Vuforia_FactorySetter648583075.h"
+#include "mscorlib_System_RuntimeTypeHandle2330101084.h"
+#include "AssemblyU2DCSharp_Vuforia_VuforiaBehaviourComponen1383853028MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_BehaviourComponent3267823770MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_VuforiaBehaviourComponen1383853028.h"
+#include "AssemblyU2DCSharp_Vuforia_CylinderTargetBehaviour2091399712.h"
+#include "AssemblyU2DCSharp_Vuforia_CylinderTargetBehaviour2091399712MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_CylinderTargetAbstr665872082MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_DatabaseLoadBehaviour450246482.h"
+#include "AssemblyU2DCSharp_Vuforia_DatabaseLoadBehaviour450246482MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_DatabaseLoadAbstra1458632096MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_DefaultInitializationErro965510117.h"
+#include "AssemblyU2DCSharp_Vuforia_DefaultInitializationErro965510117MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen1951195598MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_VuforiaAbstractBeh3319870759.h"
+#include "mscorlib_System_Action_1_gen1951195598.h"
+#include "UnityEngine_UnityEngine_GUI_WindowFunction3486805455MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_GUI_WindowFunction3486805455.h"
+#include "AssemblyU2DCSharp_Vuforia_DefaultSmartTerrainEventH870608571.h"
+#include "AssemblyU2DCSharp_Vuforia_DefaultSmartTerrainEventH870608571MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen245871341MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_ReconstructionAbst3509595417MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen2023440477MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_ReconstructionBehaviour4009935945.h"
+#include "mscorlib_System_Action_1_gen245871341.h"
+#include "mscorlib_System_Action_1_gen2023440477.h"
+#include "AssemblyU2DCSharp_Vuforia_PropBehaviour966064926.h"
+#include "Vuforia_UnityExtensions_Vuforia_PropAbstractBehavi1047177596.h"
+#include "AssemblyU2DCSharp_Vuforia_SurfaceBehaviour2405314212.h"
+#include "Vuforia_UnityExtensions_Vuforia_SurfaceAbstractBeh2669615494.h"
+#include "AssemblyU2DCSharp_Vuforia_DefaultTrackableEventHan1082256726.h"
+#include "AssemblyU2DCSharp_Vuforia_DefaultTrackableEventHan1082256726MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_TrackableBehaviour1779888572MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_TrackableBehaviour1779888572.h"
+#include "Vuforia_UnityExtensions_Vuforia_TrackableBehaviour4057911311.h"
+#include "UnityEngine_UnityEngine_Collider3497673348MethodDeclarations.h"
+#include "UnityEngine_ArrayTypes.h"
+#include "AssemblyU2DCSharp_Vuforia_DeviceTrackerBehaviour1884988499.h"
+#include "AssemblyU2DCSharp_Vuforia_DeviceTrackerBehaviour1884988499MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_DeviceTrackerAbstr2651534015MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_GLErrorHandler3809113141.h"
+#include "AssemblyU2DCSharp_Vuforia_GLErrorHandler3809113141MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_HideExcessAreaBehaviour3495034315.h"
+#include "AssemblyU2DCSharp_Vuforia_HideExcessAreaBehaviour3495034315MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_ImageTargetBehaviour2654589389.h"
+#include "AssemblyU2DCSharp_Vuforia_ImageTargetBehaviour2654589389MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_ImageTargetAbstrac3327552701MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_IOSUnityPlayer3656371703.h"
+#include "AssemblyU2DCSharp_Vuforia_IOSUnityPlayer3656371703MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_VuforiaRenderer2933102835MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_VuforiaRenderer_Ren804170727.h"
+#include "Vuforia_UnityExtensions_Vuforia_VuforiaRenderer2933102835.h"
+#include "AssemblyU2DCSharp_Vuforia_KeepAliveBehaviour1532923751.h"
+#include "AssemblyU2DCSharp_Vuforia_KeepAliveBehaviour1532923751MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_KeepAliveAbstractB1486411203MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_MarkerBehaviour1265232977.h"
+#include "AssemblyU2DCSharp_Vuforia_MarkerBehaviour1265232977MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_MarkerAbstractBeha1456101953MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_MaskOutBehaviour2994129365.h"
+#include "AssemblyU2DCSharp_Vuforia_MaskOutBehaviour2994129365MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_MaskOutAbstractBeh3489038957MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_MaskOutAbstractBeh3489038957.h"
+#include "AssemblyU2DCSharp_Vuforia_MultiTargetBehaviour3504654311.h"
+#include "AssemblyU2DCSharp_Vuforia_MultiTargetBehaviour3504654311MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_MultiTargetAbstrac3616801211MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_ObjectTargetBehaviour3836044259.h"
+#include "AssemblyU2DCSharp_Vuforia_ObjectTargetBehaviour3836044259MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_ObjectTargetAbstra2805337095MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_PropBehaviour966064926MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_PropAbstractBehavi1047177596MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_ReconstructionBehaviour4009935945MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_ReconstructionFromTarget2111803406.h"
+#include "AssemblyU2DCSharp_Vuforia_ReconstructionFromTarget2111803406MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_ReconstructionFrom4122236588MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_SmartTerrainTrackerBehav3844158157.h"
+#include "AssemblyU2DCSharp_Vuforia_SmartTerrainTrackerBehav3844158157MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_SmartTerrainTracke4026264541MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_SurfaceBehaviour2405314212MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_SurfaceAbstractBeh2669615494MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_TextRecoBehaviour3400239837.h"
+#include "AssemblyU2DCSharp_Vuforia_TextRecoBehaviour3400239837MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_TextRecoAbstractBe2386081773MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_TurnOffBehaviour3058161409.h"
+#include "AssemblyU2DCSharp_Vuforia_TurnOffBehaviour3058161409MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_TurnOffAbstractBeh4084926705MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_MeshRenderer1268241104.h"
+#include "UnityEngine_UnityEngine_MeshFilter3026937449.h"
+#include "AssemblyU2DCSharp_Vuforia_TurnOffWordBehaviour584991835.h"
+#include "AssemblyU2DCSharp_Vuforia_TurnOffWordBehaviour584991835MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_UserDefinedTargetBuildin4184040062.h"
+#include "AssemblyU2DCSharp_Vuforia_UserDefinedTargetBuildin4184040062MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_UserDefinedTargetB3589690572MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_VideoBackgroundBehaviour3161817952.h"
+#include "AssemblyU2DCSharp_Vuforia_VideoBackgroundBehaviour3161817952MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_VideoBackgroundAbst395384314MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_VideoBackgroundManager3515346924.h"
+#include "AssemblyU2DCSharp_Vuforia_VideoBackgroundManager3515346924MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_VideoBackgroundMan3765780423MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_VirtualButtonBehaviour2515041812.h"
+#include "AssemblyU2DCSharp_Vuforia_VirtualButtonBehaviour2515041812MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_VirtualButtonAbstr2478279366MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_NullUnityPlayer754446093MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_PlayModeUnityPlayer918240325MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_WSAUnityPlayer425981959MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_NullUnityPlayer754446093.h"
+#include "UnityEngine_UnityEngine_RuntimePlatform1869584967.h"
+#include "Vuforia_UnityExtensions_Vuforia_PlayModeUnityPlayer918240325.h"
+#include "AssemblyU2DCSharp_Vuforia_WSAUnityPlayer425981959.h"
+#include "Vuforia_UnityExtensions_Vuforia_VirtualButtonAbstr2478279366.h"
+#include "Vuforia_UnityExtensions_Vuforia_TurnOffAbstractBeh4084926705.h"
+#include "Vuforia_UnityExtensions_Vuforia_ImageTargetAbstrac3327552701.h"
+#include "Vuforia_UnityExtensions_Vuforia_MarkerAbstractBeha1456101953.h"
+#include "Vuforia_UnityExtensions_Vuforia_MultiTargetAbstrac3616801211.h"
+#include "Vuforia_UnityExtensions_Vuforia_CylinderTargetAbstr665872082.h"
+#include "Vuforia_UnityExtensions_Vuforia_WordAbstractBehavi2878458725.h"
+#include "AssemblyU2DCSharp_Vuforia_WordBehaviour3366478421.h"
+#include "Vuforia_UnityExtensions_Vuforia_TextRecoAbstractBe2386081773.h"
+#include "Vuforia_UnityExtensions_Vuforia_ObjectTargetAbstra2805337095.h"
+#include "Vuforia_UnityExtensions_Vuforia_VuMarkAbstractBeha1830666997.h"
+#include "AssemblyU2DCSharp_Vuforia_VuMarkBehaviour2060629989.h"
+#include "AssemblyU2DCSharp_Vuforia_VuMarkBehaviour2060629989MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_VuMarkAbstractBeha1830666997MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_WebCamBehaviour407765638.h"
+#include "AssemblyU2DCSharp_Vuforia_WebCamBehaviour407765638MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_WebCamAbstractBeha4104806356MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_WireframeBehaviour2494532455.h"
+#include "AssemblyU2DCSharp_Vuforia_WireframeBehaviour2494532455MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_VuforiaManager2424874861MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_MeshFilter3026937449MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Mesh1356156583MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_GL1765937205MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Mesh1356156583.h"
+#include "Vuforia_UnityExtensions_Vuforia_VuforiaManager2424874861.h"
+#include "UnityEngine_UnityEngine_Behaviour955675639MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Matrix4x42933234003MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Gizmos2256232573MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_WireframeTrackableEventH1535150527.h"
+#include "AssemblyU2DCSharp_Vuforia_WireframeTrackableEventH1535150527MethodDeclarations.h"
+#include "Assembly-CSharp_ArrayTypes.h"
+#include "AssemblyU2DCSharp_Vuforia_WordBehaviour3366478421MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_WordAbstractBehavi2878458725MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_DeviceOrientation895964084.h"
+
+// !!0 UnityEngine.Object::Instantiate<System.Object>(!!0)
+extern "C"  Il2CppObject * Object_Instantiate_TisIl2CppObject_m447919519_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, const MethodInfo* method);
+#define Object_Instantiate_TisIl2CppObject_m447919519(__this /* static, unused */, p0, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, Il2CppObject *, const MethodInfo*))Object_Instantiate_TisIl2CppObject_m447919519_gshared)(__this /* static, unused */, p0, method)
+// !!0 UnityEngine.Object::Instantiate<UnityEngine.LineRenderer>(!!0)
+#define Object_Instantiate_TisLineRenderer_t849157671_m2893941810(__this /* static, unused */, p0, method) ((  LineRenderer_t849157671 * (*) (Il2CppObject * /* static, unused */, LineRenderer_t849157671 *, const MethodInfo*))Object_Instantiate_TisIl2CppObject_m447919519_gshared)(__this /* static, unused */, p0, method)
+// !!0 UnityEngine.Component::GetComponent<System.Object>()
+extern "C"  Il2CppObject * Component_GetComponent_TisIl2CppObject_m4109961936_gshared (Component_t3819376471 * __this, const MethodInfo* method);
+#define Component_GetComponent_TisIl2CppObject_m4109961936(__this, method) ((  Il2CppObject * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<Lean.Touch.LeanSelectable>()
+#define Component_GetComponent_TisLeanSelectable_t3692576450_m2139863446(__this, method) ((  LeanSelectable_t3692576450 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponentInParent<System.Object>()
+extern "C"  Il2CppObject * Component_GetComponentInParent_TisIl2CppObject_m2509612665_gshared (Component_t3819376471 * __this, const MethodInfo* method);
+#define Component_GetComponentInParent_TisIl2CppObject_m2509612665(__this, method) ((  Il2CppObject * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponentInParent_TisIl2CppObject_m2509612665_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponentInParent<Lean.Touch.LeanSelectable>()
+#define Component_GetComponentInParent_TisLeanSelectable_t3692576450_m1611157747(__this, method) ((  LeanSelectable_t3692576450 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponentInParent_TisIl2CppObject_m2509612665_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponentInChildren<System.Object>()
+extern "C"  Il2CppObject * Component_GetComponentInChildren_TisIl2CppObject_m2461586036_gshared (Component_t3819376471 * __this, const MethodInfo* method);
+#define Component_GetComponentInChildren_TisIl2CppObject_m2461586036(__this, method) ((  Il2CppObject * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponentInChildren_TisIl2CppObject_m2461586036_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponentInChildren<Lean.Touch.LeanSelectable>()
+#define Component_GetComponentInChildren_TisLeanSelectable_t3692576450_m784436374(__this, method) ((  LeanSelectable_t3692576450 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponentInChildren_TisIl2CppObject_m2461586036_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.Renderer>()
+#define Component_GetComponent_TisRenderer_t257310565_m2803939486(__this, method) ((  Renderer_t257310565 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.SpriteRenderer>()
+#define Component_GetComponent_TisSpriteRenderer_t1209076198_m2178781570(__this, method) ((  SpriteRenderer_t1209076198 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.Rigidbody2D>()
+#define Component_GetComponent_TisRigidbody2D_t502193897_m3702757851(__this, method) ((  Rigidbody2D_t502193897 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.Rigidbody>()
+#define Component_GetComponent_TisRigidbody_t4233889191_m520013213(__this, method) ((  Rigidbody_t4233889191 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// !!0 UnityEngine.Object::Instantiate<System.Object>(!!0,UnityEngine.Vector3,UnityEngine.Quaternion)
+extern "C"  Il2CppObject * Object_Instantiate_TisIl2CppObject_m3829784634_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, Vector3_t2243707580  p1, Quaternion_t4030073918  p2, const MethodInfo* method);
+#define Object_Instantiate_TisIl2CppObject_m3829784634(__this /* static, unused */, p0, p1, p2, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, Il2CppObject *, Vector3_t2243707580 , Quaternion_t4030073918 , const MethodInfo*))Object_Instantiate_TisIl2CppObject_m3829784634_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// !!0 UnityEngine.Object::Instantiate<UnityEngine.GameObject>(!!0,UnityEngine.Vector3,UnityEngine.Quaternion)
+#define Object_Instantiate_TisGameObject_t1756533147_m3064851704(__this /* static, unused */, p0, p1, p2, method) ((  GameObject_t1756533147 * (*) (Il2CppObject * /* static, unused */, GameObject_t1756533147 *, Vector3_t2243707580 , Quaternion_t4030073918 , const MethodInfo*))Object_Instantiate_TisIl2CppObject_m3829784634_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.Camera>()
+#define Component_GetComponent_TisCamera_t189460977_m3276577584(__this, method) ((  Camera_t189460977 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<Vuforia.HideExcessAreaAbstractBehaviour>()
+#define Component_GetComponent_TisHideExcessAreaAbstractBehaviour_t2687577327_m1183342011(__this, method) ((  HideExcessAreaAbstractBehaviour_t2687577327 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponentInChildren<Vuforia.BackgroundPlaneBehaviour>()
+#define Component_GetComponentInChildren_TisBackgroundPlaneBehaviour_t2431285219_m4080560834(__this, method) ((  BackgroundPlaneBehaviour_t2431285219 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponentInChildren_TisIl2CppObject_m2461586036_gshared)(__this, method)
+// System.Collections.Generic.List`1<!!0> System.Linq.Enumerable::ToList<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>)
+extern "C"  List_1_t2058570427 * Enumerable_ToList_TisIl2CppObject_m2472981332_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject* p0, const MethodInfo* method);
+#define Enumerable_ToList_TisIl2CppObject_m2472981332(__this /* static, unused */, p0, method) ((  List_1_t2058570427 * (*) (Il2CppObject * /* static, unused */, Il2CppObject*, const MethodInfo*))Enumerable_ToList_TisIl2CppObject_m2472981332_gshared)(__this /* static, unused */, p0, method)
+// System.Collections.Generic.List`1<!!0> System.Linq.Enumerable::ToList<System.Reflection.MethodInfo>(System.Collections.Generic.IEnumerable`1<!!0>)
+#define Enumerable_ToList_TisMethodInfo_t_m2736443864(__this /* static, unused */, p0, method) ((  List_1_t2699667469 * (*) (Il2CppObject * /* static, unused */, Il2CppObject*, const MethodInfo*))Enumerable_ToList_TisIl2CppObject_m2472981332_gshared)(__this /* static, unused */, p0, method)
+// !!0 UnityEngine.Component::GetComponent<Vuforia.ReconstructionBehaviour>()
+#define Component_GetComponent_TisReconstructionBehaviour_t4009935945_m3509900328(__this, method) ((  ReconstructionBehaviour_t4009935945 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<Vuforia.TrackableBehaviour>()
+#define Component_GetComponent_TisTrackableBehaviour_t1779888572_m2013987957(__this, method) ((  TrackableBehaviour_t1779888572 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// !!0[] UnityEngine.Component::GetComponentsInChildren<System.Object>(System.Boolean)
+extern "C"  ObjectU5BU5D_t3614634134* Component_GetComponentsInChildren_TisIl2CppObject_m4164830438_gshared (Component_t3819376471 * __this, bool p0, const MethodInfo* method);
+#define Component_GetComponentsInChildren_TisIl2CppObject_m4164830438(__this, p0, method) ((  ObjectU5BU5D_t3614634134* (*) (Component_t3819376471 *, bool, const MethodInfo*))Component_GetComponentsInChildren_TisIl2CppObject_m4164830438_gshared)(__this, p0, method)
+// !!0[] UnityEngine.Component::GetComponentsInChildren<UnityEngine.Renderer>(System.Boolean)
+#define Component_GetComponentsInChildren_TisRenderer_t257310565_m1076536047(__this, p0, method) ((  RendererU5BU5D_t2810717544* (*) (Component_t3819376471 *, bool, const MethodInfo*))Component_GetComponentsInChildren_TisIl2CppObject_m4164830438_gshared)(__this, p0, method)
+// !!0[] UnityEngine.Component::GetComponentsInChildren<UnityEngine.Collider>(System.Boolean)
+#define Component_GetComponentsInChildren_TisCollider_t3497673348_m496323568(__this, p0, method) ((  ColliderU5BU5D_t462843629* (*) (Component_t3819376471 *, bool, const MethodInfo*))Component_GetComponentsInChildren_TisIl2CppObject_m4164830438_gshared)(__this, p0, method)
+// !!0 UnityEngine.Object::FindObjectOfType<System.Object>()
+extern "C"  Il2CppObject * Object_FindObjectOfType_TisIl2CppObject_m758847274_gshared (Il2CppObject * __this /* static, unused */, const MethodInfo* method);
+#define Object_FindObjectOfType_TisIl2CppObject_m758847274(__this /* static, unused */, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, const MethodInfo*))Object_FindObjectOfType_TisIl2CppObject_m758847274_gshared)(__this /* static, unused */, method)
+// !!0 UnityEngine.Object::FindObjectOfType<Vuforia.DigitalEyewearBehaviour>()
+#define Object_FindObjectOfType_TisDigitalEyewearBehaviour_t495394589_m275374148(__this /* static, unused */, method) ((  DigitalEyewearBehaviour_t495394589 * (*) (Il2CppObject * /* static, unused */, const MethodInfo*))Object_FindObjectOfType_TisIl2CppObject_m758847274_gshared)(__this /* static, unused */, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.MeshRenderer>()
+#define Component_GetComponent_TisMeshRenderer_t1268241104_m3385851477(__this, method) ((  MeshRenderer_t1268241104 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.MeshFilter>()
+#define Component_GetComponent_TisMeshFilter_t3026937449_m1427366350(__this, method) ((  MeshFilter_t3026937449 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// !!0 UnityEngine.Object::FindObjectOfType<Vuforia.VideoBackgroundManager>()
+#define Object_FindObjectOfType_TisVideoBackgroundManager_t3515346924_m3187505723(__this /* static, unused */, method) ((  VideoBackgroundManager_t3515346924 * (*) (Il2CppObject * /* static, unused */, const MethodInfo*))Object_FindObjectOfType_TisIl2CppObject_m758847274_gshared)(__this /* static, unused */, method)
+// !!0 UnityEngine.GameObject::AddComponent<System.Object>()
+extern "C"  Il2CppObject * GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared (GameObject_t1756533147 * __this, const MethodInfo* method);
+#define GameObject_AddComponent_TisIl2CppObject_m3813873105(__this, method) ((  Il2CppObject * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<Vuforia.ComponentFactoryStarterBehaviour>()
+#define GameObject_AddComponent_TisComponentFactoryStarterBehaviour_t3249343815_m658142107(__this, method) ((  ComponentFactoryStarterBehaviour_t3249343815 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared)(__this, method)
+// !!0 UnityEngine.Object::FindObjectOfType<Vuforia.VuforiaBehaviour>()
+#define Object_FindObjectOfType_TisVuforiaBehaviour_t359035403_m318208984(__this /* static, unused */, method) ((  VuforiaBehaviour_t359035403 * (*) (Il2CppObject * /* static, unused */, const MethodInfo*))Object_FindObjectOfType_TisIl2CppObject_m758847274_gshared)(__this /* static, unused */, method)
+// !!0 UnityEngine.GameObject::AddComponent<Vuforia.MaskOutBehaviour>()
+#define GameObject_AddComponent_TisMaskOutBehaviour_t2994129365_m1425322069(__this, method) ((  MaskOutBehaviour_t2994129365 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<Vuforia.VirtualButtonBehaviour>()
+#define GameObject_AddComponent_TisVirtualButtonBehaviour_t2515041812_m3118105184(__this, method) ((  VirtualButtonBehaviour_t2515041812 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<Vuforia.TurnOffBehaviour>()
+#define GameObject_AddComponent_TisTurnOffBehaviour_t3058161409_m2052882313(__this, method) ((  TurnOffBehaviour_t3058161409 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<Vuforia.ImageTargetBehaviour>()
+#define GameObject_AddComponent_TisImageTargetBehaviour_t2654589389_m3351511077(__this, method) ((  ImageTargetBehaviour_t2654589389 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<Vuforia.MarkerBehaviour>()
+#define GameObject_AddComponent_TisMarkerBehaviour_t1265232977_m2946636553(__this, method) ((  MarkerBehaviour_t1265232977 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<Vuforia.MultiTargetBehaviour>()
+#define GameObject_AddComponent_TisMultiTargetBehaviour_t3504654311_m1135184387(__this, method) ((  MultiTargetBehaviour_t3504654311 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<Vuforia.CylinderTargetBehaviour>()
+#define GameObject_AddComponent_TisCylinderTargetBehaviour_t2091399712_m912348918(__this, method) ((  CylinderTargetBehaviour_t2091399712 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<Vuforia.WordBehaviour>()
+#define GameObject_AddComponent_TisWordBehaviour_t3366478421_m80916061(__this, method) ((  WordBehaviour_t3366478421 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<Vuforia.TextRecoBehaviour>()
+#define GameObject_AddComponent_TisTextRecoBehaviour_t3400239837_m3447592645(__this, method) ((  TextRecoBehaviour_t3400239837 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<Vuforia.ObjectTargetBehaviour>()
+#define GameObject_AddComponent_TisObjectTargetBehaviour_t3836044259_m2560584915(__this, method) ((  ObjectTargetBehaviour_t3836044259 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<Vuforia.VuMarkBehaviour>()
+#define GameObject_AddComponent_TisVuMarkBehaviour_t2060629989_m1435287781(__this, method) ((  VuMarkBehaviour_t2060629989 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared)(__this, method)
+// !!0[] UnityEngine.GameObject::GetComponentsInChildren<System.Object>()
+extern "C"  ObjectU5BU5D_t3614634134* GameObject_GetComponentsInChildren_TisIl2CppObject_m1163966231_gshared (GameObject_t1756533147 * __this, const MethodInfo* method);
+#define GameObject_GetComponentsInChildren_TisIl2CppObject_m1163966231(__this, method) ((  ObjectU5BU5D_t3614634134* (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponentsInChildren_TisIl2CppObject_m1163966231_gshared)(__this, method)
+// !!0[] UnityEngine.GameObject::GetComponentsInChildren<UnityEngine.Camera>()
+#define GameObject_GetComponentsInChildren_TisCamera_t189460977_m3116941434(__this, method) ((  CameraU5BU5D_t3079764780* (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponentsInChildren_TisIl2CppObject_m1163966231_gshared)(__this, method)
+// !!0[] UnityEngine.Component::GetComponentsInChildren<Vuforia.WireframeBehaviour>(System.Boolean)
+#define Component_GetComponentsInChildren_TisWireframeBehaviour_t2494532455_m1655243706(__this, p0, method) ((  WireframeBehaviourU5BU5D_t2935582494* (*) (Component_t3819376471 *, bool, const MethodInfo*))Component_GetComponentsInChildren_TisIl2CppObject_m4164830438_gshared)(__this, p0, method)
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Lean.Touch.LeanAutoDestroy::.ctor()
+extern "C"  void LeanAutoDestroy__ctor_m1865488187 (LeanAutoDestroy_t1259977209 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_Seconds_2((1.0f));
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanAutoDestroy::Update()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t LeanAutoDestroy_Update_m3889866498_MetadataUsageId;
+extern "C"  void LeanAutoDestroy_Update_m3889866498 (LeanAutoDestroy_t1259977209 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanAutoDestroy_Update_m3889866498_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		float L_0 = __this->get_Seconds_2();
+		float L_1 = Time_get_deltaTime_m2233168104(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_Seconds_2(((float)((float)L_0-(float)L_1)));
+		float L_2 = __this->get_Seconds_2();
+		if ((!(((float)L_2) <= ((float)(0.0f)))))
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_3 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+	}
+
+IL_002d:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanDragLine::.ctor()
+extern "C"  void LeanDragLine__ctor_m3981925724 (LeanDragLine_t550158934 * __this, const MethodInfo* method)
+{
+	{
+		LeanDragTrail__ctor_m435463780(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanDragLine::WritePositions(UnityEngine.LineRenderer,Lean.Touch.LeanFinger)
+extern "C"  void LeanDragLine_WritePositions_m1804237179 (LeanDragLine_t550158934 * __this, LineRenderer_t849157671 * ___line0, LeanFinger_t76062517 * ___finger1, const MethodInfo* method)
+{
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector3_t2243707580  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		LeanFinger_t76062517 * L_0 = ___finger1;
+		float L_1 = ((LeanDragTrail_t3533323662 *)__this)->get_Distance_3();
+		NullCheck(L_0);
+		Vector3_t2243707580  L_2 = LeanFinger_GetStartWorldPosition_m1950964683(L_0, L_1, (Camera_t189460977 *)NULL, /*hidden argument*/NULL);
+		V_0 = L_2;
+		LeanFinger_t76062517 * L_3 = ___finger1;
+		float L_4 = ((LeanDragTrail_t3533323662 *)__this)->get_Distance_3();
+		NullCheck(L_3);
+		Vector3_t2243707580  L_5 = LeanFinger_GetWorldPosition_m429562351(L_3, L_4, (Camera_t189460977 *)NULL, /*hidden argument*/NULL);
+		V_1 = L_5;
+		LineRenderer_t849157671 * L_6 = ___line0;
+		NullCheck(L_6);
+		LineRenderer_set_numPositions_m1954914692(L_6, 2, /*hidden argument*/NULL);
+		LineRenderer_t849157671 * L_7 = ___line0;
+		Vector3_t2243707580  L_8 = V_0;
+		NullCheck(L_7);
+		LineRenderer_SetPosition_m4048451705(L_7, 0, L_8, /*hidden argument*/NULL);
+		LineRenderer_t849157671 * L_9 = ___line0;
+		Vector3_t2243707580  L_10 = V_1;
+		NullCheck(L_9);
+		LineRenderer_SetPosition_m4048451705(L_9, 1, L_10, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanDragTrail::.ctor()
+extern Il2CppClass* List_1_t4055024966_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m2154763633_MethodInfo_var;
+extern const uint32_t LeanDragTrail__ctor_m435463780_MetadataUsageId;
+extern "C"  void LeanDragTrail__ctor_m435463780 (LeanDragTrail_t3533323662 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanDragTrail__ctor_m435463780_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_Distance_3((1.0f));
+		List_1_t4055024966 * L_0 = (List_1_t4055024966 *)il2cpp_codegen_object_new(List_1_t4055024966_il2cpp_TypeInfo_var);
+		List_1__ctor_m2154763633(L_0, /*hidden argument*/List_1__ctor_m2154763633_MethodInfo_var);
+		__this->set_links_4(L_0);
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanDragTrail::OnEnable()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t4172829195_il2cpp_TypeInfo_var;
+extern const MethodInfo* LeanDragTrail_OnFingerSet_m2826470018_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3978629893_MethodInfo_var;
+extern const MethodInfo* LeanDragTrail_OnFingerUp_m2264237025_MethodInfo_var;
+extern const uint32_t LeanDragTrail_OnEnable_m764732548_MetadataUsageId;
+extern "C"  void LeanDragTrail_OnEnable_m764732548 (LeanDragTrail_t3533323662 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanDragTrail_OnEnable_m764732548_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerSet_6();
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)LeanDragTrail_OnFingerSet_m2826470018_MethodInfo_var);
+		Action_1_t4172829195 * L_2 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_3 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_0, L_2, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerSet_6(((Action_1_t4172829195 *)CastclassSealed(L_3, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		Action_1_t4172829195 * L_4 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerUp_7();
+		IntPtr_t L_5;
+		L_5.set_m_value_0((void*)(void*)LeanDragTrail_OnFingerUp_m2264237025_MethodInfo_var);
+		Action_1_t4172829195 * L_6 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_6, __this, L_5, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_7 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_4, L_6, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerUp_7(((Action_1_t4172829195 *)CastclassSealed(L_7, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanDragTrail::OnDisable()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t4172829195_il2cpp_TypeInfo_var;
+extern const MethodInfo* LeanDragTrail_OnFingerSet_m2826470018_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3978629893_MethodInfo_var;
+extern const MethodInfo* LeanDragTrail_OnFingerUp_m2264237025_MethodInfo_var;
+extern const uint32_t LeanDragTrail_OnDisable_m1079759985_MetadataUsageId;
+extern "C"  void LeanDragTrail_OnDisable_m1079759985 (LeanDragTrail_t3533323662 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanDragTrail_OnDisable_m1079759985_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerSet_6();
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)LeanDragTrail_OnFingerSet_m2826470018_MethodInfo_var);
+		Action_1_t4172829195 * L_2 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_3 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_0, L_2, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerSet_6(((Action_1_t4172829195 *)CastclassSealed(L_3, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		Action_1_t4172829195 * L_4 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerUp_7();
+		IntPtr_t L_5;
+		L_5.set_m_value_0((void*)(void*)LeanDragTrail_OnFingerUp_m2264237025_MethodInfo_var);
+		Action_1_t4172829195 * L_6 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_6, __this, L_5, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_7 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_4, L_6, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerUp_7(((Action_1_t4172829195 *)CastclassSealed(L_7, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanDragTrail::WritePositions(UnityEngine.LineRenderer,Lean.Touch.LeanFinger)
+extern const MethodInfo* List_1_get_Count_m2323907240_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m2402661899_MethodInfo_var;
+extern const uint32_t LeanDragTrail_WritePositions_m485574347_MetadataUsageId;
+extern "C"  void LeanDragTrail_WritePositions_m485574347 (LeanDragTrail_t3533323662 * __this, LineRenderer_t849157671 * ___line0, LeanFinger_t76062517 * ___finger1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanDragTrail_WritePositions_m485574347_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	LeanSnapshot_t1117222592 * V_1 = NULL;
+	Vector3_t2243707580  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	{
+		LineRenderer_t849157671 * L_0 = ___line0;
+		LeanFinger_t76062517 * L_1 = ___finger1;
+		NullCheck(L_1);
+		List_1_t486343724 * L_2 = L_1->get_Snapshots_13();
+		NullCheck(L_2);
+		int32_t L_3 = List_1_get_Count_m2323907240(L_2, /*hidden argument*/List_1_get_Count_m2323907240_MethodInfo_var);
+		NullCheck(L_0);
+		LineRenderer_set_numPositions_m1954914692(L_0, L_3, /*hidden argument*/NULL);
+		V_0 = 0;
+		goto IL_003f;
+	}
+
+IL_0018:
+	{
+		LeanFinger_t76062517 * L_4 = ___finger1;
+		NullCheck(L_4);
+		List_1_t486343724 * L_5 = L_4->get_Snapshots_13();
+		int32_t L_6 = V_0;
+		NullCheck(L_5);
+		LeanSnapshot_t1117222592 * L_7 = List_1_get_Item_m2402661899(L_5, L_6, /*hidden argument*/List_1_get_Item_m2402661899_MethodInfo_var);
+		V_1 = L_7;
+		LeanSnapshot_t1117222592 * L_8 = V_1;
+		float L_9 = __this->get_Distance_3();
+		NullCheck(L_8);
+		Vector3_t2243707580  L_10 = LeanSnapshot_GetWorldPosition_m1496257878(L_8, L_9, (Camera_t189460977 *)NULL, /*hidden argument*/NULL);
+		V_2 = L_10;
+		LineRenderer_t849157671 * L_11 = ___line0;
+		int32_t L_12 = V_0;
+		Vector3_t2243707580  L_13 = V_2;
+		NullCheck(L_11);
+		LineRenderer_SetPosition_m4048451705(L_11, L_12, L_13, /*hidden argument*/NULL);
+		int32_t L_14 = V_0;
+		V_0 = ((int32_t)((int32_t)L_14+(int32_t)1));
+	}
+
+IL_003f:
+	{
+		int32_t L_15 = V_0;
+		LeanFinger_t76062517 * L_16 = ___finger1;
+		NullCheck(L_16);
+		List_1_t486343724 * L_17 = L_16->get_Snapshots_13();
+		NullCheck(L_17);
+		int32_t L_18 = List_1_get_Count_m2323907240(L_17, /*hidden argument*/List_1_get_Count_m2323907240_MethodInfo_var);
+		if ((((int32_t)L_15) < ((int32_t)L_18)))
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanDragTrail::OnFingerSet(Lean.Touch.LeanFinger)
+extern Il2CppClass* U3COnFingerSetU3Ec__AnonStorey0_t1898060249_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* Predicate_1_t3128873949_il2cpp_TypeInfo_var;
+extern Il2CppClass* Link_t390936538_il2cpp_TypeInfo_var;
+extern const MethodInfo* U3COnFingerSetU3Ec__AnonStorey0_U3CU3Em__0_m2369701587_MethodInfo_var;
+extern const MethodInfo* Predicate_1__ctor_m1333111730_MethodInfo_var;
+extern const MethodInfo* List_1_Find_m354208334_MethodInfo_var;
+extern const MethodInfo* Object_Instantiate_TisLineRenderer_t849157671_m2893941810_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m663744437_MethodInfo_var;
+extern const uint32_t LeanDragTrail_OnFingerSet_m2826470018_MetadataUsageId;
+extern "C"  void LeanDragTrail_OnFingerSet_m2826470018 (LeanDragTrail_t3533323662 * __this, LeanFinger_t76062517 * ___finger0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanDragTrail_OnFingerSet_m2826470018_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3COnFingerSetU3Ec__AnonStorey0_t1898060249 * V_0 = NULL;
+	Link_t390936538 * V_1 = NULL;
+	{
+		U3COnFingerSetU3Ec__AnonStorey0_t1898060249 * L_0 = (U3COnFingerSetU3Ec__AnonStorey0_t1898060249 *)il2cpp_codegen_object_new(U3COnFingerSetU3Ec__AnonStorey0_t1898060249_il2cpp_TypeInfo_var);
+		U3COnFingerSetU3Ec__AnonStorey0__ctor_m2191198758(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3COnFingerSetU3Ec__AnonStorey0_t1898060249 * L_1 = V_0;
+		LeanFinger_t76062517 * L_2 = ___finger0;
+		NullCheck(L_1);
+		L_1->set_finger_0(L_2);
+		LineRenderer_t849157671 * L_3 = __this->get_Prefab_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_007d;
+		}
+	}
+	{
+		List_1_t4055024966 * L_5 = __this->get_links_4();
+		U3COnFingerSetU3Ec__AnonStorey0_t1898060249 * L_6 = V_0;
+		IntPtr_t L_7;
+		L_7.set_m_value_0((void*)(void*)U3COnFingerSetU3Ec__AnonStorey0_U3CU3Em__0_m2369701587_MethodInfo_var);
+		Predicate_1_t3128873949 * L_8 = (Predicate_1_t3128873949 *)il2cpp_codegen_object_new(Predicate_1_t3128873949_il2cpp_TypeInfo_var);
+		Predicate_1__ctor_m1333111730(L_8, L_6, L_7, /*hidden argument*/Predicate_1__ctor_m1333111730_MethodInfo_var);
+		NullCheck(L_5);
+		Link_t390936538 * L_9 = List_1_Find_m354208334(L_5, L_8, /*hidden argument*/List_1_Find_m354208334_MethodInfo_var);
+		V_1 = L_9;
+		Link_t390936538 * L_10 = V_1;
+		if (L_10)
+		{
+			goto IL_006b;
+		}
+	}
+	{
+		Link_t390936538 * L_11 = (Link_t390936538 *)il2cpp_codegen_object_new(Link_t390936538_il2cpp_TypeInfo_var);
+		Link__ctor_m3796844163(L_11, /*hidden argument*/NULL);
+		V_1 = L_11;
+		Link_t390936538 * L_12 = V_1;
+		U3COnFingerSetU3Ec__AnonStorey0_t1898060249 * L_13 = V_0;
+		NullCheck(L_13);
+		LeanFinger_t76062517 * L_14 = L_13->get_finger_0();
+		NullCheck(L_12);
+		L_12->set_Finger_0(L_14);
+		Link_t390936538 * L_15 = V_1;
+		LineRenderer_t849157671 * L_16 = __this->get_Prefab_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		LineRenderer_t849157671 * L_17 = Object_Instantiate_TisLineRenderer_t849157671_m2893941810(NULL /*static, unused*/, L_16, /*hidden argument*/Object_Instantiate_TisLineRenderer_t849157671_m2893941810_MethodInfo_var);
+		NullCheck(L_15);
+		L_15->set_Line_1(L_17);
+		List_1_t4055024966 * L_18 = __this->get_links_4();
+		Link_t390936538 * L_19 = V_1;
+		NullCheck(L_18);
+		List_1_Add_m663744437(L_18, L_19, /*hidden argument*/List_1_Add_m663744437_MethodInfo_var);
+	}
+
+IL_006b:
+	{
+		Link_t390936538 * L_20 = V_1;
+		NullCheck(L_20);
+		LineRenderer_t849157671 * L_21 = L_20->get_Line_1();
+		Link_t390936538 * L_22 = V_1;
+		NullCheck(L_22);
+		LeanFinger_t76062517 * L_23 = L_22->get_Finger_0();
+		VirtActionInvoker2< LineRenderer_t849157671 *, LeanFinger_t76062517 * >::Invoke(6 /* System.Void Lean.Touch.LeanDragTrail::WritePositions(UnityEngine.LineRenderer,Lean.Touch.LeanFinger) */, __this, L_21, L_23);
+	}
+
+IL_007d:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanDragTrail::OnFingerUp(Lean.Touch.LeanFinger)
+extern Il2CppClass* U3COnFingerUpU3Ec__AnonStorey1_t1191669119_il2cpp_TypeInfo_var;
+extern Il2CppClass* Predicate_1_t3128873949_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* U3COnFingerUpU3Ec__AnonStorey1_U3CU3Em__0_m2901181649_MethodInfo_var;
+extern const MethodInfo* Predicate_1__ctor_m1333111730_MethodInfo_var;
+extern const MethodInfo* List_1_Find_m354208334_MethodInfo_var;
+extern const MethodInfo* List_1_Remove_m2687780248_MethodInfo_var;
+extern const uint32_t LeanDragTrail_OnFingerUp_m2264237025_MetadataUsageId;
+extern "C"  void LeanDragTrail_OnFingerUp_m2264237025 (LeanDragTrail_t3533323662 * __this, LeanFinger_t76062517 * ___finger0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanDragTrail_OnFingerUp_m2264237025_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3COnFingerUpU3Ec__AnonStorey1_t1191669119 * V_0 = NULL;
+	Link_t390936538 * V_1 = NULL;
+	{
+		U3COnFingerUpU3Ec__AnonStorey1_t1191669119 * L_0 = (U3COnFingerUpU3Ec__AnonStorey1_t1191669119 *)il2cpp_codegen_object_new(U3COnFingerUpU3Ec__AnonStorey1_t1191669119_il2cpp_TypeInfo_var);
+		U3COnFingerUpU3Ec__AnonStorey1__ctor_m610434130(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3COnFingerUpU3Ec__AnonStorey1_t1191669119 * L_1 = V_0;
+		LeanFinger_t76062517 * L_2 = ___finger0;
+		NullCheck(L_1);
+		L_1->set_finger_0(L_2);
+		List_1_t4055024966 * L_3 = __this->get_links_4();
+		U3COnFingerUpU3Ec__AnonStorey1_t1191669119 * L_4 = V_0;
+		IntPtr_t L_5;
+		L_5.set_m_value_0((void*)(void*)U3COnFingerUpU3Ec__AnonStorey1_U3CU3Em__0_m2901181649_MethodInfo_var);
+		Predicate_1_t3128873949 * L_6 = (Predicate_1_t3128873949 *)il2cpp_codegen_object_new(Predicate_1_t3128873949_il2cpp_TypeInfo_var);
+		Predicate_1__ctor_m1333111730(L_6, L_4, L_5, /*hidden argument*/Predicate_1__ctor_m1333111730_MethodInfo_var);
+		NullCheck(L_3);
+		Link_t390936538 * L_7 = List_1_Find_m354208334(L_3, L_6, /*hidden argument*/List_1_Find_m354208334_MethodInfo_var);
+		V_1 = L_7;
+		Link_t390936538 * L_8 = V_1;
+		if (!L_8)
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		List_1_t4055024966 * L_9 = __this->get_links_4();
+		Link_t390936538 * L_10 = V_1;
+		NullCheck(L_9);
+		List_1_Remove_m2687780248(L_9, L_10, /*hidden argument*/List_1_Remove_m2687780248_MethodInfo_var);
+		Link_t390936538 * L_11 = V_1;
+		NullCheck(L_11);
+		LineRenderer_t849157671 * L_12 = L_11->get_Line_1();
+		NullCheck(L_12);
+		GameObject_t1756533147 * L_13 = Component_get_gameObject_m3105766835(L_12, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+	}
+
+IL_0048:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanDragTrail/<OnFingerSet>c__AnonStorey0::.ctor()
+extern "C"  void U3COnFingerSetU3Ec__AnonStorey0__ctor_m2191198758 (U3COnFingerSetU3Ec__AnonStorey0_t1898060249 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean Lean.Touch.LeanDragTrail/<OnFingerSet>c__AnonStorey0::<>m__0(Lean.Touch.LeanDragTrail/Link)
+extern "C"  bool U3COnFingerSetU3Ec__AnonStorey0_U3CU3Em__0_m2369701587 (U3COnFingerSetU3Ec__AnonStorey0_t1898060249 * __this, Link_t390936538 * ___l0, const MethodInfo* method)
+{
+	{
+		Link_t390936538 * L_0 = ___l0;
+		NullCheck(L_0);
+		LeanFinger_t76062517 * L_1 = L_0->get_Finger_0();
+		LeanFinger_t76062517 * L_2 = __this->get_finger_0();
+		return (bool)((((Il2CppObject*)(LeanFinger_t76062517 *)L_1) == ((Il2CppObject*)(LeanFinger_t76062517 *)L_2))? 1 : 0);
+	}
+}
+// System.Void Lean.Touch.LeanDragTrail/<OnFingerUp>c__AnonStorey1::.ctor()
+extern "C"  void U3COnFingerUpU3Ec__AnonStorey1__ctor_m610434130 (U3COnFingerUpU3Ec__AnonStorey1_t1191669119 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean Lean.Touch.LeanDragTrail/<OnFingerUp>c__AnonStorey1::<>m__0(Lean.Touch.LeanDragTrail/Link)
+extern "C"  bool U3COnFingerUpU3Ec__AnonStorey1_U3CU3Em__0_m2901181649 (U3COnFingerUpU3Ec__AnonStorey1_t1191669119 * __this, Link_t390936538 * ___l0, const MethodInfo* method)
+{
+	{
+		Link_t390936538 * L_0 = ___l0;
+		NullCheck(L_0);
+		LeanFinger_t76062517 * L_1 = L_0->get_Finger_0();
+		LeanFinger_t76062517 * L_2 = __this->get_finger_0();
+		return (bool)((((Il2CppObject*)(LeanFinger_t76062517 *)L_1) == ((Il2CppObject*)(LeanFinger_t76062517 *)L_2))? 1 : 0);
+	}
+}
+// System.Void Lean.Touch.LeanDragTrail/Link::.ctor()
+extern "C"  void Link__ctor_m3796844163 (Link_t390936538 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanFinger::.ctor()
+extern Il2CppClass* List_1_t486343724_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m984255249_MethodInfo_var;
+extern const uint32_t LeanFinger__ctor_m2912008907_MetadataUsageId;
+extern "C"  void LeanFinger__ctor_m2912008907 (LeanFinger_t76062517 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFinger__ctor_m2912008907_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t486343724 * L_0 = (List_1_t486343724 *)il2cpp_codegen_object_new(List_1_t486343724_il2cpp_TypeInfo_var);
+		List_1__ctor_m984255249(L_0, ((int32_t)1000), /*hidden argument*/List_1__ctor_m984255249_MethodInfo_var);
+		__this->set_Snapshots_13(L_0);
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean Lean.Touch.LeanFinger::get_IsActive()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_Contains_m1553234199_MethodInfo_var;
+extern const uint32_t LeanFinger_get_IsActive_m260097598_MetadataUsageId;
+extern "C"  bool LeanFinger_get_IsActive_m260097598 (LeanFinger_t76062517 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFinger_get_IsActive_m260097598_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Fingers_3();
+		NullCheck(L_0);
+		bool L_1 = List_1_Contains_m1553234199(L_0, __this, /*hidden argument*/List_1_Contains_m1553234199_MethodInfo_var);
+		return L_1;
+	}
+}
+// System.Single Lean.Touch.LeanFinger::get_SnapshotDuration()
+extern const MethodInfo* List_1_get_Count_m2323907240_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m2402661899_MethodInfo_var;
+extern const uint32_t LeanFinger_get_SnapshotDuration_m1804999280_MetadataUsageId;
+extern "C"  float LeanFinger_get_SnapshotDuration_m1804999280 (LeanFinger_t76062517 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFinger_get_SnapshotDuration_m1804999280_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t486343724 * L_0 = __this->get_Snapshots_13();
+		NullCheck(L_0);
+		int32_t L_1 = List_1_get_Count_m2323907240(L_0, /*hidden argument*/List_1_get_Count_m2323907240_MethodInfo_var);
+		if ((((int32_t)L_1) <= ((int32_t)0)))
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		float L_2 = __this->get_Age_1();
+		List_1_t486343724 * L_3 = __this->get_Snapshots_13();
+		NullCheck(L_3);
+		LeanSnapshot_t1117222592 * L_4 = List_1_get_Item_m2402661899(L_3, 0, /*hidden argument*/List_1_get_Item_m2402661899_MethodInfo_var);
+		NullCheck(L_4);
+		float L_5 = L_4->get_Age_0();
+		return ((float)((float)L_2-(float)L_5));
+	}
+
+IL_002a:
+	{
+		return (0.0f);
+	}
+}
+// System.Boolean Lean.Touch.LeanFinger::get_IsOverGui()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanFinger_get_IsOverGui_m99805733_MetadataUsageId;
+extern "C"  bool LeanFinger_get_IsOverGui_m99805733 (LeanFinger_t76062517 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFinger_get_IsOverGui_m99805733_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Vector2_t2243707579  L_0 = __this->get_ScreenPosition_11();
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		bool L_1 = LeanTouch_PointOverGui_m1975515422(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Boolean Lean.Touch.LeanFinger::get_HeldDown()
+extern "C"  bool LeanFinger_get_HeldDown_m1134024437 (LeanFinger_t76062517 * __this, const MethodInfo* method)
+{
+	int32_t G_B3_0 = 0;
+	{
+		bool L_0 = __this->get_HeldSet_7();
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		bool L_1 = __this->get_LastHeldSet_8();
+		G_B3_0 = ((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
+		goto IL_0017;
+	}
+
+IL_0016:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0017:
+	{
+		return (bool)G_B3_0;
+	}
+}
+// System.Boolean Lean.Touch.LeanFinger::get_HeldUp()
+extern "C"  bool LeanFinger_get_HeldUp_m2139306750 (LeanFinger_t76062517 * __this, const MethodInfo* method)
+{
+	int32_t G_B3_0 = 0;
+	{
+		bool L_0 = __this->get_HeldSet_7();
+		if (L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		bool L_1 = __this->get_LastHeldSet_8();
+		G_B3_0 = ((((int32_t)L_1) == ((int32_t)1))? 1 : 0);
+		goto IL_0017;
+	}
+
+IL_0016:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0017:
+	{
+		return (bool)G_B3_0;
+	}
+}
+// System.Boolean Lean.Touch.LeanFinger::get_Down()
+extern "C"  bool LeanFinger_get_Down_m352250156 (LeanFinger_t76062517 * __this, const MethodInfo* method)
+{
+	int32_t G_B3_0 = 0;
+	{
+		bool L_0 = __this->get_Set_2();
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		bool L_1 = __this->get_LastSet_3();
+		G_B3_0 = ((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
+		goto IL_0017;
+	}
+
+IL_0016:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0017:
+	{
+		return (bool)G_B3_0;
+	}
+}
+// System.Boolean Lean.Touch.LeanFinger::get_Up()
+extern "C"  bool LeanFinger_get_Up_m2093848679 (LeanFinger_t76062517 * __this, const MethodInfo* method)
+{
+	int32_t G_B3_0 = 0;
+	{
+		bool L_0 = __this->get_Set_2();
+		if (L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		bool L_1 = __this->get_LastSet_3();
+		G_B3_0 = ((((int32_t)L_1) == ((int32_t)1))? 1 : 0);
+		goto IL_0017;
+	}
+
+IL_0016:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0017:
+	{
+		return (bool)G_B3_0;
+	}
+}
+// UnityEngine.Vector2 Lean.Touch.LeanFinger::get_LastSnapshotScreenDelta()
+extern const MethodInfo* List_1_get_Count_m2323907240_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m2402661899_MethodInfo_var;
+extern const uint32_t LeanFinger_get_LastSnapshotScreenDelta_m3853234139_MetadataUsageId;
+extern "C"  Vector2_t2243707579  LeanFinger_get_LastSnapshotScreenDelta_m3853234139 (LeanFinger_t76062517 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFinger_get_LastSnapshotScreenDelta_m3853234139_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	LeanSnapshot_t1117222592 * V_1 = NULL;
+	{
+		List_1_t486343724 * L_0 = __this->get_Snapshots_13();
+		NullCheck(L_0);
+		int32_t L_1 = List_1_get_Count_m2323907240(L_0, /*hidden argument*/List_1_get_Count_m2323907240_MethodInfo_var);
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) <= ((int32_t)0)))
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		List_1_t486343724 * L_3 = __this->get_Snapshots_13();
+		int32_t L_4 = V_0;
+		NullCheck(L_3);
+		LeanSnapshot_t1117222592 * L_5 = List_1_get_Item_m2402661899(L_3, ((int32_t)((int32_t)L_4-(int32_t)1)), /*hidden argument*/List_1_get_Item_m2402661899_MethodInfo_var);
+		V_1 = L_5;
+		LeanSnapshot_t1117222592 * L_6 = V_1;
+		if (!L_6)
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		Vector2_t2243707579  L_7 = __this->get_ScreenPosition_11();
+		LeanSnapshot_t1117222592 * L_8 = V_1;
+		NullCheck(L_8);
+		Vector2_t2243707579  L_9 = L_8->get_ScreenPosition_1();
+		Vector2_t2243707579  L_10 = Vector2_op_Subtraction_m1984215297(NULL /*static, unused*/, L_7, L_9, /*hidden argument*/NULL);
+		return L_10;
+	}
+
+IL_003a:
+	{
+		Vector2_t2243707579  L_11 = Vector2_get_zero_m3966848876(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return L_11;
+	}
+}
+// UnityEngine.Vector2 Lean.Touch.LeanFinger::get_LastSnapshotScaledDelta()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanFinger_get_LastSnapshotScaledDelta_m194524335_MetadataUsageId;
+extern "C"  Vector2_t2243707579  LeanFinger_get_LastSnapshotScaledDelta_m194524335 (LeanFinger_t76062517 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFinger_get_LastSnapshotScaledDelta_m194524335_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Vector2_t2243707579  L_0 = LeanFinger_get_LastSnapshotScreenDelta_m3853234139(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		float L_1 = LeanTouch_get_ScalingFactor_m3828003300(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t2243707579  L_2 = Vector2_op_Multiply_m4236139442(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// UnityEngine.Vector2 Lean.Touch.LeanFinger::get_ScreenDelta()
+extern "C"  Vector2_t2243707579  LeanFinger_get_ScreenDelta_m4236172177 (LeanFinger_t76062517 * __this, const MethodInfo* method)
+{
+	{
+		Vector2_t2243707579  L_0 = __this->get_ScreenPosition_11();
+		Vector2_t2243707579  L_1 = __this->get_LastScreenPosition_10();
+		Vector2_t2243707579  L_2 = Vector2_op_Subtraction_m1984215297(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// UnityEngine.Vector2 Lean.Touch.LeanFinger::get_ScaledDelta()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanFinger_get_ScaledDelta_m2701834449_MetadataUsageId;
+extern "C"  Vector2_t2243707579  LeanFinger_get_ScaledDelta_m2701834449 (LeanFinger_t76062517 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFinger_get_ScaledDelta_m2701834449_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Vector2_t2243707579  L_0 = LeanFinger_get_ScreenDelta_m4236172177(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		float L_1 = LeanTouch_get_ScalingFactor_m3828003300(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t2243707579  L_2 = Vector2_op_Multiply_m4236139442(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// UnityEngine.Vector2 Lean.Touch.LeanFinger::get_SwipeScreenDelta()
+extern "C"  Vector2_t2243707579  LeanFinger_get_SwipeScreenDelta_m3198415493 (LeanFinger_t76062517 * __this, const MethodInfo* method)
+{
+	{
+		Vector2_t2243707579  L_0 = __this->get_ScreenPosition_11();
+		Vector2_t2243707579  L_1 = __this->get_StartScreenPosition_9();
+		Vector2_t2243707579  L_2 = Vector2_op_Subtraction_m1984215297(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// UnityEngine.Vector2 Lean.Touch.LeanFinger::get_SwipeScaledDelta()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanFinger_get_SwipeScaledDelta_m3813979981_MetadataUsageId;
+extern "C"  Vector2_t2243707579  LeanFinger_get_SwipeScaledDelta_m3813979981 (LeanFinger_t76062517 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFinger_get_SwipeScaledDelta_m3813979981_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Vector2_t2243707579  L_0 = LeanFinger_get_SwipeScreenDelta_m3198415493(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		float L_1 = LeanTouch_get_ScalingFactor_m3828003300(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t2243707579  L_2 = Vector2_op_Multiply_m4236139442(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// UnityEngine.Ray Lean.Touch.LeanFinger::GetRay(UnityEngine.Camera)
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* Ray_t2469606224_il2cpp_TypeInfo_var;
+extern const uint32_t LeanFinger_GetRay_m614673855_MetadataUsageId;
+extern "C"  Ray_t2469606224  LeanFinger_GetRay_m614673855 (LeanFinger_t76062517 * __this, Camera_t189460977 * ___camera0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFinger_GetRay_m614673855_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Ray_t2469606224  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		bool L_0 = LeanTouch_GetCamera_m3186988658(NULL /*static, unused*/, (&___camera0), /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		Camera_t189460977 * L_1 = ___camera0;
+		Vector2_t2243707579  L_2 = __this->get_ScreenPosition_11();
+		Vector3_t2243707580  L_3 = Vector2_op_Implicit_m176791411(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		Ray_t2469606224  L_4 = Camera_ScreenPointToRay_m614889538(L_1, L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+
+IL_001e:
+	{
+		Initobj (Ray_t2469606224_il2cpp_TypeInfo_var, (&V_0));
+		Ray_t2469606224  L_5 = V_0;
+		return L_5;
+	}
+}
+// UnityEngine.Ray Lean.Touch.LeanFinger::GetStartRay(UnityEngine.Camera)
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* Ray_t2469606224_il2cpp_TypeInfo_var;
+extern const uint32_t LeanFinger_GetStartRay_m1484836683_MetadataUsageId;
+extern "C"  Ray_t2469606224  LeanFinger_GetStartRay_m1484836683 (LeanFinger_t76062517 * __this, Camera_t189460977 * ___camera0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFinger_GetStartRay_m1484836683_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Ray_t2469606224  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		bool L_0 = LeanTouch_GetCamera_m3186988658(NULL /*static, unused*/, (&___camera0), /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		Camera_t189460977 * L_1 = ___camera0;
+		Vector2_t2243707579  L_2 = __this->get_StartScreenPosition_9();
+		Vector3_t2243707580  L_3 = Vector2_op_Implicit_m176791411(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		Ray_t2469606224  L_4 = Camera_ScreenPointToRay_m614889538(L_1, L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+
+IL_001e:
+	{
+		Initobj (Ray_t2469606224_il2cpp_TypeInfo_var, (&V_0));
+		Ray_t2469606224  L_5 = V_0;
+		return L_5;
+	}
+}
+// UnityEngine.Vector2 Lean.Touch.LeanFinger::GetSnapshotScreenDelta(System.Single)
+extern "C"  Vector2_t2243707579  LeanFinger_GetSnapshotScreenDelta_m1625848775 (LeanFinger_t76062517 * __this, float ___deltaTime0, const MethodInfo* method)
+{
+	{
+		Vector2_t2243707579  L_0 = __this->get_ScreenPosition_11();
+		float L_1 = __this->get_Age_1();
+		float L_2 = ___deltaTime0;
+		Vector2_t2243707579  L_3 = LeanFinger_GetSnapshotScreenPosition_m2211445704(__this, ((float)((float)L_1-(float)L_2)), /*hidden argument*/NULL);
+		Vector2_t2243707579  L_4 = Vector2_op_Subtraction_m1984215297(NULL /*static, unused*/, L_0, L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+// UnityEngine.Vector2 Lean.Touch.LeanFinger::GetSnapshotScaledDelta(System.Single)
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanFinger_GetSnapshotScaledDelta_m3473631499_MetadataUsageId;
+extern "C"  Vector2_t2243707579  LeanFinger_GetSnapshotScaledDelta_m3473631499 (LeanFinger_t76062517 * __this, float ___deltaTime0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFinger_GetSnapshotScaledDelta_m3473631499_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		float L_0 = ___deltaTime0;
+		Vector2_t2243707579  L_1 = LeanFinger_GetSnapshotScreenDelta_m1625848775(__this, L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		float L_2 = LeanTouch_get_ScalingFactor_m3828003300(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t2243707579  L_3 = Vector2_op_Multiply_m4236139442(NULL /*static, unused*/, L_1, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// UnityEngine.Vector2 Lean.Touch.LeanFinger::GetSnapshotScreenPosition(System.Single)
+extern Il2CppClass* Vector2_t2243707579_il2cpp_TypeInfo_var;
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern const uint32_t LeanFinger_GetSnapshotScreenPosition_m2211445704_MetadataUsageId;
+extern "C"  Vector2_t2243707579  LeanFinger_GetSnapshotScreenPosition_m2211445704 (LeanFinger_t76062517 * __this, float ___targetAge0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFinger_GetSnapshotScreenPosition_m2211445704_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	float V_1 = 0.0f;
+	Vector2_t2243707579  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Vector2_t2243707579  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	int32_t V_4 = 0;
+	float V_5 = 0.0f;
+	Vector2_t2243707579  V_6;
+	memset(&V_6, 0, sizeof(V_6));
+	{
+		float L_0 = ___targetAge0;
+		int32_t L_1 = LeanFinger_GetLowerSnapshotIndex_m2623435135(__this, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		V_1 = (0.0f);
+		Initobj (Vector2_t2243707579_il2cpp_TypeInfo_var, (&V_3));
+		Vector2_t2243707579  L_2 = V_3;
+		V_2 = L_2;
+		int32_t L_3 = V_0;
+		LeanFinger_GetSnapshot_m2177476597(__this, L_3, (&V_1), (&V_2), /*hidden argument*/NULL);
+		float L_4 = ___targetAge0;
+		float L_5 = V_1;
+		if ((!(((float)L_4) <= ((float)L_5))))
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		Vector2_t2243707579  L_6 = V_2;
+		return L_6;
+	}
+
+IL_002c:
+	{
+		int32_t L_7 = V_0;
+		V_4 = ((int32_t)((int32_t)L_7+(int32_t)1));
+		V_5 = (0.0f);
+		Initobj (Vector2_t2243707579_il2cpp_TypeInfo_var, (&V_3));
+		Vector2_t2243707579  L_8 = V_3;
+		V_6 = L_8;
+		int32_t L_9 = V_4;
+		LeanFinger_GetSnapshot_m2177476597(__this, L_9, (&V_5), (&V_6), /*hidden argument*/NULL);
+		float L_10 = ___targetAge0;
+		float L_11 = V_5;
+		if ((!(((float)L_10) >= ((float)L_11))))
+		{
+			goto IL_005a;
+		}
+	}
+	{
+		Vector2_t2243707579  L_12 = V_6;
+		return L_12;
+	}
+
+IL_005a:
+	{
+		Vector2_t2243707579  L_13 = V_2;
+		Vector2_t2243707579  L_14 = V_6;
+		float L_15 = V_1;
+		float L_16 = V_5;
+		float L_17 = ___targetAge0;
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_18 = Mathf_InverseLerp_m55890283(NULL /*static, unused*/, L_15, L_16, L_17, /*hidden argument*/NULL);
+		Vector2_t2243707579  L_19 = Vector2_Lerp_m1511850087(NULL /*static, unused*/, L_13, L_14, L_18, /*hidden argument*/NULL);
+		return L_19;
+	}
+}
+// System.Void Lean.Touch.LeanFinger::GetSnapshot(System.Int32,System.Single&,UnityEngine.Vector2&)
+extern const MethodInfo* List_1_get_Count_m2323907240_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m2402661899_MethodInfo_var;
+extern const uint32_t LeanFinger_GetSnapshot_m2177476597_MetadataUsageId;
+extern "C"  void LeanFinger_GetSnapshot_m2177476597 (LeanFinger_t76062517 * __this, int32_t ___index0, float* ___age1, Vector2_t2243707579 * ___screenPosition2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFinger_GetSnapshot_m2177476597_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	LeanSnapshot_t1117222592 * V_0 = NULL;
+	{
+		int32_t L_0 = ___index0;
+		if ((((int32_t)L_0) < ((int32_t)0)))
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		int32_t L_1 = ___index0;
+		List_1_t486343724 * L_2 = __this->get_Snapshots_13();
+		NullCheck(L_2);
+		int32_t L_3 = List_1_get_Count_m2323907240(L_2, /*hidden argument*/List_1_get_Count_m2323907240_MethodInfo_var);
+		if ((((int32_t)L_1) >= ((int32_t)L_3)))
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		List_1_t486343724 * L_4 = __this->get_Snapshots_13();
+		int32_t L_5 = ___index0;
+		NullCheck(L_4);
+		LeanSnapshot_t1117222592 * L_6 = List_1_get_Item_m2402661899(L_4, L_5, /*hidden argument*/List_1_get_Item_m2402661899_MethodInfo_var);
+		V_0 = L_6;
+		float* L_7 = ___age1;
+		LeanSnapshot_t1117222592 * L_8 = V_0;
+		NullCheck(L_8);
+		float L_9 = L_8->get_Age_0();
+		*((float*)(L_7)) = (float)L_9;
+		Vector2_t2243707579 * L_10 = ___screenPosition2;
+		LeanSnapshot_t1117222592 * L_11 = V_0;
+		NullCheck(L_11);
+		Vector2_t2243707579  L_12 = L_11->get_ScreenPosition_1();
+		(*(Vector2_t2243707579 *)L_10) = L_12;
+		goto IL_0052;
+	}
+
+IL_003e:
+	{
+		float* L_13 = ___age1;
+		float L_14 = __this->get_Age_1();
+		*((float*)(L_13)) = (float)L_14;
+		Vector2_t2243707579 * L_15 = ___screenPosition2;
+		Vector2_t2243707579  L_16 = __this->get_ScreenPosition_11();
+		(*(Vector2_t2243707579 *)L_15) = L_16;
+	}
+
+IL_0052:
+	{
+		return;
+	}
+}
+// System.Single Lean.Touch.LeanFinger::GetRadians(UnityEngine.Vector2)
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern const uint32_t LeanFinger_GetRadians_m132518565_MetadataUsageId;
+extern "C"  float LeanFinger_GetRadians_m132518565 (LeanFinger_t76062517 * __this, Vector2_t2243707579  ___referencePoint0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFinger_GetRadians_m132518565_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Vector2_t2243707579 * L_0 = __this->get_address_of_ScreenPosition_11();
+		float L_1 = L_0->get_x_0();
+		float L_2 = (&___referencePoint0)->get_x_0();
+		Vector2_t2243707579 * L_3 = __this->get_address_of_ScreenPosition_11();
+		float L_4 = L_3->get_y_1();
+		float L_5 = (&___referencePoint0)->get_y_1();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_6 = atan2f(((float)((float)L_1-(float)L_2)), ((float)((float)L_4-(float)L_5)));
+		return L_6;
+	}
+}
+// System.Single Lean.Touch.LeanFinger::GetDegrees(UnityEngine.Vector2)
+extern "C"  float LeanFinger_GetDegrees_m1442150424 (LeanFinger_t76062517 * __this, Vector2_t2243707579  ___referencePoint0, const MethodInfo* method)
+{
+	{
+		Vector2_t2243707579  L_0 = ___referencePoint0;
+		float L_1 = LeanFinger_GetRadians_m132518565(__this, L_0, /*hidden argument*/NULL);
+		return ((float)((float)L_1*(float)(57.29578f)));
+	}
+}
+// System.Single Lean.Touch.LeanFinger::GetLastRadians(UnityEngine.Vector2)
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern const uint32_t LeanFinger_GetLastRadians_m1210071975_MetadataUsageId;
+extern "C"  float LeanFinger_GetLastRadians_m1210071975 (LeanFinger_t76062517 * __this, Vector2_t2243707579  ___referencePoint0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFinger_GetLastRadians_m1210071975_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Vector2_t2243707579 * L_0 = __this->get_address_of_LastScreenPosition_10();
+		float L_1 = L_0->get_x_0();
+		float L_2 = (&___referencePoint0)->get_x_0();
+		Vector2_t2243707579 * L_3 = __this->get_address_of_LastScreenPosition_10();
+		float L_4 = L_3->get_y_1();
+		float L_5 = (&___referencePoint0)->get_y_1();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_6 = atan2f(((float)((float)L_1-(float)L_2)), ((float)((float)L_4-(float)L_5)));
+		return L_6;
+	}
+}
+// System.Single Lean.Touch.LeanFinger::GetLastDegrees(UnityEngine.Vector2)
+extern "C"  float LeanFinger_GetLastDegrees_m3881170996 (LeanFinger_t76062517 * __this, Vector2_t2243707579  ___referencePoint0, const MethodInfo* method)
+{
+	{
+		Vector2_t2243707579  L_0 = ___referencePoint0;
+		float L_1 = LeanFinger_GetLastRadians_m1210071975(__this, L_0, /*hidden argument*/NULL);
+		return ((float)((float)L_1*(float)(57.29578f)));
+	}
+}
+// System.Single Lean.Touch.LeanFinger::GetDeltaRadians(UnityEngine.Vector2)
+extern "C"  float LeanFinger_GetDeltaRadians_m441549769 (LeanFinger_t76062517 * __this, Vector2_t2243707579  ___referencePoint0, const MethodInfo* method)
+{
+	{
+		Vector2_t2243707579  L_0 = ___referencePoint0;
+		Vector2_t2243707579  L_1 = ___referencePoint0;
+		float L_2 = LeanFinger_GetDeltaRadians_m3050096041(__this, L_0, L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// System.Single Lean.Touch.LeanFinger::GetDeltaRadians(UnityEngine.Vector2,UnityEngine.Vector2)
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern const uint32_t LeanFinger_GetDeltaRadians_m3050096041_MetadataUsageId;
+extern "C"  float LeanFinger_GetDeltaRadians_m3050096041 (LeanFinger_t76062517 * __this, Vector2_t2243707579  ___referencePoint0, Vector2_t2243707579  ___lastReferencePoint1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFinger_GetDeltaRadians_m3050096041_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	{
+		Vector2_t2243707579  L_0 = ___lastReferencePoint1;
+		float L_1 = LeanFinger_GetLastRadians_m1210071975(__this, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		Vector2_t2243707579  L_2 = ___referencePoint0;
+		float L_3 = LeanFinger_GetRadians_m132518565(__this, L_2, /*hidden argument*/NULL);
+		V_1 = L_3;
+		float L_4 = V_0;
+		float L_5 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_6 = Mathf_Repeat_m943844734(NULL /*static, unused*/, ((float)((float)L_4-(float)L_5)), (6.28318548f), /*hidden argument*/NULL);
+		V_2 = L_6;
+		float L_7 = V_2;
+		if ((!(((float)L_7) > ((float)(3.14159274f)))))
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		float L_8 = V_2;
+		V_2 = ((float)((float)L_8-(float)(6.28318548f)));
+	}
+
+IL_0031:
+	{
+		float L_9 = V_2;
+		return L_9;
+	}
+}
+// System.Single Lean.Touch.LeanFinger::GetDeltaDegrees(UnityEngine.Vector2)
+extern "C"  float LeanFinger_GetDeltaDegrees_m662206442 (LeanFinger_t76062517 * __this, Vector2_t2243707579  ___referencePoint0, const MethodInfo* method)
+{
+	{
+		Vector2_t2243707579  L_0 = ___referencePoint0;
+		Vector2_t2243707579  L_1 = ___referencePoint0;
+		float L_2 = LeanFinger_GetDeltaRadians_m3050096041(__this, L_0, L_1, /*hidden argument*/NULL);
+		return ((float)((float)L_2*(float)(57.29578f)));
+	}
+}
+// System.Single Lean.Touch.LeanFinger::GetDeltaDegrees(UnityEngine.Vector2,UnityEngine.Vector2)
+extern "C"  float LeanFinger_GetDeltaDegrees_m3033949992 (LeanFinger_t76062517 * __this, Vector2_t2243707579  ___referencePoint0, Vector2_t2243707579  ___lastReferencePoint1, const MethodInfo* method)
+{
+	{
+		Vector2_t2243707579  L_0 = ___referencePoint0;
+		Vector2_t2243707579  L_1 = ___lastReferencePoint1;
+		float L_2 = LeanFinger_GetDeltaRadians_m3050096041(__this, L_0, L_1, /*hidden argument*/NULL);
+		return ((float)((float)L_2*(float)(57.29578f)));
+	}
+}
+// System.Single Lean.Touch.LeanFinger::GetScreenDistance(UnityEngine.Vector2)
+extern "C"  float LeanFinger_GetScreenDistance_m2267040374 (LeanFinger_t76062517 * __this, Vector2_t2243707579  ___point0, const MethodInfo* method)
+{
+	{
+		Vector2_t2243707579  L_0 = __this->get_ScreenPosition_11();
+		Vector2_t2243707579  L_1 = ___point0;
+		float L_2 = Vector2_Distance_m280750759(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// System.Single Lean.Touch.LeanFinger::GetScaledDistance(UnityEngine.Vector2)
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanFinger_GetScaledDistance_m1172516692_MetadataUsageId;
+extern "C"  float LeanFinger_GetScaledDistance_m1172516692 (LeanFinger_t76062517 * __this, Vector2_t2243707579  ___point0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFinger_GetScaledDistance_m1172516692_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Vector2_t2243707579  L_0 = ___point0;
+		float L_1 = LeanFinger_GetScreenDistance_m2267040374(__this, L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		float L_2 = LeanTouch_get_ScalingFactor_m3828003300(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return ((float)((float)L_1*(float)L_2));
+	}
+}
+// System.Single Lean.Touch.LeanFinger::GetLastScreenDistance(UnityEngine.Vector2)
+extern "C"  float LeanFinger_GetLastScreenDistance_m1166097510 (LeanFinger_t76062517 * __this, Vector2_t2243707579  ___point0, const MethodInfo* method)
+{
+	{
+		Vector2_t2243707579  L_0 = __this->get_LastScreenPosition_10();
+		Vector2_t2243707579  L_1 = ___point0;
+		float L_2 = Vector2_Distance_m280750759(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// System.Single Lean.Touch.LeanFinger::GetLastScaledDistance(UnityEngine.Vector2)
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanFinger_GetLastScaledDistance_m3467600372_MetadataUsageId;
+extern "C"  float LeanFinger_GetLastScaledDistance_m3467600372 (LeanFinger_t76062517 * __this, Vector2_t2243707579  ___point0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFinger_GetLastScaledDistance_m3467600372_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Vector2_t2243707579  L_0 = ___point0;
+		float L_1 = LeanFinger_GetLastScreenDistance_m1166097510(__this, L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		float L_2 = LeanTouch_get_ScalingFactor_m3828003300(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return ((float)((float)L_1*(float)L_2));
+	}
+}
+// UnityEngine.Vector3 Lean.Touch.LeanFinger::GetStartWorldPosition(System.Single,UnityEngine.Camera)
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* Vector3_t2243707580_il2cpp_TypeInfo_var;
+extern const uint32_t LeanFinger_GetStartWorldPosition_m1950964683_MetadataUsageId;
+extern "C"  Vector3_t2243707580  LeanFinger_GetStartWorldPosition_m1950964683 (LeanFinger_t76062517 * __this, float ___distance0, Camera_t189460977 * ___camera1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFinger_GetStartWorldPosition_m1950964683_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector3_t2243707580  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		bool L_0 = LeanTouch_GetCamera_m3186988658(NULL /*static, unused*/, (&___camera1), /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		Vector2_t2243707579 * L_1 = __this->get_address_of_StartScreenPosition_9();
+		float L_2 = L_1->get_x_0();
+		Vector2_t2243707579 * L_3 = __this->get_address_of_StartScreenPosition_9();
+		float L_4 = L_3->get_y_1();
+		float L_5 = ___distance0;
+		Vector3__ctor_m2638739322((&V_0), L_2, L_4, L_5, /*hidden argument*/NULL);
+		Camera_t189460977 * L_6 = ___camera1;
+		Vector3_t2243707580  L_7 = V_0;
+		NullCheck(L_6);
+		Vector3_t2243707580  L_8 = Camera_ScreenToWorldPoint_m929392728(L_6, L_7, /*hidden argument*/NULL);
+		return L_8;
+	}
+
+IL_0032:
+	{
+		Initobj (Vector3_t2243707580_il2cpp_TypeInfo_var, (&V_1));
+		Vector3_t2243707580  L_9 = V_1;
+		return L_9;
+	}
+}
+// UnityEngine.Vector3 Lean.Touch.LeanFinger::GetLastWorldPosition(System.Single,UnityEngine.Camera)
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* Vector3_t2243707580_il2cpp_TypeInfo_var;
+extern const uint32_t LeanFinger_GetLastWorldPosition_m90194621_MetadataUsageId;
+extern "C"  Vector3_t2243707580  LeanFinger_GetLastWorldPosition_m90194621 (LeanFinger_t76062517 * __this, float ___distance0, Camera_t189460977 * ___camera1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFinger_GetLastWorldPosition_m90194621_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector3_t2243707580  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		bool L_0 = LeanTouch_GetCamera_m3186988658(NULL /*static, unused*/, (&___camera1), /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		Vector2_t2243707579 * L_1 = __this->get_address_of_LastScreenPosition_10();
+		float L_2 = L_1->get_x_0();
+		Vector2_t2243707579 * L_3 = __this->get_address_of_LastScreenPosition_10();
+		float L_4 = L_3->get_y_1();
+		float L_5 = ___distance0;
+		Vector3__ctor_m2638739322((&V_0), L_2, L_4, L_5, /*hidden argument*/NULL);
+		Camera_t189460977 * L_6 = ___camera1;
+		Vector3_t2243707580  L_7 = V_0;
+		NullCheck(L_6);
+		Vector3_t2243707580  L_8 = Camera_ScreenToWorldPoint_m929392728(L_6, L_7, /*hidden argument*/NULL);
+		return L_8;
+	}
+
+IL_0032:
+	{
+		Initobj (Vector3_t2243707580_il2cpp_TypeInfo_var, (&V_1));
+		Vector3_t2243707580  L_9 = V_1;
+		return L_9;
+	}
+}
+// UnityEngine.Vector3 Lean.Touch.LeanFinger::GetWorldPosition(System.Single,UnityEngine.Camera)
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* Vector3_t2243707580_il2cpp_TypeInfo_var;
+extern const uint32_t LeanFinger_GetWorldPosition_m429562351_MetadataUsageId;
+extern "C"  Vector3_t2243707580  LeanFinger_GetWorldPosition_m429562351 (LeanFinger_t76062517 * __this, float ___distance0, Camera_t189460977 * ___camera1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFinger_GetWorldPosition_m429562351_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector3_t2243707580  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		bool L_0 = LeanTouch_GetCamera_m3186988658(NULL /*static, unused*/, (&___camera1), /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		Vector2_t2243707579 * L_1 = __this->get_address_of_ScreenPosition_11();
+		float L_2 = L_1->get_x_0();
+		Vector2_t2243707579 * L_3 = __this->get_address_of_ScreenPosition_11();
+		float L_4 = L_3->get_y_1();
+		float L_5 = ___distance0;
+		Vector3__ctor_m2638739322((&V_0), L_2, L_4, L_5, /*hidden argument*/NULL);
+		Camera_t189460977 * L_6 = ___camera1;
+		Vector3_t2243707580  L_7 = V_0;
+		NullCheck(L_6);
+		Vector3_t2243707580  L_8 = Camera_ScreenToWorldPoint_m929392728(L_6, L_7, /*hidden argument*/NULL);
+		return L_8;
+	}
+
+IL_0032:
+	{
+		Initobj (Vector3_t2243707580_il2cpp_TypeInfo_var, (&V_1));
+		Vector3_t2243707580  L_9 = V_1;
+		return L_9;
+	}
+}
+// UnityEngine.Vector3 Lean.Touch.LeanFinger::GetWorldDelta(System.Single,UnityEngine.Camera)
+extern "C"  Vector3_t2243707580  LeanFinger_GetWorldDelta_m2080456610 (LeanFinger_t76062517 * __this, float ___distance0, Camera_t189460977 * ___camera1, const MethodInfo* method)
+{
+	{
+		float L_0 = ___distance0;
+		float L_1 = ___distance0;
+		Camera_t189460977 * L_2 = ___camera1;
+		Vector3_t2243707580  L_3 = LeanFinger_GetWorldDelta_m4098246407(__this, L_0, L_1, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// UnityEngine.Vector3 Lean.Touch.LeanFinger::GetWorldDelta(System.Single,System.Single,UnityEngine.Camera)
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* Vector3_t2243707580_il2cpp_TypeInfo_var;
+extern const uint32_t LeanFinger_GetWorldDelta_m4098246407_MetadataUsageId;
+extern "C"  Vector3_t2243707580  LeanFinger_GetWorldDelta_m4098246407 (LeanFinger_t76062517 * __this, float ___lastDistance0, float ___distance1, Camera_t189460977 * ___camera2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFinger_GetWorldDelta_m4098246407_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		bool L_0 = LeanTouch_GetCamera_m3186988658(NULL /*static, unused*/, (&___camera2), /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		float L_1 = ___distance1;
+		Camera_t189460977 * L_2 = ___camera2;
+		Vector3_t2243707580  L_3 = LeanFinger_GetWorldPosition_m429562351(__this, L_1, L_2, /*hidden argument*/NULL);
+		float L_4 = ___lastDistance0;
+		Camera_t189460977 * L_5 = ___camera2;
+		Vector3_t2243707580  L_6 = LeanFinger_GetLastWorldPosition_m90194621(__this, L_4, L_5, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_7 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, L_3, L_6, /*hidden argument*/NULL);
+		return L_7;
+	}
+
+IL_0022:
+	{
+		Initobj (Vector3_t2243707580_il2cpp_TypeInfo_var, (&V_0));
+		Vector3_t2243707580  L_8 = V_0;
+		return L_8;
+	}
+}
+// System.Void Lean.Touch.LeanFinger::ClearSnapshots(System.Int32)
+extern Il2CppClass* LeanSnapshot_t1117222592_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Count_m2323907240_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m2402661899_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m38551142_MethodInfo_var;
+extern const MethodInfo* List_1_RemoveRange_m1698672421_MethodInfo_var;
+extern const MethodInfo* List_1_AddRange_m1485855964_MethodInfo_var;
+extern const MethodInfo* List_1_Clear_m3771175785_MethodInfo_var;
+extern const uint32_t LeanFinger_ClearSnapshots_m927372788_MetadataUsageId;
+extern "C"  void LeanFinger_ClearSnapshots_m927372788 (LeanFinger_t76062517 * __this, int32_t ___count0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFinger_ClearSnapshots_m927372788_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = ___count0;
+		if ((((int32_t)L_0) <= ((int32_t)0)))
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		int32_t L_1 = ___count0;
+		List_1_t486343724 * L_2 = __this->get_Snapshots_13();
+		NullCheck(L_2);
+		int32_t L_3 = List_1_get_Count_m2323907240(L_2, /*hidden argument*/List_1_get_Count_m2323907240_MethodInfo_var);
+		if ((((int32_t)L_1) > ((int32_t)L_3)))
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		V_0 = 0;
+		goto IL_0039;
+	}
+
+IL_001f:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanSnapshot_t1117222592_il2cpp_TypeInfo_var);
+		List_1_t486343724 * L_4 = ((LeanSnapshot_t1117222592_StaticFields*)LeanSnapshot_t1117222592_il2cpp_TypeInfo_var->static_fields)->get_InactiveSnapshots_2();
+		List_1_t486343724 * L_5 = __this->get_Snapshots_13();
+		int32_t L_6 = V_0;
+		NullCheck(L_5);
+		LeanSnapshot_t1117222592 * L_7 = List_1_get_Item_m2402661899(L_5, L_6, /*hidden argument*/List_1_get_Item_m2402661899_MethodInfo_var);
+		NullCheck(L_4);
+		List_1_Add_m38551142(L_4, L_7, /*hidden argument*/List_1_Add_m38551142_MethodInfo_var);
+		int32_t L_8 = V_0;
+		V_0 = ((int32_t)((int32_t)L_8+(int32_t)1));
+	}
+
+IL_0039:
+	{
+		int32_t L_9 = V_0;
+		int32_t L_10 = ___count0;
+		if ((((int32_t)L_9) < ((int32_t)L_10)))
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		List_1_t486343724 * L_11 = __this->get_Snapshots_13();
+		int32_t L_12 = ___count0;
+		NullCheck(L_11);
+		List_1_RemoveRange_m1698672421(L_11, 0, L_12, /*hidden argument*/List_1_RemoveRange_m1698672421_MethodInfo_var);
+		goto IL_0074;
+	}
+
+IL_0052:
+	{
+		int32_t L_13 = ___count0;
+		if ((((int32_t)L_13) >= ((int32_t)0)))
+		{
+			goto IL_0074;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanSnapshot_t1117222592_il2cpp_TypeInfo_var);
+		List_1_t486343724 * L_14 = ((LeanSnapshot_t1117222592_StaticFields*)LeanSnapshot_t1117222592_il2cpp_TypeInfo_var->static_fields)->get_InactiveSnapshots_2();
+		List_1_t486343724 * L_15 = __this->get_Snapshots_13();
+		NullCheck(L_14);
+		List_1_AddRange_m1485855964(L_14, L_15, /*hidden argument*/List_1_AddRange_m1485855964_MethodInfo_var);
+		List_1_t486343724 * L_16 = __this->get_Snapshots_13();
+		NullCheck(L_16);
+		List_1_Clear_m3771175785(L_16, /*hidden argument*/List_1_Clear_m3771175785_MethodInfo_var);
+	}
+
+IL_0074:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanFinger::RecordSnapshot()
+extern Il2CppClass* LeanSnapshot_t1117222592_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_Add_m38551142_MethodInfo_var;
+extern const uint32_t LeanFinger_RecordSnapshot_m1069153438_MetadataUsageId;
+extern "C"  void LeanFinger_RecordSnapshot_m1069153438 (LeanFinger_t76062517 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFinger_RecordSnapshot_m1069153438_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	LeanSnapshot_t1117222592 * V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanSnapshot_t1117222592_il2cpp_TypeInfo_var);
+		LeanSnapshot_t1117222592 * L_0 = LeanSnapshot_Pop_m1078260391(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		LeanSnapshot_t1117222592 * L_1 = V_0;
+		float L_2 = __this->get_Age_1();
+		NullCheck(L_1);
+		L_1->set_Age_0(L_2);
+		LeanSnapshot_t1117222592 * L_3 = V_0;
+		Vector2_t2243707579  L_4 = __this->get_ScreenPosition_11();
+		NullCheck(L_3);
+		L_3->set_ScreenPosition_1(L_4);
+		List_1_t486343724 * L_5 = __this->get_Snapshots_13();
+		LeanSnapshot_t1117222592 * L_6 = V_0;
+		NullCheck(L_5);
+		List_1_Add_m38551142(L_5, L_6, /*hidden argument*/List_1_Add_m38551142_MethodInfo_var);
+		return;
+	}
+}
+// System.Int32 Lean.Touch.LeanFinger::GetLowerSnapshotIndex(System.Single)
+extern const MethodInfo* List_1_get_Count_m2323907240_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m2402661899_MethodInfo_var;
+extern const uint32_t LeanFinger_GetLowerSnapshotIndex_m2623435135_MetadataUsageId;
+extern "C"  int32_t LeanFinger_GetLowerSnapshotIndex_m2623435135 (LeanFinger_t76062517 * __this, float ___targetAge0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFinger_GetLowerSnapshotIndex_m2623435135_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	float V_1 = 0.0f;
+	int32_t V_2 = 0;
+	{
+		List_1_t486343724 * L_0 = __this->get_Snapshots_13();
+		NullCheck(L_0);
+		int32_t L_1 = List_1_get_Count_m2323907240(L_0, /*hidden argument*/List_1_get_Count_m2323907240_MethodInfo_var);
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) <= ((int32_t)0)))
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		List_1_t486343724 * L_3 = __this->get_Snapshots_13();
+		NullCheck(L_3);
+		LeanSnapshot_t1117222592 * L_4 = List_1_get_Item_m2402661899(L_3, 0, /*hidden argument*/List_1_get_Item_m2402661899_MethodInfo_var);
+		NullCheck(L_4);
+		float L_5 = L_4->get_Age_0();
+		V_1 = L_5;
+		float L_6 = ___targetAge0;
+		float L_7 = V_1;
+		if ((!(((float)L_6) > ((float)L_7))))
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		V_2 = 1;
+		goto IL_0052;
+	}
+
+IL_0033:
+	{
+		List_1_t486343724 * L_8 = __this->get_Snapshots_13();
+		int32_t L_9 = V_2;
+		NullCheck(L_8);
+		LeanSnapshot_t1117222592 * L_10 = List_1_get_Item_m2402661899(L_8, L_9, /*hidden argument*/List_1_get_Item_m2402661899_MethodInfo_var);
+		NullCheck(L_10);
+		float L_11 = L_10->get_Age_0();
+		float L_12 = ___targetAge0;
+		if ((!(((float)L_11) > ((float)L_12))))
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		int32_t L_13 = V_2;
+		return ((int32_t)((int32_t)L_13-(int32_t)1));
+	}
+
+IL_004e:
+	{
+		int32_t L_14 = V_2;
+		V_2 = ((int32_t)((int32_t)L_14+(int32_t)1));
+	}
+
+IL_0052:
+	{
+		int32_t L_15 = V_2;
+		int32_t L_16 = V_0;
+		if ((((int32_t)L_15) < ((int32_t)L_16)))
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		int32_t L_17 = V_0;
+		return ((int32_t)((int32_t)L_17-(int32_t)1));
+	}
+
+IL_005d:
+	{
+		return 0;
+	}
+}
+// System.Void Lean.Touch.LeanFingerDown::.ctor()
+extern "C"  void LeanFingerDown__ctor_m3033129109 (LeanFingerDown_t1453848917 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanFingerDown::OnEnable()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t4172829195_il2cpp_TypeInfo_var;
+extern const MethodInfo* LeanFingerDown_FingerDown_m549979536_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3978629893_MethodInfo_var;
+extern const uint32_t LeanFingerDown_OnEnable_m525475781_MetadataUsageId;
+extern "C"  void LeanFingerDown_OnEnable_m525475781 (LeanFingerDown_t1453848917 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFingerDown_OnEnable_m525475781_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerDown_5();
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)LeanFingerDown_FingerDown_m549979536_MethodInfo_var);
+		Action_1_t4172829195 * L_2 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_3 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_0, L_2, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerDown_5(((Action_1_t4172829195 *)CastclassSealed(L_3, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanFingerDown::OnDisable()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t4172829195_il2cpp_TypeInfo_var;
+extern const MethodInfo* LeanFingerDown_FingerDown_m549979536_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3978629893_MethodInfo_var;
+extern const uint32_t LeanFingerDown_OnDisable_m2363167140_MetadataUsageId;
+extern "C"  void LeanFingerDown_OnDisable_m2363167140 (LeanFingerDown_t1453848917 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFingerDown_OnDisable_m2363167140_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerDown_5();
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)LeanFingerDown_FingerDown_m549979536_MethodInfo_var);
+		Action_1_t4172829195 * L_2 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_3 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_0, L_2, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerDown_5(((Action_1_t4172829195 *)CastclassSealed(L_3, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanFingerDown::FingerDown(Lean.Touch.LeanFinger)
+extern const MethodInfo* UnityEvent_1_Invoke_m3195227978_MethodInfo_var;
+extern const uint32_t LeanFingerDown_FingerDown_m549979536_MetadataUsageId;
+extern "C"  void LeanFingerDown_FingerDown_m549979536 (LeanFingerDown_t1453848917 * __this, LeanFinger_t76062517 * ___finger0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFingerDown_FingerDown_m549979536_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get_IgnoreIfOverGui_2();
+		if (!L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		LeanFinger_t76062517 * L_1 = ___finger0;
+		NullCheck(L_1);
+		bool L_2 = LeanFinger_get_IsOverGui_m99805733(L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0017:
+	{
+		LeanFingerEvent_t4217027252 * L_3 = __this->get_OnFingerDown_3();
+		LeanFinger_t76062517 * L_4 = ___finger0;
+		NullCheck(L_3);
+		UnityEvent_1_Invoke_m3195227978(L_3, L_4, /*hidden argument*/UnityEvent_1_Invoke_m3195227978_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanFingerDown/LeanFingerEvent::.ctor()
+extern const MethodInfo* UnityEvent_1__ctor_m1090789293_MethodInfo_var;
+extern const uint32_t LeanFingerEvent__ctor_m1767046313_MetadataUsageId;
+extern "C"  void LeanFingerEvent__ctor_m1767046313 (LeanFingerEvent_t4217027252 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFingerEvent__ctor_m1767046313_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_1__ctor_m1090789293(__this, /*hidden argument*/UnityEvent_1__ctor_m1090789293_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanFingerTap::.ctor()
+extern "C"  void LeanFingerTap__ctor_m1218480372 (LeanFingerTap_t2593896000 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_IgnoreGuiFingers_2((bool)1);
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanFingerTap::OnEnable()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t4172829195_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern const MethodInfo* LeanFingerTap_FingerTap_m2950933368_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3978629893_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2743837827;
+extern const uint32_t LeanFingerTap_OnEnable_m960515320_MetadataUsageId;
+extern "C"  void LeanFingerTap_OnEnable_m960515320 (LeanFingerTap_t2593896000 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFingerTap_OnEnable_m960515320_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerTap_8();
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)LeanFingerTap_FingerTap_m2950933368_MethodInfo_var);
+		Action_1_t4172829195 * L_2 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_3 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_0, L_2, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerTap_8(((Action_1_t4172829195 *)CastclassSealed(L_3, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, _stringLiteral2743837827, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanFingerTap::OnDisable()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t4172829195_il2cpp_TypeInfo_var;
+extern const MethodInfo* LeanFingerTap_FingerTap_m2950933368_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3978629893_MethodInfo_var;
+extern const uint32_t LeanFingerTap_OnDisable_m2849829899_MetadataUsageId;
+extern "C"  void LeanFingerTap_OnDisable_m2849829899 (LeanFingerTap_t2593896000 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFingerTap_OnDisable_m2849829899_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerTap_8();
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)LeanFingerTap_FingerTap_m2950933368_MethodInfo_var);
+		Action_1_t4172829195 * L_2 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_3 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_0, L_2, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerTap_8(((Action_1_t4172829195 *)CastclassSealed(L_3, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanFingerTap::FingerTap(Lean.Touch.LeanFinger)
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern const MethodInfo* UnityEvent_1_Invoke_m3195227978_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2743837827;
+extern Il2CppCodeGenString* _stringLiteral1120217838;
+extern const uint32_t LeanFingerTap_FingerTap_m2950933368_MetadataUsageId;
+extern "C"  void LeanFingerTap_FingerTap_m2950933368 (LeanFingerTap_t2593896000 * __this, LeanFinger_t76062517 * ___finger0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFingerTap_FingerTap_m2950933368_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get_IgnoreGuiFingers_2();
+		if (!L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		LeanFinger_t76062517 * L_1 = ___finger0;
+		NullCheck(L_1);
+		bool L_2 = L_1->get_StartedOverGui_12();
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0017:
+	{
+		int32_t L_3 = __this->get_RequiredTapCount_3();
+		if ((((int32_t)L_3) <= ((int32_t)0)))
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		LeanFinger_t76062517 * L_4 = ___finger0;
+		NullCheck(L_4);
+		int32_t L_5 = L_4->get_TapCount_5();
+		int32_t L_6 = __this->get_RequiredTapCount_3();
+		if ((((int32_t)L_5) == ((int32_t)L_6)))
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0035:
+	{
+		int32_t L_7 = __this->get_RequiredTapInterval_4();
+		if ((((int32_t)L_7) <= ((int32_t)0)))
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		LeanFinger_t76062517 * L_8 = ___finger0;
+		NullCheck(L_8);
+		int32_t L_9 = L_8->get_TapCount_5();
+		int32_t L_10 = __this->get_RequiredTapInterval_4();
+		if (!((int32_t)((int32_t)L_9%(int32_t)L_10)))
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0054:
+	{
+		LeanFingerEvent_t1916295887 * L_11 = __this->get_OnFingerTap_5();
+		LeanFinger_t76062517 * L_12 = ___finger0;
+		NullCheck(L_11);
+		UnityEvent_1_Invoke_m3195227978(L_11, L_12, /*hidden argument*/UnityEvent_1_Invoke_m3195227978_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, _stringLiteral2743837827, /*hidden argument*/NULL);
+		Application_OpenURL_m3882634228(NULL /*static, unused*/, _stringLiteral1120217838, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanFingerTap/LeanFingerEvent::.ctor()
+extern const MethodInfo* UnityEvent_1__ctor_m1090789293_MethodInfo_var;
+extern const uint32_t LeanFingerEvent__ctor_m3611773752_MetadataUsageId;
+extern "C"  void LeanFingerEvent__ctor_m3611773752 (LeanFingerEvent_t1916295887 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFingerEvent__ctor_m3611773752_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_1__ctor_m1090789293(__this, /*hidden argument*/UnityEvent_1__ctor_m1090789293_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanFingerUp::.ctor()
+extern "C"  void LeanFingerUp__ctor_m3023536452 (LeanFingerUp_t2387037340 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanFingerUp::OnEnable()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t4172829195_il2cpp_TypeInfo_var;
+extern const MethodInfo* LeanFingerUp_FingerUp_m1107409808_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3978629893_MethodInfo_var;
+extern const uint32_t LeanFingerUp_OnEnable_m2053233528_MetadataUsageId;
+extern "C"  void LeanFingerUp_OnEnable_m2053233528 (LeanFingerUp_t2387037340 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFingerUp_OnEnable_m2053233528_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerUp_7();
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)LeanFingerUp_FingerUp_m1107409808_MethodInfo_var);
+		Action_1_t4172829195 * L_2 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_3 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_0, L_2, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerUp_7(((Action_1_t4172829195 *)CastclassSealed(L_3, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanFingerUp::OnDisable()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t4172829195_il2cpp_TypeInfo_var;
+extern const MethodInfo* LeanFingerUp_FingerUp_m1107409808_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3978629893_MethodInfo_var;
+extern const uint32_t LeanFingerUp_OnDisable_m970954135_MetadataUsageId;
+extern "C"  void LeanFingerUp_OnDisable_m970954135 (LeanFingerUp_t2387037340 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFingerUp_OnDisable_m970954135_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerUp_7();
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)LeanFingerUp_FingerUp_m1107409808_MethodInfo_var);
+		Action_1_t4172829195 * L_2 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_3 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_0, L_2, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerUp_7(((Action_1_t4172829195 *)CastclassSealed(L_3, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanFingerUp::FingerUp(Lean.Touch.LeanFinger)
+extern const MethodInfo* UnityEvent_1_Invoke_m3195227978_MethodInfo_var;
+extern const uint32_t LeanFingerUp_FingerUp_m1107409808_MetadataUsageId;
+extern "C"  void LeanFingerUp_FingerUp_m1107409808 (LeanFingerUp_t2387037340 * __this, LeanFinger_t76062517 * ___finger0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFingerUp_FingerUp_m1107409808_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get_IgnoreIfOverGui_2();
+		if (!L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		LeanFinger_t76062517 * L_1 = ___finger0;
+		NullCheck(L_1);
+		bool L_2 = LeanFinger_get_IsOverGui_m99805733(L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0017:
+	{
+		bool L_3 = __this->get_IgnoreIfStartedOverGui_3();
+		if (!L_3)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		LeanFinger_t76062517 * L_4 = ___finger0;
+		NullCheck(L_4);
+		bool L_5 = L_4->get_StartedOverGui_12();
+		if (!L_5)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		return;
+	}
+
+IL_002e:
+	{
+		LeanFingerEvent_t2500729307 * L_6 = __this->get_OnFingerUp_4();
+		LeanFinger_t76062517 * L_7 = ___finger0;
+		NullCheck(L_6);
+		UnityEvent_1_Invoke_m3195227978(L_6, L_7, /*hidden argument*/UnityEvent_1_Invoke_m3195227978_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanFingerUp/LeanFingerEvent::.ctor()
+extern const MethodInfo* UnityEvent_1__ctor_m1090789293_MethodInfo_var;
+extern const uint32_t LeanFingerEvent__ctor_m2406310968_MetadataUsageId;
+extern "C"  void LeanFingerEvent__ctor_m2406310968 (LeanFingerEvent_t2500729307 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFingerEvent__ctor_m2406310968_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_1__ctor_m1090789293(__this, /*hidden argument*/UnityEvent_1__ctor_m1090789293_MethodInfo_var);
+		return;
+	}
+}
+// UnityEngine.Vector2 Lean.Touch.LeanGesture::GetScreenCenter()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanGesture_GetScreenCenter_m1425316447_MetadataUsageId;
+extern "C"  Vector2_t2243707579  LeanGesture_GetScreenCenter_m1425316447 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_GetScreenCenter_m1425316447_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Fingers_3();
+		Vector2_t2243707579  L_1 = LeanGesture_GetScreenCenter_m691006509(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// UnityEngine.Vector2 Lean.Touch.LeanGesture::GetScreenCenter(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>)
+extern Il2CppClass* Vector2_t2243707579_il2cpp_TypeInfo_var;
+extern const uint32_t LeanGesture_GetScreenCenter_m691006509_MetadataUsageId;
+extern "C"  Vector2_t2243707579  LeanGesture_GetScreenCenter_m691006509 (Il2CppObject * __this /* static, unused */, List_1_t3740150945 * ___fingers0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_GetScreenCenter_m691006509_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector2_t2243707579  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector2_t2243707579  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		Initobj (Vector2_t2243707579_il2cpp_TypeInfo_var, (&V_1));
+		Vector2_t2243707579  L_0 = V_1;
+		V_0 = L_0;
+		List_1_t3740150945 * L_1 = ___fingers0;
+		LeanGesture_TryGetScreenCenter_m1612953595(NULL /*static, unused*/, L_1, (&V_0), /*hidden argument*/NULL);
+		Vector2_t2243707579  L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Boolean Lean.Touch.LeanGesture::TryGetScreenCenter(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>,UnityEngine.Vector2&)
+extern const MethodInfo* List_1_get_Count_m753479905_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m2226599640_MethodInfo_var;
+extern const uint32_t LeanGesture_TryGetScreenCenter_m1612953595_MetadataUsageId;
+extern "C"  bool LeanGesture_TryGetScreenCenter_m1612953595 (Il2CppObject * __this /* static, unused */, List_1_t3740150945 * ___fingers0, Vector2_t2243707579 * ___center1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_TryGetScreenCenter_m1612953595_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector2_t2243707579  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	LeanFinger_t76062517 * V_3 = NULL;
+	{
+		List_1_t3740150945 * L_0 = ___fingers0;
+		if (!L_0)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		Vector2_t2243707579  L_1 = Vector2_get_zero_m3966848876(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_1;
+		V_1 = 0;
+		List_1_t3740150945 * L_2 = ___fingers0;
+		NullCheck(L_2);
+		int32_t L_3 = List_1_get_Count_m753479905(L_2, /*hidden argument*/List_1_get_Count_m753479905_MethodInfo_var);
+		V_2 = ((int32_t)((int32_t)L_3-(int32_t)1));
+		goto IL_003f;
+	}
+
+IL_001c:
+	{
+		List_1_t3740150945 * L_4 = ___fingers0;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		LeanFinger_t76062517 * L_6 = List_1_get_Item_m2226599640(L_4, L_5, /*hidden argument*/List_1_get_Item_m2226599640_MethodInfo_var);
+		V_3 = L_6;
+		LeanFinger_t76062517 * L_7 = V_3;
+		if (!L_7)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		Vector2_t2243707579  L_8 = V_0;
+		LeanFinger_t76062517 * L_9 = V_3;
+		NullCheck(L_9);
+		Vector2_t2243707579  L_10 = L_9->get_ScreenPosition_11();
+		Vector2_t2243707579  L_11 = Vector2_op_Addition_m1389598521(NULL /*static, unused*/, L_8, L_10, /*hidden argument*/NULL);
+		V_0 = L_11;
+		int32_t L_12 = V_1;
+		V_1 = ((int32_t)((int32_t)L_12+(int32_t)1));
+	}
+
+IL_003b:
+	{
+		int32_t L_13 = V_2;
+		V_2 = ((int32_t)((int32_t)L_13-(int32_t)1));
+	}
+
+IL_003f:
+	{
+		int32_t L_14 = V_2;
+		if ((((int32_t)L_14) >= ((int32_t)0)))
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		int32_t L_15 = V_1;
+		if ((((int32_t)L_15) <= ((int32_t)0)))
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		Vector2_t2243707579 * L_16 = ___center1;
+		Vector2_t2243707579  L_17 = V_0;
+		int32_t L_18 = V_1;
+		Vector2_t2243707579  L_19 = Vector2_op_Division_m96580069(NULL /*static, unused*/, L_17, (((float)((float)L_18))), /*hidden argument*/NULL);
+		(*(Vector2_t2243707579 *)L_16) = L_19;
+		return (bool)1;
+	}
+
+IL_005d:
+	{
+		return (bool)0;
+	}
+}
+// UnityEngine.Vector2 Lean.Touch.LeanGesture::GetLastScreenCenter()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanGesture_GetLastScreenCenter_m457981697_MetadataUsageId;
+extern "C"  Vector2_t2243707579  LeanGesture_GetLastScreenCenter_m457981697 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_GetLastScreenCenter_m457981697_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Fingers_3();
+		Vector2_t2243707579  L_1 = LeanGesture_GetLastScreenCenter_m2188544487(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// UnityEngine.Vector2 Lean.Touch.LeanGesture::GetLastScreenCenter(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>)
+extern Il2CppClass* Vector2_t2243707579_il2cpp_TypeInfo_var;
+extern const uint32_t LeanGesture_GetLastScreenCenter_m2188544487_MetadataUsageId;
+extern "C"  Vector2_t2243707579  LeanGesture_GetLastScreenCenter_m2188544487 (Il2CppObject * __this /* static, unused */, List_1_t3740150945 * ___fingers0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_GetLastScreenCenter_m2188544487_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector2_t2243707579  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector2_t2243707579  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		Initobj (Vector2_t2243707579_il2cpp_TypeInfo_var, (&V_1));
+		Vector2_t2243707579  L_0 = V_1;
+		V_0 = L_0;
+		List_1_t3740150945 * L_1 = ___fingers0;
+		LeanGesture_TryGetLastScreenCenter_m85486469(NULL /*static, unused*/, L_1, (&V_0), /*hidden argument*/NULL);
+		Vector2_t2243707579  L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Boolean Lean.Touch.LeanGesture::TryGetLastScreenCenter(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>,UnityEngine.Vector2&)
+extern const MethodInfo* List_1_get_Count_m753479905_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m2226599640_MethodInfo_var;
+extern const uint32_t LeanGesture_TryGetLastScreenCenter_m85486469_MetadataUsageId;
+extern "C"  bool LeanGesture_TryGetLastScreenCenter_m85486469 (Il2CppObject * __this /* static, unused */, List_1_t3740150945 * ___fingers0, Vector2_t2243707579 * ___center1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_TryGetLastScreenCenter_m85486469_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector2_t2243707579  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	LeanFinger_t76062517 * V_3 = NULL;
+	{
+		List_1_t3740150945 * L_0 = ___fingers0;
+		if (!L_0)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		Vector2_t2243707579  L_1 = Vector2_get_zero_m3966848876(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_1;
+		V_1 = 0;
+		List_1_t3740150945 * L_2 = ___fingers0;
+		NullCheck(L_2);
+		int32_t L_3 = List_1_get_Count_m753479905(L_2, /*hidden argument*/List_1_get_Count_m753479905_MethodInfo_var);
+		V_2 = ((int32_t)((int32_t)L_3-(int32_t)1));
+		goto IL_003f;
+	}
+
+IL_001c:
+	{
+		List_1_t3740150945 * L_4 = ___fingers0;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		LeanFinger_t76062517 * L_6 = List_1_get_Item_m2226599640(L_4, L_5, /*hidden argument*/List_1_get_Item_m2226599640_MethodInfo_var);
+		V_3 = L_6;
+		LeanFinger_t76062517 * L_7 = V_3;
+		if (!L_7)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		Vector2_t2243707579  L_8 = V_0;
+		LeanFinger_t76062517 * L_9 = V_3;
+		NullCheck(L_9);
+		Vector2_t2243707579  L_10 = L_9->get_LastScreenPosition_10();
+		Vector2_t2243707579  L_11 = Vector2_op_Addition_m1389598521(NULL /*static, unused*/, L_8, L_10, /*hidden argument*/NULL);
+		V_0 = L_11;
+		int32_t L_12 = V_1;
+		V_1 = ((int32_t)((int32_t)L_12+(int32_t)1));
+	}
+
+IL_003b:
+	{
+		int32_t L_13 = V_2;
+		V_2 = ((int32_t)((int32_t)L_13-(int32_t)1));
+	}
+
+IL_003f:
+	{
+		int32_t L_14 = V_2;
+		if ((((int32_t)L_14) >= ((int32_t)0)))
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		int32_t L_15 = V_1;
+		if ((((int32_t)L_15) <= ((int32_t)0)))
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		Vector2_t2243707579 * L_16 = ___center1;
+		Vector2_t2243707579  L_17 = V_0;
+		int32_t L_18 = V_1;
+		Vector2_t2243707579  L_19 = Vector2_op_Division_m96580069(NULL /*static, unused*/, L_17, (((float)((float)L_18))), /*hidden argument*/NULL);
+		(*(Vector2_t2243707579 *)L_16) = L_19;
+		return (bool)1;
+	}
+
+IL_005d:
+	{
+		return (bool)0;
+	}
+}
+// UnityEngine.Vector2 Lean.Touch.LeanGesture::GetScreenDelta()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanGesture_GetScreenDelta_m217217714_MetadataUsageId;
+extern "C"  Vector2_t2243707579  LeanGesture_GetScreenDelta_m217217714 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_GetScreenDelta_m217217714_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Fingers_3();
+		Vector2_t2243707579  L_1 = LeanGesture_GetScreenDelta_m2509873154(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// UnityEngine.Vector2 Lean.Touch.LeanGesture::GetScreenDelta(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>)
+extern Il2CppClass* Vector2_t2243707579_il2cpp_TypeInfo_var;
+extern const uint32_t LeanGesture_GetScreenDelta_m2509873154_MetadataUsageId;
+extern "C"  Vector2_t2243707579  LeanGesture_GetScreenDelta_m2509873154 (Il2CppObject * __this /* static, unused */, List_1_t3740150945 * ___fingers0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_GetScreenDelta_m2509873154_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector2_t2243707579  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector2_t2243707579  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		Initobj (Vector2_t2243707579_il2cpp_TypeInfo_var, (&V_1));
+		Vector2_t2243707579  L_0 = V_1;
+		V_0 = L_0;
+		List_1_t3740150945 * L_1 = ___fingers0;
+		LeanGesture_TryGetScreenDelta_m667504852(NULL /*static, unused*/, L_1, (&V_0), /*hidden argument*/NULL);
+		Vector2_t2243707579  L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Boolean Lean.Touch.LeanGesture::TryGetScreenDelta(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>,UnityEngine.Vector2&)
+extern const MethodInfo* List_1_get_Count_m753479905_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m2226599640_MethodInfo_var;
+extern const uint32_t LeanGesture_TryGetScreenDelta_m667504852_MetadataUsageId;
+extern "C"  bool LeanGesture_TryGetScreenDelta_m667504852 (Il2CppObject * __this /* static, unused */, List_1_t3740150945 * ___fingers0, Vector2_t2243707579 * ___delta1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_TryGetScreenDelta_m667504852_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector2_t2243707579  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	LeanFinger_t76062517 * V_3 = NULL;
+	{
+		List_1_t3740150945 * L_0 = ___fingers0;
+		if (!L_0)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		Vector2_t2243707579  L_1 = Vector2_get_zero_m3966848876(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_1;
+		V_1 = 0;
+		List_1_t3740150945 * L_2 = ___fingers0;
+		NullCheck(L_2);
+		int32_t L_3 = List_1_get_Count_m753479905(L_2, /*hidden argument*/List_1_get_Count_m753479905_MethodInfo_var);
+		V_2 = ((int32_t)((int32_t)L_3-(int32_t)1));
+		goto IL_003f;
+	}
+
+IL_001c:
+	{
+		List_1_t3740150945 * L_4 = ___fingers0;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		LeanFinger_t76062517 * L_6 = List_1_get_Item_m2226599640(L_4, L_5, /*hidden argument*/List_1_get_Item_m2226599640_MethodInfo_var);
+		V_3 = L_6;
+		LeanFinger_t76062517 * L_7 = V_3;
+		if (!L_7)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		Vector2_t2243707579  L_8 = V_0;
+		LeanFinger_t76062517 * L_9 = V_3;
+		NullCheck(L_9);
+		Vector2_t2243707579  L_10 = LeanFinger_get_ScreenDelta_m4236172177(L_9, /*hidden argument*/NULL);
+		Vector2_t2243707579  L_11 = Vector2_op_Addition_m1389598521(NULL /*static, unused*/, L_8, L_10, /*hidden argument*/NULL);
+		V_0 = L_11;
+		int32_t L_12 = V_1;
+		V_1 = ((int32_t)((int32_t)L_12+(int32_t)1));
+	}
+
+IL_003b:
+	{
+		int32_t L_13 = V_2;
+		V_2 = ((int32_t)((int32_t)L_13-(int32_t)1));
+	}
+
+IL_003f:
+	{
+		int32_t L_14 = V_2;
+		if ((((int32_t)L_14) >= ((int32_t)0)))
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		int32_t L_15 = V_1;
+		if ((((int32_t)L_15) <= ((int32_t)0)))
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		Vector2_t2243707579 * L_16 = ___delta1;
+		Vector2_t2243707579  L_17 = V_0;
+		int32_t L_18 = V_1;
+		Vector2_t2243707579  L_19 = Vector2_op_Division_m96580069(NULL /*static, unused*/, L_17, (((float)((float)L_18))), /*hidden argument*/NULL);
+		(*(Vector2_t2243707579 *)L_16) = L_19;
+		return (bool)1;
+	}
+
+IL_005d:
+	{
+		return (bool)0;
+	}
+}
+// UnityEngine.Vector2 Lean.Touch.LeanGesture::GetScaledDelta()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanGesture_GetScaledDelta_m4039147376_MetadataUsageId;
+extern "C"  Vector2_t2243707579  LeanGesture_GetScaledDelta_m4039147376 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_GetScaledDelta_m4039147376_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Vector2_t2243707579  L_0 = LeanGesture_GetScreenDelta_m217217714(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		float L_1 = LeanTouch_get_ScalingFactor_m3828003300(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t2243707579  L_2 = Vector2_op_Multiply_m4236139442(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// UnityEngine.Vector2 Lean.Touch.LeanGesture::GetScaledDelta(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>)
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanGesture_GetScaledDelta_m925836160_MetadataUsageId;
+extern "C"  Vector2_t2243707579  LeanGesture_GetScaledDelta_m925836160 (Il2CppObject * __this /* static, unused */, List_1_t3740150945 * ___fingers0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_GetScaledDelta_m925836160_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t3740150945 * L_0 = ___fingers0;
+		Vector2_t2243707579  L_1 = LeanGesture_GetScreenDelta_m2509873154(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		float L_2 = LeanTouch_get_ScalingFactor_m3828003300(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t2243707579  L_3 = Vector2_op_Multiply_m4236139442(NULL /*static, unused*/, L_1, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.Boolean Lean.Touch.LeanGesture::TryGetScaledDelta(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>,UnityEngine.Vector2&)
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanGesture_TryGetScaledDelta_m4013569822_MetadataUsageId;
+extern "C"  bool LeanGesture_TryGetScaledDelta_m4013569822 (Il2CppObject * __this /* static, unused */, List_1_t3740150945 * ___fingers0, Vector2_t2243707579 * ___delta1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_TryGetScaledDelta_m4013569822_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t3740150945 * L_0 = ___fingers0;
+		Vector2_t2243707579 * L_1 = ___delta1;
+		bool L_2 = LeanGesture_TryGetScreenDelta_m667504852(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		Vector2_t2243707579 * L_3 = ___delta1;
+		Vector2_t2243707579 * L_4 = ___delta1;
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		float L_5 = LeanTouch_get_ScalingFactor_m3828003300(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t2243707579  L_6 = Vector2_op_Multiply_m4236139442(NULL /*static, unused*/, (*(Vector2_t2243707579 *)L_4), L_5, /*hidden argument*/NULL);
+		(*(Vector2_t2243707579 *)L_3) = L_6;
+		return (bool)1;
+	}
+
+IL_0024:
+	{
+		return (bool)0;
+	}
+}
+// UnityEngine.Vector3 Lean.Touch.LeanGesture::GetWorldDelta(System.Single,UnityEngine.Camera)
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanGesture_GetWorldDelta_m3502950734_MetadataUsageId;
+extern "C"  Vector3_t2243707580  LeanGesture_GetWorldDelta_m3502950734 (Il2CppObject * __this /* static, unused */, float ___distance0, Camera_t189460977 * ___camera1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_GetWorldDelta_m3502950734_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Fingers_3();
+		float L_1 = ___distance0;
+		Camera_t189460977 * L_2 = ___camera1;
+		Vector3_t2243707580  L_3 = LeanGesture_GetWorldDelta_m564202146(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// UnityEngine.Vector3 Lean.Touch.LeanGesture::GetWorldDelta(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>,System.Single,UnityEngine.Camera)
+extern Il2CppClass* Vector3_t2243707580_il2cpp_TypeInfo_var;
+extern const uint32_t LeanGesture_GetWorldDelta_m564202146_MetadataUsageId;
+extern "C"  Vector3_t2243707580  LeanGesture_GetWorldDelta_m564202146 (Il2CppObject * __this /* static, unused */, List_1_t3740150945 * ___fingers0, float ___distance1, Camera_t189460977 * ___camera2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_GetWorldDelta_m564202146_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector3_t2243707580  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		Initobj (Vector3_t2243707580_il2cpp_TypeInfo_var, (&V_1));
+		Vector3_t2243707580  L_0 = V_1;
+		V_0 = L_0;
+		List_1_t3740150945 * L_1 = ___fingers0;
+		float L_2 = ___distance1;
+		Camera_t189460977 * L_3 = ___camera2;
+		LeanGesture_TryGetWorldDelta_m1562947682(NULL /*static, unused*/, L_1, L_2, (&V_0), L_3, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Boolean Lean.Touch.LeanGesture::TryGetWorldDelta(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>,System.Single,UnityEngine.Vector3&,UnityEngine.Camera)
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Count_m753479905_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m2226599640_MethodInfo_var;
+extern const uint32_t LeanGesture_TryGetWorldDelta_m1562947682_MetadataUsageId;
+extern "C"  bool LeanGesture_TryGetWorldDelta_m1562947682 (Il2CppObject * __this /* static, unused */, List_1_t3740150945 * ___fingers0, float ___distance1, Vector3_t2243707580 * ___delta2, Camera_t189460977 * ___camera3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_TryGetWorldDelta_m1562947682_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	LeanFinger_t76062517 * V_3 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		bool L_0 = LeanTouch_GetCamera_m3186988658(NULL /*static, unused*/, (&___camera3), /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_006b;
+		}
+	}
+	{
+		List_1_t3740150945 * L_1 = ___fingers0;
+		if (!L_1)
+		{
+			goto IL_006b;
+		}
+	}
+	{
+		Vector3_t2243707580  L_2 = Vector3_get_zero_m1527993324(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_2;
+		V_1 = 0;
+		List_1_t3740150945 * L_3 = ___fingers0;
+		NullCheck(L_3);
+		int32_t L_4 = List_1_get_Count_m753479905(L_3, /*hidden argument*/List_1_get_Count_m753479905_MethodInfo_var);
+		V_2 = ((int32_t)((int32_t)L_4-(int32_t)1));
+		goto IL_004d;
+	}
+
+IL_0028:
+	{
+		List_1_t3740150945 * L_5 = ___fingers0;
+		int32_t L_6 = V_2;
+		NullCheck(L_5);
+		LeanFinger_t76062517 * L_7 = List_1_get_Item_m2226599640(L_5, L_6, /*hidden argument*/List_1_get_Item_m2226599640_MethodInfo_var);
+		V_3 = L_7;
+		LeanFinger_t76062517 * L_8 = V_3;
+		if (!L_8)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		Vector3_t2243707580  L_9 = V_0;
+		LeanFinger_t76062517 * L_10 = V_3;
+		float L_11 = ___distance1;
+		Camera_t189460977 * L_12 = ___camera3;
+		NullCheck(L_10);
+		Vector3_t2243707580  L_13 = LeanFinger_GetWorldDelta_m2080456610(L_10, L_11, L_12, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_14 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_9, L_13, /*hidden argument*/NULL);
+		V_0 = L_14;
+		int32_t L_15 = V_1;
+		V_1 = ((int32_t)((int32_t)L_15+(int32_t)1));
+	}
+
+IL_0049:
+	{
+		int32_t L_16 = V_2;
+		V_2 = ((int32_t)((int32_t)L_16-(int32_t)1));
+	}
+
+IL_004d:
+	{
+		int32_t L_17 = V_2;
+		if ((((int32_t)L_17) >= ((int32_t)0)))
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		int32_t L_18 = V_1;
+		if ((((int32_t)L_18) <= ((int32_t)0)))
+		{
+			goto IL_006b;
+		}
+	}
+	{
+		Vector3_t2243707580 * L_19 = ___delta2;
+		Vector3_t2243707580  L_20 = V_0;
+		int32_t L_21 = V_1;
+		Vector3_t2243707580  L_22 = Vector3_op_Division_m3315615850(NULL /*static, unused*/, L_20, (((float)((float)L_21))), /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_19) = L_22;
+		return (bool)1;
+	}
+
+IL_006b:
+	{
+		return (bool)0;
+	}
+}
+// System.Single Lean.Touch.LeanGesture::GetScreenDistance()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanGesture_GetScreenDistance_m1167632214_MetadataUsageId;
+extern "C"  float LeanGesture_GetScreenDistance_m1167632214 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_GetScreenDistance_m1167632214_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Fingers_3();
+		float L_1 = LeanGesture_GetScreenDistance_m2883485954(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Single Lean.Touch.LeanGesture::GetScreenDistance(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>)
+extern Il2CppClass* Vector2_t2243707579_il2cpp_TypeInfo_var;
+extern const uint32_t LeanGesture_GetScreenDistance_m2883485954_MetadataUsageId;
+extern "C"  float LeanGesture_GetScreenDistance_m2883485954 (Il2CppObject * __this /* static, unused */, List_1_t3740150945 * ___fingers0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_GetScreenDistance_m2883485954_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	Vector2_t2243707579  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Vector2_t2243707579  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	{
+		V_0 = (0.0f);
+		Initobj (Vector2_t2243707579_il2cpp_TypeInfo_var, (&V_2));
+		Vector2_t2243707579  L_0 = V_2;
+		V_1 = L_0;
+		List_1_t3740150945 * L_1 = ___fingers0;
+		bool L_2 = LeanGesture_TryGetScreenCenter_m1612953595(NULL /*static, unused*/, L_1, (&V_1), /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		List_1_t3740150945 * L_3 = ___fingers0;
+		Vector2_t2243707579  L_4 = V_1;
+		LeanGesture_TryGetScreenDistance_m1512683900(NULL /*static, unused*/, L_3, L_4, (&V_0), /*hidden argument*/NULL);
+	}
+
+IL_0027:
+	{
+		float L_5 = V_0;
+		return L_5;
+	}
+}
+// System.Single Lean.Touch.LeanGesture::GetScreenDistance(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>,UnityEngine.Vector2)
+extern "C"  float LeanGesture_GetScreenDistance_m3412517712 (Il2CppObject * __this /* static, unused */, List_1_t3740150945 * ___fingers0, Vector2_t2243707579  ___center1, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	{
+		V_0 = (0.0f);
+		List_1_t3740150945 * L_0 = ___fingers0;
+		Vector2_t2243707579  L_1 = ___center1;
+		LeanGesture_TryGetScreenDistance_m1512683900(NULL /*static, unused*/, L_0, L_1, (&V_0), /*hidden argument*/NULL);
+		float L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Boolean Lean.Touch.LeanGesture::TryGetScreenDistance(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>,UnityEngine.Vector2,System.Single&)
+extern const MethodInfo* List_1_get_Count_m753479905_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m2226599640_MethodInfo_var;
+extern const uint32_t LeanGesture_TryGetScreenDistance_m1512683900_MetadataUsageId;
+extern "C"  bool LeanGesture_TryGetScreenDistance_m1512683900 (Il2CppObject * __this /* static, unused */, List_1_t3740150945 * ___fingers0, Vector2_t2243707579  ___center1, float* ___distance2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_TryGetScreenDistance_m1512683900_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	LeanFinger_t76062517 * V_3 = NULL;
+	{
+		List_1_t3740150945 * L_0 = ___fingers0;
+		if (!L_0)
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		V_0 = (0.0f);
+		V_1 = 0;
+		List_1_t3740150945 * L_1 = ___fingers0;
+		NullCheck(L_1);
+		int32_t L_2 = List_1_get_Count_m753479905(L_1, /*hidden argument*/List_1_get_Count_m753479905_MethodInfo_var);
+		V_2 = ((int32_t)((int32_t)L_2-(int32_t)1));
+		goto IL_003c;
+	}
+
+IL_001c:
+	{
+		List_1_t3740150945 * L_3 = ___fingers0;
+		int32_t L_4 = V_2;
+		NullCheck(L_3);
+		LeanFinger_t76062517 * L_5 = List_1_get_Item_m2226599640(L_3, L_4, /*hidden argument*/List_1_get_Item_m2226599640_MethodInfo_var);
+		V_3 = L_5;
+		LeanFinger_t76062517 * L_6 = V_3;
+		if (!L_6)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		float L_7 = V_0;
+		LeanFinger_t76062517 * L_8 = V_3;
+		Vector2_t2243707579  L_9 = ___center1;
+		NullCheck(L_8);
+		float L_10 = LeanFinger_GetScreenDistance_m2267040374(L_8, L_9, /*hidden argument*/NULL);
+		V_0 = ((float)((float)L_7+(float)L_10));
+		int32_t L_11 = V_1;
+		V_1 = ((int32_t)((int32_t)L_11+(int32_t)1));
+	}
+
+IL_0038:
+	{
+		int32_t L_12 = V_2;
+		V_2 = ((int32_t)((int32_t)L_12-(int32_t)1));
+	}
+
+IL_003c:
+	{
+		int32_t L_13 = V_2;
+		if ((((int32_t)L_13) >= ((int32_t)0)))
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		int32_t L_14 = V_1;
+		if ((((int32_t)L_14) <= ((int32_t)0)))
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		float* L_15 = ___distance2;
+		float L_16 = V_0;
+		int32_t L_17 = V_1;
+		*((float*)(L_15)) = (float)((float)((float)L_16/(float)(((float)((float)L_17)))));
+		return (bool)1;
+	}
+
+IL_0052:
+	{
+		return (bool)0;
+	}
+}
+// System.Single Lean.Touch.LeanGesture::GetScaledDistance()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanGesture_GetScaledDistance_m2184466804_MetadataUsageId;
+extern "C"  float LeanGesture_GetScaledDistance_m2184466804 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_GetScaledDistance_m2184466804_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		float L_0 = LeanGesture_GetScreenDistance_m1167632214(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		float L_1 = LeanTouch_get_ScalingFactor_m3828003300(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return ((float)((float)L_0*(float)L_1));
+	}
+}
+// System.Single Lean.Touch.LeanGesture::GetScaledDistance(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>)
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanGesture_GetScaledDistance_m4088298328_MetadataUsageId;
+extern "C"  float LeanGesture_GetScaledDistance_m4088298328 (Il2CppObject * __this /* static, unused */, List_1_t3740150945 * ___fingers0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_GetScaledDistance_m4088298328_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t3740150945 * L_0 = ___fingers0;
+		float L_1 = LeanGesture_GetScreenDistance_m2883485954(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		float L_2 = LeanTouch_get_ScalingFactor_m3828003300(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return ((float)((float)L_1*(float)L_2));
+	}
+}
+// System.Single Lean.Touch.LeanGesture::GetScaledDistance(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>,UnityEngine.Vector2)
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanGesture_GetScaledDistance_m1615056154_MetadataUsageId;
+extern "C"  float LeanGesture_GetScaledDistance_m1615056154 (Il2CppObject * __this /* static, unused */, List_1_t3740150945 * ___fingers0, Vector2_t2243707579  ___center1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_GetScaledDistance_m1615056154_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t3740150945 * L_0 = ___fingers0;
+		Vector2_t2243707579  L_1 = ___center1;
+		float L_2 = LeanGesture_GetScreenDistance_m3412517712(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		float L_3 = LeanTouch_get_ScalingFactor_m3828003300(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return ((float)((float)L_2*(float)L_3));
+	}
+}
+// System.Boolean Lean.Touch.LeanGesture::TryGetScaledDistance(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>,UnityEngine.Vector2,System.Single&)
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanGesture_TryGetScaledDistance_m4004780606_MetadataUsageId;
+extern "C"  bool LeanGesture_TryGetScaledDistance_m4004780606 (Il2CppObject * __this /* static, unused */, List_1_t3740150945 * ___fingers0, Vector2_t2243707579  ___center1, float* ___distance2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_TryGetScaledDistance_m4004780606_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t3740150945 * L_0 = ___fingers0;
+		Vector2_t2243707579  L_1 = ___center1;
+		float* L_2 = ___distance2;
+		bool L_3 = LeanGesture_TryGetScreenDistance_m1512683900(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		float* L_4 = ___distance2;
+		float* L_5 = ___distance2;
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		float L_6 = LeanTouch_get_ScalingFactor_m3828003300(NULL /*static, unused*/, /*hidden argument*/NULL);
+		*((float*)(L_4)) = (float)((float)((float)(*((float*)L_5))*(float)L_6));
+		return (bool)1;
+	}
+
+IL_0019:
+	{
+		return (bool)0;
+	}
+}
+// System.Single Lean.Touch.LeanGesture::GetLastScreenDistance()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanGesture_GetLastScreenDistance_m3064243070_MetadataUsageId;
+extern "C"  float LeanGesture_GetLastScreenDistance_m3064243070 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_GetLastScreenDistance_m3064243070_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Fingers_3();
+		float L_1 = LeanGesture_GetLastScreenDistance_m758762782(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Single Lean.Touch.LeanGesture::GetLastScreenDistance(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>)
+extern Il2CppClass* Vector2_t2243707579_il2cpp_TypeInfo_var;
+extern const uint32_t LeanGesture_GetLastScreenDistance_m758762782_MetadataUsageId;
+extern "C"  float LeanGesture_GetLastScreenDistance_m758762782 (Il2CppObject * __this /* static, unused */, List_1_t3740150945 * ___fingers0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_GetLastScreenDistance_m758762782_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	Vector2_t2243707579  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Vector2_t2243707579  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	{
+		V_0 = (0.0f);
+		Initobj (Vector2_t2243707579_il2cpp_TypeInfo_var, (&V_2));
+		Vector2_t2243707579  L_0 = V_2;
+		V_1 = L_0;
+		List_1_t3740150945 * L_1 = ___fingers0;
+		bool L_2 = LeanGesture_TryGetLastScreenCenter_m85486469(NULL /*static, unused*/, L_1, (&V_1), /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		List_1_t3740150945 * L_3 = ___fingers0;
+		Vector2_t2243707579  L_4 = V_1;
+		LeanGesture_TryGetLastScreenDistance_m3186493684(NULL /*static, unused*/, L_3, L_4, (&V_0), /*hidden argument*/NULL);
+	}
+
+IL_0027:
+	{
+		float L_5 = V_0;
+		return L_5;
+	}
+}
+// System.Single Lean.Touch.LeanGesture::GetLastScreenDistance(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>,UnityEngine.Vector2)
+extern "C"  float LeanGesture_GetLastScreenDistance_m2133025940 (Il2CppObject * __this /* static, unused */, List_1_t3740150945 * ___fingers0, Vector2_t2243707579  ___center1, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	{
+		V_0 = (0.0f);
+		List_1_t3740150945 * L_0 = ___fingers0;
+		Vector2_t2243707579  L_1 = ___center1;
+		LeanGesture_TryGetLastScreenDistance_m3186493684(NULL /*static, unused*/, L_0, L_1, (&V_0), /*hidden argument*/NULL);
+		float L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Boolean Lean.Touch.LeanGesture::TryGetLastScreenDistance(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>,UnityEngine.Vector2,System.Single&)
+extern const MethodInfo* List_1_get_Count_m753479905_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m2226599640_MethodInfo_var;
+extern const uint32_t LeanGesture_TryGetLastScreenDistance_m3186493684_MetadataUsageId;
+extern "C"  bool LeanGesture_TryGetLastScreenDistance_m3186493684 (Il2CppObject * __this /* static, unused */, List_1_t3740150945 * ___fingers0, Vector2_t2243707579  ___center1, float* ___distance2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_TryGetLastScreenDistance_m3186493684_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	LeanFinger_t76062517 * V_3 = NULL;
+	{
+		List_1_t3740150945 * L_0 = ___fingers0;
+		if (!L_0)
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		V_0 = (0.0f);
+		V_1 = 0;
+		List_1_t3740150945 * L_1 = ___fingers0;
+		NullCheck(L_1);
+		int32_t L_2 = List_1_get_Count_m753479905(L_1, /*hidden argument*/List_1_get_Count_m753479905_MethodInfo_var);
+		V_2 = ((int32_t)((int32_t)L_2-(int32_t)1));
+		goto IL_003c;
+	}
+
+IL_001c:
+	{
+		List_1_t3740150945 * L_3 = ___fingers0;
+		int32_t L_4 = V_2;
+		NullCheck(L_3);
+		LeanFinger_t76062517 * L_5 = List_1_get_Item_m2226599640(L_3, L_4, /*hidden argument*/List_1_get_Item_m2226599640_MethodInfo_var);
+		V_3 = L_5;
+		LeanFinger_t76062517 * L_6 = V_3;
+		if (!L_6)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		float L_7 = V_0;
+		LeanFinger_t76062517 * L_8 = V_3;
+		Vector2_t2243707579  L_9 = ___center1;
+		NullCheck(L_8);
+		float L_10 = LeanFinger_GetLastScreenDistance_m1166097510(L_8, L_9, /*hidden argument*/NULL);
+		V_0 = ((float)((float)L_7+(float)L_10));
+		int32_t L_11 = V_1;
+		V_1 = ((int32_t)((int32_t)L_11+(int32_t)1));
+	}
+
+IL_0038:
+	{
+		int32_t L_12 = V_2;
+		V_2 = ((int32_t)((int32_t)L_12-(int32_t)1));
+	}
+
+IL_003c:
+	{
+		int32_t L_13 = V_2;
+		if ((((int32_t)L_13) >= ((int32_t)0)))
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		int32_t L_14 = V_1;
+		if ((((int32_t)L_14) <= ((int32_t)0)))
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		float* L_15 = ___distance2;
+		float L_16 = V_0;
+		int32_t L_17 = V_1;
+		*((float*)(L_15)) = (float)((float)((float)L_16/(float)(((float)((float)L_17)))));
+		return (bool)1;
+	}
+
+IL_0052:
+	{
+		return (bool)0;
+	}
+}
+// System.Single Lean.Touch.LeanGesture::GetLastScaledDistance()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanGesture_GetLastScaledDistance_m4035432924_MetadataUsageId;
+extern "C"  float LeanGesture_GetLastScaledDistance_m4035432924 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_GetLastScaledDistance_m4035432924_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		float L_0 = LeanGesture_GetLastScreenDistance_m3064243070(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		float L_1 = LeanTouch_get_ScalingFactor_m3828003300(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return ((float)((float)L_0*(float)L_1));
+	}
+}
+// System.Single Lean.Touch.LeanGesture::GetLastScaledDistance(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>)
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanGesture_GetLastScaledDistance_m2220317004_MetadataUsageId;
+extern "C"  float LeanGesture_GetLastScaledDistance_m2220317004 (Il2CppObject * __this /* static, unused */, List_1_t3740150945 * ___fingers0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_GetLastScaledDistance_m2220317004_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t3740150945 * L_0 = ___fingers0;
+		float L_1 = LeanGesture_GetLastScreenDistance_m758762782(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		float L_2 = LeanTouch_get_ScalingFactor_m3828003300(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return ((float)((float)L_1*(float)L_2));
+	}
+}
+// System.Single Lean.Touch.LeanGesture::GetLastScaledDistance(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>,UnityEngine.Vector2)
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanGesture_GetLastScaledDistance_m3415498694_MetadataUsageId;
+extern "C"  float LeanGesture_GetLastScaledDistance_m3415498694 (Il2CppObject * __this /* static, unused */, List_1_t3740150945 * ___fingers0, Vector2_t2243707579  ___center1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_GetLastScaledDistance_m3415498694_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t3740150945 * L_0 = ___fingers0;
+		Vector2_t2243707579  L_1 = ___center1;
+		float L_2 = LeanGesture_GetLastScreenDistance_m2133025940(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		float L_3 = LeanTouch_get_ScalingFactor_m3828003300(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return ((float)((float)L_2*(float)L_3));
+	}
+}
+// System.Boolean Lean.Touch.LeanGesture::TryGetLastScaledDistance(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>,UnityEngine.Vector2,System.Single&)
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanGesture_TryGetLastScaledDistance_m50325430_MetadataUsageId;
+extern "C"  bool LeanGesture_TryGetLastScaledDistance_m50325430 (Il2CppObject * __this /* static, unused */, List_1_t3740150945 * ___fingers0, Vector2_t2243707579  ___center1, float* ___distance2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_TryGetLastScaledDistance_m50325430_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t3740150945 * L_0 = ___fingers0;
+		Vector2_t2243707579  L_1 = ___center1;
+		float* L_2 = ___distance2;
+		bool L_3 = LeanGesture_TryGetLastScreenDistance_m3186493684(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		float* L_4 = ___distance2;
+		float* L_5 = ___distance2;
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		float L_6 = LeanTouch_get_ScalingFactor_m3828003300(NULL /*static, unused*/, /*hidden argument*/NULL);
+		*((float*)(L_4)) = (float)((float)((float)(*((float*)L_5))*(float)L_6));
+		return (bool)1;
+	}
+
+IL_0019:
+	{
+		return (bool)0;
+	}
+}
+// System.Single Lean.Touch.LeanGesture::GetPinchScale()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanGesture_GetPinchScale_m1664173661_MetadataUsageId;
+extern "C"  float LeanGesture_GetPinchScale_m1664173661 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_GetPinchScale_m1664173661_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Fingers_3();
+		float L_1 = LeanGesture_GetPinchScale_m3026702667(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Single Lean.Touch.LeanGesture::GetPinchScale(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>)
+extern "C"  float LeanGesture_GetPinchScale_m3026702667 (Il2CppObject * __this /* static, unused */, List_1_t3740150945 * ___fingers0, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	Vector2_t2243707579  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Vector2_t2243707579  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	{
+		V_0 = (1.0f);
+		List_1_t3740150945 * L_0 = ___fingers0;
+		Vector2_t2243707579  L_1 = LeanGesture_GetScreenCenter_m691006509(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_1 = L_1;
+		List_1_t3740150945 * L_2 = ___fingers0;
+		Vector2_t2243707579  L_3 = LeanGesture_GetLastScreenCenter_m2188544487(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		V_2 = L_3;
+		List_1_t3740150945 * L_4 = ___fingers0;
+		Vector2_t2243707579  L_5 = V_1;
+		Vector2_t2243707579  L_6 = V_2;
+		LeanGesture_TryGetPinchScale_m458714157(NULL /*static, unused*/, L_4, L_5, L_6, (&V_0), /*hidden argument*/NULL);
+		float L_7 = V_0;
+		return L_7;
+	}
+}
+// System.Boolean Lean.Touch.LeanGesture::TryGetPinchScale(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>,UnityEngine.Vector2,UnityEngine.Vector2,System.Single&)
+extern "C"  bool LeanGesture_TryGetPinchScale_m458714157 (Il2CppObject * __this /* static, unused */, List_1_t3740150945 * ___fingers0, Vector2_t2243707579  ___center1, Vector2_t2243707579  ___lastCenter2, float* ___scale3, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	{
+		List_1_t3740150945 * L_0 = ___fingers0;
+		Vector2_t2243707579  L_1 = ___center1;
+		float L_2 = LeanGesture_GetScreenDistance_m3412517712(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		List_1_t3740150945 * L_3 = ___fingers0;
+		Vector2_t2243707579  L_4 = ___lastCenter2;
+		float L_5 = LeanGesture_GetLastScreenDistance_m2133025940(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
+		float L_6 = V_1;
+		if ((!(((float)L_6) > ((float)(0.0f)))))
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		float* L_7 = ___scale3;
+		float L_8 = V_0;
+		float L_9 = V_1;
+		*((float*)(L_7)) = (float)((float)((float)L_8/(float)L_9));
+		return (bool)1;
+	}
+
+IL_0022:
+	{
+		return (bool)0;
+	}
+}
+// System.Single Lean.Touch.LeanGesture::GetPinchRatio()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanGesture_GetPinchRatio_m3652958646_MetadataUsageId;
+extern "C"  float LeanGesture_GetPinchRatio_m3652958646 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_GetPinchRatio_m3652958646_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Fingers_3();
+		float L_1 = LeanGesture_GetPinchRatio_m276788166(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Single Lean.Touch.LeanGesture::GetPinchRatio(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>)
+extern "C"  float LeanGesture_GetPinchRatio_m276788166 (Il2CppObject * __this /* static, unused */, List_1_t3740150945 * ___fingers0, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	Vector2_t2243707579  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Vector2_t2243707579  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	{
+		V_0 = (1.0f);
+		List_1_t3740150945 * L_0 = ___fingers0;
+		Vector2_t2243707579  L_1 = LeanGesture_GetScreenCenter_m691006509(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_1 = L_1;
+		List_1_t3740150945 * L_2 = ___fingers0;
+		Vector2_t2243707579  L_3 = LeanGesture_GetLastScreenCenter_m2188544487(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		V_2 = L_3;
+		List_1_t3740150945 * L_4 = ___fingers0;
+		Vector2_t2243707579  L_5 = V_1;
+		Vector2_t2243707579  L_6 = V_2;
+		LeanGesture_TryGetPinchRatio_m186011782(NULL /*static, unused*/, L_4, L_5, L_6, (&V_0), /*hidden argument*/NULL);
+		float L_7 = V_0;
+		return L_7;
+	}
+}
+// System.Boolean Lean.Touch.LeanGesture::TryGetPinchRatio(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>,UnityEngine.Vector2,UnityEngine.Vector2,System.Single&)
+extern "C"  bool LeanGesture_TryGetPinchRatio_m186011782 (Il2CppObject * __this /* static, unused */, List_1_t3740150945 * ___fingers0, Vector2_t2243707579  ___center1, Vector2_t2243707579  ___lastCenter2, float* ___ratio3, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	{
+		List_1_t3740150945 * L_0 = ___fingers0;
+		Vector2_t2243707579  L_1 = ___center1;
+		float L_2 = LeanGesture_GetScreenDistance_m3412517712(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		List_1_t3740150945 * L_3 = ___fingers0;
+		Vector2_t2243707579  L_4 = ___lastCenter2;
+		float L_5 = LeanGesture_GetLastScreenDistance_m2133025940(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
+		float L_6 = V_0;
+		if ((!(((float)L_6) > ((float)(0.0f)))))
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		float* L_7 = ___ratio3;
+		float L_8 = V_1;
+		float L_9 = V_0;
+		*((float*)(L_7)) = (float)((float)((float)L_8/(float)L_9));
+		return (bool)1;
+	}
+
+IL_0022:
+	{
+		return (bool)0;
+	}
+}
+// System.Single Lean.Touch.LeanGesture::GetTwistDegrees()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanGesture_GetTwistDegrees_m4134824075_MetadataUsageId;
+extern "C"  float LeanGesture_GetTwistDegrees_m4134824075 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_GetTwistDegrees_m4134824075_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Fingers_3();
+		float L_1 = LeanGesture_GetTwistDegrees_m1268414193(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Single Lean.Touch.LeanGesture::GetTwistDegrees(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>)
+extern "C"  float LeanGesture_GetTwistDegrees_m1268414193 (Il2CppObject * __this /* static, unused */, List_1_t3740150945 * ___fingers0, const MethodInfo* method)
+{
+	{
+		List_1_t3740150945 * L_0 = ___fingers0;
+		float L_1 = LeanGesture_GetTwistRadians_m1347558846(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return ((float)((float)L_1*(float)(57.29578f)));
+	}
+}
+// System.Single Lean.Touch.LeanGesture::GetTwistDegrees(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>,UnityEngine.Vector2,UnityEngine.Vector2)
+extern "C"  float LeanGesture_GetTwistDegrees_m3256309937 (Il2CppObject * __this /* static, unused */, List_1_t3740150945 * ___fingers0, Vector2_t2243707579  ___center1, Vector2_t2243707579  ___lastCenter2, const MethodInfo* method)
+{
+	{
+		List_1_t3740150945 * L_0 = ___fingers0;
+		Vector2_t2243707579  L_1 = ___center1;
+		Vector2_t2243707579  L_2 = ___lastCenter2;
+		float L_3 = LeanGesture_GetTwistRadians_m915240574(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		return ((float)((float)L_3*(float)(57.29578f)));
+	}
+}
+// System.Boolean Lean.Touch.LeanGesture::TryGetTwistDegrees(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>,UnityEngine.Vector2,UnityEngine.Vector2,System.Single&)
+extern "C"  bool LeanGesture_TryGetTwistDegrees_m2334360835 (Il2CppObject * __this /* static, unused */, List_1_t3740150945 * ___fingers0, Vector2_t2243707579  ___center1, Vector2_t2243707579  ___lastCenter2, float* ___degrees3, const MethodInfo* method)
+{
+	{
+		List_1_t3740150945 * L_0 = ___fingers0;
+		Vector2_t2243707579  L_1 = ___center1;
+		Vector2_t2243707579  L_2 = ___lastCenter2;
+		float* L_3 = ___degrees3;
+		bool L_4 = LeanGesture_TryGetTwistRadians_m1067092750(NULL /*static, unused*/, L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		float* L_5 = ___degrees3;
+		float* L_6 = ___degrees3;
+		*((float*)(L_5)) = (float)((float)((float)(*((float*)L_6))*(float)(57.29578f)));
+		return (bool)1;
+	}
+
+IL_001a:
+	{
+		return (bool)0;
+	}
+}
+// System.Single Lean.Touch.LeanGesture::GetTwistRadians()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanGesture_GetTwistRadians_m2235300574_MetadataUsageId;
+extern "C"  float LeanGesture_GetTwistRadians_m2235300574 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_GetTwistRadians_m2235300574_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Fingers_3();
+		float L_1 = LeanGesture_GetTwistRadians_m1347558846(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Single Lean.Touch.LeanGesture::GetTwistRadians(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>)
+extern "C"  float LeanGesture_GetTwistRadians_m1347558846 (Il2CppObject * __this /* static, unused */, List_1_t3740150945 * ___fingers0, const MethodInfo* method)
+{
+	Vector2_t2243707579  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector2_t2243707579  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		List_1_t3740150945 * L_0 = ___fingers0;
+		Vector2_t2243707579  L_1 = LeanGesture_GetScreenCenter_m691006509(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		List_1_t3740150945 * L_2 = ___fingers0;
+		Vector2_t2243707579  L_3 = LeanGesture_GetLastScreenCenter_m2188544487(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		V_1 = L_3;
+		List_1_t3740150945 * L_4 = ___fingers0;
+		Vector2_t2243707579  L_5 = V_0;
+		Vector2_t2243707579  L_6 = V_1;
+		float L_7 = LeanGesture_GetTwistRadians_m915240574(NULL /*static, unused*/, L_4, L_5, L_6, /*hidden argument*/NULL);
+		return L_7;
+	}
+}
+// System.Single Lean.Touch.LeanGesture::GetTwistRadians(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>,UnityEngine.Vector2,UnityEngine.Vector2)
+extern "C"  float LeanGesture_GetTwistRadians_m915240574 (Il2CppObject * __this /* static, unused */, List_1_t3740150945 * ___fingers0, Vector2_t2243707579  ___center1, Vector2_t2243707579  ___lastCenter2, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	{
+		V_0 = (0.0f);
+		List_1_t3740150945 * L_0 = ___fingers0;
+		Vector2_t2243707579  L_1 = ___center1;
+		Vector2_t2243707579  L_2 = ___lastCenter2;
+		LeanGesture_TryGetTwistRadians_m1067092750(NULL /*static, unused*/, L_0, L_1, L_2, (&V_0), /*hidden argument*/NULL);
+		float L_3 = V_0;
+		return L_3;
+	}
+}
+// System.Boolean Lean.Touch.LeanGesture::TryGetTwistRadians(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>,UnityEngine.Vector2,UnityEngine.Vector2,System.Single&)
+extern const MethodInfo* List_1_get_Count_m753479905_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m2226599640_MethodInfo_var;
+extern const uint32_t LeanGesture_TryGetTwistRadians_m1067092750_MetadataUsageId;
+extern "C"  bool LeanGesture_TryGetTwistRadians_m1067092750 (Il2CppObject * __this /* static, unused */, List_1_t3740150945 * ___fingers0, Vector2_t2243707579  ___center1, Vector2_t2243707579  ___lastCenter2, float* ___radians3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanGesture_TryGetTwistRadians_m1067092750_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	LeanFinger_t76062517 * V_3 = NULL;
+	{
+		List_1_t3740150945 * L_0 = ___fingers0;
+		if (!L_0)
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		V_0 = (0.0f);
+		V_1 = 0;
+		List_1_t3740150945 * L_1 = ___fingers0;
+		NullCheck(L_1);
+		int32_t L_2 = List_1_get_Count_m753479905(L_1, /*hidden argument*/List_1_get_Count_m753479905_MethodInfo_var);
+		V_2 = ((int32_t)((int32_t)L_2-(int32_t)1));
+		goto IL_003d;
+	}
+
+IL_001c:
+	{
+		List_1_t3740150945 * L_3 = ___fingers0;
+		int32_t L_4 = V_2;
+		NullCheck(L_3);
+		LeanFinger_t76062517 * L_5 = List_1_get_Item_m2226599640(L_3, L_4, /*hidden argument*/List_1_get_Item_m2226599640_MethodInfo_var);
+		V_3 = L_5;
+		LeanFinger_t76062517 * L_6 = V_3;
+		if (!L_6)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		float L_7 = V_0;
+		LeanFinger_t76062517 * L_8 = V_3;
+		Vector2_t2243707579  L_9 = ___center1;
+		Vector2_t2243707579  L_10 = ___lastCenter2;
+		NullCheck(L_8);
+		float L_11 = LeanFinger_GetDeltaRadians_m3050096041(L_8, L_9, L_10, /*hidden argument*/NULL);
+		V_0 = ((float)((float)L_7+(float)L_11));
+		int32_t L_12 = V_1;
+		V_1 = ((int32_t)((int32_t)L_12+(int32_t)1));
+	}
+
+IL_0039:
+	{
+		int32_t L_13 = V_2;
+		V_2 = ((int32_t)((int32_t)L_13-(int32_t)1));
+	}
+
+IL_003d:
+	{
+		int32_t L_14 = V_2;
+		if ((((int32_t)L_14) >= ((int32_t)0)))
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		int32_t L_15 = V_1;
+		if ((((int32_t)L_15) <= ((int32_t)0)))
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		float* L_16 = ___radians3;
+		float L_17 = V_0;
+		int32_t L_18 = V_1;
+		*((float*)(L_16)) = (float)((float)((float)L_17/(float)(((float)((float)L_18)))));
+		return (bool)1;
+	}
+
+IL_0053:
+	{
+		return (bool)0;
+	}
+}
+// System.Void Lean.Touch.LeanMultiTap::.ctor()
+extern "C"  void LeanMultiTap__ctor_m1701618822 (LeanMultiTap_t2693737624 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_IgnoreGuiFingers_2((bool)1);
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanMultiTap::Update()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const MethodInfo* UnityEvent_2_Invoke_m514975631_MethodInfo_var;
+extern const uint32_t LeanMultiTap_Update_m2147604867_MetadataUsageId;
+extern "C"  void LeanMultiTap_Update_m2147604867 (LeanMultiTap_t2693737624 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanMultiTap_Update_m2147604867_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t3740150945 * V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		bool L_0 = __this->get_IgnoreGuiFingers_2();
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_1 = LeanTouch_GetFingers_m4092984378(NULL /*static, unused*/, L_0, 0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		List_1_t3740150945 * L_2 = V_0;
+		int32_t L_3 = LeanMultiTap_GetFingerCount_m2420238986(__this, L_2, /*hidden argument*/NULL);
+		V_1 = L_3;
+		int32_t L_4 = V_1;
+		if ((((int32_t)L_4) <= ((int32_t)0)))
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		int32_t L_5 = __this->get_lastFingerCount_8();
+		if (L_5)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		__this->set_age_7((0.0f));
+		int32_t L_6 = V_1;
+		__this->set_HighestFingerCount_5(L_6);
+		goto IL_0051;
+	}
+
+IL_003e:
+	{
+		int32_t L_7 = V_1;
+		int32_t L_8 = __this->get_HighestFingerCount_5();
+		if ((((int32_t)L_7) <= ((int32_t)L_8)))
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		int32_t L_9 = V_1;
+		__this->set_HighestFingerCount_5(L_9);
+	}
+
+IL_0051:
+	{
+		float L_10 = __this->get_age_7();
+		float L_11 = Time_get_unscaledDeltaTime_m4281640537(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_age_7(((float)((float)L_10+(float)L_11)));
+		__this->set_MultiTap_3((bool)0);
+		float L_12 = __this->get_age_7();
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		float L_13 = LeanTouch_get_CurrentTapThreshold_m745896155(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if ((!(((float)L_12) <= ((float)L_13))))
+		{
+			goto IL_00b6;
+		}
+	}
+	{
+		int32_t L_14 = V_1;
+		if (L_14)
+		{
+			goto IL_00b1;
+		}
+	}
+	{
+		int32_t L_15 = __this->get_lastFingerCount_8();
+		if ((((int32_t)L_15) <= ((int32_t)0)))
+		{
+			goto IL_00b1;
+		}
+	}
+	{
+		IntEvent_t18007207 * L_16 = __this->get_OnMultiTap_6();
+		int32_t L_17 = __this->get_MultiTapCount_4();
+		int32_t L_18 = __this->get_HighestFingerCount_5();
+		NullCheck(L_16);
+		UnityEvent_2_Invoke_m514975631(L_16, L_17, L_18, /*hidden argument*/UnityEvent_2_Invoke_m514975631_MethodInfo_var);
+		int32_t L_19 = __this->get_MultiTapCount_4();
+		__this->set_MultiTapCount_4(((int32_t)((int32_t)L_19+(int32_t)1)));
+	}
+
+IL_00b1:
+	{
+		goto IL_00c4;
+	}
+
+IL_00b6:
+	{
+		__this->set_MultiTapCount_4(0);
+		__this->set_HighestFingerCount_5(0);
+	}
+
+IL_00c4:
+	{
+		int32_t L_20 = V_1;
+		__this->set_lastFingerCount_8(L_20);
+		return;
+	}
+}
+// System.Int32 Lean.Touch.LeanMultiTap::GetFingerCount(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>)
+extern const MethodInfo* List_1_get_Count_m753479905_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m2226599640_MethodInfo_var;
+extern const uint32_t LeanMultiTap_GetFingerCount_m2420238986_MetadataUsageId;
+extern "C"  int32_t LeanMultiTap_GetFingerCount_m2420238986 (LeanMultiTap_t2693737624 * __this, List_1_t3740150945 * ___fingers0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanMultiTap_GetFingerCount_m2420238986_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		V_0 = 0;
+		List_1_t3740150945 * L_0 = ___fingers0;
+		NullCheck(L_0);
+		int32_t L_1 = List_1_get_Count_m753479905(L_0, /*hidden argument*/List_1_get_Count_m753479905_MethodInfo_var);
+		V_1 = ((int32_t)((int32_t)L_1-(int32_t)1));
+		goto IL_0029;
+	}
+
+IL_0010:
+	{
+		List_1_t3740150945 * L_2 = ___fingers0;
+		int32_t L_3 = V_1;
+		NullCheck(L_2);
+		LeanFinger_t76062517 * L_4 = List_1_get_Item_m2226599640(L_2, L_3, /*hidden argument*/List_1_get_Item_m2226599640_MethodInfo_var);
+		NullCheck(L_4);
+		bool L_5 = LeanFinger_get_Up_m2093848679(L_4, /*hidden argument*/NULL);
+		if (L_5)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		int32_t L_6 = V_0;
+		V_0 = ((int32_t)((int32_t)L_6+(int32_t)1));
+	}
+
+IL_0025:
+	{
+		int32_t L_7 = V_1;
+		V_1 = ((int32_t)((int32_t)L_7-(int32_t)1));
+	}
+
+IL_0029:
+	{
+		int32_t L_8 = V_1;
+		if ((((int32_t)L_8) >= ((int32_t)0)))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		int32_t L_9 = V_0;
+		return L_9;
+	}
+}
+// System.Void Lean.Touch.LeanMultiTap/IntEvent::.ctor()
+extern const MethodInfo* UnityEvent_2__ctor_m715387798_MethodInfo_var;
+extern const uint32_t IntEvent__ctor_m3595511254_MetadataUsageId;
+extern "C"  void IntEvent__ctor_m3595511254 (IntEvent_t18007207 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IntEvent__ctor_m3595511254_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_2__ctor_m715387798(__this, /*hidden argument*/UnityEvent_2__ctor_m715387798_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanMultiTapInfo::.ctor()
+extern "C"  void LeanMultiTapInfo__ctor_m1409484742 (LeanMultiTapInfo_t4075083494 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanMultiTapInfo::OnMultiTap(System.Int32,System.Int32)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2565475155;
+extern Il2CppCodeGenString* _stringLiteral3432057873;
+extern Il2CppCodeGenString* _stringLiteral1912478199;
+extern const uint32_t LeanMultiTapInfo_OnMultiTap_m3667847953_MetadataUsageId;
+extern "C"  void LeanMultiTapInfo_OnMultiTap_m3667847953 (LeanMultiTapInfo_t4075083494 * __this, int32_t ___count0, int32_t ___highest1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanMultiTapInfo_OnMultiTap_m3667847953_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Text_t356221433 * L_0 = __this->get_Text_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		Text_t356221433 * L_2 = __this->get_Text_2();
+		ObjectU5BU5D_t3614634134* L_3 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)5));
+		NullCheck(L_3);
+		ArrayElementTypeCheck (L_3, _stringLiteral2565475155);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)_stringLiteral2565475155);
+		ObjectU5BU5D_t3614634134* L_4 = L_3;
+		int32_t L_5 = ___count0;
+		int32_t L_6 = L_5;
+		Il2CppObject * L_7 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_6);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_7);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_7);
+		ObjectU5BU5D_t3614634134* L_8 = L_4;
+		NullCheck(L_8);
+		ArrayElementTypeCheck (L_8, _stringLiteral3432057873);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(2), (Il2CppObject *)_stringLiteral3432057873);
+		ObjectU5BU5D_t3614634134* L_9 = L_8;
+		int32_t L_10 = ___highest1;
+		int32_t L_11 = L_10;
+		Il2CppObject * L_12 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_11);
+		NullCheck(L_9);
+		ArrayElementTypeCheck (L_9, L_12);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(3), (Il2CppObject *)L_12);
+		ObjectU5BU5D_t3614634134* L_13 = L_9;
+		NullCheck(L_13);
+		ArrayElementTypeCheck (L_13, _stringLiteral1912478199);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(4), (Il2CppObject *)_stringLiteral1912478199);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_14 = String_Concat_m3881798623(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_2, L_14);
+	}
+
+IL_0051:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanOpenUrl::.ctor()
+extern "C"  void LeanOpenUrl__ctor_m2840547233 (LeanOpenUrl_t3701782623 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanOpenUrl::Open(System.String)
+extern "C"  void LeanOpenUrl_Open_m1354562859 (LeanOpenUrl_t3701782623 * __this, String_t* ___url0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___url0;
+		Application_OpenURL_m3882634228(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanRotate::.ctor()
+extern "C"  void LeanRotate__ctor_m2255888439 (LeanRotate_t827445339 * __this, const MethodInfo* method)
+{
+	{
+		Vector3_t2243707580  L_0 = Vector3_get_forward_m1201659139(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_RotateAxis_5(L_0);
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanRotate::Update()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanRotate_Update_m1718295668_MetadataUsageId;
+extern "C"  void LeanRotate_Update_m1718295668 (LeanRotate_t827445339 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanRotate_Update_m1718295668_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t3740150945 * V_0 = NULL;
+	Vector2_t2243707579  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	float V_2 = 0.0f;
+	{
+		LeanSelectable_t3692576450 * L_0 = __this->get_RequiredSelectable_4();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		LeanSelectable_t3692576450 * L_2 = __this->get_RequiredSelectable_4();
+		NullCheck(L_2);
+		bool L_3 = L_2->get_IsSelected_2();
+		if (L_3)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0022:
+	{
+		bool L_4 = __this->get_IgnoreGuiFingers_2();
+		int32_t L_5 = __this->get_RequiredFingerCount_3();
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_6 = LeanTouch_GetFingers_m4092984378(NULL /*static, unused*/, L_4, L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
+		List_1_t3740150945 * L_7 = V_0;
+		Vector2_t2243707579  L_8 = LeanGesture_GetScreenCenter_m691006509(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		V_1 = L_8;
+		List_1_t3740150945 * L_9 = V_0;
+		float L_10 = LeanGesture_GetTwistDegrees_m1268414193(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		V_2 = L_10;
+		Vector2_t2243707579  L_11 = V_1;
+		Vector3_t2243707580  L_12 = Vector2_op_Implicit_m176791411(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+		float L_13 = V_2;
+		LeanRotate_Rotate_m3877790132(__this, L_12, L_13, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanRotate::Rotate(UnityEngine.Vector3,System.Single)
+extern "C"  void LeanRotate_Rotate_m3877790132 (LeanRotate_t827445339 * __this, Vector3_t2243707580  ___center0, float ___degrees1, const MethodInfo* method)
+{
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		bool L_0 = __this->get_Relative_6();
+		if (!L_0)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		Camera_t189460977 * L_1 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_2 = ___center0;
+		NullCheck(L_1);
+		Vector3_t2243707580  L_3 = Camera_ScreenToWorldPoint_m929392728(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		Transform_t3275118058 * L_4 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_5 = V_0;
+		Camera_t189460977 * L_6 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		Transform_t3275118058 * L_7 = Component_get_transform_m2697483695(L_6, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		Vector3_t2243707580  L_8 = Transform_get_forward_m1833488937(L_7, /*hidden argument*/NULL);
+		float L_9 = ___degrees1;
+		NullCheck(L_4);
+		Transform_RotateAround_m3410686872(L_4, L_5, L_8, L_9, /*hidden argument*/NULL);
+		goto IL_005a;
+	}
+
+IL_0038:
+	{
+		Transform_t3275118058 * L_10 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_11 = L_10;
+		NullCheck(L_11);
+		Quaternion_t4030073918  L_12 = Transform_get_rotation_m1033555130(L_11, /*hidden argument*/NULL);
+		float L_13 = ___degrees1;
+		Vector3_t2243707580  L_14 = __this->get_RotateAxis_5();
+		Quaternion_t4030073918  L_15 = Quaternion_AngleAxis_m2806222563(NULL /*static, unused*/, L_13, L_14, /*hidden argument*/NULL);
+		Quaternion_t4030073918  L_16 = Quaternion_op_Multiply_m2426727589(NULL /*static, unused*/, L_12, L_15, /*hidden argument*/NULL);
+		NullCheck(L_11);
+		Transform_set_rotation_m3411284563(L_11, L_16, /*hidden argument*/NULL);
+	}
+
+IL_005a:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanScale::.ctor()
+extern "C"  void LeanScale__ctor_m2245606104 (LeanScale_t2479469360 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanScale::Update()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanScale_Update_m3741109951_MetadataUsageId;
+extern "C"  void LeanScale_Update_m3741109951 (LeanScale_t2479469360 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanScale_Update_m3741109951_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t3740150945 * V_0 = NULL;
+	float V_1 = 0.0f;
+	Vector2_t2243707579  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	{
+		LeanSelectable_t3692576450 * L_0 = __this->get_RequiredSelectable_4();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		LeanSelectable_t3692576450 * L_2 = __this->get_RequiredSelectable_4();
+		NullCheck(L_2);
+		bool L_3 = L_2->get_IsSelected_2();
+		if (L_3)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0022:
+	{
+		bool L_4 = __this->get_IgnoreGuiFingers_2();
+		int32_t L_5 = __this->get_RequiredFingerCount_3();
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_6 = LeanTouch_GetFingers_m4092984378(NULL /*static, unused*/, L_4, L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
+		List_1_t3740150945 * L_7 = V_0;
+		float L_8 = LeanGesture_GetPinchScale_m3026702667(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		V_1 = L_8;
+		List_1_t3740150945 * L_9 = V_0;
+		Vector2_t2243707579  L_10 = LeanGesture_GetScreenCenter_m691006509(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		V_2 = L_10;
+		float L_11 = V_1;
+		Vector2_t2243707579  L_12 = V_2;
+		LeanScale_Scale_m4139219539(__this, L_11, L_12, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanScale::Scale(System.Single,UnityEngine.Vector2)
+extern "C"  void LeanScale_Scale_m4139219539 (LeanScale_t2479469360 * __this, float ___scale0, Vector2_t2243707579  ___screenCenter1, const MethodInfo* method)
+{
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		float L_0 = ___scale0;
+		if ((!(((float)L_0) > ((float)(0.0f)))))
+		{
+			goto IL_00b5;
+		}
+	}
+	{
+		bool L_1 = __this->get_Relative_5();
+		if (!L_1)
+		{
+			goto IL_009e;
+		}
+	}
+	{
+		Camera_t189460977 * L_2 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_3 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		Vector3_t2243707580  L_4 = Transform_get_position_m1104419803(L_3, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Vector3_t2243707580  L_5 = Camera_WorldToScreenPoint_m638747266(L_2, L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
+		float L_6 = (&___screenCenter1)->get_x_0();
+		float L_7 = (&V_0)->get_x_1();
+		float L_8 = (&___screenCenter1)->get_x_0();
+		float L_9 = ___scale0;
+		(&V_0)->set_x_1(((float)((float)L_6+(float)((float)((float)((float)((float)L_7-(float)L_8))*(float)L_9)))));
+		float L_10 = (&___screenCenter1)->get_y_1();
+		float L_11 = (&V_0)->get_y_2();
+		float L_12 = (&___screenCenter1)->get_y_1();
+		float L_13 = ___scale0;
+		(&V_0)->set_y_2(((float)((float)L_10+(float)((float)((float)((float)((float)L_11-(float)L_12))*(float)L_13)))));
+		Transform_t3275118058 * L_14 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		Camera_t189460977 * L_15 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_16 = V_0;
+		NullCheck(L_15);
+		Vector3_t2243707580  L_17 = Camera_ScreenToWorldPoint_m929392728(L_15, L_16, /*hidden argument*/NULL);
+		NullCheck(L_14);
+		Transform_set_position_m2469242620(L_14, L_17, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_18 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_19 = L_18;
+		NullCheck(L_19);
+		Vector3_t2243707580  L_20 = Transform_get_localScale_m3074381503(L_19, /*hidden argument*/NULL);
+		float L_21 = ___scale0;
+		Vector3_t2243707580  L_22 = Vector3_op_Multiply_m1351554733(NULL /*static, unused*/, L_20, L_21, /*hidden argument*/NULL);
+		NullCheck(L_19);
+		Transform_set_localScale_m2325460848(L_19, L_22, /*hidden argument*/NULL);
+		goto IL_00b5;
+	}
+
+IL_009e:
+	{
+		Transform_t3275118058 * L_23 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_24 = L_23;
+		NullCheck(L_24);
+		Vector3_t2243707580  L_25 = Transform_get_localScale_m3074381503(L_24, /*hidden argument*/NULL);
+		float L_26 = ___scale0;
+		Vector3_t2243707580  L_27 = Vector3_op_Multiply_m1351554733(NULL /*static, unused*/, L_25, L_26, /*hidden argument*/NULL);
+		NullCheck(L_24);
+		Transform_set_localScale_m2325460848(L_24, L_27, /*hidden argument*/NULL);
+	}
+
+IL_00b5:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelect::.ctor()
+extern "C"  void LeanSelect__ctor_m2300687000 (LeanSelect_t3606489640 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelect::Select(Lean.Touch.LeanFinger,UnityEngine.Component)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisLeanSelectable_t3692576450_m2139863446_MethodInfo_var;
+extern const MethodInfo* Component_GetComponentInParent_TisLeanSelectable_t3692576450_m1611157747_MethodInfo_var;
+extern const MethodInfo* Component_GetComponentInChildren_TisLeanSelectable_t3692576450_m784436374_MethodInfo_var;
+extern const uint32_t LeanSelect_Select_m2513733542_MetadataUsageId;
+extern "C"  void LeanSelect_Select_m2513733542 (LeanSelect_t3606489640 * __this, LeanFinger_t76062517 * ___finger0, Component_t3819376471 * ___component1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSelect_Select_m2513733542_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	LeanSelectable_t3692576450 * V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		V_0 = (LeanSelectable_t3692576450 *)NULL;
+		Component_t3819376471 * L_0 = ___component1;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		int32_t L_2 = __this->get_Search_2();
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		if (!L_3)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		int32_t L_4 = V_1;
+		if ((((int32_t)L_4) == ((int32_t)1)))
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		if ((((int32_t)L_5) == ((int32_t)2)))
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		goto IL_0052;
+	}
+
+IL_002e:
+	{
+		Component_t3819376471 * L_6 = ___component1;
+		NullCheck(L_6);
+		LeanSelectable_t3692576450 * L_7 = Component_GetComponent_TisLeanSelectable_t3692576450_m2139863446(L_6, /*hidden argument*/Component_GetComponent_TisLeanSelectable_t3692576450_m2139863446_MethodInfo_var);
+		V_0 = L_7;
+		goto IL_0052;
+	}
+
+IL_003a:
+	{
+		Component_t3819376471 * L_8 = ___component1;
+		NullCheck(L_8);
+		LeanSelectable_t3692576450 * L_9 = Component_GetComponentInParent_TisLeanSelectable_t3692576450_m1611157747(L_8, /*hidden argument*/Component_GetComponentInParent_TisLeanSelectable_t3692576450_m1611157747_MethodInfo_var);
+		V_0 = L_9;
+		goto IL_0052;
+	}
+
+IL_0046:
+	{
+		Component_t3819376471 * L_10 = ___component1;
+		NullCheck(L_10);
+		LeanSelectable_t3692576450 * L_11 = Component_GetComponentInChildren_TisLeanSelectable_t3692576450_m784436374(L_10, /*hidden argument*/Component_GetComponentInChildren_TisLeanSelectable_t3692576450_m784436374_MethodInfo_var);
+		V_0 = L_11;
+		goto IL_0052;
+	}
+
+IL_0052:
+	{
+		LeanFinger_t76062517 * L_12 = ___finger0;
+		LeanSelectable_t3692576450 * L_13 = V_0;
+		LeanSelect_Select_m2596434945(__this, L_12, L_13, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelect::Select(Lean.Touch.LeanFinger,Lean.Touch.LeanSelectable)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t LeanSelect_Select_m2596434945_MetadataUsageId;
+extern "C"  void LeanSelect_Select_m2596434945 (LeanSelect_t3606489640 * __this, LeanFinger_t76062517 * ___finger0, LeanSelectable_t3692576450 * ___selectable1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSelect_Select_m2596434945_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		LeanSelectable_t3692576450 * L_0 = ___selectable1;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		LeanSelectable_t3692576450 * L_2 = ___selectable1;
+		LeanSelectable_t3692576450 * L_3 = __this->get_CurrentSelectable_3();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		LeanSelect_Deselect_m273978335(__this, /*hidden argument*/NULL);
+		LeanSelectable_t3692576450 * L_5 = ___selectable1;
+		__this->set_CurrentSelectable_3(L_5);
+		LeanSelectable_t3692576450 * L_6 = __this->get_CurrentSelectable_3();
+		LeanFinger_t76062517 * L_7 = ___finger0;
+		NullCheck(L_6);
+		LeanSelectable_Select_m3668728632(L_6, L_7, /*hidden argument*/NULL);
+	}
+
+IL_0036:
+	{
+		goto IL_004c;
+	}
+
+IL_003b:
+	{
+		bool L_8 = __this->get_AutoDeselect_4();
+		if (!L_8)
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		LeanSelect_Deselect_m273978335(__this, /*hidden argument*/NULL);
+	}
+
+IL_004c:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelect::Deselect()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t LeanSelect_Deselect_m273978335_MetadataUsageId;
+extern "C"  void LeanSelect_Deselect_m273978335 (LeanSelect_t3606489640 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSelect_Deselect_m273978335_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		LeanSelectable_t3692576450 * L_0 = __this->get_CurrentSelectable_3();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		LeanSelectable_t3692576450 * L_2 = __this->get_CurrentSelectable_3();
+		NullCheck(L_2);
+		LeanSelectable_Deselect_m3746043981(L_2, /*hidden argument*/NULL);
+		__this->set_CurrentSelectable_3((LeanSelectable_t3692576450 *)NULL);
+	}
+
+IL_0023:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelect::Deselect(Lean.Touch.LeanFinger)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t LeanSelect_Deselect_m1736709975_MetadataUsageId;
+extern "C"  void LeanSelect_Deselect_m1736709975 (LeanSelect_t3606489640 * __this, LeanFinger_t76062517 * ___finger0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSelect_Deselect_m1736709975_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		LeanSelectable_t3692576450 * L_0 = __this->get_CurrentSelectable_3();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		LeanSelectable_t3692576450 * L_2 = __this->get_CurrentSelectable_3();
+		NullCheck(L_2);
+		LeanFinger_t76062517 * L_3 = L_2->get_Finger_3();
+		if (!L_3)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		LeanSelectable_t3692576450 * L_4 = __this->get_CurrentSelectable_3();
+		NullCheck(L_4);
+		LeanFinger_t76062517 * L_5 = L_4->get_Finger_3();
+		LeanFinger_t76062517 * L_6 = ___finger0;
+		if ((!(((Il2CppObject*)(LeanFinger_t76062517 *)L_5) == ((Il2CppObject*)(LeanFinger_t76062517 *)L_6))))
+		{
+			goto IL_0038;
+		}
+	}
+
+IL_0032:
+	{
+		LeanSelect_Deselect_m273978335(__this, /*hidden argument*/NULL);
+	}
+
+IL_0038:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelect2D::.ctor()
+extern "C"  void LeanSelect2D__ctor_m3491497090 (LeanSelect2D_t440051026 * __this, const MethodInfo* method)
+{
+	{
+		LayerMask_t3188175821  L_0 = LayerMask_op_Implicit_m3804506591(NULL /*static, unused*/, ((int32_t)-5), /*hidden argument*/NULL);
+		__this->set_LayerMask_5(L_0);
+		LeanSelect__ctor_m2300687000(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelect2D::Select(Lean.Touch.LeanFinger)
+extern Il2CppClass* Physics2D_t2540166467_il2cpp_TypeInfo_var;
+extern const uint32_t LeanSelect2D_Select_m2065973606_MetadataUsageId;
+extern "C"  void LeanSelect2D_Select_m2065973606 (LeanSelect2D_t440051026 * __this, LeanFinger_t76062517 * ___finger0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSelect2D_Select_m2065973606_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Collider2D_t646061738 * V_1 = NULL;
+	{
+		LeanFinger_t76062517 * L_0 = ___finger0;
+		NullCheck(L_0);
+		Vector3_t2243707580  L_1 = LeanFinger_GetWorldPosition_m429562351(L_0, (1.0f), (Camera_t189460977 *)NULL, /*hidden argument*/NULL);
+		V_0 = L_1;
+		Vector3_t2243707580  L_2 = V_0;
+		Vector2_t2243707579  L_3 = Vector2_op_Implicit_m1064335535(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		LayerMask_t3188175821  L_4 = __this->get_LayerMask_5();
+		int32_t L_5 = LayerMask_op_Implicit_m2135076047(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t2540166467_il2cpp_TypeInfo_var);
+		Collider2D_t646061738 * L_6 = Physics2D_OverlapPoint_m845302844(NULL /*static, unused*/, L_3, L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
+		LeanFinger_t76062517 * L_7 = ___finger0;
+		Collider2D_t646061738 * L_8 = V_1;
+		LeanSelect_Select_m2513733542(__this, L_7, L_8, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelect3D::.ctor()
+extern "C"  void LeanSelect3D__ctor_m4288472189 (LeanSelect3D_t2006134967 * __this, const MethodInfo* method)
+{
+	{
+		LayerMask_t3188175821  L_0 = LayerMask_op_Implicit_m3804506591(NULL /*static, unused*/, ((int32_t)-5), /*hidden argument*/NULL);
+		__this->set_LayerMask_5(L_0);
+		LeanSelect__ctor_m2300687000(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelect3D::Select(Lean.Touch.LeanFinger)
+extern Il2CppClass* RaycastHit_t87180320_il2cpp_TypeInfo_var;
+extern const uint32_t LeanSelect3D_Select_m2774682497_MetadataUsageId;
+extern "C"  void LeanSelect3D_Select_m2774682497 (LeanSelect3D_t2006134967 * __this, LeanFinger_t76062517 * ___finger0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSelect3D_Select_m2774682497_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Ray_t2469606224  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	RaycastHit_t87180320  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	RaycastHit_t87180320  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Component_t3819376471 * V_3 = NULL;
+	{
+		LeanFinger_t76062517 * L_0 = ___finger0;
+		NullCheck(L_0);
+		Ray_t2469606224  L_1 = LeanFinger_GetRay_m614673855(L_0, (Camera_t189460977 *)NULL, /*hidden argument*/NULL);
+		V_0 = L_1;
+		Initobj (RaycastHit_t87180320_il2cpp_TypeInfo_var, (&V_2));
+		RaycastHit_t87180320  L_2 = V_2;
+		V_1 = L_2;
+		V_3 = (Component_t3819376471 *)NULL;
+		Ray_t2469606224  L_3 = V_0;
+		LayerMask_t3188175821  L_4 = __this->get_LayerMask_5();
+		int32_t L_5 = LayerMask_op_Implicit_m2135076047(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		bool L_6 = Physics_Raycast_m2009151399(NULL /*static, unused*/, L_3, (&V_1), (std::numeric_limits<float>::infinity()), L_5, /*hidden argument*/NULL);
+		if (!L_6)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		Collider_t3497673348 * L_7 = RaycastHit_get_collider_m301198172((&V_1), /*hidden argument*/NULL);
+		V_3 = L_7;
+	}
+
+IL_0039:
+	{
+		LeanFinger_t76062517 * L_8 = ___finger0;
+		Component_t3819376471 * L_9 = V_3;
+		LeanSelect_Select_m2513733542(__this, L_8, L_9, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelectable::.ctor()
+extern "C"  void LeanSelectable__ctor_m606954148 (LeanSelectable_t3692576450 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelectable::Select()
+extern "C"  void LeanSelectable_Select_m1397276638 (LeanSelectable_t3692576450 * __this, const MethodInfo* method)
+{
+	{
+		LeanSelectable_Select_m3668728632(__this, (LeanFinger_t76062517 *)NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelectable::Select(Lean.Touch.LeanFinger)
+extern const MethodInfo* UnityEvent_1_Invoke_m3195227978_MethodInfo_var;
+extern const uint32_t LeanSelectable_Select_m3668728632_MetadataUsageId;
+extern "C"  void LeanSelectable_Select_m3668728632 (LeanSelectable_t3692576450 * __this, LeanFinger_t76062517 * ___finger0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSelectable_Select_m3668728632_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get_IsSelected_2();
+		if (L_0)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		__this->set_IsSelected_2((bool)1);
+		LeanFinger_t76062517 * L_1 = ___finger0;
+		__this->set_Finger_3(L_1);
+		LeanFingerEvent_t2546124889 * L_2 = __this->get_OnSelect_4();
+		LeanFinger_t76062517 * L_3 = ___finger0;
+		NullCheck(L_2);
+		UnityEvent_1_Invoke_m3195227978(L_2, L_3, /*hidden argument*/UnityEvent_1_Invoke_m3195227978_MethodInfo_var);
+	}
+
+IL_0025:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelectable::Deselect()
+extern "C"  void LeanSelectable_Deselect_m3746043981 (LeanSelectable_t3692576450 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_IsSelected_2();
+		if (!L_0)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		UnityEvent_t408735097 * L_1 = __this->get_OnDeselect_5();
+		NullCheck(L_1);
+		UnityEvent_Invoke_m4163344491(L_1, /*hidden argument*/NULL);
+		__this->set_Finger_3((LeanFinger_t76062517 *)NULL);
+		__this->set_IsSelected_2((bool)0);
+	}
+
+IL_0024:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelectable/LeanFingerEvent::.ctor()
+extern const MethodInfo* UnityEvent_1__ctor_m1090789293_MethodInfo_var;
+extern const uint32_t LeanFingerEvent__ctor_m1602871024_MetadataUsageId;
+extern "C"  void LeanFingerEvent__ctor_m1602871024 (LeanFingerEvent_t2546124889 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanFingerEvent__ctor_m1602871024_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_1__ctor_m1090789293(__this, /*hidden argument*/UnityEvent_1__ctor_m1090789293_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelectableBehaviour::.ctor()
+extern "C"  void LeanSelectableBehaviour__ctor_m3141209765 (LeanSelectableBehaviour_t2782920709 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Lean.Touch.LeanSelectable Lean.Touch.LeanSelectableBehaviour::get_Selectable()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisLeanSelectable_t3692576450_m2139863446_MethodInfo_var;
+extern const uint32_t LeanSelectableBehaviour_get_Selectable_m3381086028_MetadataUsageId;
+extern "C"  LeanSelectable_t3692576450 * LeanSelectableBehaviour_get_Selectable_m3381086028 (LeanSelectableBehaviour_t2782920709 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSelectableBehaviour_get_Selectable_m3381086028_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		LeanSelectable_t3692576450 * L_0 = __this->get_selectable_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		LeanSelectable_t3692576450 * L_2 = Component_GetComponent_TisLeanSelectable_t3692576450_m2139863446(__this, /*hidden argument*/Component_GetComponent_TisLeanSelectable_t3692576450_m2139863446_MethodInfo_var);
+		__this->set_selectable_2(L_2);
+	}
+
+IL_001d:
+	{
+		LeanSelectable_t3692576450 * L_3 = __this->get_selectable_2();
+		return L_3;
+	}
+}
+// System.Void Lean.Touch.LeanSelectableBehaviour::OnEnable()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* UnityAction_1_t1442648268_il2cpp_TypeInfo_var;
+extern Il2CppClass* UnityAction_t4025899511_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisLeanSelectable_t3692576450_m2139863446_MethodInfo_var;
+extern const MethodInfo* UnityAction_1__ctor_m3099314639_MethodInfo_var;
+extern const MethodInfo* UnityEvent_1_AddListener_m3094341323_MethodInfo_var;
+extern const uint32_t LeanSelectableBehaviour_OnEnable_m2406361789_MetadataUsageId;
+extern "C"  void LeanSelectableBehaviour_OnEnable_m2406361789 (LeanSelectableBehaviour_t2782920709 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSelectableBehaviour_OnEnable_m2406361789_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		LeanSelectable_t3692576450 * L_0 = __this->get_selectable_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		LeanSelectable_t3692576450 * L_2 = Component_GetComponent_TisLeanSelectable_t3692576450_m2139863446(__this, /*hidden argument*/Component_GetComponent_TisLeanSelectable_t3692576450_m2139863446_MethodInfo_var);
+		__this->set_selectable_2(L_2);
+	}
+
+IL_001d:
+	{
+		LeanSelectable_t3692576450 * L_3 = __this->get_selectable_2();
+		NullCheck(L_3);
+		LeanFingerEvent_t2546124889 * L_4 = L_3->get_OnSelect_4();
+		IntPtr_t L_5;
+		L_5.set_m_value_0((void*)(void*)GetVirtualMethodInfo(__this, 6));
+		UnityAction_1_t1442648268 * L_6 = (UnityAction_1_t1442648268 *)il2cpp_codegen_object_new(UnityAction_1_t1442648268_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_m3099314639(L_6, __this, L_5, /*hidden argument*/UnityAction_1__ctor_m3099314639_MethodInfo_var);
+		NullCheck(L_4);
+		UnityEvent_1_AddListener_m3094341323(L_4, L_6, /*hidden argument*/UnityEvent_1_AddListener_m3094341323_MethodInfo_var);
+		LeanSelectable_t3692576450 * L_7 = __this->get_selectable_2();
+		NullCheck(L_7);
+		UnityEvent_t408735097 * L_8 = L_7->get_OnDeselect_5();
+		IntPtr_t L_9;
+		L_9.set_m_value_0((void*)(void*)GetVirtualMethodInfo(__this, 7));
+		UnityAction_t4025899511 * L_10 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
+		UnityAction__ctor_m2649891629(L_10, __this, L_9, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		UnityEvent_AddListener_m1596810379(L_8, L_10, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelectableBehaviour::OnDisable()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* UnityAction_1_t1442648268_il2cpp_TypeInfo_var;
+extern Il2CppClass* UnityAction_t4025899511_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisLeanSelectable_t3692576450_m2139863446_MethodInfo_var;
+extern const MethodInfo* UnityAction_1__ctor_m3099314639_MethodInfo_var;
+extern const MethodInfo* UnityEvent_1_RemoveListener_m726453490_MethodInfo_var;
+extern const uint32_t LeanSelectableBehaviour_OnDisable_m645580512_MetadataUsageId;
+extern "C"  void LeanSelectableBehaviour_OnDisable_m645580512 (LeanSelectableBehaviour_t2782920709 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSelectableBehaviour_OnDisable_m645580512_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		LeanSelectable_t3692576450 * L_0 = __this->get_selectable_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		LeanSelectable_t3692576450 * L_2 = Component_GetComponent_TisLeanSelectable_t3692576450_m2139863446(__this, /*hidden argument*/Component_GetComponent_TisLeanSelectable_t3692576450_m2139863446_MethodInfo_var);
+		__this->set_selectable_2(L_2);
+	}
+
+IL_001d:
+	{
+		LeanSelectable_t3692576450 * L_3 = __this->get_selectable_2();
+		NullCheck(L_3);
+		LeanFingerEvent_t2546124889 * L_4 = L_3->get_OnSelect_4();
+		IntPtr_t L_5;
+		L_5.set_m_value_0((void*)(void*)GetVirtualMethodInfo(__this, 6));
+		UnityAction_1_t1442648268 * L_6 = (UnityAction_1_t1442648268 *)il2cpp_codegen_object_new(UnityAction_1_t1442648268_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_m3099314639(L_6, __this, L_5, /*hidden argument*/UnityAction_1__ctor_m3099314639_MethodInfo_var);
+		NullCheck(L_4);
+		UnityEvent_1_RemoveListener_m726453490(L_4, L_6, /*hidden argument*/UnityEvent_1_RemoveListener_m726453490_MethodInfo_var);
+		LeanSelectable_t3692576450 * L_7 = __this->get_selectable_2();
+		NullCheck(L_7);
+		UnityEvent_t408735097 * L_8 = L_7->get_OnDeselect_5();
+		IntPtr_t L_9;
+		L_9.set_m_value_0((void*)(void*)GetVirtualMethodInfo(__this, 7));
+		UnityAction_t4025899511 * L_10 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
+		UnityAction__ctor_m2649891629(L_10, __this, L_9, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		UnityEvent_RemoveListener_m2073859718(L_8, L_10, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelectableBehaviour::OnSelect(Lean.Touch.LeanFinger)
+extern "C"  void LeanSelectableBehaviour_OnSelect_m4254658844 (LeanSelectableBehaviour_t2782920709 * __this, LeanFinger_t76062517 * ___finger0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelectableBehaviour::OnDeselect()
+extern "C"  void LeanSelectableBehaviour_OnDeselect_m17598933 (LeanSelectableBehaviour_t2782920709 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelectableRendererColor::.ctor()
+extern "C"  void LeanSelectableRendererColor__ctor_m1392686636 (LeanSelectableRendererColor_t652725566 * __this, const MethodInfo* method)
+{
+	{
+		Color_t2020392075  L_0 = Color_get_white_m3987539815(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_DefaultColor_4(L_0);
+		Color_t2020392075  L_1 = Color_get_green_m2671273823(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_SelectedColor_5(L_1);
+		LeanSelectableBehaviour__ctor_m3141209765(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelectableRendererColor::Awake()
+extern const MethodInfo* Component_GetComponent_TisRenderer_t257310565_m2803939486_MethodInfo_var;
+extern const uint32_t LeanSelectableRendererColor_Awake_m3282447817_MetadataUsageId;
+extern "C"  void LeanSelectableRendererColor_Awake_m3282447817 (LeanSelectableRendererColor_t652725566 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSelectableRendererColor_Awake_m3282447817_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Renderer_t257310565 * V_0 = NULL;
+	{
+		bool L_0 = __this->get_AutoGetDefaultColor_3();
+		if (!L_0)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		Renderer_t257310565 * L_1 = Component_GetComponent_TisRenderer_t257310565_m2803939486(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t257310565_m2803939486_MethodInfo_var);
+		V_0 = L_1;
+		Renderer_t257310565 * L_2 = V_0;
+		NullCheck(L_2);
+		Material_t193706927 * L_3 = Renderer_get_sharedMaterial_m155010392(L_2, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		Color_t2020392075  L_4 = Material_get_color_m668215843(L_3, /*hidden argument*/NULL);
+		__this->set_DefaultColor_4(L_4);
+	}
+
+IL_0023:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelectableRendererColor::OnSelect(Lean.Touch.LeanFinger)
+extern "C"  void LeanSelectableRendererColor_OnSelect_m3213397893 (LeanSelectableRendererColor_t652725566 * __this, LeanFinger_t76062517 * ___finger0, const MethodInfo* method)
+{
+	{
+		Color_t2020392075  L_0 = __this->get_SelectedColor_5();
+		LeanSelectableRendererColor_ChangeColor_m3455560813(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelectableRendererColor::OnDeselect()
+extern "C"  void LeanSelectableRendererColor_OnDeselect_m1681164812 (LeanSelectableRendererColor_t652725566 * __this, const MethodInfo* method)
+{
+	{
+		Color_t2020392075  L_0 = __this->get_DefaultColor_4();
+		LeanSelectableRendererColor_ChangeColor_m3455560813(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelectableRendererColor::ChangeColor(UnityEngine.Color)
+extern const MethodInfo* Component_GetComponent_TisRenderer_t257310565_m2803939486_MethodInfo_var;
+extern const uint32_t LeanSelectableRendererColor_ChangeColor_m3455560813_MetadataUsageId;
+extern "C"  void LeanSelectableRendererColor_ChangeColor_m3455560813 (LeanSelectableRendererColor_t652725566 * __this, Color_t2020392075  ___color0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSelectableRendererColor_ChangeColor_m3455560813_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Renderer_t257310565 * V_0 = NULL;
+	{
+		Renderer_t257310565 * L_0 = Component_GetComponent_TisRenderer_t257310565_m2803939486(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t257310565_m2803939486_MethodInfo_var);
+		V_0 = L_0;
+		Renderer_t257310565 * L_1 = V_0;
+		NullCheck(L_1);
+		Material_t193706927 * L_2 = Renderer_get_material_m2553789785(L_1, /*hidden argument*/NULL);
+		Color_t2020392075  L_3 = ___color0;
+		NullCheck(L_2);
+		Material_set_color_m577844242(L_2, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelectableSpriteRendererColor::.ctor()
+extern "C"  void LeanSelectableSpriteRendererColor__ctor_m3850989457 (LeanSelectableSpriteRendererColor_t1641095051 * __this, const MethodInfo* method)
+{
+	{
+		Color_t2020392075  L_0 = Color_get_white_m3987539815(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_DefaultColor_4(L_0);
+		Color_t2020392075  L_1 = Color_get_green_m2671273823(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_SelectedColor_5(L_1);
+		LeanSelectableBehaviour__ctor_m3141209765(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelectableSpriteRendererColor::Awake()
+extern const MethodInfo* Component_GetComponent_TisSpriteRenderer_t1209076198_m2178781570_MethodInfo_var;
+extern const uint32_t LeanSelectableSpriteRendererColor_Awake_m1963602230_MetadataUsageId;
+extern "C"  void LeanSelectableSpriteRendererColor_Awake_m1963602230 (LeanSelectableSpriteRendererColor_t1641095051 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSelectableSpriteRendererColor_Awake_m1963602230_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	SpriteRenderer_t1209076198 * V_0 = NULL;
+	{
+		bool L_0 = __this->get_AutoGetDefaultColor_3();
+		if (!L_0)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		SpriteRenderer_t1209076198 * L_1 = Component_GetComponent_TisSpriteRenderer_t1209076198_m2178781570(__this, /*hidden argument*/Component_GetComponent_TisSpriteRenderer_t1209076198_m2178781570_MethodInfo_var);
+		V_0 = L_1;
+		SpriteRenderer_t1209076198 * L_2 = V_0;
+		NullCheck(L_2);
+		Color_t2020392075  L_3 = SpriteRenderer_get_color_m345525162(L_2, /*hidden argument*/NULL);
+		__this->set_DefaultColor_4(L_3);
+	}
+
+IL_001e:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelectableSpriteRendererColor::OnSelect(Lean.Touch.LeanFinger)
+extern "C"  void LeanSelectableSpriteRendererColor_OnSelect_m2865695818 (LeanSelectableSpriteRendererColor_t1641095051 * __this, LeanFinger_t76062517 * ___finger0, const MethodInfo* method)
+{
+	{
+		Color_t2020392075  L_0 = __this->get_SelectedColor_5();
+		LeanSelectableSpriteRendererColor_ChangeColor_m3118169162(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelectableSpriteRendererColor::OnDeselect()
+extern "C"  void LeanSelectableSpriteRendererColor_OnDeselect_m2691963129 (LeanSelectableSpriteRendererColor_t1641095051 * __this, const MethodInfo* method)
+{
+	{
+		Color_t2020392075  L_0 = __this->get_DefaultColor_4();
+		LeanSelectableSpriteRendererColor_ChangeColor_m3118169162(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelectableSpriteRendererColor::ChangeColor(UnityEngine.Color)
+extern const MethodInfo* Component_GetComponent_TisSpriteRenderer_t1209076198_m2178781570_MethodInfo_var;
+extern const uint32_t LeanSelectableSpriteRendererColor_ChangeColor_m3118169162_MetadataUsageId;
+extern "C"  void LeanSelectableSpriteRendererColor_ChangeColor_m3118169162 (LeanSelectableSpriteRendererColor_t1641095051 * __this, Color_t2020392075  ___color0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSelectableSpriteRendererColor_ChangeColor_m3118169162_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	SpriteRenderer_t1209076198 * V_0 = NULL;
+	{
+		SpriteRenderer_t1209076198 * L_0 = Component_GetComponent_TisSpriteRenderer_t1209076198_m2178781570(__this, /*hidden argument*/Component_GetComponent_TisSpriteRenderer_t1209076198_m2178781570_MethodInfo_var);
+		V_0 = L_0;
+		SpriteRenderer_t1209076198 * L_1 = V_0;
+		Color_t2020392075  L_2 = ___color0;
+		NullCheck(L_1);
+		SpriteRenderer_set_color_m2339931967(L_1, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelectableTranslateInertia2D::.ctor()
+extern "C"  void LeanSelectableTranslateInertia2D__ctor_m2316904878 (LeanSelectableTranslateInertia2D_t2273971066 * __this, const MethodInfo* method)
+{
+	{
+		LeanSelectableBehaviour__ctor_m3141209765(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelectableTranslateInertia2D::Update()
+extern "C"  void LeanSelectableTranslateInertia2D_Update_m2839162865 (LeanSelectableTranslateInertia2D_t2273971066 * __this, const MethodInfo* method)
+{
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		LeanSelectable_t3692576450 * L_0 = LeanSelectableBehaviour_get_Selectable_m3381086028(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		bool L_1 = L_0->get_IsSelected_2();
+		if (!L_1)
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		Camera_t189460977 * L_2 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_3 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		Vector3_t2243707580  L_4 = Transform_get_position_m1104419803(L_3, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Vector3_t2243707580  L_5 = Camera_WorldToScreenPoint_m638747266(L_2, L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
+		Vector3_t2243707580  L_6 = V_0;
+		Vector2_t2243707579  L_7 = LeanGesture_GetScreenDelta_m217217714(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_8 = Vector2_op_Implicit_m176791411(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_9 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_6, L_8, /*hidden argument*/NULL);
+		V_0 = L_9;
+		Transform_t3275118058 * L_10 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		Camera_t189460977 * L_11 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_12 = V_0;
+		NullCheck(L_11);
+		Vector3_t2243707580  L_13 = Camera_ScreenToWorldPoint_m929392728(L_11, L_12, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		Transform_set_position_m2469242620(L_10, L_13, /*hidden argument*/NULL);
+	}
+
+IL_004d:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelectableTranslateInertia2D::OnDeselect()
+extern const MethodInfo* Component_GetComponent_TisRigidbody2D_t502193897_m3702757851_MethodInfo_var;
+extern const uint32_t LeanSelectableTranslateInertia2D_OnDeselect_m1906695486_MetadataUsageId;
+extern "C"  void LeanSelectableTranslateInertia2D_OnDeselect_m1906695486 (LeanSelectableTranslateInertia2D_t2273971066 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSelectableTranslateInertia2D_OnDeselect_m1906695486_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	LeanFinger_t76062517 * V_0 = NULL;
+	Rigidbody2D_t502193897 * V_1 = NULL;
+	Vector3_t2243707580  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Vector3_t2243707580  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	{
+		LeanSelectable_t3692576450 * L_0 = LeanSelectableBehaviour_get_Selectable_m3381086028(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		LeanFinger_t76062517 * L_1 = L_0->get_Finger_3();
+		V_0 = L_1;
+		LeanFinger_t76062517 * L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0078;
+		}
+	}
+	{
+		Rigidbody2D_t502193897 * L_3 = Component_GetComponent_TisRigidbody2D_t502193897_m3702757851(__this, /*hidden argument*/Component_GetComponent_TisRigidbody2D_t502193897_m3702757851_MethodInfo_var);
+		V_1 = L_3;
+		Camera_t189460977 * L_4 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_5 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		Vector3_t2243707580  L_6 = Transform_get_position_m1104419803(L_5, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		Vector3_t2243707580  L_7 = Camera_WorldToScreenPoint_m638747266(L_4, L_6, /*hidden argument*/NULL);
+		V_2 = L_7;
+		Vector3_t2243707580  L_8 = V_2;
+		LeanFinger_t76062517 * L_9 = V_0;
+		NullCheck(L_9);
+		Vector2_t2243707579  L_10 = LeanFinger_GetSnapshotScreenDelta_m1625848775(L_9, (0.1f), /*hidden argument*/NULL);
+		Vector3_t2243707580  L_11 = Vector2_op_Implicit_m176791411(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_12 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_8, L_11, /*hidden argument*/NULL);
+		V_2 = L_12;
+		Camera_t189460977 * L_13 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_14 = V_2;
+		NullCheck(L_13);
+		Vector3_t2243707580  L_15 = Camera_ScreenToWorldPoint_m929392728(L_13, L_14, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_16 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_16);
+		Vector3_t2243707580  L_17 = Transform_get_position_m1104419803(L_16, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_18 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, L_15, L_17, /*hidden argument*/NULL);
+		V_3 = L_18;
+		Rigidbody2D_t502193897 * L_19 = V_1;
+		Vector3_t2243707580  L_20 = V_3;
+		Vector3_t2243707580  L_21 = Vector3_op_Division_m3315615850(NULL /*static, unused*/, L_20, (0.1f), /*hidden argument*/NULL);
+		Vector2_t2243707579  L_22 = Vector2_op_Implicit_m1064335535(NULL /*static, unused*/, L_21, /*hidden argument*/NULL);
+		NullCheck(L_19);
+		Rigidbody2D_set_velocity_m3592751374(L_19, L_22, /*hidden argument*/NULL);
+	}
+
+IL_0078:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelectableTranslateInertia3D::.ctor()
+extern "C"  void LeanSelectableTranslateInertia3D__ctor_m3113879977 (LeanSelectableTranslateInertia3D_t3840055007 * __this, const MethodInfo* method)
+{
+	{
+		LeanSelectableBehaviour__ctor_m3141209765(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelectableTranslateInertia3D::Update()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRigidbody_t4233889191_m520013213_MethodInfo_var;
+extern const uint32_t LeanSelectableTranslateInertia3D_Update_m3529006764_MetadataUsageId;
+extern "C"  void LeanSelectableTranslateInertia3D_Update_m3529006764 (LeanSelectableTranslateInertia3D_t3840055007 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSelectableTranslateInertia3D_Update_m3529006764_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Rigidbody_t4233889191 * L_0 = __this->get_body_3();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		Rigidbody_t4233889191 * L_2 = Component_GetComponent_TisRigidbody_t4233889191_m520013213(__this, /*hidden argument*/Component_GetComponent_TisRigidbody_t4233889191_m520013213_MethodInfo_var);
+		__this->set_body_3(L_2);
+	}
+
+IL_001d:
+	{
+		LeanSelectable_t3692576450 * L_3 = LeanSelectableBehaviour_get_Selectable_m3381086028(__this, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		bool L_4 = L_3->get_IsSelected_2();
+		if (!L_4)
+		{
+			goto IL_007a;
+		}
+	}
+	{
+		Camera_t189460977 * L_5 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_6 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		Vector3_t2243707580  L_7 = Transform_get_position_m1104419803(L_6, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		Vector3_t2243707580  L_8 = Camera_WorldToScreenPoint_m638747266(L_5, L_7, /*hidden argument*/NULL);
+		V_0 = L_8;
+		Vector3_t2243707580  L_9 = V_0;
+		Vector2_t2243707579  L_10 = LeanGesture_GetScreenDelta_m217217714(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_11 = Vector2_op_Implicit_m176791411(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_12 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_9, L_11, /*hidden argument*/NULL);
+		V_0 = L_12;
+		Transform_t3275118058 * L_13 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		Camera_t189460977 * L_14 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_15 = V_0;
+		NullCheck(L_14);
+		Vector3_t2243707580  L_16 = Camera_ScreenToWorldPoint_m929392728(L_14, L_15, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		Transform_set_position_m2469242620(L_13, L_16, /*hidden argument*/NULL);
+		Rigidbody_t4233889191 * L_17 = __this->get_body_3();
+		Vector3_t2243707580  L_18 = Vector3_get_zero_m1527993324(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		Rigidbody_set_velocity_m2514070071(L_17, L_18, /*hidden argument*/NULL);
+	}
+
+IL_007a:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSelectableTranslateInertia3D::OnDeselect()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRigidbody_t4233889191_m520013213_MethodInfo_var;
+extern const uint32_t LeanSelectableTranslateInertia3D_OnDeselect_m3424663097_MetadataUsageId;
+extern "C"  void LeanSelectableTranslateInertia3D_OnDeselect_m3424663097 (LeanSelectableTranslateInertia3D_t3840055007 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSelectableTranslateInertia3D_OnDeselect_m3424663097_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	LeanFinger_t76062517 * V_0 = NULL;
+	Vector3_t2243707580  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Vector3_t2243707580  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	{
+		LeanSelectable_t3692576450 * L_0 = LeanSelectableBehaviour_get_Selectable_m3381086028(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		LeanFinger_t76062517 * L_1 = L_0->get_Finger_3();
+		V_0 = L_1;
+		LeanFinger_t76062517 * L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_008e;
+		}
+	}
+	{
+		Rigidbody_t4233889191 * L_3 = __this->get_body_3();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		Rigidbody_t4233889191 * L_5 = Component_GetComponent_TisRigidbody_t4233889191_m520013213(__this, /*hidden argument*/Component_GetComponent_TisRigidbody_t4233889191_m520013213_MethodInfo_var);
+		__this->set_body_3(L_5);
+	}
+
+IL_002f:
+	{
+		Camera_t189460977 * L_6 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_7 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		Vector3_t2243707580  L_8 = Transform_get_position_m1104419803(L_7, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		Vector3_t2243707580  L_9 = Camera_WorldToScreenPoint_m638747266(L_6, L_8, /*hidden argument*/NULL);
+		V_1 = L_9;
+		Vector3_t2243707580  L_10 = V_1;
+		LeanFinger_t76062517 * L_11 = V_0;
+		NullCheck(L_11);
+		Vector2_t2243707579  L_12 = LeanFinger_GetSnapshotScreenDelta_m1625848775(L_11, (0.1f), /*hidden argument*/NULL);
+		Vector3_t2243707580  L_13 = Vector2_op_Implicit_m176791411(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_14 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_10, L_13, /*hidden argument*/NULL);
+		V_1 = L_14;
+		Camera_t189460977 * L_15 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_16 = V_1;
+		NullCheck(L_15);
+		Vector3_t2243707580  L_17 = Camera_ScreenToWorldPoint_m929392728(L_15, L_16, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_18 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_18);
+		Vector3_t2243707580  L_19 = Transform_get_position_m1104419803(L_18, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_20 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, L_17, L_19, /*hidden argument*/NULL);
+		V_2 = L_20;
+		Rigidbody_t4233889191 * L_21 = __this->get_body_3();
+		Vector3_t2243707580  L_22 = V_2;
+		Vector3_t2243707580  L_23 = Vector3_op_Division_m3315615850(NULL /*static, unused*/, L_22, (0.1f), /*hidden argument*/NULL);
+		NullCheck(L_21);
+		Rigidbody_set_velocity_m2514070071(L_21, L_23, /*hidden argument*/NULL);
+	}
+
+IL_008e:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSideCamera2D::.ctor()
+extern "C"  void LeanSideCamera2D__ctor_m3590956542 (LeanSideCamera2D_t2285839808 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_Minimum_3((10.0f));
+		__this->set_Maximum_4((60.0f));
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSideCamera2D::LateUpdate()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern const uint32_t LeanSideCamera2D_LateUpdate_m2867026119_MetadataUsageId;
+extern "C"  void LeanSideCamera2D_LateUpdate_m2867026119 (LeanSideCamera2D_t2285839808 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSideCamera2D_LateUpdate_m2867026119_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	float V_1 = 0.0f;
+	{
+		Camera_t189460977 ** L_0 = __this->get_address_of_Camera_2();
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		bool L_1 = LeanTouch_GetCamera_m3186988658(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		Camera_t189460977 * L_2 = __this->get_Camera_2();
+		Vector3_t2243707580  L_3 = LeanGesture_GetWorldDelta_m3502950734(NULL /*static, unused*/, (1.0f), L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		Camera_t189460977 * L_4 = __this->get_Camera_2();
+		NullCheck(L_4);
+		Transform_t3275118058 * L_5 = Component_get_transform_m2697483695(L_4, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_6 = L_5;
+		NullCheck(L_6);
+		Vector3_t2243707580  L_7 = Transform_get_position_m1104419803(L_6, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_8 = V_0;
+		Vector3_t2243707580  L_9 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, L_7, L_8, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		Transform_set_position_m2469242620(L_6, L_9, /*hidden argument*/NULL);
+		Camera_t189460977 * L_10 = __this->get_Camera_2();
+		NullCheck(L_10);
+		float L_11 = Camera_get_orthographicSize_m1801974358(L_10, /*hidden argument*/NULL);
+		V_1 = L_11;
+		float L_12 = V_1;
+		float L_13 = LeanGesture_GetPinchRatio_m3652958646(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_1 = ((float)((float)L_12*(float)L_13));
+		float L_14 = V_1;
+		float L_15 = __this->get_Minimum_3();
+		float L_16 = __this->get_Maximum_4();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_17 = Mathf_Clamp_m2354025655(NULL /*static, unused*/, L_14, L_15, L_16, /*hidden argument*/NULL);
+		V_1 = L_17;
+		Camera_t189460977 * L_18 = __this->get_Camera_2();
+		float L_19 = V_1;
+		NullCheck(L_18);
+		Camera_set_orthographicSize_m2708824189(L_18, L_19, /*hidden argument*/NULL);
+	}
+
+IL_0070:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSideCamera3D::.ctor()
+extern "C"  void LeanSideCamera3D__ctor_m359145731 (LeanSideCamera3D_t719755867 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_FovMin_3((10.0f));
+		__this->set_FovMax_4((60.0f));
+		__this->set_Distance_5((10.0f));
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSideCamera3D::LateUpdate()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern const uint32_t LeanSideCamera3D_LateUpdate_m4230851468_MetadataUsageId;
+extern "C"  void LeanSideCamera3D_LateUpdate_m4230851468 (LeanSideCamera3D_t719755867 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSideCamera3D_LateUpdate_m4230851468_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	float V_1 = 0.0f;
+	{
+		Camera_t189460977 ** L_0 = __this->get_address_of_Camera_2();
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		bool L_1 = LeanTouch_GetCamera_m3186988658(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_006c;
+		}
+	}
+	{
+		float L_2 = __this->get_Distance_5();
+		Vector3_t2243707580  L_3 = LeanGesture_GetWorldDelta_m3502950734(NULL /*static, unused*/, L_2, (Camera_t189460977 *)NULL, /*hidden argument*/NULL);
+		V_0 = L_3;
+		Camera_t189460977 * L_4 = __this->get_Camera_2();
+		NullCheck(L_4);
+		Transform_t3275118058 * L_5 = Component_get_transform_m2697483695(L_4, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_6 = L_5;
+		NullCheck(L_6);
+		Vector3_t2243707580  L_7 = Transform_get_position_m1104419803(L_6, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_8 = V_0;
+		Vector3_t2243707580  L_9 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, L_7, L_8, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		Transform_set_position_m2469242620(L_6, L_9, /*hidden argument*/NULL);
+		Camera_t189460977 * L_10 = __this->get_Camera_2();
+		NullCheck(L_10);
+		float L_11 = Camera_get_fieldOfView_m3384007405(L_10, /*hidden argument*/NULL);
+		V_1 = L_11;
+		float L_12 = V_1;
+		float L_13 = LeanGesture_GetPinchRatio_m3652958646(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_1 = ((float)((float)L_12*(float)L_13));
+		float L_14 = V_1;
+		float L_15 = __this->get_FovMin_3();
+		float L_16 = __this->get_FovMax_4();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_17 = Mathf_Clamp_m2354025655(NULL /*static, unused*/, L_14, L_15, L_16, /*hidden argument*/NULL);
+		V_1 = L_17;
+		Camera_t189460977 * L_18 = __this->get_Camera_2();
+		float L_19 = V_1;
+		NullCheck(L_18);
+		Camera_set_fieldOfView_m3974156396(L_18, L_19, /*hidden argument*/NULL);
+	}
+
+IL_006c:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSnapshot::.ctor()
+extern "C"  void LeanSnapshot__ctor_m3094073972 (LeanSnapshot_t1117222592 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// UnityEngine.Vector3 Lean.Touch.LeanSnapshot::GetWorldPosition(System.Single,UnityEngine.Camera)
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* Vector3_t2243707580_il2cpp_TypeInfo_var;
+extern const uint32_t LeanSnapshot_GetWorldPosition_m1496257878_MetadataUsageId;
+extern "C"  Vector3_t2243707580  LeanSnapshot_GetWorldPosition_m1496257878 (LeanSnapshot_t1117222592 * __this, float ___distance0, Camera_t189460977 * ___camera1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSnapshot_GetWorldPosition_m1496257878_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector3_t2243707580  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		bool L_0 = LeanTouch_GetCamera_m3186988658(NULL /*static, unused*/, (&___camera1), /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		Vector2_t2243707579 * L_1 = __this->get_address_of_ScreenPosition_1();
+		float L_2 = L_1->get_x_0();
+		Vector2_t2243707579 * L_3 = __this->get_address_of_ScreenPosition_1();
+		float L_4 = L_3->get_y_1();
+		float L_5 = ___distance0;
+		Vector3__ctor_m2638739322((&V_0), L_2, L_4, L_5, /*hidden argument*/NULL);
+		Camera_t189460977 * L_6 = ___camera1;
+		Vector3_t2243707580  L_7 = V_0;
+		NullCheck(L_6);
+		Vector3_t2243707580  L_8 = Camera_ScreenToWorldPoint_m929392728(L_6, L_7, /*hidden argument*/NULL);
+		return L_8;
+	}
+
+IL_0032:
+	{
+		Initobj (Vector3_t2243707580_il2cpp_TypeInfo_var, (&V_1));
+		Vector3_t2243707580  L_9 = V_1;
+		return L_9;
+	}
+}
+// Lean.Touch.LeanSnapshot Lean.Touch.LeanSnapshot::Pop()
+extern Il2CppClass* LeanSnapshot_t1117222592_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Count_m2323907240_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m2402661899_MethodInfo_var;
+extern const MethodInfo* List_1_RemoveAt_m2105332060_MethodInfo_var;
+extern const uint32_t LeanSnapshot_Pop_m1078260391_MetadataUsageId;
+extern "C"  LeanSnapshot_t1117222592 * LeanSnapshot_Pop_m1078260391 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSnapshot_Pop_m1078260391_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	LeanSnapshot_t1117222592 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanSnapshot_t1117222592_il2cpp_TypeInfo_var);
+		List_1_t486343724 * L_0 = ((LeanSnapshot_t1117222592_StaticFields*)LeanSnapshot_t1117222592_il2cpp_TypeInfo_var->static_fields)->get_InactiveSnapshots_2();
+		NullCheck(L_0);
+		int32_t L_1 = List_1_get_Count_m2323907240(L_0, /*hidden argument*/List_1_get_Count_m2323907240_MethodInfo_var);
+		if ((((int32_t)L_1) <= ((int32_t)0)))
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanSnapshot_t1117222592_il2cpp_TypeInfo_var);
+		List_1_t486343724 * L_2 = ((LeanSnapshot_t1117222592_StaticFields*)LeanSnapshot_t1117222592_il2cpp_TypeInfo_var->static_fields)->get_InactiveSnapshots_2();
+		NullCheck(L_2);
+		int32_t L_3 = List_1_get_Count_m2323907240(L_2, /*hidden argument*/List_1_get_Count_m2323907240_MethodInfo_var);
+		V_0 = ((int32_t)((int32_t)L_3-(int32_t)1));
+		List_1_t486343724 * L_4 = ((LeanSnapshot_t1117222592_StaticFields*)LeanSnapshot_t1117222592_il2cpp_TypeInfo_var->static_fields)->get_InactiveSnapshots_2();
+		int32_t L_5 = V_0;
+		NullCheck(L_4);
+		LeanSnapshot_t1117222592 * L_6 = List_1_get_Item_m2402661899(L_4, L_5, /*hidden argument*/List_1_get_Item_m2402661899_MethodInfo_var);
+		V_1 = L_6;
+		List_1_t486343724 * L_7 = ((LeanSnapshot_t1117222592_StaticFields*)LeanSnapshot_t1117222592_il2cpp_TypeInfo_var->static_fields)->get_InactiveSnapshots_2();
+		int32_t L_8 = V_0;
+		NullCheck(L_7);
+		List_1_RemoveAt_m2105332060(L_7, L_8, /*hidden argument*/List_1_RemoveAt_m2105332060_MethodInfo_var);
+		LeanSnapshot_t1117222592 * L_9 = V_1;
+		return L_9;
+	}
+
+IL_0036:
+	{
+		LeanSnapshot_t1117222592 * L_10 = (LeanSnapshot_t1117222592 *)il2cpp_codegen_object_new(LeanSnapshot_t1117222592_il2cpp_TypeInfo_var);
+		LeanSnapshot__ctor_m3094073972(L_10, /*hidden argument*/NULL);
+		return L_10;
+	}
+}
+// System.Void Lean.Touch.LeanSnapshot::.cctor()
+extern Il2CppClass* List_1_t486343724_il2cpp_TypeInfo_var;
+extern Il2CppClass* LeanSnapshot_t1117222592_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m984255249_MethodInfo_var;
+extern const uint32_t LeanSnapshot__cctor_m778409497_MetadataUsageId;
+extern "C"  void LeanSnapshot__cctor_m778409497 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSnapshot__cctor_m778409497_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t486343724 * L_0 = (List_1_t486343724 *)il2cpp_codegen_object_new(List_1_t486343724_il2cpp_TypeInfo_var);
+		List_1__ctor_m984255249(L_0, ((int32_t)1000), /*hidden argument*/List_1__ctor_m984255249_MethodInfo_var);
+		((LeanSnapshot_t1117222592_StaticFields*)LeanSnapshot_t1117222592_il2cpp_TypeInfo_var->static_fields)->set_InactiveSnapshots_2(L_0);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSpawnGameObject::.ctor()
+extern "C"  void LeanSpawnGameObject__ctor_m52419608 (LeanSpawnGameObject_t1465354280 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_FingerDistance_3((10.0f));
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSpawnGameObject::Spawn()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* Object_Instantiate_TisGameObject_t1756533147_m3064851704_MethodInfo_var;
+extern const uint32_t LeanSpawnGameObject_Spawn_m1515758185_MetadataUsageId;
+extern "C"  void LeanSpawnGameObject_Spawn_m1515758185 (LeanSpawnGameObject_t1465354280 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSpawnGameObject_Spawn_m1515758185_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = __this->get_Prefab_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_2 = __this->get_Prefab_2();
+		Transform_t3275118058 * L_3 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		Vector3_t2243707580  L_4 = Transform_get_position_m1104419803(L_3, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_5 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		Quaternion_t4030073918  L_6 = Transform_get_rotation_m1033555130(L_5, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Instantiate_TisGameObject_t1756533147_m3064851704(NULL /*static, unused*/, L_2, L_4, L_6, /*hidden argument*/Object_Instantiate_TisGameObject_t1756533147_m3064851704_MethodInfo_var);
+	}
+
+IL_0033:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSpawnGameObject::Spawn(Lean.Touch.LeanFinger)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* Object_Instantiate_TisGameObject_t1756533147_m3064851704_MethodInfo_var;
+extern const uint32_t LeanSpawnGameObject_Spawn_m1388379469_MetadataUsageId;
+extern "C"  void LeanSpawnGameObject_Spawn_m1388379469 (LeanSpawnGameObject_t1465354280 * __this, LeanFinger_t76062517 * ___finger0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSpawnGameObject_Spawn_m1388379469_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		LeanFinger_t76062517 * L_0 = ___finger0;
+		if (!L_0)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_1 = __this->get_Prefab_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_1, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_3 = __this->get_Prefab_2();
+		LeanFinger_t76062517 * L_4 = ___finger0;
+		float L_5 = __this->get_FingerDistance_3();
+		NullCheck(L_4);
+		Vector3_t2243707580  L_6 = LeanFinger_GetWorldPosition_m429562351(L_4, L_5, (Camera_t189460977 *)NULL, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_7 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		Quaternion_t4030073918  L_8 = Transform_get_rotation_m1033555130(L_7, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Instantiate_TisGameObject_t1756533147_m3064851704(NULL /*static, unused*/, L_3, L_6, L_8, /*hidden argument*/Object_Instantiate_TisGameObject_t1756533147_m3064851704_MethodInfo_var);
+	}
+
+IL_003b:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSwipeDirection4::.ctor()
+extern "C"  void LeanSwipeDirection4__ctor_m99510987 (LeanSwipeDirection4_t3774896743 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSwipeDirection4::OnEnable()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t4172829195_il2cpp_TypeInfo_var;
+extern const MethodInfo* LeanSwipeDirection4_OnFingerSwipe_m677925979_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3978629893_MethodInfo_var;
+extern const uint32_t LeanSwipeDirection4_OnEnable_m85345439_MetadataUsageId;
+extern "C"  void LeanSwipeDirection4_OnEnable_m85345439 (LeanSwipeDirection4_t3774896743 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSwipeDirection4_OnEnable_m85345439_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerSwipe_9();
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)LeanSwipeDirection4_OnFingerSwipe_m677925979_MethodInfo_var);
+		Action_1_t4172829195 * L_2 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_3 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_0, L_2, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerSwipe_9(((Action_1_t4172829195 *)CastclassSealed(L_3, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSwipeDirection4::OnDisable()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t4172829195_il2cpp_TypeInfo_var;
+extern const MethodInfo* LeanSwipeDirection4_OnFingerSwipe_m677925979_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3978629893_MethodInfo_var;
+extern const uint32_t LeanSwipeDirection4_OnDisable_m636497210_MetadataUsageId;
+extern "C"  void LeanSwipeDirection4_OnDisable_m636497210 (LeanSwipeDirection4_t3774896743 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSwipeDirection4_OnDisable_m636497210_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerSwipe_9();
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)LeanSwipeDirection4_OnFingerSwipe_m677925979_MethodInfo_var);
+		Action_1_t4172829195 * L_2 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_3 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_0, L_2, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerSwipe_9(((Action_1_t4172829195 *)CastclassSealed(L_3, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSwipeDirection4::OnFingerSwipe(Lean.Touch.LeanFinger)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3622458545;
+extern Il2CppCodeGenString* _stringLiteral1528790398;
+extern Il2CppCodeGenString* _stringLiteral339448702;
+extern Il2CppCodeGenString* _stringLiteral276944311;
+extern const uint32_t LeanSwipeDirection4_OnFingerSwipe_m677925979_MetadataUsageId;
+extern "C"  void LeanSwipeDirection4_OnFingerSwipe_m677925979 (LeanSwipeDirection4_t3774896743 * __this, LeanFinger_t76062517 * ___finger0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSwipeDirection4_OnFingerSwipe_m677925979_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector2_t2243707579  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Text_t356221433 * L_0 = __this->get_InfoText_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_00ba;
+		}
+	}
+	{
+		LeanFinger_t76062517 * L_2 = ___finger0;
+		NullCheck(L_2);
+		Vector2_t2243707579  L_3 = LeanFinger_get_SwipeScreenDelta_m3198415493(L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		float L_4 = (&V_0)->get_x_0();
+		float L_5 = (&V_0)->get_y_1();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_6 = fabsf(L_5);
+		if ((!(((float)L_4) < ((float)((-L_6))))))
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		Text_t356221433 * L_7 = __this->get_InfoText_2();
+		NullCheck(L_7);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_7, _stringLiteral3622458545);
+	}
+
+IL_0041:
+	{
+		float L_8 = (&V_0)->get_x_0();
+		float L_9 = (&V_0)->get_y_1();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_10 = fabsf(L_9);
+		if ((!(((float)L_8) > ((float)L_10))))
+		{
+			goto IL_0069;
+		}
+	}
+	{
+		Text_t356221433 * L_11 = __this->get_InfoText_2();
+		NullCheck(L_11);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_11, _stringLiteral1528790398);
+	}
+
+IL_0069:
+	{
+		float L_12 = (&V_0)->get_y_1();
+		float L_13 = (&V_0)->get_x_0();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_14 = fabsf(L_13);
+		if ((!(((float)L_12) < ((float)((-L_14))))))
+		{
+			goto IL_0092;
+		}
+	}
+	{
+		Text_t356221433 * L_15 = __this->get_InfoText_2();
+		NullCheck(L_15);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_15, _stringLiteral339448702);
+	}
+
+IL_0092:
+	{
+		float L_16 = (&V_0)->get_y_1();
+		float L_17 = (&V_0)->get_x_0();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_18 = fabsf(L_17);
+		if ((!(((float)L_16) > ((float)L_18))))
+		{
+			goto IL_00ba;
+		}
+	}
+	{
+		Text_t356221433 * L_19 = __this->get_InfoText_2();
+		NullCheck(L_19);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_19, _stringLiteral276944311);
+	}
+
+IL_00ba:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSwipeDirection8::.ctor()
+extern "C"  void LeanSwipeDirection8__ctor_m1957242639 (LeanSwipeDirection8_t1449297915 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSwipeDirection8::OnEnable()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t4172829195_il2cpp_TypeInfo_var;
+extern const MethodInfo* LeanSwipeDirection8_OnFingerSwipe_m8278047_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3978629893_MethodInfo_var;
+extern const uint32_t LeanSwipeDirection8_OnEnable_m1812364595_MetadataUsageId;
+extern "C"  void LeanSwipeDirection8_OnEnable_m1812364595 (LeanSwipeDirection8_t1449297915 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSwipeDirection8_OnEnable_m1812364595_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerSwipe_9();
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)LeanSwipeDirection8_OnFingerSwipe_m8278047_MethodInfo_var);
+		Action_1_t4172829195 * L_2 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_3 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_0, L_2, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerSwipe_9(((Action_1_t4172829195 *)CastclassSealed(L_3, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSwipeDirection8::OnDisable()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t4172829195_il2cpp_TypeInfo_var;
+extern const MethodInfo* LeanSwipeDirection8_OnFingerSwipe_m8278047_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3978629893_MethodInfo_var;
+extern const uint32_t LeanSwipeDirection8_OnDisable_m2563608486_MetadataUsageId;
+extern "C"  void LeanSwipeDirection8_OnDisable_m2563608486 (LeanSwipeDirection8_t1449297915 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSwipeDirection8_OnDisable_m2563608486_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerSwipe_9();
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)LeanSwipeDirection8_OnFingerSwipe_m8278047_MethodInfo_var);
+		Action_1_t4172829195 * L_2 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_3 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_0, L_2, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerSwipe_9(((Action_1_t4172829195 *)CastclassSealed(L_3, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSwipeDirection8::OnFingerSwipe(Lean.Touch.LeanFinger)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3622458545;
+extern Il2CppCodeGenString* _stringLiteral1528790398;
+extern Il2CppCodeGenString* _stringLiteral339448702;
+extern Il2CppCodeGenString* _stringLiteral276944311;
+extern Il2CppCodeGenString* _stringLiteral26878567;
+extern Il2CppCodeGenString* _stringLiteral1276445996;
+extern Il2CppCodeGenString* _stringLiteral2443090534;
+extern Il2CppCodeGenString* _stringLiteral4232096947;
+extern const uint32_t LeanSwipeDirection8_OnFingerSwipe_m8278047_MetadataUsageId;
+extern "C"  void LeanSwipeDirection8_OnFingerSwipe_m8278047 (LeanSwipeDirection8_t1449297915 * __this, LeanFinger_t76062517 * ___finger0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSwipeDirection8_OnFingerSwipe_m8278047_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector2_t2243707579  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector2_t2243707579  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Vector2_t2243707579  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Vector2_t2243707579  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	Vector2_t2243707579  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	{
+		Text_t356221433 * L_0 = __this->get_InfoText_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_015f;
+		}
+	}
+	{
+		LeanFinger_t76062517 * L_2 = ___finger0;
+		NullCheck(L_2);
+		Vector2_t2243707579  L_3 = LeanFinger_get_SwipeScreenDelta_m3198415493(L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		Vector2__ctor_m3067419446((&V_1), (-1.0f), (0.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m3067419446((&V_2), (1.0f), (0.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m3067419446((&V_3), (0.0f), (-1.0f), /*hidden argument*/NULL);
+		Vector2__ctor_m3067419446((&V_4), (0.0f), (1.0f), /*hidden argument*/NULL);
+		Vector2_t2243707579  L_4 = V_0;
+		Vector2_t2243707579  L_5 = V_1;
+		bool L_6 = LeanSwipeDirection8_SwipedInThisDirection_m911566015(__this, L_4, L_5, /*hidden argument*/NULL);
+		if (!L_6)
+		{
+			goto IL_0079;
+		}
+	}
+	{
+		Text_t356221433 * L_7 = __this->get_InfoText_2();
+		NullCheck(L_7);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_7, _stringLiteral3622458545);
+	}
+
+IL_0079:
+	{
+		Vector2_t2243707579  L_8 = V_0;
+		Vector2_t2243707579  L_9 = V_2;
+		bool L_10 = LeanSwipeDirection8_SwipedInThisDirection_m911566015(__this, L_8, L_9, /*hidden argument*/NULL);
+		if (!L_10)
+		{
+			goto IL_0096;
+		}
+	}
+	{
+		Text_t356221433 * L_11 = __this->get_InfoText_2();
+		NullCheck(L_11);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_11, _stringLiteral1528790398);
+	}
+
+IL_0096:
+	{
+		Vector2_t2243707579  L_12 = V_0;
+		Vector2_t2243707579  L_13 = V_3;
+		bool L_14 = LeanSwipeDirection8_SwipedInThisDirection_m911566015(__this, L_12, L_13, /*hidden argument*/NULL);
+		if (!L_14)
+		{
+			goto IL_00b3;
+		}
+	}
+	{
+		Text_t356221433 * L_15 = __this->get_InfoText_2();
+		NullCheck(L_15);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_15, _stringLiteral339448702);
+	}
+
+IL_00b3:
+	{
+		Vector2_t2243707579  L_16 = V_0;
+		Vector2_t2243707579  L_17 = V_4;
+		bool L_18 = LeanSwipeDirection8_SwipedInThisDirection_m911566015(__this, L_16, L_17, /*hidden argument*/NULL);
+		if (!L_18)
+		{
+			goto IL_00d1;
+		}
+	}
+	{
+		Text_t356221433 * L_19 = __this->get_InfoText_2();
+		NullCheck(L_19);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_19, _stringLiteral276944311);
+	}
+
+IL_00d1:
+	{
+		Vector2_t2243707579  L_20 = V_0;
+		Vector2_t2243707579  L_21 = V_1;
+		Vector2_t2243707579  L_22 = V_4;
+		Vector2_t2243707579  L_23 = Vector2_op_Addition_m1389598521(NULL /*static, unused*/, L_21, L_22, /*hidden argument*/NULL);
+		bool L_24 = LeanSwipeDirection8_SwipedInThisDirection_m911566015(__this, L_20, L_23, /*hidden argument*/NULL);
+		if (!L_24)
+		{
+			goto IL_00f5;
+		}
+	}
+	{
+		Text_t356221433 * L_25 = __this->get_InfoText_2();
+		NullCheck(L_25);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_25, _stringLiteral26878567);
+	}
+
+IL_00f5:
+	{
+		Vector2_t2243707579  L_26 = V_0;
+		Vector2_t2243707579  L_27 = V_1;
+		Vector2_t2243707579  L_28 = V_3;
+		Vector2_t2243707579  L_29 = Vector2_op_Addition_m1389598521(NULL /*static, unused*/, L_27, L_28, /*hidden argument*/NULL);
+		bool L_30 = LeanSwipeDirection8_SwipedInThisDirection_m911566015(__this, L_26, L_29, /*hidden argument*/NULL);
+		if (!L_30)
+		{
+			goto IL_0118;
+		}
+	}
+	{
+		Text_t356221433 * L_31 = __this->get_InfoText_2();
+		NullCheck(L_31);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_31, _stringLiteral1276445996);
+	}
+
+IL_0118:
+	{
+		Vector2_t2243707579  L_32 = V_0;
+		Vector2_t2243707579  L_33 = V_2;
+		Vector2_t2243707579  L_34 = V_4;
+		Vector2_t2243707579  L_35 = Vector2_op_Addition_m1389598521(NULL /*static, unused*/, L_33, L_34, /*hidden argument*/NULL);
+		bool L_36 = LeanSwipeDirection8_SwipedInThisDirection_m911566015(__this, L_32, L_35, /*hidden argument*/NULL);
+		if (!L_36)
+		{
+			goto IL_013c;
+		}
+	}
+	{
+		Text_t356221433 * L_37 = __this->get_InfoText_2();
+		NullCheck(L_37);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_37, _stringLiteral2443090534);
+	}
+
+IL_013c:
+	{
+		Vector2_t2243707579  L_38 = V_0;
+		Vector2_t2243707579  L_39 = V_2;
+		Vector2_t2243707579  L_40 = V_3;
+		Vector2_t2243707579  L_41 = Vector2_op_Addition_m1389598521(NULL /*static, unused*/, L_39, L_40, /*hidden argument*/NULL);
+		bool L_42 = LeanSwipeDirection8_SwipedInThisDirection_m911566015(__this, L_38, L_41, /*hidden argument*/NULL);
+		if (!L_42)
+		{
+			goto IL_015f;
+		}
+	}
+	{
+		Text_t356221433 * L_43 = __this->get_InfoText_2();
+		NullCheck(L_43);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_43, _stringLiteral4232096947);
+	}
+
+IL_015f:
+	{
+		return;
+	}
+}
+// System.Boolean Lean.Touch.LeanSwipeDirection8::SwipedInThisDirection(UnityEngine.Vector2,UnityEngine.Vector2)
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern const uint32_t LeanSwipeDirection8_SwipedInThisDirection_m911566015_MetadataUsageId;
+extern "C"  bool LeanSwipeDirection8_SwipedInThisDirection_m911566015 (LeanSwipeDirection8_t1449297915 * __this, Vector2_t2243707579  ___swipe0, Vector2_t2243707579  ___direction1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSwipeDirection8_SwipedInThisDirection_m911566015_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	{
+		Vector2_t2243707579  L_0 = Vector2_get_normalized_m2985402409((&___swipe0), /*hidden argument*/NULL);
+		Vector2_t2243707579  L_1 = Vector2_get_normalized_m2985402409((&___direction1), /*hidden argument*/NULL);
+		float L_2 = Vector2_Dot_m778921987(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_3 = cosf((0.3926991f));
+		V_1 = L_3;
+		float L_4 = V_0;
+		float L_5 = V_1;
+		return (bool)((((int32_t)((!(((float)L_4) >= ((float)L_5)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+	}
+}
+// System.Void Lean.Touch.LeanSwipeRigidbody2D::.ctor()
+extern "C"  void LeanSwipeRigidbody2D__ctor_m1394490781 (LeanSwipeRigidbody2D_t1364749039 * __this, const MethodInfo* method)
+{
+	{
+		LayerMask_t3188175821  L_0 = LayerMask_op_Implicit_m3804506591(NULL /*static, unused*/, ((int32_t)-5), /*hidden argument*/NULL);
+		__this->set_LayerMask_2(L_0);
+		__this->set_ForceMultiplier_3((1.0f));
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSwipeRigidbody2D::OnEnable()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t4172829195_il2cpp_TypeInfo_var;
+extern const MethodInfo* LeanSwipeRigidbody2D_OnFingerSwipe_m3201215761_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3978629893_MethodInfo_var;
+extern const uint32_t LeanSwipeRigidbody2D_OnEnable_m3311944725_MetadataUsageId;
+extern "C"  void LeanSwipeRigidbody2D_OnEnable_m3311944725 (LeanSwipeRigidbody2D_t1364749039 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSwipeRigidbody2D_OnEnable_m3311944725_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerSwipe_9();
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)LeanSwipeRigidbody2D_OnFingerSwipe_m3201215761_MethodInfo_var);
+		Action_1_t4172829195 * L_2 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_3 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_0, L_2, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerSwipe_9(((Action_1_t4172829195 *)CastclassSealed(L_3, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSwipeRigidbody2D::OnDisable()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t4172829195_il2cpp_TypeInfo_var;
+extern const MethodInfo* LeanSwipeRigidbody2D_OnFingerSwipe_m3201215761_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3978629893_MethodInfo_var;
+extern const uint32_t LeanSwipeRigidbody2D_OnDisable_m3441069678_MetadataUsageId;
+extern "C"  void LeanSwipeRigidbody2D_OnDisable_m3441069678 (LeanSwipeRigidbody2D_t1364749039 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSwipeRigidbody2D_OnDisable_m3441069678_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerSwipe_9();
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)LeanSwipeRigidbody2D_OnFingerSwipe_m3201215761_MethodInfo_var);
+		Action_1_t4172829195 * L_2 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_3 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_0, L_2, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerSwipe_9(((Action_1_t4172829195 *)CastclassSealed(L_3, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSwipeRigidbody2D::OnFingerSwipe(Lean.Touch.LeanFinger)
+extern Il2CppClass* Physics2D_t2540166467_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t LeanSwipeRigidbody2D_OnFingerSwipe_m3201215761_MetadataUsageId;
+extern "C"  void LeanSwipeRigidbody2D_OnFingerSwipe_m3201215761 (LeanSwipeRigidbody2D_t1364749039 * __this, LeanFinger_t76062517 * ___finger0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSwipeRigidbody2D_OnFingerSwipe_m3201215761_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Collider2D_t646061738 * V_1 = NULL;
+	Rigidbody2D_t502193897 * V_2 = NULL;
+	{
+		LeanFinger_t76062517 * L_0 = ___finger0;
+		NullCheck(L_0);
+		Vector3_t2243707580  L_1 = LeanFinger_GetStartWorldPosition_m1950964683(L_0, (1.0f), (Camera_t189460977 *)NULL, /*hidden argument*/NULL);
+		V_0 = L_1;
+		Vector3_t2243707580  L_2 = V_0;
+		Vector2_t2243707579  L_3 = Vector2_op_Implicit_m1064335535(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		LayerMask_t3188175821  L_4 = __this->get_LayerMask_2();
+		int32_t L_5 = LayerMask_op_Implicit_m2135076047(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t2540166467_il2cpp_TypeInfo_var);
+		Collider2D_t646061738 * L_6 = Physics2D_OverlapPoint_m845302844(NULL /*static, unused*/, L_3, L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
+		Collider2D_t646061738 * L_7 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_7, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_0064;
+		}
+	}
+	{
+		Collider2D_t646061738 * L_9 = V_1;
+		NullCheck(L_9);
+		Rigidbody2D_t502193897 * L_10 = Collider2D_get_attachedRigidbody_m1321121400(L_9, /*hidden argument*/NULL);
+		V_2 = L_10;
+		Rigidbody2D_t502193897 * L_11 = V_2;
+		NullCheck(L_11);
+		GameObject_t1756533147 * L_12 = Component_get_gameObject_m3105766835(L_11, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_13 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_14 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_12, L_13, /*hidden argument*/NULL);
+		if (!L_14)
+		{
+			goto IL_0064;
+		}
+	}
+	{
+		Rigidbody2D_t502193897 * L_15 = V_2;
+		LeanFinger_t76062517 * L_16 = ___finger0;
+		NullCheck(L_16);
+		Vector2_t2243707579  L_17 = LeanFinger_get_SwipeScaledDelta_m3813979981(L_16, /*hidden argument*/NULL);
+		float L_18 = __this->get_ForceMultiplier_3();
+		Vector2_t2243707579  L_19 = Vector2_op_Multiply_m4236139442(NULL /*static, unused*/, L_17, L_18, /*hidden argument*/NULL);
+		NullCheck(L_15);
+		Rigidbody2D_AddForce_m3200488178(L_15, L_19, /*hidden argument*/NULL);
+	}
+
+IL_0064:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSwipeRigidbody2DNoRelease::.ctor()
+extern "C"  void LeanSwipeRigidbody2DNoRelease__ctor_m3943121097 (LeanSwipeRigidbody2DNoRelease_t2933744255 * __this, const MethodInfo* method)
+{
+	{
+		LayerMask_t3188175821  L_0 = LayerMask_op_Implicit_m3804506591(NULL /*static, unused*/, ((int32_t)-5), /*hidden argument*/NULL);
+		__this->set_LayerMask_2(L_0);
+		__this->set_ImpulseForce_3((1.0f));
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSwipeRigidbody2DNoRelease::OnEnable()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t4172829195_il2cpp_TypeInfo_var;
+extern const MethodInfo* LeanSwipeRigidbody2DNoRelease_OnFingerDown_m2503682295_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3978629893_MethodInfo_var;
+extern const MethodInfo* LeanSwipeRigidbody2DNoRelease_OnFingerSet_m2317805067_MethodInfo_var;
+extern const MethodInfo* LeanSwipeRigidbody2DNoRelease_OnFingerUp_m848186254_MethodInfo_var;
+extern const uint32_t LeanSwipeRigidbody2DNoRelease_OnEnable_m597269449_MetadataUsageId;
+extern "C"  void LeanSwipeRigidbody2DNoRelease_OnEnable_m597269449 (LeanSwipeRigidbody2DNoRelease_t2933744255 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSwipeRigidbody2DNoRelease_OnEnable_m597269449_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerDown_5();
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)LeanSwipeRigidbody2DNoRelease_OnFingerDown_m2503682295_MethodInfo_var);
+		Action_1_t4172829195 * L_2 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_3 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_0, L_2, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerDown_5(((Action_1_t4172829195 *)CastclassSealed(L_3, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		Action_1_t4172829195 * L_4 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerSet_6();
+		IntPtr_t L_5;
+		L_5.set_m_value_0((void*)(void*)LeanSwipeRigidbody2DNoRelease_OnFingerSet_m2317805067_MethodInfo_var);
+		Action_1_t4172829195 * L_6 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_6, __this, L_5, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_7 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_4, L_6, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerSet_6(((Action_1_t4172829195 *)CastclassSealed(L_7, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		Action_1_t4172829195 * L_8 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerUp_7();
+		IntPtr_t L_9;
+		L_9.set_m_value_0((void*)(void*)LeanSwipeRigidbody2DNoRelease_OnFingerUp_m848186254_MethodInfo_var);
+		Action_1_t4172829195 * L_10 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_10, __this, L_9, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_11 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_8, L_10, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerUp_7(((Action_1_t4172829195 *)CastclassSealed(L_11, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSwipeRigidbody2DNoRelease::OnDisable()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t4172829195_il2cpp_TypeInfo_var;
+extern const MethodInfo* LeanSwipeRigidbody2DNoRelease_OnFingerDown_m2503682295_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3978629893_MethodInfo_var;
+extern const MethodInfo* LeanSwipeRigidbody2DNoRelease_OnFingerSet_m2317805067_MethodInfo_var;
+extern const MethodInfo* LeanSwipeRigidbody2DNoRelease_OnFingerUp_m848186254_MethodInfo_var;
+extern const uint32_t LeanSwipeRigidbody2DNoRelease_OnDisable_m1079709910_MetadataUsageId;
+extern "C"  void LeanSwipeRigidbody2DNoRelease_OnDisable_m1079709910 (LeanSwipeRigidbody2DNoRelease_t2933744255 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSwipeRigidbody2DNoRelease_OnDisable_m1079709910_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerDown_5();
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)LeanSwipeRigidbody2DNoRelease_OnFingerDown_m2503682295_MethodInfo_var);
+		Action_1_t4172829195 * L_2 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_3 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_0, L_2, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerDown_5(((Action_1_t4172829195 *)CastclassSealed(L_3, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		Action_1_t4172829195 * L_4 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerSet_6();
+		IntPtr_t L_5;
+		L_5.set_m_value_0((void*)(void*)LeanSwipeRigidbody2DNoRelease_OnFingerSet_m2317805067_MethodInfo_var);
+		Action_1_t4172829195 * L_6 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_6, __this, L_5, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_7 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_4, L_6, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerSet_6(((Action_1_t4172829195 *)CastclassSealed(L_7, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		Action_1_t4172829195 * L_8 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerUp_7();
+		IntPtr_t L_9;
+		L_9.set_m_value_0((void*)(void*)LeanSwipeRigidbody2DNoRelease_OnFingerUp_m848186254_MethodInfo_var);
+		Action_1_t4172829195 * L_10 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_10, __this, L_9, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_11 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_8, L_10, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerUp_7(((Action_1_t4172829195 *)CastclassSealed(L_11, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSwipeRigidbody2DNoRelease::OnFingerSet(Lean.Touch.LeanFinger)
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRigidbody2D_t502193897_m3702757851_MethodInfo_var;
+extern const uint32_t LeanSwipeRigidbody2DNoRelease_OnFingerSet_m2317805067_MetadataUsageId;
+extern "C"  void LeanSwipeRigidbody2DNoRelease_OnFingerSet_m2317805067 (LeanSwipeRigidbody2DNoRelease_t2933744255 * __this, LeanFinger_t76062517 * ___finger0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSwipeRigidbody2DNoRelease_OnFingerSet_m2317805067_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	Vector2_t2243707579  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Rigidbody2D_t502193897 * V_3 = NULL;
+	{
+		LeanFinger_t76062517 * L_0 = ___finger0;
+		LeanFinger_t76062517 * L_1 = __this->get_swipingFinger_4();
+		if ((!(((Il2CppObject*)(LeanFinger_t76062517 *)L_0) == ((Il2CppObject*)(LeanFinger_t76062517 *)L_1))))
+		{
+			goto IL_005e;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		LeanTouch_t1022081457 * L_2 = LeanTouch_get_Instance_m148357266(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		float L_3 = L_2->get_SwipeThreshold_15();
+		V_0 = L_3;
+		LeanTouch_t1022081457 * L_4 = LeanTouch_get_Instance_m148357266(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		float L_5 = L_4->get_TapThreshold_14();
+		V_1 = L_5;
+		LeanFinger_t76062517 * L_6 = ___finger0;
+		float L_7 = V_1;
+		NullCheck(L_6);
+		Vector2_t2243707579  L_8 = LeanFinger_GetSnapshotScreenDelta_m1625848775(L_6, L_7, /*hidden argument*/NULL);
+		V_2 = L_8;
+		float L_9 = Vector2_get_magnitude_m33802565((&V_2), /*hidden argument*/NULL);
+		float L_10 = V_0;
+		if ((!(((float)L_9) > ((float)L_10))))
+		{
+			goto IL_005e;
+		}
+	}
+	{
+		Rigidbody2D_t502193897 * L_11 = Component_GetComponent_TisRigidbody2D_t502193897_m3702757851(__this, /*hidden argument*/Component_GetComponent_TisRigidbody2D_t502193897_m3702757851_MethodInfo_var);
+		V_3 = L_11;
+		Rigidbody2D_t502193897 * L_12 = V_3;
+		Vector2_t2243707579  L_13 = Vector2_get_normalized_m2985402409((&V_2), /*hidden argument*/NULL);
+		float L_14 = __this->get_ImpulseForce_3();
+		Vector2_t2243707579  L_15 = Vector2_op_Multiply_m4236139442(NULL /*static, unused*/, L_13, L_14, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		Rigidbody2D_AddForce_m4245830473(L_12, L_15, 1, /*hidden argument*/NULL);
+		__this->set_swipingFinger_4((LeanFinger_t76062517 *)NULL);
+	}
+
+IL_005e:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSwipeRigidbody2DNoRelease::OnFingerDown(Lean.Touch.LeanFinger)
+extern Il2CppClass* Physics2D_t2540166467_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t LeanSwipeRigidbody2DNoRelease_OnFingerDown_m2503682295_MetadataUsageId;
+extern "C"  void LeanSwipeRigidbody2DNoRelease_OnFingerDown_m2503682295 (LeanSwipeRigidbody2DNoRelease_t2933744255 * __this, LeanFinger_t76062517 * ___finger0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSwipeRigidbody2DNoRelease_OnFingerDown_m2503682295_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Collider2D_t646061738 * V_1 = NULL;
+	Rigidbody2D_t502193897 * V_2 = NULL;
+	{
+		LeanFinger_t76062517 * L_0 = ___finger0;
+		NullCheck(L_0);
+		Vector3_t2243707580  L_1 = LeanFinger_GetStartWorldPosition_m1950964683(L_0, (1.0f), (Camera_t189460977 *)NULL, /*hidden argument*/NULL);
+		V_0 = L_1;
+		Vector3_t2243707580  L_2 = V_0;
+		Vector2_t2243707579  L_3 = Vector2_op_Implicit_m1064335535(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		LayerMask_t3188175821  L_4 = __this->get_LayerMask_2();
+		int32_t L_5 = LayerMask_op_Implicit_m2135076047(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t2540166467_il2cpp_TypeInfo_var);
+		Collider2D_t646061738 * L_6 = Physics2D_OverlapPoint_m845302844(NULL /*static, unused*/, L_3, L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
+		Collider2D_t646061738 * L_7 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_7, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		Collider2D_t646061738 * L_9 = V_1;
+		NullCheck(L_9);
+		Rigidbody2D_t502193897 * L_10 = Collider2D_get_attachedRigidbody_m1321121400(L_9, /*hidden argument*/NULL);
+		V_2 = L_10;
+		Rigidbody2D_t502193897 * L_11 = V_2;
+		NullCheck(L_11);
+		GameObject_t1756533147 * L_12 = Component_get_gameObject_m3105766835(L_11, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_13 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_14 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_12, L_13, /*hidden argument*/NULL);
+		if (!L_14)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		LeanFinger_t76062517 * L_15 = ___finger0;
+		__this->set_swipingFinger_4(L_15);
+	}
+
+IL_0054:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSwipeRigidbody2DNoRelease::OnFingerUp(Lean.Touch.LeanFinger)
+extern "C"  void LeanSwipeRigidbody2DNoRelease_OnFingerUp_m848186254 (LeanSwipeRigidbody2DNoRelease_t2933744255 * __this, LeanFinger_t76062517 * ___finger0, const MethodInfo* method)
+{
+	{
+		LeanFinger_t76062517 * L_0 = ___finger0;
+		LeanFinger_t76062517 * L_1 = __this->get_swipingFinger_4();
+		if ((!(((Il2CppObject*)(LeanFinger_t76062517 *)L_0) == ((Il2CppObject*)(LeanFinger_t76062517 *)L_1))))
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		__this->set_swipingFinger_4((LeanFinger_t76062517 *)NULL);
+	}
+
+IL_0013:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSwipeRigidbody3D::.ctor()
+extern "C"  void LeanSwipeRigidbody3D__ctor_m3917747106 (LeanSwipeRigidbody3D_t4093632394 * __this, const MethodInfo* method)
+{
+	{
+		LayerMask_t3188175821  L_0 = LayerMask_op_Implicit_m3804506591(NULL /*static, unused*/, ((int32_t)-5), /*hidden argument*/NULL);
+		__this->set_LayerMask_2(L_0);
+		__this->set_ForceMultiplier_3((1.0f));
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSwipeRigidbody3D::OnEnable()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t4172829195_il2cpp_TypeInfo_var;
+extern const MethodInfo* LeanSwipeRigidbody3D_OnFingerSwipe_m3040858390_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3978629893_MethodInfo_var;
+extern const uint32_t LeanSwipeRigidbody3D_OnEnable_m185868538_MetadataUsageId;
+extern "C"  void LeanSwipeRigidbody3D_OnEnable_m185868538 (LeanSwipeRigidbody3D_t4093632394 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSwipeRigidbody3D_OnEnable_m185868538_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerSwipe_9();
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)LeanSwipeRigidbody3D_OnFingerSwipe_m3040858390_MethodInfo_var);
+		Action_1_t4172829195 * L_2 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_3 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_0, L_2, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerSwipe_9(((Action_1_t4172829195 *)CastclassSealed(L_3, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSwipeRigidbody3D::OnDisable()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t4172829195_il2cpp_TypeInfo_var;
+extern const MethodInfo* LeanSwipeRigidbody3D_OnFingerSwipe_m3040858390_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3978629893_MethodInfo_var;
+extern const uint32_t LeanSwipeRigidbody3D_OnDisable_m1643139369_MetadataUsageId;
+extern "C"  void LeanSwipeRigidbody3D_OnDisable_m1643139369 (LeanSwipeRigidbody3D_t4093632394 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSwipeRigidbody3D_OnDisable_m1643139369_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerSwipe_9();
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)LeanSwipeRigidbody3D_OnFingerSwipe_m3040858390_MethodInfo_var);
+		Action_1_t4172829195 * L_2 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_3 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_0, L_2, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerSwipe_9(((Action_1_t4172829195 *)CastclassSealed(L_3, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSwipeRigidbody3D::OnFingerSwipe(Lean.Touch.LeanFinger)
+extern Il2CppClass* RaycastHit_t87180320_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRigidbody_t4233889191_m520013213_MethodInfo_var;
+extern const uint32_t LeanSwipeRigidbody3D_OnFingerSwipe_m3040858390_MetadataUsageId;
+extern "C"  void LeanSwipeRigidbody3D_OnFingerSwipe_m3040858390 (LeanSwipeRigidbody3D_t4093632394 * __this, LeanFinger_t76062517 * ___finger0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSwipeRigidbody3D_OnFingerSwipe_m3040858390_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Ray_t2469606224  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	RaycastHit_t87180320  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	RaycastHit_t87180320  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Rigidbody_t4233889191 * V_3 = NULL;
+	{
+		LeanFinger_t76062517 * L_0 = ___finger0;
+		NullCheck(L_0);
+		Ray_t2469606224  L_1 = LeanFinger_GetStartRay_m1484836683(L_0, (Camera_t189460977 *)NULL, /*hidden argument*/NULL);
+		V_0 = L_1;
+		Initobj (RaycastHit_t87180320_il2cpp_TypeInfo_var, (&V_2));
+		RaycastHit_t87180320  L_2 = V_2;
+		V_1 = L_2;
+		Ray_t2469606224  L_3 = V_0;
+		LayerMask_t3188175821  L_4 = __this->get_LayerMask_2();
+		int32_t L_5 = LayerMask_op_Implicit_m2135076047(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		bool L_6 = Physics_Raycast_m2009151399(NULL /*static, unused*/, L_3, (&V_1), (std::numeric_limits<float>::infinity()), L_5, /*hidden argument*/NULL);
+		if (!L_6)
+		{
+			goto IL_006e;
+		}
+	}
+	{
+		Collider_t3497673348 * L_7 = RaycastHit_get_collider_m301198172((&V_1), /*hidden argument*/NULL);
+		NullCheck(L_7);
+		GameObject_t1756533147 * L_8 = Component_get_gameObject_m3105766835(L_7, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_9 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_10 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_8, L_9, /*hidden argument*/NULL);
+		if (!L_10)
+		{
+			goto IL_006e;
+		}
+	}
+	{
+		Rigidbody_t4233889191 * L_11 = Component_GetComponent_TisRigidbody_t4233889191_m520013213(__this, /*hidden argument*/Component_GetComponent_TisRigidbody_t4233889191_m520013213_MethodInfo_var);
+		V_3 = L_11;
+		Rigidbody_t4233889191 * L_12 = V_3;
+		LeanFinger_t76062517 * L_13 = ___finger0;
+		NullCheck(L_13);
+		Vector2_t2243707579  L_14 = LeanFinger_get_ScaledDelta_m2701834449(L_13, /*hidden argument*/NULL);
+		float L_15 = __this->get_ForceMultiplier_3();
+		Vector2_t2243707579  L_16 = Vector2_op_Multiply_m4236139442(NULL /*static, unused*/, L_14, L_15, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_17 = Vector2_op_Implicit_m176791411(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		Rigidbody_AddForce_m2836187433(L_12, L_17, /*hidden argument*/NULL);
+	}
+
+IL_006e:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSwipeRigidbody3DNoRelease::.ctor()
+extern "C"  void LeanSwipeRigidbody3DNoRelease__ctor_m1119983940 (LeanSwipeRigidbody3DNoRelease_t3590775226 * __this, const MethodInfo* method)
+{
+	{
+		LayerMask_t3188175821  L_0 = LayerMask_op_Implicit_m3804506591(NULL /*static, unused*/, ((int32_t)-5), /*hidden argument*/NULL);
+		__this->set_LayerMask_2(L_0);
+		__this->set_ImpulseForce_3((1.0f));
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSwipeRigidbody3DNoRelease::OnEnable()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t4172829195_il2cpp_TypeInfo_var;
+extern const MethodInfo* LeanSwipeRigidbody3DNoRelease_OnFingerDown_m1684921532_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3978629893_MethodInfo_var;
+extern const MethodInfo* LeanSwipeRigidbody3DNoRelease_OnFingerSet_m2893691846_MethodInfo_var;
+extern const MethodInfo* LeanSwipeRigidbody3DNoRelease_OnFingerUp_m4261491497_MethodInfo_var;
+extern const uint32_t LeanSwipeRigidbody3DNoRelease_OnEnable_m3654001348_MetadataUsageId;
+extern "C"  void LeanSwipeRigidbody3DNoRelease_OnEnable_m3654001348 (LeanSwipeRigidbody3DNoRelease_t3590775226 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSwipeRigidbody3DNoRelease_OnEnable_m3654001348_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerDown_5();
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)LeanSwipeRigidbody3DNoRelease_OnFingerDown_m1684921532_MethodInfo_var);
+		Action_1_t4172829195 * L_2 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_3 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_0, L_2, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerDown_5(((Action_1_t4172829195 *)CastclassSealed(L_3, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		Action_1_t4172829195 * L_4 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerSet_6();
+		IntPtr_t L_5;
+		L_5.set_m_value_0((void*)(void*)LeanSwipeRigidbody3DNoRelease_OnFingerSet_m2893691846_MethodInfo_var);
+		Action_1_t4172829195 * L_6 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_6, __this, L_5, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_7 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_4, L_6, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerSet_6(((Action_1_t4172829195 *)CastclassSealed(L_7, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		Action_1_t4172829195 * L_8 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerUp_7();
+		IntPtr_t L_9;
+		L_9.set_m_value_0((void*)(void*)LeanSwipeRigidbody3DNoRelease_OnFingerUp_m4261491497_MethodInfo_var);
+		Action_1_t4172829195 * L_10 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_10, __this, L_9, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_11 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_8, L_10, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerUp_7(((Action_1_t4172829195 *)CastclassSealed(L_11, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSwipeRigidbody3DNoRelease::OnDisable()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t4172829195_il2cpp_TypeInfo_var;
+extern const MethodInfo* LeanSwipeRigidbody3DNoRelease_OnFingerDown_m1684921532_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3978629893_MethodInfo_var;
+extern const MethodInfo* LeanSwipeRigidbody3DNoRelease_OnFingerSet_m2893691846_MethodInfo_var;
+extern const MethodInfo* LeanSwipeRigidbody3DNoRelease_OnFingerUp_m4261491497_MethodInfo_var;
+extern const uint32_t LeanSwipeRigidbody3DNoRelease_OnDisable_m1797789649_MetadataUsageId;
+extern "C"  void LeanSwipeRigidbody3DNoRelease_OnDisable_m1797789649 (LeanSwipeRigidbody3DNoRelease_t3590775226 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSwipeRigidbody3DNoRelease_OnDisable_m1797789649_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerDown_5();
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)LeanSwipeRigidbody3DNoRelease_OnFingerDown_m1684921532_MethodInfo_var);
+		Action_1_t4172829195 * L_2 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_3 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_0, L_2, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerDown_5(((Action_1_t4172829195 *)CastclassSealed(L_3, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		Action_1_t4172829195 * L_4 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerSet_6();
+		IntPtr_t L_5;
+		L_5.set_m_value_0((void*)(void*)LeanSwipeRigidbody3DNoRelease_OnFingerSet_m2893691846_MethodInfo_var);
+		Action_1_t4172829195 * L_6 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_6, __this, L_5, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_7 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_4, L_6, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerSet_6(((Action_1_t4172829195 *)CastclassSealed(L_7, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		Action_1_t4172829195 * L_8 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerUp_7();
+		IntPtr_t L_9;
+		L_9.set_m_value_0((void*)(void*)LeanSwipeRigidbody3DNoRelease_OnFingerUp_m4261491497_MethodInfo_var);
+		Action_1_t4172829195 * L_10 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_10, __this, L_9, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_11 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_8, L_10, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerUp_7(((Action_1_t4172829195 *)CastclassSealed(L_11, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSwipeRigidbody3DNoRelease::OnFingerSet(Lean.Touch.LeanFinger)
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRigidbody_t4233889191_m520013213_MethodInfo_var;
+extern const uint32_t LeanSwipeRigidbody3DNoRelease_OnFingerSet_m2893691846_MetadataUsageId;
+extern "C"  void LeanSwipeRigidbody3DNoRelease_OnFingerSet_m2893691846 (LeanSwipeRigidbody3DNoRelease_t3590775226 * __this, LeanFinger_t76062517 * ___finger0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSwipeRigidbody3DNoRelease_OnFingerSet_m2893691846_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	Vector2_t2243707579  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Rigidbody_t4233889191 * V_3 = NULL;
+	{
+		LeanFinger_t76062517 * L_0 = ___finger0;
+		LeanFinger_t76062517 * L_1 = __this->get_swipingFinger_4();
+		if ((!(((Il2CppObject*)(LeanFinger_t76062517 *)L_0) == ((Il2CppObject*)(LeanFinger_t76062517 *)L_1))))
+		{
+			goto IL_0063;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		LeanTouch_t1022081457 * L_2 = LeanTouch_get_Instance_m148357266(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		float L_3 = L_2->get_SwipeThreshold_15();
+		V_0 = L_3;
+		LeanTouch_t1022081457 * L_4 = LeanTouch_get_Instance_m148357266(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		float L_5 = L_4->get_TapThreshold_14();
+		V_1 = L_5;
+		LeanFinger_t76062517 * L_6 = ___finger0;
+		float L_7 = V_1;
+		NullCheck(L_6);
+		Vector2_t2243707579  L_8 = LeanFinger_GetSnapshotScaledDelta_m3473631499(L_6, L_7, /*hidden argument*/NULL);
+		V_2 = L_8;
+		float L_9 = Vector2_get_magnitude_m33802565((&V_2), /*hidden argument*/NULL);
+		float L_10 = V_0;
+		if ((!(((float)L_9) > ((float)L_10))))
+		{
+			goto IL_0063;
+		}
+	}
+	{
+		Rigidbody_t4233889191 * L_11 = Component_GetComponent_TisRigidbody_t4233889191_m520013213(__this, /*hidden argument*/Component_GetComponent_TisRigidbody_t4233889191_m520013213_MethodInfo_var);
+		V_3 = L_11;
+		Rigidbody_t4233889191 * L_12 = V_3;
+		Vector2_t2243707579  L_13 = Vector2_get_normalized_m2985402409((&V_2), /*hidden argument*/NULL);
+		float L_14 = __this->get_ImpulseForce_3();
+		Vector2_t2243707579  L_15 = Vector2_op_Multiply_m4236139442(NULL /*static, unused*/, L_13, L_14, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_16 = Vector2_op_Implicit_m176791411(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		Rigidbody_AddForce_m3219459786(L_12, L_16, 1, /*hidden argument*/NULL);
+		__this->set_swipingFinger_4((LeanFinger_t76062517 *)NULL);
+	}
+
+IL_0063:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSwipeRigidbody3DNoRelease::OnFingerDown(Lean.Touch.LeanFinger)
+extern Il2CppClass* RaycastHit_t87180320_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t LeanSwipeRigidbody3DNoRelease_OnFingerDown_m1684921532_MetadataUsageId;
+extern "C"  void LeanSwipeRigidbody3DNoRelease_OnFingerDown_m1684921532 (LeanSwipeRigidbody3DNoRelease_t3590775226 * __this, LeanFinger_t76062517 * ___finger0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanSwipeRigidbody3DNoRelease_OnFingerDown_m1684921532_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Ray_t2469606224  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	RaycastHit_t87180320  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	RaycastHit_t87180320  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	{
+		LeanFinger_t76062517 * L_0 = ___finger0;
+		NullCheck(L_0);
+		Ray_t2469606224  L_1 = LeanFinger_GetRay_m614673855(L_0, (Camera_t189460977 *)NULL, /*hidden argument*/NULL);
+		V_0 = L_1;
+		Initobj (RaycastHit_t87180320_il2cpp_TypeInfo_var, (&V_2));
+		RaycastHit_t87180320  L_2 = V_2;
+		V_1 = L_2;
+		Ray_t2469606224  L_3 = V_0;
+		LayerMask_t3188175821  L_4 = __this->get_LayerMask_2();
+		int32_t L_5 = LayerMask_op_Implicit_m2135076047(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		bool L_6 = Physics_Raycast_m2009151399(NULL /*static, unused*/, L_3, (&V_1), (std::numeric_limits<float>::infinity()), L_5, /*hidden argument*/NULL);
+		if (!L_6)
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		Collider_t3497673348 * L_7 = RaycastHit_get_collider_m301198172((&V_1), /*hidden argument*/NULL);
+		NullCheck(L_7);
+		GameObject_t1756533147 * L_8 = Component_get_gameObject_m3105766835(L_7, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_9 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_10 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_8, L_9, /*hidden argument*/NULL);
+		if (!L_10)
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		LeanFinger_t76062517 * L_11 = ___finger0;
+		__this->set_swipingFinger_4(L_11);
+	}
+
+IL_0052:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanSwipeRigidbody3DNoRelease::OnFingerUp(Lean.Touch.LeanFinger)
+extern "C"  void LeanSwipeRigidbody3DNoRelease_OnFingerUp_m4261491497 (LeanSwipeRigidbody3DNoRelease_t3590775226 * __this, LeanFinger_t76062517 * ___finger0, const MethodInfo* method)
+{
+	{
+		LeanFinger_t76062517 * L_0 = ___finger0;
+		LeanFinger_t76062517 * L_1 = __this->get_swipingFinger_4();
+		if ((!(((Il2CppObject*)(LeanFinger_t76062517 *)L_0) == ((Il2CppObject*)(LeanFinger_t76062517 *)L_1))))
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		__this->set_swipingFinger_4((LeanFinger_t76062517 *)NULL);
+	}
+
+IL_0013:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanTouch::.ctor()
+extern "C"  void LeanTouch__ctor_m3639591875 (LeanTouch_t1022081457 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_TapThreshold_14((0.5f));
+		__this->set_SwipeThreshold_15((50.0f));
+		__this->set_HeldThreshold_16((1.0f));
+		__this->set_ReferenceDpi_17(((int32_t)200));
+		LayerMask_t3188175821  L_0 = LayerMask_op_Implicit_m3804506591(NULL /*static, unused*/, (-1), /*hidden argument*/NULL);
+		__this->set_GuiLayers_18(L_0);
+		__this->set_RecordFingers_19((bool)1);
+		__this->set_RecordThreshold_20((5.0f));
+		__this->set_RecordLimit_21((10.0f));
+		__this->set_SimulateMultiFingers_22((bool)1);
+		__this->set_PinchTwistKey_23(((int32_t)306));
+		__this->set_MultiDragKey_24(((int32_t)308));
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Single Lean.Touch.LeanTouch::get_CurrentTapThreshold()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Count_m1820070529_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m306766308_MethodInfo_var;
+extern const uint32_t LeanTouch_get_CurrentTapThreshold_m745896155_MetadataUsageId;
+extern "C"  float LeanTouch_get_CurrentTapThreshold_m745896155 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTouch_get_CurrentTapThreshold_m745896155_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float G_B3_0 = 0.0f;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t391202589 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Instances_2();
+		NullCheck(L_0);
+		int32_t L_1 = List_1_get_Count_m1820070529(L_0, /*hidden argument*/List_1_get_Count_m1820070529_MethodInfo_var);
+		if ((((int32_t)L_1) <= ((int32_t)0)))
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t391202589 * L_2 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Instances_2();
+		NullCheck(L_2);
+		LeanTouch_t1022081457 * L_3 = List_1_get_Item_m306766308(L_2, 0, /*hidden argument*/List_1_get_Item_m306766308_MethodInfo_var);
+		NullCheck(L_3);
+		float L_4 = L_3->get_TapThreshold_14();
+		G_B3_0 = L_4;
+		goto IL_002a;
+	}
+
+IL_0025:
+	{
+		G_B3_0 = (0.5f);
+	}
+
+IL_002a:
+	{
+		return G_B3_0;
+	}
+}
+// Lean.Touch.LeanTouch Lean.Touch.LeanTouch::get_Instance()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Count_m1820070529_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m306766308_MethodInfo_var;
+extern const uint32_t LeanTouch_get_Instance_m148357266_MetadataUsageId;
+extern "C"  LeanTouch_t1022081457 * LeanTouch_get_Instance_m148357266 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTouch_get_Instance_m148357266_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	LeanTouch_t1022081457 * G_B3_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t391202589 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Instances_2();
+		NullCheck(L_0);
+		int32_t L_1 = List_1_get_Count_m1820070529(L_0, /*hidden argument*/List_1_get_Count_m1820070529_MethodInfo_var);
+		if ((((int32_t)L_1) <= ((int32_t)0)))
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t391202589 * L_2 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Instances_2();
+		NullCheck(L_2);
+		LeanTouch_t1022081457 * L_3 = List_1_get_Item_m306766308(L_2, 0, /*hidden argument*/List_1_get_Item_m306766308_MethodInfo_var);
+		G_B3_0 = L_3;
+		goto IL_0021;
+	}
+
+IL_0020:
+	{
+		G_B3_0 = ((LeanTouch_t1022081457 *)(NULL));
+	}
+
+IL_0021:
+	{
+		return G_B3_0;
+	}
+}
+// System.Single Lean.Touch.LeanTouch::get_ScalingFactor()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Count_m1820070529_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m306766308_MethodInfo_var;
+extern const uint32_t LeanTouch_get_ScalingFactor_m3828003300_MetadataUsageId;
+extern "C"  float LeanTouch_get_ScalingFactor_m3828003300 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTouch_get_ScalingFactor_m3828003300_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	int32_t V_1 = 0;
+	{
+		V_0 = (1.0f);
+		V_1 = ((int32_t)200);
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t391202589 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Instances_2();
+		NullCheck(L_0);
+		int32_t L_1 = List_1_get_Count_m1820070529(L_0, /*hidden argument*/List_1_get_Count_m1820070529_MethodInfo_var);
+		if ((((int32_t)L_1) <= ((int32_t)0)))
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t391202589 * L_2 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Instances_2();
+		NullCheck(L_2);
+		LeanTouch_t1022081457 * L_3 = List_1_get_Item_m306766308(L_2, 0, /*hidden argument*/List_1_get_Item_m306766308_MethodInfo_var);
+		NullCheck(L_3);
+		int32_t L_4 = L_3->get_ReferenceDpi_17();
+		V_1 = L_4;
+	}
+
+IL_002d:
+	{
+		float L_5 = Screen_get_dpi_m3345126327(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if ((!(((float)L_5) > ((float)(0.0f)))))
+		{
+			goto IL_0056;
+		}
+	}
+	{
+		int32_t L_6 = V_1;
+		if ((((int32_t)L_6) <= ((int32_t)0)))
+		{
+			goto IL_0056;
+		}
+	}
+	{
+		int32_t L_7 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_8 = sqrtf((((float)((float)L_7))));
+		float L_9 = Screen_get_dpi_m3345126327(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_10 = sqrtf(L_9);
+		V_0 = ((float)((float)L_8/(float)L_10));
+	}
+
+IL_0056:
+	{
+		float L_11 = V_0;
+		return L_11;
+	}
+}
+// System.Boolean Lean.Touch.LeanTouch::get_AnyMouseButtonSet()
+extern Il2CppClass* Input_t1785128008_il2cpp_TypeInfo_var;
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanTouch_get_AnyMouseButtonSet_m3160972925_MetadataUsageId;
+extern "C"  bool LeanTouch_get_AnyMouseButtonSet_m3160972925 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTouch_get_AnyMouseButtonSet_m3160972925_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		V_0 = 0;
+		goto IL_0018;
+	}
+
+IL_0007:
+	{
+		int32_t L_0 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		bool L_1 = Input_GetMouseButton_m464100923(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_0014:
+	{
+		int32_t L_2 = V_0;
+		V_0 = ((int32_t)((int32_t)L_2+(int32_t)1));
+	}
+
+IL_0018:
+	{
+		int32_t L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		int32_t L_4 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_highestMouseButton_26();
+		if ((((int32_t)L_3) < ((int32_t)L_4)))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return (bool)0;
+	}
+}
+// System.Boolean Lean.Touch.LeanTouch::get_GuiInUse()
+extern Il2CppClass* GUIUtility_t3275770671_il2cpp_TypeInfo_var;
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Count_m753479905_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m2226599640_MethodInfo_var;
+extern const uint32_t LeanTouch_get_GuiInUse_m3439925841_MetadataUsageId;
+extern "C"  bool LeanTouch_get_GuiInUse_m3439925841 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTouch_get_GuiInUse_m3439925841_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GUIUtility_t3275770671_il2cpp_TypeInfo_var);
+		int32_t L_0 = GUIUtility_get_hotControl_m466901769(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if ((((int32_t)L_0) <= ((int32_t)0)))
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_000d:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_1 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Fingers_3();
+		NullCheck(L_1);
+		int32_t L_2 = List_1_get_Count_m753479905(L_1, /*hidden argument*/List_1_get_Count_m753479905_MethodInfo_var);
+		V_0 = ((int32_t)((int32_t)L_2-(int32_t)1));
+		goto IL_003a;
+	}
+
+IL_001f:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_3 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Fingers_3();
+		int32_t L_4 = V_0;
+		NullCheck(L_3);
+		LeanFinger_t76062517 * L_5 = List_1_get_Item_m2226599640(L_3, L_4, /*hidden argument*/List_1_get_Item_m2226599640_MethodInfo_var);
+		NullCheck(L_5);
+		bool L_6 = L_5->get_StartedOverGui_12();
+		if (!L_6)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_0036:
+	{
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7-(int32_t)1));
+	}
+
+IL_003a:
+	{
+		int32_t L_8 = V_0;
+		if ((((int32_t)L_8) >= ((int32_t)0)))
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		return (bool)0;
+	}
+}
+// System.Boolean Lean.Touch.LeanTouch::GetCamera(UnityEngine.Camera&)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t LeanTouch_GetCamera_m3186988658_MetadataUsageId;
+extern "C"  bool LeanTouch_GetCamera_m3186988658 (Il2CppObject * __this /* static, unused */, Camera_t189460977 ** ___camera0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTouch_GetCamera_m3186988658_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Camera_t189460977 ** L_0 = ___camera0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, (*((Camera_t189460977 **)L_0)), (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Camera_t189460977 ** L_2 = ___camera0;
+		Camera_t189460977 * L_3 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		*((Il2CppObject **)(L_2)) = (Il2CppObject *)L_3;
+		Il2CppCodeGenWriteBarrier((Il2CppObject **)(L_2), (Il2CppObject *)L_3);
+	}
+
+IL_0014:
+	{
+		Camera_t189460977 ** L_4 = ___camera0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_5 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, (*((Camera_t189460977 **)L_4)), (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		return L_5;
+	}
+}
+// System.Boolean Lean.Touch.LeanTouch::PointOverGui(UnityEngine.Vector2)
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanTouch_PointOverGui_m1975515422_MetadataUsageId;
+extern "C"  bool LeanTouch_PointOverGui_m1975515422 (Il2CppObject * __this /* static, unused */, Vector2_t2243707579  ___screenPosition0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTouch_PointOverGui_m1975515422_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	RaycastResult_t21186376  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Vector2_t2243707579  L_0 = ___screenPosition0;
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		RaycastResult_t21186376  L_1 = LeanTouch_RaycastGui_m2982633117(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		bool L_2 = RaycastResult_get_isValid_m2482925612((&V_0), /*hidden argument*/NULL);
+		return (bool)((((int32_t)L_2) == ((int32_t)1))? 1 : 0);
+	}
+}
+// UnityEngine.EventSystems.RaycastResult Lean.Touch.LeanTouch::RaycastGui(UnityEngine.Vector2)
+extern Il2CppClass* EventSystem_t3466835263_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* PointerEventData_t1599784723_il2cpp_TypeInfo_var;
+extern Il2CppClass* RaycastResult_t21186376_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_Clear_m392100656_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m3279745867_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m1820070529_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m306766308_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m3435089276_MethodInfo_var;
+extern const uint32_t LeanTouch_RaycastGui_m2982633117_MetadataUsageId;
+extern "C"  RaycastResult_t21186376  LeanTouch_RaycastGui_m2982633117 (Il2CppObject * __this /* static, unused */, Vector2_t2243707579  ___screenPosition0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTouch_RaycastGui_m2982633117_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	EventSystem_t3466835263 * V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	RaycastResult_t21186376  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	int32_t V_4 = 0;
+	RaycastResult_t21186376  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(EventSystem_t3466835263_il2cpp_TypeInfo_var);
+		EventSystem_t3466835263 * L_0 = EventSystem_get_current_m319019811(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		EventSystem_t3466835263 * L_1 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_1, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_00f2;
+		}
+	}
+	{
+		EventSystem_t3466835263 * L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		EventSystem_t3466835263 * L_4 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_tempEventSystem_30();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_5 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		EventSystem_t3466835263 * L_6 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_tempEventSystem_30(L_6);
+		PointerEventData_t1599784723 * L_7 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_tempPointerEventData_29();
+		if (L_7)
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		EventSystem_t3466835263 * L_8 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_tempEventSystem_30();
+		PointerEventData_t1599784723 * L_9 = (PointerEventData_t1599784723 *)il2cpp_codegen_object_new(PointerEventData_t1599784723_il2cpp_TypeInfo_var);
+		PointerEventData__ctor_m3674067728(L_9, L_8, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_tempPointerEventData_29(L_9);
+		goto IL_0050;
+	}
+
+IL_0046:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		PointerEventData_t1599784723 * L_10 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_tempPointerEventData_29();
+		NullCheck(L_10);
+		VirtActionInvoker0::Invoke(4 /* System.Void UnityEngine.EventSystems.AbstractEventData::Reset() */, L_10);
+	}
+
+IL_0050:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		PointerEventData_t1599784723 * L_11 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_tempPointerEventData_29();
+		Vector2_t2243707579  L_12 = ___screenPosition0;
+		NullCheck(L_11);
+		PointerEventData_set_position_m794507622(L_11, L_12, /*hidden argument*/NULL);
+		List_1_t3685274804 * L_13 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_tempRaycastResults_27();
+		NullCheck(L_13);
+		List_1_Clear_m392100656(L_13, /*hidden argument*/List_1_Clear_m392100656_MethodInfo_var);
+		EventSystem_t3466835263 * L_14 = V_0;
+		PointerEventData_t1599784723 * L_15 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_tempPointerEventData_29();
+		List_1_t3685274804 * L_16 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_tempRaycastResults_27();
+		NullCheck(L_14);
+		EventSystem_RaycastAll_m4000413739(L_14, L_15, L_16, /*hidden argument*/NULL);
+		List_1_t3685274804 * L_17 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_tempRaycastResults_27();
+		NullCheck(L_17);
+		int32_t L_18 = List_1_get_Count_m3279745867(L_17, /*hidden argument*/List_1_get_Count_m3279745867_MethodInfo_var);
+		if ((((int32_t)L_18) <= ((int32_t)0)))
+		{
+			goto IL_00f2;
+		}
+	}
+	{
+		V_1 = (-1);
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t391202589 * L_19 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Instances_2();
+		NullCheck(L_19);
+		int32_t L_20 = List_1_get_Count_m1820070529(L_19, /*hidden argument*/List_1_get_Count_m1820070529_MethodInfo_var);
+		if ((((int32_t)L_20) <= ((int32_t)0)))
+		{
+			goto IL_00ad;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t391202589 * L_21 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Instances_2();
+		NullCheck(L_21);
+		LeanTouch_t1022081457 * L_22 = List_1_get_Item_m306766308(L_21, 0, /*hidden argument*/List_1_get_Item_m306766308_MethodInfo_var);
+		NullCheck(L_22);
+		LayerMask_t3188175821  L_23 = L_22->get_GuiLayers_18();
+		int32_t L_24 = LayerMask_op_Implicit_m2135076047(NULL /*static, unused*/, L_23, /*hidden argument*/NULL);
+		V_1 = L_24;
+	}
+
+IL_00ad:
+	{
+		V_2 = 0;
+		goto IL_00e2;
+	}
+
+IL_00b4:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3685274804 * L_25 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_tempRaycastResults_27();
+		int32_t L_26 = V_2;
+		NullCheck(L_25);
+		RaycastResult_t21186376  L_27 = List_1_get_Item_m3435089276(L_25, L_26, /*hidden argument*/List_1_get_Item_m3435089276_MethodInfo_var);
+		V_3 = L_27;
+		GameObject_t1756533147 * L_28 = RaycastResult_get_gameObject_m2999022658((&V_3), /*hidden argument*/NULL);
+		NullCheck(L_28);
+		int32_t L_29 = GameObject_get_layer_m725607808(L_28, /*hidden argument*/NULL);
+		V_4 = ((int32_t)((int32_t)1<<(int32_t)((int32_t)((int32_t)L_29&(int32_t)((int32_t)31)))));
+		int32_t L_30 = V_4;
+		int32_t L_31 = V_1;
+		if (!((int32_t)((int32_t)L_30&(int32_t)L_31)))
+		{
+			goto IL_00de;
+		}
+	}
+	{
+		RaycastResult_t21186376  L_32 = V_3;
+		return L_32;
+	}
+
+IL_00de:
+	{
+		int32_t L_33 = V_2;
+		V_2 = ((int32_t)((int32_t)L_33+(int32_t)1));
+	}
+
+IL_00e2:
+	{
+		int32_t L_34 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3685274804 * L_35 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_tempRaycastResults_27();
+		NullCheck(L_35);
+		int32_t L_36 = List_1_get_Count_m3279745867(L_35, /*hidden argument*/List_1_get_Count_m3279745867_MethodInfo_var);
+		if ((((int32_t)L_34) < ((int32_t)L_36)))
+		{
+			goto IL_00b4;
+		}
+	}
+
+IL_00f2:
+	{
+		Initobj (RaycastResult_t21186376_il2cpp_TypeInfo_var, (&V_5));
+		RaycastResult_t21186376  L_37 = V_5;
+		return L_37;
+	}
+}
+// System.Collections.Generic.List`1<Lean.Touch.LeanFinger> Lean.Touch.LeanTouch::GetFingers(System.Boolean,System.Int32)
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_Clear_m2784104342_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m2226599640_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m770051241_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m753479905_MethodInfo_var;
+extern const uint32_t LeanTouch_GetFingers_m4092984378_MetadataUsageId;
+extern "C"  List_1_t3740150945 * LeanTouch_GetFingers_m4092984378 (Il2CppObject * __this /* static, unused */, bool ___ignoreGuiFingers0, int32_t ___requiredFingerCount1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTouch_GetFingers_m4092984378_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	LeanFinger_t76062517 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_filteredFingers_28();
+		NullCheck(L_0);
+		List_1_Clear_m2784104342(L_0, /*hidden argument*/List_1_Clear_m2784104342_MethodInfo_var);
+		V_0 = 0;
+		goto IL_004d;
+	}
+
+IL_0011:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_1 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Fingers_3();
+		int32_t L_2 = V_0;
+		NullCheck(L_1);
+		LeanFinger_t76062517 * L_3 = List_1_get_Item_m2226599640(L_1, L_2, /*hidden argument*/List_1_get_Item_m2226599640_MethodInfo_var);
+		V_1 = L_3;
+		bool L_4 = ___ignoreGuiFingers0;
+		if (!L_4)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		LeanFinger_t76062517 * L_5 = V_1;
+		NullCheck(L_5);
+		bool L_6 = L_5->get_StartedOverGui_12();
+		if (L_6)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_7 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_filteredFingers_28();
+		LeanFinger_t76062517 * L_8 = V_1;
+		NullCheck(L_7);
+		List_1_Add_m770051241(L_7, L_8, /*hidden argument*/List_1_Add_m770051241_MethodInfo_var);
+	}
+
+IL_0039:
+	{
+		goto IL_0049;
+	}
+
+IL_003e:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_9 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_filteredFingers_28();
+		LeanFinger_t76062517 * L_10 = V_1;
+		NullCheck(L_9);
+		List_1_Add_m770051241(L_9, L_10, /*hidden argument*/List_1_Add_m770051241_MethodInfo_var);
+	}
+
+IL_0049:
+	{
+		int32_t L_11 = V_0;
+		V_0 = ((int32_t)((int32_t)L_11+(int32_t)1));
+	}
+
+IL_004d:
+	{
+		int32_t L_12 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_13 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Fingers_3();
+		NullCheck(L_13);
+		int32_t L_14 = List_1_get_Count_m753479905(L_13, /*hidden argument*/List_1_get_Count_m753479905_MethodInfo_var);
+		if ((((int32_t)L_12) < ((int32_t)L_14)))
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		int32_t L_15 = ___requiredFingerCount1;
+		if ((((int32_t)L_15) <= ((int32_t)0)))
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_16 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_filteredFingers_28();
+		NullCheck(L_16);
+		int32_t L_17 = List_1_get_Count_m753479905(L_16, /*hidden argument*/List_1_get_Count_m753479905_MethodInfo_var);
+		int32_t L_18 = ___requiredFingerCount1;
+		if ((((int32_t)L_17) == ((int32_t)L_18)))
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		return (List_1_t3740150945 *)NULL;
+	}
+
+IL_0076:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_19 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_filteredFingers_28();
+		return L_19;
+	}
+}
+// System.Void Lean.Touch.LeanTouch::Awake()
+extern "C"  void LeanTouch_Awake_m4273774824 (LeanTouch_t1022081457 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanTouch::OnEnable()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_Add_m4151370541_MethodInfo_var;
+extern const uint32_t LeanTouch_OnEnable_m3915642215_MetadataUsageId;
+extern "C"  void LeanTouch_OnEnable_m3915642215 (LeanTouch_t1022081457 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTouch_OnEnable_m3915642215_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t391202589 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Instances_2();
+		NullCheck(L_0);
+		List_1_Add_m4151370541(L_0, __this, /*hidden argument*/List_1_Add_m4151370541_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanTouch::OnDisable()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_Remove_m424679178_MethodInfo_var;
+extern const uint32_t LeanTouch_OnDisable_m2448643836_MetadataUsageId;
+extern "C"  void LeanTouch_OnDisable_m2448643836 (LeanTouch_t1022081457 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTouch_OnDisable_m2448643836_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t391202589 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Instances_2();
+		NullCheck(L_0);
+		List_1_Remove_m424679178(L_0, __this, /*hidden argument*/List_1_Remove_m424679178_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanTouch::Update()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Item_m306766308_MethodInfo_var;
+extern const uint32_t LeanTouch_Update_m38779258_MetadataUsageId;
+extern "C"  void LeanTouch_Update_m38779258 (LeanTouch_t1022081457 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTouch_Update_m38779258_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t391202589 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Instances_2();
+		NullCheck(L_0);
+		LeanTouch_t1022081457 * L_1 = List_1_get_Item_m306766308(L_0, 0, /*hidden argument*/List_1_get_Item_m306766308_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_1, __this, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0017:
+	{
+		LeanTouch_UpdateFingers_m669488330(__this, /*hidden argument*/NULL);
+		LeanTouch_UpdateEvents_m2040898897(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanTouch::OnGUI()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* Input_t1785128008_il2cpp_TypeInfo_var;
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* GUI_t4082743951_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Count_m753479905_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m2226599640_MethodInfo_var;
+extern const uint32_t LeanTouch_OnGUI_m1931013041_MetadataUsageId;
+extern "C"  void LeanTouch_OnGUI_m1931013041 (LeanTouch_t1022081457 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTouch_OnGUI_m1931013041_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Vector2_t2243707579  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Rect_t3681755626  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	{
+		Texture2D_t3542995729 * L_0 = __this->get_FingerTexture_25();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_00af;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		int32_t L_2 = Input_get_touchCount_m2050827666(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (L_2)
+		{
+			goto IL_00af;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_3 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Fingers_3();
+		NullCheck(L_3);
+		int32_t L_4 = List_1_get_Count_m753479905(L_3, /*hidden argument*/List_1_get_Count_m753479905_MethodInfo_var);
+		if ((((int32_t)L_4) <= ((int32_t)1)))
+		{
+			goto IL_00af;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_5 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Fingers_3();
+		NullCheck(L_5);
+		int32_t L_6 = List_1_get_Count_m753479905(L_5, /*hidden argument*/List_1_get_Count_m753479905_MethodInfo_var);
+		V_0 = ((int32_t)((int32_t)L_6-(int32_t)1));
+		goto IL_00a8;
+	}
+
+IL_003d:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_7 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Fingers_3();
+		int32_t L_8 = V_0;
+		NullCheck(L_7);
+		LeanFinger_t76062517 * L_9 = List_1_get_Item_m2226599640(L_7, L_8, /*hidden argument*/List_1_get_Item_m2226599640_MethodInfo_var);
+		NullCheck(L_9);
+		Vector2_t2243707579  L_10 = L_9->get_ScreenPosition_11();
+		V_1 = L_10;
+		Texture2D_t3542995729 * L_11 = __this->get_FingerTexture_25();
+		NullCheck(L_11);
+		int32_t L_12 = VirtFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_11);
+		Texture2D_t3542995729 * L_13 = __this->get_FingerTexture_25();
+		NullCheck(L_13);
+		int32_t L_14 = VirtFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 UnityEngine.Texture::get_height() */, L_13);
+		Rect__ctor_m1220545469((&V_2), (0.0f), (0.0f), (((float)((float)L_12))), (((float)((float)L_14))), /*hidden argument*/NULL);
+		float L_15 = (&V_1)->get_x_0();
+		int32_t L_16 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_17 = (&V_1)->get_y_1();
+		Vector2_t2243707579  L_18;
+		memset(&L_18, 0, sizeof(L_18));
+		Vector2__ctor_m3067419446(&L_18, L_15, ((float)((float)(((float)((float)L_16)))-(float)L_17)), /*hidden argument*/NULL);
+		Rect_set_center_m198417975((&V_2), L_18, /*hidden argument*/NULL);
+		Rect_t3681755626  L_19 = V_2;
+		Texture2D_t3542995729 * L_20 = __this->get_FingerTexture_25();
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_DrawTexture_m1191587896(NULL /*static, unused*/, L_19, L_20, /*hidden argument*/NULL);
+		int32_t L_21 = V_0;
+		V_0 = ((int32_t)((int32_t)L_21-(int32_t)1));
+	}
+
+IL_00a8:
+	{
+		int32_t L_22 = V_0;
+		if ((((int32_t)L_22) >= ((int32_t)0)))
+		{
+			goto IL_003d;
+		}
+	}
+
+IL_00af:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanTouch::UpdateFingers()
+extern "C"  void LeanTouch_UpdateFingers_m669488330 (LeanTouch_t1022081457 * __this, const MethodInfo* method)
+{
+	{
+		LeanTouch_BeginFingers_m1597723638(__this, /*hidden argument*/NULL);
+		LeanTouch_PollFingers_m581529374(__this, /*hidden argument*/NULL);
+		LeanTouch_EndFingers_m3957777958(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanTouch::BeginFingers()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Count_m753479905_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m2226599640_MethodInfo_var;
+extern const MethodInfo* List_1_RemoveAt_m3996265187_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m770051241_MethodInfo_var;
+extern const uint32_t LeanTouch_BeginFingers_m1597723638_MetadataUsageId;
+extern "C"  void LeanTouch_BeginFingers_m1597723638 (LeanTouch_t1022081457 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTouch_BeginFingers_m1597723638_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	LeanFinger_t76062517 * V_2 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_InactiveFingers_4();
+		NullCheck(L_0);
+		int32_t L_1 = List_1_get_Count_m753479905(L_0, /*hidden argument*/List_1_get_Count_m753479905_MethodInfo_var);
+		V_0 = ((int32_t)((int32_t)L_1-(int32_t)1));
+		goto IL_0032;
+	}
+
+IL_0012:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_2 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_InactiveFingers_4();
+		int32_t L_3 = V_0;
+		NullCheck(L_2);
+		LeanFinger_t76062517 * L_4 = List_1_get_Item_m2226599640(L_2, L_3, /*hidden argument*/List_1_get_Item_m2226599640_MethodInfo_var);
+		LeanFinger_t76062517 * L_5 = L_4;
+		NullCheck(L_5);
+		float L_6 = L_5->get_Age_1();
+		float L_7 = Time_get_unscaledDeltaTime_m4281640537(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		L_5->set_Age_1(((float)((float)L_6+(float)L_7)));
+		int32_t L_8 = V_0;
+		V_0 = ((int32_t)((int32_t)L_8-(int32_t)1));
+	}
+
+IL_0032:
+	{
+		int32_t L_9 = V_0;
+		if ((((int32_t)L_9) >= ((int32_t)0)))
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_10 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Fingers_3();
+		NullCheck(L_10);
+		int32_t L_11 = List_1_get_Count_m753479905(L_10, /*hidden argument*/List_1_get_Count_m753479905_MethodInfo_var);
+		V_1 = ((int32_t)((int32_t)L_11-(int32_t)1));
+		goto IL_00cc;
+	}
+
+IL_004b:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_12 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Fingers_3();
+		int32_t L_13 = V_1;
+		NullCheck(L_12);
+		LeanFinger_t76062517 * L_14 = List_1_get_Item_m2226599640(L_12, L_13, /*hidden argument*/List_1_get_Item_m2226599640_MethodInfo_var);
+		V_2 = L_14;
+		LeanFinger_t76062517 * L_15 = V_2;
+		NullCheck(L_15);
+		bool L_16 = LeanFinger_get_Up_m2093848679(L_15, /*hidden argument*/NULL);
+		if (!L_16)
+		{
+			goto IL_008f;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_17 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Fingers_3();
+		int32_t L_18 = V_1;
+		NullCheck(L_17);
+		List_1_RemoveAt_m3996265187(L_17, L_18, /*hidden argument*/List_1_RemoveAt_m3996265187_MethodInfo_var);
+		List_1_t3740150945 * L_19 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_InactiveFingers_4();
+		LeanFinger_t76062517 * L_20 = V_2;
+		NullCheck(L_19);
+		List_1_Add_m770051241(L_19, L_20, /*hidden argument*/List_1_Add_m770051241_MethodInfo_var);
+		LeanFinger_t76062517 * L_21 = V_2;
+		NullCheck(L_21);
+		L_21->set_Age_1((0.0f));
+		LeanFinger_t76062517 * L_22 = V_2;
+		NullCheck(L_22);
+		LeanFinger_ClearSnapshots_m927372788(L_22, (-1), /*hidden argument*/NULL);
+		goto IL_00c8;
+	}
+
+IL_008f:
+	{
+		LeanFinger_t76062517 * L_23 = V_2;
+		LeanFinger_t76062517 * L_24 = V_2;
+		NullCheck(L_24);
+		bool L_25 = L_24->get_Set_2();
+		NullCheck(L_23);
+		L_23->set_LastSet_3(L_25);
+		LeanFinger_t76062517 * L_26 = V_2;
+		LeanFinger_t76062517 * L_27 = V_2;
+		NullCheck(L_27);
+		bool L_28 = L_27->get_HeldSet_7();
+		NullCheck(L_26);
+		L_26->set_LastHeldSet_8(L_28);
+		LeanFinger_t76062517 * L_29 = V_2;
+		LeanFinger_t76062517 * L_30 = V_2;
+		NullCheck(L_30);
+		Vector2_t2243707579  L_31 = L_30->get_ScreenPosition_11();
+		NullCheck(L_29);
+		L_29->set_LastScreenPosition_10(L_31);
+		LeanFinger_t76062517 * L_32 = V_2;
+		NullCheck(L_32);
+		L_32->set_Set_2((bool)0);
+		LeanFinger_t76062517 * L_33 = V_2;
+		NullCheck(L_33);
+		L_33->set_HeldSet_7((bool)0);
+		LeanFinger_t76062517 * L_34 = V_2;
+		NullCheck(L_34);
+		L_34->set_Tap_4((bool)0);
+	}
+
+IL_00c8:
+	{
+		int32_t L_35 = V_1;
+		V_1 = ((int32_t)((int32_t)L_35-(int32_t)1));
+	}
+
+IL_00cc:
+	{
+		int32_t L_36 = V_1;
+		if ((((int32_t)L_36) >= ((int32_t)0)))
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanTouch::EndFingers()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Count_m753479905_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m2226599640_MethodInfo_var;
+extern const uint32_t LeanTouch_EndFingers_m3957777958_MetadataUsageId;
+extern "C"  void LeanTouch_EndFingers_m3957777958 (LeanTouch_t1022081457 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTouch_EndFingers_m3957777958_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	LeanFinger_t76062517 * V_1 = NULL;
+	Vector2_t2243707579  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Fingers_3();
+		NullCheck(L_0);
+		int32_t L_1 = List_1_get_Count_m753479905(L_0, /*hidden argument*/List_1_get_Count_m753479905_MethodInfo_var);
+		V_0 = ((int32_t)((int32_t)L_1-(int32_t)1));
+		goto IL_00cb;
+	}
+
+IL_0012:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_2 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Fingers_3();
+		int32_t L_3 = V_0;
+		NullCheck(L_2);
+		LeanFinger_t76062517 * L_4 = List_1_get_Item_m2226599640(L_2, L_3, /*hidden argument*/List_1_get_Item_m2226599640_MethodInfo_var);
+		V_1 = L_4;
+		LeanFinger_t76062517 * L_5 = V_1;
+		NullCheck(L_5);
+		bool L_6 = LeanFinger_get_Up_m2093848679(L_5, /*hidden argument*/NULL);
+		if (!L_6)
+		{
+			goto IL_0092;
+		}
+	}
+	{
+		LeanFinger_t76062517 * L_7 = V_1;
+		NullCheck(L_7);
+		float L_8 = L_7->get_Age_1();
+		float L_9 = __this->get_TapThreshold_14();
+		if ((!(((float)L_8) <= ((float)L_9))))
+		{
+			goto IL_0086;
+		}
+	}
+	{
+		LeanFinger_t76062517 * L_10 = V_1;
+		NullCheck(L_10);
+		Vector2_t2243707579  L_11 = LeanFinger_get_SwipeScreenDelta_m3198415493(L_10, /*hidden argument*/NULL);
+		V_2 = L_11;
+		float L_12 = Vector2_get_magnitude_m33802565((&V_2), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		float L_13 = LeanTouch_get_ScalingFactor_m3828003300(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_14 = __this->get_SwipeThreshold_15();
+		if ((!(((float)((float)((float)L_12*(float)L_13))) < ((float)L_14))))
+		{
+			goto IL_0073;
+		}
+	}
+	{
+		LeanFinger_t76062517 * L_15 = V_1;
+		NullCheck(L_15);
+		L_15->set_Tap_4((bool)1);
+		LeanFinger_t76062517 * L_16 = V_1;
+		LeanFinger_t76062517 * L_17 = L_16;
+		NullCheck(L_17);
+		int32_t L_18 = L_17->get_TapCount_5();
+		NullCheck(L_17);
+		L_17->set_TapCount_5(((int32_t)((int32_t)L_18+(int32_t)1)));
+		goto IL_0081;
+	}
+
+IL_0073:
+	{
+		LeanFinger_t76062517 * L_19 = V_1;
+		NullCheck(L_19);
+		L_19->set_TapCount_5(0);
+		LeanFinger_t76062517 * L_20 = V_1;
+		NullCheck(L_20);
+		L_20->set_Swipe_6((bool)1);
+	}
+
+IL_0081:
+	{
+		goto IL_008d;
+	}
+
+IL_0086:
+	{
+		LeanFinger_t76062517 * L_21 = V_1;
+		NullCheck(L_21);
+		L_21->set_TapCount_5(0);
+	}
+
+IL_008d:
+	{
+		goto IL_00c7;
+	}
+
+IL_0092:
+	{
+		LeanFinger_t76062517 * L_22 = V_1;
+		NullCheck(L_22);
+		bool L_23 = LeanFinger_get_Down_m352250156(L_22, /*hidden argument*/NULL);
+		if (L_23)
+		{
+			goto IL_00c7;
+		}
+	}
+	{
+		LeanFinger_t76062517 * L_24 = V_1;
+		LeanFinger_t76062517 * L_25 = L_24;
+		NullCheck(L_25);
+		float L_26 = L_25->get_Age_1();
+		float L_27 = Time_get_unscaledDeltaTime_m4281640537(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_25);
+		L_25->set_Age_1(((float)((float)L_26+(float)L_27)));
+		LeanFinger_t76062517 * L_28 = V_1;
+		NullCheck(L_28);
+		float L_29 = L_28->get_Age_1();
+		float L_30 = __this->get_HeldThreshold_16();
+		if ((!(((float)L_29) >= ((float)L_30))))
+		{
+			goto IL_00c7;
+		}
+	}
+	{
+		LeanFinger_t76062517 * L_31 = V_1;
+		NullCheck(L_31);
+		L_31->set_HeldSet_7((bool)1);
+	}
+
+IL_00c7:
+	{
+		int32_t L_32 = V_0;
+		V_0 = ((int32_t)((int32_t)L_32-(int32_t)1));
+	}
+
+IL_00cb:
+	{
+		int32_t L_33 = V_0;
+		if ((((int32_t)L_33) >= ((int32_t)0)))
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanTouch::PollFingers()
+extern Il2CppClass* Input_t1785128008_il2cpp_TypeInfo_var;
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanTouch_PollFingers_m581529374_MetadataUsageId;
+extern "C"  void LeanTouch_PollFingers_m581529374 (LeanTouch_t1022081457 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTouch_PollFingers_m581529374_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Touch_t407273883  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Rect_t3681755626  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Vector2_t2243707579  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	Vector2_t2243707579  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		int32_t L_0 = Input_get_touchCount_m2050827666(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if ((((int32_t)L_0) <= ((int32_t)0)))
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		V_0 = 0;
+		goto IL_0031;
+	}
+
+IL_0012:
+	{
+		int32_t L_1 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		Touch_t407273883  L_2 = Input_GetTouch_m1463942798(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		V_1 = L_2;
+		int32_t L_3 = Touch_get_fingerId_m4109475843((&V_1), /*hidden argument*/NULL);
+		Vector2_t2243707579  L_4 = Touch_get_position_m2079703643((&V_1), /*hidden argument*/NULL);
+		LeanTouch_AddFinger_m3609530850(__this, L_3, L_4, /*hidden argument*/NULL);
+		int32_t L_5 = V_0;
+		V_0 = ((int32_t)((int32_t)L_5+(int32_t)1));
+	}
+
+IL_0031:
+	{
+		int32_t L_6 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		int32_t L_7 = Input_get_touchCount_m2050827666(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if ((((int32_t)L_6) < ((int32_t)L_7)))
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		goto IL_00f5;
+	}
+
+IL_0041:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		bool L_8 = LeanTouch_get_AnyMouseButtonSet_m3160972925(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_00f5;
+		}
+	}
+	{
+		int32_t L_9 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_10 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect__ctor_m1220545469((&V_2), (0.0f), (0.0f), (((float)((float)L_9))), (((float)((float)L_10))), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		Vector3_t2243707580  L_11 = Input_get_mousePosition_m146923508(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t2243707579  L_12 = Vector2_op_Implicit_m1064335535(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+		V_3 = L_12;
+		Vector2_t2243707579  L_13 = V_3;
+		bool L_14 = Rect_Contains_m1334685290((&V_2), L_13, /*hidden argument*/NULL);
+		if (!L_14)
+		{
+			goto IL_00f5;
+		}
+	}
+	{
+		Vector2_t2243707579  L_15 = V_3;
+		LeanTouch_AddFinger_m3609530850(__this, 0, L_15, /*hidden argument*/NULL);
+		bool L_16 = __this->get_SimulateMultiFingers_22();
+		if (!L_16)
+		{
+			goto IL_00f5;
+		}
+	}
+	{
+		int32_t L_17 = __this->get_PinchTwistKey_23();
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		bool L_18 = Input_GetKey_m3849524999(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
+		if (!L_18)
+		{
+			goto IL_00dd;
+		}
+	}
+	{
+		int32_t L_19 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_20 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2__ctor_m3067419446((&V_4), ((float)((float)(((float)((float)L_19)))*(float)(0.5f))), ((float)((float)(((float)((float)L_20)))*(float)(0.5f))), /*hidden argument*/NULL);
+		Vector2_t2243707579  L_21 = V_4;
+		Vector2_t2243707579  L_22 = V_3;
+		Vector2_t2243707579  L_23 = V_4;
+		Vector2_t2243707579  L_24 = Vector2_op_Subtraction_m1984215297(NULL /*static, unused*/, L_22, L_23, /*hidden argument*/NULL);
+		Vector2_t2243707579  L_25 = Vector2_op_Subtraction_m1984215297(NULL /*static, unused*/, L_21, L_24, /*hidden argument*/NULL);
+		LeanTouch_AddFinger_m3609530850(__this, 1, L_25, /*hidden argument*/NULL);
+		goto IL_00f5;
+	}
+
+IL_00dd:
+	{
+		int32_t L_26 = __this->get_MultiDragKey_24();
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		bool L_27 = Input_GetKey_m3849524999(NULL /*static, unused*/, L_26, /*hidden argument*/NULL);
+		if (!L_27)
+		{
+			goto IL_00f5;
+		}
+	}
+	{
+		Vector2_t2243707579  L_28 = V_3;
+		LeanTouch_AddFinger_m3609530850(__this, 1, L_28, /*hidden argument*/NULL);
+	}
+
+IL_00f5:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanTouch::UpdateEvents()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Count_m753479905_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m2226599640_MethodInfo_var;
+extern const MethodInfo* Action_1_Invoke_m43482794_MethodInfo_var;
+extern const uint32_t LeanTouch_UpdateEvents_m2040898897_MetadataUsageId;
+extern "C"  void LeanTouch_UpdateEvents_m2040898897 (LeanTouch_t1022081457 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTouch_UpdateEvents_m2040898897_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	LeanFinger_t76062517 * V_2 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Fingers_3();
+		NullCheck(L_0);
+		int32_t L_1 = List_1_get_Count_m753479905(L_0, /*hidden argument*/List_1_get_Count_m753479905_MethodInfo_var);
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) <= ((int32_t)0)))
+		{
+			goto IL_0130;
+		}
+	}
+	{
+		V_1 = 0;
+		goto IL_0129;
+	}
+
+IL_0019:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_3 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Fingers_3();
+		int32_t L_4 = V_1;
+		NullCheck(L_3);
+		LeanFinger_t76062517 * L_5 = List_1_get_Item_m2226599640(L_3, L_4, /*hidden argument*/List_1_get_Item_m2226599640_MethodInfo_var);
+		V_2 = L_5;
+		LeanFinger_t76062517 * L_6 = V_2;
+		NullCheck(L_6);
+		bool L_7 = LeanFinger_get_Down_m352250156(L_6, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_8 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerDown_5();
+		if (!L_8)
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_9 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerDown_5();
+		LeanFinger_t76062517 * L_10 = V_2;
+		NullCheck(L_9);
+		Action_1_Invoke_m43482794(L_9, L_10, /*hidden argument*/Action_1_Invoke_m43482794_MethodInfo_var);
+	}
+
+IL_0045:
+	{
+		LeanFinger_t76062517 * L_11 = V_2;
+		NullCheck(L_11);
+		bool L_12 = L_11->get_Set_2();
+		if (!L_12)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_13 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerSet_6();
+		if (!L_13)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_14 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerSet_6();
+		LeanFinger_t76062517 * L_15 = V_2;
+		NullCheck(L_14);
+		Action_1_Invoke_m43482794(L_14, L_15, /*hidden argument*/Action_1_Invoke_m43482794_MethodInfo_var);
+	}
+
+IL_0065:
+	{
+		LeanFinger_t76062517 * L_16 = V_2;
+		NullCheck(L_16);
+		bool L_17 = LeanFinger_get_Up_m2093848679(L_16, /*hidden argument*/NULL);
+		if (!L_17)
+		{
+			goto IL_0085;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_18 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerUp_7();
+		if (!L_18)
+		{
+			goto IL_0085;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_19 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerUp_7();
+		LeanFinger_t76062517 * L_20 = V_2;
+		NullCheck(L_19);
+		Action_1_Invoke_m43482794(L_19, L_20, /*hidden argument*/Action_1_Invoke_m43482794_MethodInfo_var);
+	}
+
+IL_0085:
+	{
+		LeanFinger_t76062517 * L_21 = V_2;
+		NullCheck(L_21);
+		bool L_22 = L_21->get_Tap_4();
+		if (!L_22)
+		{
+			goto IL_00a5;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_23 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerTap_8();
+		if (!L_23)
+		{
+			goto IL_00a5;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_24 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerTap_8();
+		LeanFinger_t76062517 * L_25 = V_2;
+		NullCheck(L_24);
+		Action_1_Invoke_m43482794(L_24, L_25, /*hidden argument*/Action_1_Invoke_m43482794_MethodInfo_var);
+	}
+
+IL_00a5:
+	{
+		LeanFinger_t76062517 * L_26 = V_2;
+		NullCheck(L_26);
+		bool L_27 = L_26->get_Swipe_6();
+		if (!L_27)
+		{
+			goto IL_00c5;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_28 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerSwipe_9();
+		if (!L_28)
+		{
+			goto IL_00c5;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_29 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerSwipe_9();
+		LeanFinger_t76062517 * L_30 = V_2;
+		NullCheck(L_29);
+		Action_1_Invoke_m43482794(L_29, L_30, /*hidden argument*/Action_1_Invoke_m43482794_MethodInfo_var);
+	}
+
+IL_00c5:
+	{
+		LeanFinger_t76062517 * L_31 = V_2;
+		NullCheck(L_31);
+		bool L_32 = LeanFinger_get_HeldDown_m1134024437(L_31, /*hidden argument*/NULL);
+		if (!L_32)
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_33 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerHeldDown_10();
+		if (!L_33)
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_34 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerHeldDown_10();
+		LeanFinger_t76062517 * L_35 = V_2;
+		NullCheck(L_34);
+		Action_1_Invoke_m43482794(L_34, L_35, /*hidden argument*/Action_1_Invoke_m43482794_MethodInfo_var);
+	}
+
+IL_00e5:
+	{
+		LeanFinger_t76062517 * L_36 = V_2;
+		NullCheck(L_36);
+		bool L_37 = L_36->get_HeldSet_7();
+		if (!L_37)
+		{
+			goto IL_0105;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_38 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerHeldSet_11();
+		if (!L_38)
+		{
+			goto IL_0105;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_39 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerHeldSet_11();
+		LeanFinger_t76062517 * L_40 = V_2;
+		NullCheck(L_39);
+		Action_1_Invoke_m43482794(L_39, L_40, /*hidden argument*/Action_1_Invoke_m43482794_MethodInfo_var);
+	}
+
+IL_0105:
+	{
+		LeanFinger_t76062517 * L_41 = V_2;
+		NullCheck(L_41);
+		bool L_42 = LeanFinger_get_HeldUp_m2139306750(L_41, /*hidden argument*/NULL);
+		if (!L_42)
+		{
+			goto IL_0125;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_43 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerHeldUp_12();
+		if (!L_43)
+		{
+			goto IL_0125;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_44 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerHeldUp_12();
+		LeanFinger_t76062517 * L_45 = V_2;
+		NullCheck(L_44);
+		Action_1_Invoke_m43482794(L_44, L_45, /*hidden argument*/Action_1_Invoke_m43482794_MethodInfo_var);
+	}
+
+IL_0125:
+	{
+		int32_t L_46 = V_1;
+		V_1 = ((int32_t)((int32_t)L_46+(int32_t)1));
+	}
+
+IL_0129:
+	{
+		int32_t L_47 = V_1;
+		int32_t L_48 = V_0;
+		if ((((int32_t)L_47) < ((int32_t)L_48)))
+		{
+			goto IL_0019;
+		}
+	}
+
+IL_0130:
+	{
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanTouch::AddFinger(System.Int32,UnityEngine.Vector2)
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* LeanFinger_t76062517_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Item_m2226599640_MethodInfo_var;
+extern const MethodInfo* List_1_RemoveAt_m3996265187_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m770051241_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m2323907240_MethodInfo_var;
+extern const uint32_t LeanTouch_AddFinger_m3609530850_MetadataUsageId;
+extern "C"  void LeanTouch_AddFinger_m3609530850 (LeanTouch_t1022081457 * __this, int32_t ___index0, Vector2_t2243707579  ___screenPosition1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTouch_AddFinger_m3609530850_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	LeanFinger_t76062517 * V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	Vector2_t2243707579  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	{
+		int32_t L_0 = ___index0;
+		LeanFinger_t76062517 * L_1 = LeanTouch_FindFinger_m1788329765(__this, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		LeanFinger_t76062517 * L_2 = V_0;
+		if (L_2)
+		{
+			goto IL_00bf;
+		}
+	}
+	{
+		int32_t L_3 = ___index0;
+		int32_t L_4 = LeanTouch_FindInactiveFingerIndex_m327887945(__this, L_3, /*hidden argument*/NULL);
+		V_1 = L_4;
+		int32_t L_5 = V_1;
+		if ((((int32_t)L_5) < ((int32_t)0)))
+		{
+			goto IL_0086;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_6 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_InactiveFingers_4();
+		int32_t L_7 = V_1;
+		NullCheck(L_6);
+		LeanFinger_t76062517 * L_8 = List_1_get_Item_m2226599640(L_6, L_7, /*hidden argument*/List_1_get_Item_m2226599640_MethodInfo_var);
+		V_0 = L_8;
+		List_1_t3740150945 * L_9 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_InactiveFingers_4();
+		int32_t L_10 = V_1;
+		NullCheck(L_9);
+		List_1_RemoveAt_m3996265187(L_9, L_10, /*hidden argument*/List_1_RemoveAt_m3996265187_MethodInfo_var);
+		LeanFinger_t76062517 * L_11 = V_0;
+		NullCheck(L_11);
+		float L_12 = L_11->get_Age_1();
+		float L_13 = __this->get_TapThreshold_14();
+		if ((!(((float)L_12) > ((float)L_13))))
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		LeanFinger_t76062517 * L_14 = V_0;
+		NullCheck(L_14);
+		L_14->set_TapCount_5(0);
+	}
+
+IL_004c:
+	{
+		LeanFinger_t76062517 * L_15 = V_0;
+		NullCheck(L_15);
+		L_15->set_Age_1((0.0f));
+		LeanFinger_t76062517 * L_16 = V_0;
+		NullCheck(L_16);
+		L_16->set_Set_2((bool)0);
+		LeanFinger_t76062517 * L_17 = V_0;
+		NullCheck(L_17);
+		L_17->set_LastSet_3((bool)0);
+		LeanFinger_t76062517 * L_18 = V_0;
+		NullCheck(L_18);
+		L_18->set_HeldSet_7((bool)0);
+		LeanFinger_t76062517 * L_19 = V_0;
+		NullCheck(L_19);
+		L_19->set_LastHeldSet_8((bool)0);
+		LeanFinger_t76062517 * L_20 = V_0;
+		NullCheck(L_20);
+		L_20->set_Tap_4((bool)0);
+		LeanFinger_t76062517 * L_21 = V_0;
+		NullCheck(L_21);
+		L_21->set_Swipe_6((bool)0);
+		goto IL_0093;
+	}
+
+IL_0086:
+	{
+		LeanFinger_t76062517 * L_22 = (LeanFinger_t76062517 *)il2cpp_codegen_object_new(LeanFinger_t76062517_il2cpp_TypeInfo_var);
+		LeanFinger__ctor_m2912008907(L_22, /*hidden argument*/NULL);
+		V_0 = L_22;
+		LeanFinger_t76062517 * L_23 = V_0;
+		int32_t L_24 = ___index0;
+		NullCheck(L_23);
+		L_23->set_Index_0(L_24);
+	}
+
+IL_0093:
+	{
+		LeanFinger_t76062517 * L_25 = V_0;
+		Vector2_t2243707579  L_26 = ___screenPosition1;
+		NullCheck(L_25);
+		L_25->set_StartScreenPosition_9(L_26);
+		LeanFinger_t76062517 * L_27 = V_0;
+		Vector2_t2243707579  L_28 = ___screenPosition1;
+		NullCheck(L_27);
+		L_27->set_LastScreenPosition_10(L_28);
+		LeanFinger_t76062517 * L_29 = V_0;
+		Vector2_t2243707579  L_30 = ___screenPosition1;
+		NullCheck(L_29);
+		L_29->set_ScreenPosition_11(L_30);
+		LeanFinger_t76062517 * L_31 = V_0;
+		LeanFinger_t76062517 * L_32 = V_0;
+		NullCheck(L_32);
+		bool L_33 = LeanFinger_get_IsOverGui_m99805733(L_32, /*hidden argument*/NULL);
+		NullCheck(L_31);
+		L_31->set_StartedOverGui_12(L_33);
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_34 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Fingers_3();
+		LeanFinger_t76062517 * L_35 = V_0;
+		NullCheck(L_34);
+		List_1_Add_m770051241(L_34, L_35, /*hidden argument*/List_1_Add_m770051241_MethodInfo_var);
+	}
+
+IL_00bf:
+	{
+		LeanFinger_t76062517 * L_36 = V_0;
+		NullCheck(L_36);
+		L_36->set_Set_2((bool)1);
+		LeanFinger_t76062517 * L_37 = V_0;
+		Vector2_t2243707579  L_38 = ___screenPosition1;
+		NullCheck(L_37);
+		L_37->set_ScreenPosition_11(L_38);
+		bool L_39 = __this->get_RecordFingers_19();
+		if (!L_39)
+		{
+			goto IL_015e;
+		}
+	}
+	{
+		float L_40 = __this->get_RecordLimit_21();
+		if ((!(((float)L_40) > ((float)(0.0f)))))
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		LeanFinger_t76062517 * L_41 = V_0;
+		NullCheck(L_41);
+		float L_42 = LeanFinger_get_SnapshotDuration_m1804999280(L_41, /*hidden argument*/NULL);
+		float L_43 = __this->get_RecordLimit_21();
+		if ((!(((float)L_42) > ((float)L_43))))
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		LeanFinger_t76062517 * L_44 = V_0;
+		LeanFinger_t76062517 * L_45 = V_0;
+		NullCheck(L_45);
+		float L_46 = L_45->get_Age_1();
+		float L_47 = __this->get_RecordLimit_21();
+		NullCheck(L_44);
+		int32_t L_48 = LeanFinger_GetLowerSnapshotIndex_m2623435135(L_44, ((float)((float)L_46-(float)L_47)), /*hidden argument*/NULL);
+		V_2 = L_48;
+		LeanFinger_t76062517 * L_49 = V_0;
+		int32_t L_50 = V_2;
+		NullCheck(L_49);
+		LeanFinger_ClearSnapshots_m927372788(L_49, L_50, /*hidden argument*/NULL);
+	}
+
+IL_0114:
+	{
+		float L_51 = __this->get_RecordThreshold_20();
+		if ((!(((float)L_51) > ((float)(0.0f)))))
+		{
+			goto IL_0158;
+		}
+	}
+	{
+		LeanFinger_t76062517 * L_52 = V_0;
+		NullCheck(L_52);
+		List_1_t486343724 * L_53 = L_52->get_Snapshots_13();
+		NullCheck(L_53);
+		int32_t L_54 = List_1_get_Count_m2323907240(L_53, /*hidden argument*/List_1_get_Count_m2323907240_MethodInfo_var);
+		if (!L_54)
+		{
+			goto IL_014d;
+		}
+	}
+	{
+		LeanFinger_t76062517 * L_55 = V_0;
+		NullCheck(L_55);
+		Vector2_t2243707579  L_56 = LeanFinger_get_LastSnapshotScreenDelta_m3853234139(L_55, /*hidden argument*/NULL);
+		V_3 = L_56;
+		float L_57 = Vector2_get_magnitude_m33802565((&V_3), /*hidden argument*/NULL);
+		float L_58 = __this->get_RecordThreshold_20();
+		if ((!(((float)L_57) >= ((float)L_58))))
+		{
+			goto IL_0153;
+		}
+	}
+
+IL_014d:
+	{
+		LeanFinger_t76062517 * L_59 = V_0;
+		NullCheck(L_59);
+		LeanFinger_RecordSnapshot_m1069153438(L_59, /*hidden argument*/NULL);
+	}
+
+IL_0153:
+	{
+		goto IL_015e;
+	}
+
+IL_0158:
+	{
+		LeanFinger_t76062517 * L_60 = V_0;
+		NullCheck(L_60);
+		LeanFinger_RecordSnapshot_m1069153438(L_60, /*hidden argument*/NULL);
+	}
+
+IL_015e:
+	{
+		return;
+	}
+}
+// Lean.Touch.LeanFinger Lean.Touch.LeanTouch::FindFinger(System.Int32)
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Count_m753479905_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m2226599640_MethodInfo_var;
+extern const uint32_t LeanTouch_FindFinger_m1788329765_MetadataUsageId;
+extern "C"  LeanFinger_t76062517 * LeanTouch_FindFinger_m1788329765 (LeanTouch_t1022081457 * __this, int32_t ___index0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTouch_FindFinger_m1788329765_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	LeanFinger_t76062517 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Fingers_3();
+		NullCheck(L_0);
+		int32_t L_1 = List_1_get_Count_m753479905(L_0, /*hidden argument*/List_1_get_Count_m753479905_MethodInfo_var);
+		V_0 = ((int32_t)((int32_t)L_1-(int32_t)1));
+		goto IL_0030;
+	}
+
+IL_0012:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_2 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_Fingers_3();
+		int32_t L_3 = V_0;
+		NullCheck(L_2);
+		LeanFinger_t76062517 * L_4 = List_1_get_Item_m2226599640(L_2, L_3, /*hidden argument*/List_1_get_Item_m2226599640_MethodInfo_var);
+		V_1 = L_4;
+		LeanFinger_t76062517 * L_5 = V_1;
+		NullCheck(L_5);
+		int32_t L_6 = L_5->get_Index_0();
+		int32_t L_7 = ___index0;
+		if ((!(((uint32_t)L_6) == ((uint32_t)L_7))))
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		LeanFinger_t76062517 * L_8 = V_1;
+		return L_8;
+	}
+
+IL_002c:
+	{
+		int32_t L_9 = V_0;
+		V_0 = ((int32_t)((int32_t)L_9-(int32_t)1));
+	}
+
+IL_0030:
+	{
+		int32_t L_10 = V_0;
+		if ((((int32_t)L_10) >= ((int32_t)0)))
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return (LeanFinger_t76062517 *)NULL;
+	}
+}
+// System.Int32 Lean.Touch.LeanTouch::FindInactiveFingerIndex(System.Int32)
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Count_m753479905_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m2226599640_MethodInfo_var;
+extern const uint32_t LeanTouch_FindInactiveFingerIndex_m327887945_MetadataUsageId;
+extern "C"  int32_t LeanTouch_FindInactiveFingerIndex_m327887945 (LeanTouch_t1022081457 * __this, int32_t ___index0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTouch_FindInactiveFingerIndex_m327887945_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_InactiveFingers_4();
+		NullCheck(L_0);
+		int32_t L_1 = List_1_get_Count_m753479905(L_0, /*hidden argument*/List_1_get_Count_m753479905_MethodInfo_var);
+		V_0 = ((int32_t)((int32_t)L_1-(int32_t)1));
+		goto IL_002e;
+	}
+
+IL_0012:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_2 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_InactiveFingers_4();
+		int32_t L_3 = V_0;
+		NullCheck(L_2);
+		LeanFinger_t76062517 * L_4 = List_1_get_Item_m2226599640(L_2, L_3, /*hidden argument*/List_1_get_Item_m2226599640_MethodInfo_var);
+		NullCheck(L_4);
+		int32_t L_5 = L_4->get_Index_0();
+		int32_t L_6 = ___index0;
+		if ((!(((uint32_t)L_5) == ((uint32_t)L_6))))
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		int32_t L_7 = V_0;
+		return L_7;
+	}
+
+IL_002a:
+	{
+		int32_t L_8 = V_0;
+		V_0 = ((int32_t)((int32_t)L_8-(int32_t)1));
+	}
+
+IL_002e:
+	{
+		int32_t L_9 = V_0;
+		if ((((int32_t)L_9) >= ((int32_t)0)))
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return (-1);
+	}
+}
+// System.Void Lean.Touch.LeanTouch::.cctor()
+extern Il2CppClass* List_1_t391202589_il2cpp_TypeInfo_var;
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t3740150945_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t3685274804_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m807487153_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m4142472326_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3574256493_MethodInfo_var;
+extern const uint32_t LeanTouch__cctor_m2435515766_MetadataUsageId;
+extern "C"  void LeanTouch__cctor_m2435515766 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTouch__cctor_m2435515766_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t391202589 * L_0 = (List_1_t391202589 *)il2cpp_codegen_object_new(List_1_t391202589_il2cpp_TypeInfo_var);
+		List_1__ctor_m807487153(L_0, /*hidden argument*/List_1__ctor_m807487153_MethodInfo_var);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_Instances_2(L_0);
+		List_1_t3740150945 * L_1 = (List_1_t3740150945 *)il2cpp_codegen_object_new(List_1_t3740150945_il2cpp_TypeInfo_var);
+		List_1__ctor_m4142472326(L_1, ((int32_t)10), /*hidden argument*/List_1__ctor_m4142472326_MethodInfo_var);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_Fingers_3(L_1);
+		List_1_t3740150945 * L_2 = (List_1_t3740150945 *)il2cpp_codegen_object_new(List_1_t3740150945_il2cpp_TypeInfo_var);
+		List_1__ctor_m4142472326(L_2, ((int32_t)10), /*hidden argument*/List_1__ctor_m4142472326_MethodInfo_var);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_InactiveFingers_4(L_2);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_highestMouseButton_26(7);
+		List_1_t3685274804 * L_3 = (List_1_t3685274804 *)il2cpp_codegen_object_new(List_1_t3685274804_il2cpp_TypeInfo_var);
+		List_1__ctor_m3574256493(L_3, ((int32_t)10), /*hidden argument*/List_1__ctor_m3574256493_MethodInfo_var);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_tempRaycastResults_27(L_3);
+		List_1_t3740150945 * L_4 = (List_1_t3740150945 *)il2cpp_codegen_object_new(List_1_t3740150945_il2cpp_TypeInfo_var);
+		List_1__ctor_m4142472326(L_4, ((int32_t)10), /*hidden argument*/List_1__ctor_m4142472326_MethodInfo_var);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_filteredFingers_28(L_4);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanTouchEvents::.ctor()
+extern "C"  void LeanTouchEvents__ctor_m2636858936 (LeanTouchEvents_t41969022 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanTouchEvents::OnEnable()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t4172829195_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t3541950327_il2cpp_TypeInfo_var;
+extern const MethodInfo* LeanTouchEvents_OnFingerDown_m2651983216_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3978629893_MethodInfo_var;
+extern const MethodInfo* LeanTouchEvents_OnFingerSet_m232772058_MethodInfo_var;
+extern const MethodInfo* LeanTouchEvents_OnFingerUp_m3718302333_MethodInfo_var;
+extern const MethodInfo* LeanTouchEvents_OnFingerTap_m411162413_MethodInfo_var;
+extern const MethodInfo* LeanTouchEvents_OnFingerSwipe_m2016335660_MethodInfo_var;
+extern const MethodInfo* LeanTouchEvents_OnFingerHeldDown_m2691183727_MethodInfo_var;
+extern const MethodInfo* LeanTouchEvents_OnFingerHeld_m1718471361_MethodInfo_var;
+extern const MethodInfo* LeanTouchEvents_OnFingerHeldUp_m1187502494_MethodInfo_var;
+extern const MethodInfo* LeanTouchEvents_OnGesture_m2462510520_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m4093648779_MethodInfo_var;
+extern const uint32_t LeanTouchEvents_OnEnable_m657859528_MetadataUsageId;
+extern "C"  void LeanTouchEvents_OnEnable_m657859528 (LeanTouchEvents_t41969022 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTouchEvents_OnEnable_m657859528_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerDown_5();
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)LeanTouchEvents_OnFingerDown_m2651983216_MethodInfo_var);
+		Action_1_t4172829195 * L_2 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_3 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_0, L_2, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerDown_5(((Action_1_t4172829195 *)CastclassSealed(L_3, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		Action_1_t4172829195 * L_4 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerSet_6();
+		IntPtr_t L_5;
+		L_5.set_m_value_0((void*)(void*)LeanTouchEvents_OnFingerSet_m232772058_MethodInfo_var);
+		Action_1_t4172829195 * L_6 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_6, __this, L_5, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_7 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_4, L_6, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerSet_6(((Action_1_t4172829195 *)CastclassSealed(L_7, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		Action_1_t4172829195 * L_8 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerUp_7();
+		IntPtr_t L_9;
+		L_9.set_m_value_0((void*)(void*)LeanTouchEvents_OnFingerUp_m3718302333_MethodInfo_var);
+		Action_1_t4172829195 * L_10 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_10, __this, L_9, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_11 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_8, L_10, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerUp_7(((Action_1_t4172829195 *)CastclassSealed(L_11, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		Action_1_t4172829195 * L_12 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerTap_8();
+		IntPtr_t L_13;
+		L_13.set_m_value_0((void*)(void*)LeanTouchEvents_OnFingerTap_m411162413_MethodInfo_var);
+		Action_1_t4172829195 * L_14 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_14, __this, L_13, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_15 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_12, L_14, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerTap_8(((Action_1_t4172829195 *)CastclassSealed(L_15, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		Action_1_t4172829195 * L_16 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerSwipe_9();
+		IntPtr_t L_17;
+		L_17.set_m_value_0((void*)(void*)LeanTouchEvents_OnFingerSwipe_m2016335660_MethodInfo_var);
+		Action_1_t4172829195 * L_18 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_18, __this, L_17, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_19 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_16, L_18, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerSwipe_9(((Action_1_t4172829195 *)CastclassSealed(L_19, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		Action_1_t4172829195 * L_20 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerHeldDown_10();
+		IntPtr_t L_21;
+		L_21.set_m_value_0((void*)(void*)LeanTouchEvents_OnFingerHeldDown_m2691183727_MethodInfo_var);
+		Action_1_t4172829195 * L_22 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_22, __this, L_21, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_23 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_20, L_22, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerHeldDown_10(((Action_1_t4172829195 *)CastclassSealed(L_23, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		Action_1_t4172829195 * L_24 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerHeldSet_11();
+		IntPtr_t L_25;
+		L_25.set_m_value_0((void*)(void*)LeanTouchEvents_OnFingerHeld_m1718471361_MethodInfo_var);
+		Action_1_t4172829195 * L_26 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_26, __this, L_25, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_27 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_24, L_26, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerHeldSet_11(((Action_1_t4172829195 *)CastclassSealed(L_27, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		Action_1_t4172829195 * L_28 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerHeldUp_12();
+		IntPtr_t L_29;
+		L_29.set_m_value_0((void*)(void*)LeanTouchEvents_OnFingerHeldUp_m1187502494_MethodInfo_var);
+		Action_1_t4172829195 * L_30 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_30, __this, L_29, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_31 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_28, L_30, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerHeldUp_12(((Action_1_t4172829195 *)CastclassSealed(L_31, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		Action_1_t3541950327 * L_32 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnGesture_13();
+		IntPtr_t L_33;
+		L_33.set_m_value_0((void*)(void*)LeanTouchEvents_OnGesture_m2462510520_MethodInfo_var);
+		Action_1_t3541950327 * L_34 = (Action_1_t3541950327 *)il2cpp_codegen_object_new(Action_1_t3541950327_il2cpp_TypeInfo_var);
+		Action_1__ctor_m4093648779(L_34, __this, L_33, /*hidden argument*/Action_1__ctor_m4093648779_MethodInfo_var);
+		Delegate_t3022476291 * L_35 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_32, L_34, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnGesture_13(((Action_1_t3541950327 *)CastclassSealed(L_35, Action_1_t3541950327_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanTouchEvents::OnDisable()
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t4172829195_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t3541950327_il2cpp_TypeInfo_var;
+extern const MethodInfo* LeanTouchEvents_OnFingerDown_m2651983216_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3978629893_MethodInfo_var;
+extern const MethodInfo* LeanTouchEvents_OnFingerSet_m232772058_MethodInfo_var;
+extern const MethodInfo* LeanTouchEvents_OnFingerUp_m3718302333_MethodInfo_var;
+extern const MethodInfo* LeanTouchEvents_OnFingerTap_m411162413_MethodInfo_var;
+extern const MethodInfo* LeanTouchEvents_OnFingerSwipe_m2016335660_MethodInfo_var;
+extern const MethodInfo* LeanTouchEvents_OnFingerHeldDown_m2691183727_MethodInfo_var;
+extern const MethodInfo* LeanTouchEvents_OnFingerHeld_m1718471361_MethodInfo_var;
+extern const MethodInfo* LeanTouchEvents_OnFingerHeldUp_m1187502494_MethodInfo_var;
+extern const MethodInfo* LeanTouchEvents_OnGesture_m2462510520_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m4093648779_MethodInfo_var;
+extern const uint32_t LeanTouchEvents_OnDisable_m2060800237_MetadataUsageId;
+extern "C"  void LeanTouchEvents_OnDisable_m2060800237 (LeanTouchEvents_t41969022 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTouchEvents_OnDisable_m2060800237_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		Action_1_t4172829195 * L_0 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerDown_5();
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)LeanTouchEvents_OnFingerDown_m2651983216_MethodInfo_var);
+		Action_1_t4172829195 * L_2 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_3 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_0, L_2, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerDown_5(((Action_1_t4172829195 *)CastclassSealed(L_3, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		Action_1_t4172829195 * L_4 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerSet_6();
+		IntPtr_t L_5;
+		L_5.set_m_value_0((void*)(void*)LeanTouchEvents_OnFingerSet_m232772058_MethodInfo_var);
+		Action_1_t4172829195 * L_6 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_6, __this, L_5, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_7 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_4, L_6, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerSet_6(((Action_1_t4172829195 *)CastclassSealed(L_7, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		Action_1_t4172829195 * L_8 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerUp_7();
+		IntPtr_t L_9;
+		L_9.set_m_value_0((void*)(void*)LeanTouchEvents_OnFingerUp_m3718302333_MethodInfo_var);
+		Action_1_t4172829195 * L_10 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_10, __this, L_9, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_11 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_8, L_10, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerUp_7(((Action_1_t4172829195 *)CastclassSealed(L_11, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		Action_1_t4172829195 * L_12 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerTap_8();
+		IntPtr_t L_13;
+		L_13.set_m_value_0((void*)(void*)LeanTouchEvents_OnFingerTap_m411162413_MethodInfo_var);
+		Action_1_t4172829195 * L_14 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_14, __this, L_13, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_15 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_12, L_14, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerTap_8(((Action_1_t4172829195 *)CastclassSealed(L_15, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		Action_1_t4172829195 * L_16 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerSwipe_9();
+		IntPtr_t L_17;
+		L_17.set_m_value_0((void*)(void*)LeanTouchEvents_OnFingerSwipe_m2016335660_MethodInfo_var);
+		Action_1_t4172829195 * L_18 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_18, __this, L_17, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_19 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_16, L_18, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerSwipe_9(((Action_1_t4172829195 *)CastclassSealed(L_19, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		Action_1_t4172829195 * L_20 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerHeldDown_10();
+		IntPtr_t L_21;
+		L_21.set_m_value_0((void*)(void*)LeanTouchEvents_OnFingerHeldDown_m2691183727_MethodInfo_var);
+		Action_1_t4172829195 * L_22 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_22, __this, L_21, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_23 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_20, L_22, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerHeldDown_10(((Action_1_t4172829195 *)CastclassSealed(L_23, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		Action_1_t4172829195 * L_24 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerHeldSet_11();
+		IntPtr_t L_25;
+		L_25.set_m_value_0((void*)(void*)LeanTouchEvents_OnFingerHeld_m1718471361_MethodInfo_var);
+		Action_1_t4172829195 * L_26 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_26, __this, L_25, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_27 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_24, L_26, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerHeldSet_11(((Action_1_t4172829195 *)CastclassSealed(L_27, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		Action_1_t4172829195 * L_28 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnFingerHeldUp_12();
+		IntPtr_t L_29;
+		L_29.set_m_value_0((void*)(void*)LeanTouchEvents_OnFingerHeldUp_m1187502494_MethodInfo_var);
+		Action_1_t4172829195 * L_30 = (Action_1_t4172829195 *)il2cpp_codegen_object_new(Action_1_t4172829195_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3978629893(L_30, __this, L_29, /*hidden argument*/Action_1__ctor_m3978629893_MethodInfo_var);
+		Delegate_t3022476291 * L_31 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_28, L_30, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnFingerHeldUp_12(((Action_1_t4172829195 *)CastclassSealed(L_31, Action_1_t4172829195_il2cpp_TypeInfo_var)));
+		Action_1_t3541950327 * L_32 = ((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->get_OnGesture_13();
+		IntPtr_t L_33;
+		L_33.set_m_value_0((void*)(void*)LeanTouchEvents_OnGesture_m2462510520_MethodInfo_var);
+		Action_1_t3541950327 * L_34 = (Action_1_t3541950327 *)il2cpp_codegen_object_new(Action_1_t3541950327_il2cpp_TypeInfo_var);
+		Action_1__ctor_m4093648779(L_34, __this, L_33, /*hidden argument*/Action_1__ctor_m4093648779_MethodInfo_var);
+		Delegate_t3022476291 * L_35 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_32, L_34, /*hidden argument*/NULL);
+		((LeanTouch_t1022081457_StaticFields*)LeanTouch_t1022081457_il2cpp_TypeInfo_var->static_fields)->set_OnGesture_13(((Action_1_t3541950327 *)CastclassSealed(L_35, Action_1_t3541950327_il2cpp_TypeInfo_var)));
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanTouchEvents::OnFingerDown(Lean.Touch.LeanFinger)
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral782132677;
+extern Il2CppCodeGenString* _stringLiteral563525795;
+extern const uint32_t LeanTouchEvents_OnFingerDown_m2651983216_MetadataUsageId;
+extern "C"  void LeanTouchEvents_OnFingerDown_m2651983216 (LeanTouchEvents_t41969022 * __this, LeanFinger_t76062517 * ___finger0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTouchEvents_OnFingerDown_m2651983216_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		LeanFinger_t76062517 * L_0 = ___finger0;
+		NullCheck(L_0);
+		int32_t L_1 = L_0->get_Index_0();
+		int32_t L_2 = L_1;
+		Il2CppObject * L_3 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = String_Concat_m2000667605(NULL /*static, unused*/, _stringLiteral782132677, L_3, _stringLiteral563525795, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanTouchEvents::OnFingerSet(Lean.Touch.LeanFinger)
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral782132677;
+extern Il2CppCodeGenString* _stringLiteral3535539222;
+extern const uint32_t LeanTouchEvents_OnFingerSet_m232772058_MetadataUsageId;
+extern "C"  void LeanTouchEvents_OnFingerSet_m232772058 (LeanTouchEvents_t41969022 * __this, LeanFinger_t76062517 * ___finger0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTouchEvents_OnFingerSet_m232772058_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		LeanFinger_t76062517 * L_0 = ___finger0;
+		NullCheck(L_0);
+		int32_t L_1 = L_0->get_Index_0();
+		int32_t L_2 = L_1;
+		Il2CppObject * L_3 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = String_Concat_m2000667605(NULL /*static, unused*/, _stringLiteral782132677, L_3, _stringLiteral3535539222, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanTouchEvents::OnFingerUp(Lean.Touch.LeanFinger)
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral782132677;
+extern Il2CppCodeGenString* _stringLiteral2470164490;
+extern const uint32_t LeanTouchEvents_OnFingerUp_m3718302333_MetadataUsageId;
+extern "C"  void LeanTouchEvents_OnFingerUp_m3718302333 (LeanTouchEvents_t41969022 * __this, LeanFinger_t76062517 * ___finger0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTouchEvents_OnFingerUp_m3718302333_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		LeanFinger_t76062517 * L_0 = ___finger0;
+		NullCheck(L_0);
+		int32_t L_1 = L_0->get_Index_0();
+		int32_t L_2 = L_1;
+		Il2CppObject * L_3 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = String_Concat_m2000667605(NULL /*static, unused*/, _stringLiteral782132677, L_3, _stringLiteral2470164490, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanTouchEvents::OnFingerTap(Lean.Touch.LeanFinger)
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral782132677;
+extern Il2CppCodeGenString* _stringLiteral2088955961;
+extern const uint32_t LeanTouchEvents_OnFingerTap_m411162413_MetadataUsageId;
+extern "C"  void LeanTouchEvents_OnFingerTap_m411162413 (LeanTouchEvents_t41969022 * __this, LeanFinger_t76062517 * ___finger0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTouchEvents_OnFingerTap_m411162413_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		LeanFinger_t76062517 * L_0 = ___finger0;
+		NullCheck(L_0);
+		int32_t L_1 = L_0->get_Index_0();
+		int32_t L_2 = L_1;
+		Il2CppObject * L_3 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = String_Concat_m2000667605(NULL /*static, unused*/, _stringLiteral782132677, L_3, _stringLiteral2088955961, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanTouchEvents::OnFingerSwipe(Lean.Touch.LeanFinger)
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral782132677;
+extern Il2CppCodeGenString* _stringLiteral4003991573;
+extern const uint32_t LeanTouchEvents_OnFingerSwipe_m2016335660_MetadataUsageId;
+extern "C"  void LeanTouchEvents_OnFingerSwipe_m2016335660 (LeanTouchEvents_t41969022 * __this, LeanFinger_t76062517 * ___finger0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTouchEvents_OnFingerSwipe_m2016335660_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		LeanFinger_t76062517 * L_0 = ___finger0;
+		NullCheck(L_0);
+		int32_t L_1 = L_0->get_Index_0();
+		int32_t L_2 = L_1;
+		Il2CppObject * L_3 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = String_Concat_m2000667605(NULL /*static, unused*/, _stringLiteral782132677, L_3, _stringLiteral4003991573, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanTouchEvents::OnFingerHeldDown(Lean.Touch.LeanFinger)
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral782132677;
+extern Il2CppCodeGenString* _stringLiteral1897040002;
+extern const uint32_t LeanTouchEvents_OnFingerHeldDown_m2691183727_MetadataUsageId;
+extern "C"  void LeanTouchEvents_OnFingerHeldDown_m2691183727 (LeanTouchEvents_t41969022 * __this, LeanFinger_t76062517 * ___finger0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTouchEvents_OnFingerHeldDown_m2691183727_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		LeanFinger_t76062517 * L_0 = ___finger0;
+		NullCheck(L_0);
+		int32_t L_1 = L_0->get_Index_0();
+		int32_t L_2 = L_1;
+		Il2CppObject * L_3 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = String_Concat_m2000667605(NULL /*static, unused*/, _stringLiteral782132677, L_3, _stringLiteral1897040002, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanTouchEvents::OnFingerHeld(Lean.Touch.LeanFinger)
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral782132677;
+extern Il2CppCodeGenString* _stringLiteral140605197;
+extern const uint32_t LeanTouchEvents_OnFingerHeld_m1718471361_MetadataUsageId;
+extern "C"  void LeanTouchEvents_OnFingerHeld_m1718471361 (LeanTouchEvents_t41969022 * __this, LeanFinger_t76062517 * ___finger0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTouchEvents_OnFingerHeld_m1718471361_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		LeanFinger_t76062517 * L_0 = ___finger0;
+		NullCheck(L_0);
+		int32_t L_1 = L_0->get_Index_0();
+		int32_t L_2 = L_1;
+		Il2CppObject * L_3 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = String_Concat_m2000667605(NULL /*static, unused*/, _stringLiteral782132677, L_3, _stringLiteral140605197, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanTouchEvents::OnFingerHeldUp(Lean.Touch.LeanFinger)
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral782132677;
+extern Il2CppCodeGenString* _stringLiteral3933393218;
+extern const uint32_t LeanTouchEvents_OnFingerHeldUp_m1187502494_MetadataUsageId;
+extern "C"  void LeanTouchEvents_OnFingerHeldUp_m1187502494 (LeanTouchEvents_t41969022 * __this, LeanFinger_t76062517 * ___finger0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTouchEvents_OnFingerHeldUp_m1187502494_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		LeanFinger_t76062517 * L_0 = ___finger0;
+		NullCheck(L_0);
+		int32_t L_1 = L_0->get_Index_0();
+		int32_t L_2 = L_1;
+		Il2CppObject * L_3 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = String_Concat_m2000667605(NULL /*static, unused*/, _stringLiteral782132677, L_3, _stringLiteral3933393218, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanTouchEvents::OnGesture(System.Collections.Generic.List`1<Lean.Touch.LeanFinger>)
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppClass* Single_t2076509932_il2cpp_TypeInfo_var;
+extern Il2CppClass* Vector2_t2243707579_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Count_m753479905_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral966430565;
+extern Il2CppCodeGenString* _stringLiteral1912478199;
+extern Il2CppCodeGenString* _stringLiteral144040870;
+extern Il2CppCodeGenString* _stringLiteral7631366;
+extern Il2CppCodeGenString* _stringLiteral562228825;
+extern Il2CppCodeGenString* _stringLiteral286295966;
+extern const uint32_t LeanTouchEvents_OnGesture_m2462510520_MetadataUsageId;
+extern "C"  void LeanTouchEvents_OnGesture_m2462510520 (LeanTouchEvents_t41969022 * __this, List_1_t3740150945 * ___fingers0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTouchEvents_OnGesture_m2462510520_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t3740150945 * L_0 = ___fingers0;
+		NullCheck(L_0);
+		int32_t L_1 = List_1_get_Count_m753479905(L_0, /*hidden argument*/List_1_get_Count_m753479905_MethodInfo_var);
+		int32_t L_2 = L_1;
+		Il2CppObject * L_3 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = String_Concat_m2000667605(NULL /*static, unused*/, _stringLiteral966430565, L_3, _stringLiteral1912478199, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		List_1_t3740150945 * L_5 = ___fingers0;
+		float L_6 = LeanGesture_GetPinchScale_m3026702667(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		float L_7 = L_6;
+		Il2CppObject * L_8 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_7);
+		String_t* L_9 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral144040870, L_8, /*hidden argument*/NULL);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		List_1_t3740150945 * L_10 = ___fingers0;
+		float L_11 = LeanGesture_GetTwistDegrees_m1268414193(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		float L_12 = L_11;
+		Il2CppObject * L_13 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_12);
+		String_t* L_14 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral7631366, L_13, /*hidden argument*/NULL);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
+		List_1_t3740150945 * L_15 = ___fingers0;
+		float L_16 = LeanGesture_GetTwistRadians_m1347558846(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
+		float L_17 = L_16;
+		Il2CppObject * L_18 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_17);
+		String_t* L_19 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral562228825, L_18, /*hidden argument*/NULL);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_19, /*hidden argument*/NULL);
+		List_1_t3740150945 * L_20 = ___fingers0;
+		Vector2_t2243707579  L_21 = LeanGesture_GetScreenDelta_m2509873154(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
+		Vector2_t2243707579  L_22 = L_21;
+		Il2CppObject * L_23 = Box(Vector2_t2243707579_il2cpp_TypeInfo_var, &L_22);
+		String_t* L_24 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral286295966, L_23, /*hidden argument*/NULL);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanTranslate::.ctor()
+extern "C"  void LeanTranslate__ctor_m824126628 (LeanTranslate_t3292440434 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_IgnoreGuiFingers_2((bool)1);
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanTranslate::Update()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* LeanTouch_t1022081457_il2cpp_TypeInfo_var;
+extern const uint32_t LeanTranslate_Update_m1593674085_MetadataUsageId;
+extern "C"  void LeanTranslate_Update_m1593674085 (LeanTranslate_t3292440434 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTranslate_Update_m1593674085_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t3740150945 * V_0 = NULL;
+	Vector2_t2243707579  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		LeanSelectable_t3692576450 * L_0 = __this->get_RequiredSelectable_4();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		LeanSelectable_t3692576450 * L_2 = __this->get_RequiredSelectable_4();
+		NullCheck(L_2);
+		bool L_3 = L_2->get_IsSelected_2();
+		if (L_3)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0022:
+	{
+		bool L_4 = __this->get_IgnoreGuiFingers_2();
+		int32_t L_5 = __this->get_RequiredFingerCount_3();
+		IL2CPP_RUNTIME_CLASS_INIT(LeanTouch_t1022081457_il2cpp_TypeInfo_var);
+		List_1_t3740150945 * L_6 = LeanTouch_GetFingers_m4092984378(NULL /*static, unused*/, L_4, L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
+		List_1_t3740150945 * L_7 = V_0;
+		Vector2_t2243707579  L_8 = LeanGesture_GetScreenDelta_m2509873154(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		V_1 = L_8;
+		Vector2_t2243707579  L_9 = V_1;
+		LeanTranslate_Translate_m410589770(__this, L_9, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanTranslate::Translate(UnityEngine.Vector2)
+extern "C"  void LeanTranslate_Translate_m410589770 (LeanTranslate_t3292440434 * __this, Vector2_t2243707579  ___screenDelta0, const MethodInfo* method)
+{
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Camera_t189460977 * L_0 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_1 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		Vector3_t2243707580  L_2 = Transform_get_position_m1104419803(L_1, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Vector3_t2243707580  L_3 = Camera_WorldToScreenPoint_m638747266(L_0, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		Vector3_t2243707580  L_4 = V_0;
+		Vector2_t2243707579  L_5 = ___screenDelta0;
+		Vector3_t2243707580  L_6 = Vector2_op_Implicit_m176791411(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_7 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_4, L_6, /*hidden argument*/NULL);
+		V_0 = L_7;
+		Transform_t3275118058 * L_8 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		Camera_t189460977 * L_9 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_10 = V_0;
+		NullCheck(L_9);
+		Vector3_t2243707580  L_11 = Camera_ScreenToWorldPoint_m929392728(L_9, L_10, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		Transform_set_position_m2469242620(L_8, L_11, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanTranslateSmooth::.ctor()
+extern "C"  void LeanTranslateSmooth__ctor_m2964573214 (LeanTranslateSmooth_t748462924 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_Sharpness_3((10.0f));
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanTranslateSmooth::Update()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t LeanTranslateSmooth_Update_m2295540031_MetadataUsageId;
+extern "C"  void LeanTranslateSmooth_Update_m2295540031 (LeanTranslateSmooth_t748462924 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTranslateSmooth_Update_m2295540031_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector2_t2243707579  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Vector2_t2243707579  L_0 = LeanGesture_GetScreenDelta_m217217714(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		LeanSelectable_t3692576450 * L_1 = __this->get_RequiredSelectable_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_1, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		LeanSelectable_t3692576450 * L_3 = __this->get_RequiredSelectable_2();
+		NullCheck(L_3);
+		bool L_4 = L_3->get_IsSelected_2();
+		if (L_4)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0028:
+	{
+		LeanSelectable_t3692576450 * L_5 = __this->get_RequiredSelectable_2();
+		NullCheck(L_5);
+		LeanFinger_t76062517 * L_6 = L_5->get_Finger_3();
+		if (!L_6)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		LeanSelectable_t3692576450 * L_7 = __this->get_RequiredSelectable_2();
+		NullCheck(L_7);
+		LeanFinger_t76062517 * L_8 = L_7->get_Finger_3();
+		NullCheck(L_8);
+		Vector2_t2243707579  L_9 = LeanFinger_get_ScreenDelta_m4236172177(L_8, /*hidden argument*/NULL);
+		V_0 = L_9;
+	}
+
+IL_0049:
+	{
+		Vector2_t2243707579  L_10 = V_0;
+		LeanTranslateSmooth_Translate_m1624748624(__this, L_10, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanTranslateSmooth::LateUpdate()
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern const uint32_t LeanTranslateSmooth_LateUpdate_m2420448171_MetadataUsageId;
+extern "C"  void LeanTranslateSmooth_LateUpdate_m2420448171 (LeanTranslateSmooth_t748462924 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LeanTranslateSmooth_LateUpdate_m2420448171_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	Vector3_t2243707580  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		float L_0 = __this->get_Sharpness_3();
+		float L_1 = Time_get_deltaTime_m2233168104(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_2 = expf(((float)((float)((-L_0))*(float)L_1)));
+		V_0 = L_2;
+		Vector3_t2243707580  L_3 = __this->get_remainingDelta_4();
+		float L_4 = V_0;
+		Vector3_t2243707580  L_5 = Vector3_op_Multiply_m1351554733(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
+		Transform_t3275118058 * L_6 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_7 = L_6;
+		NullCheck(L_7);
+		Vector3_t2243707580  L_8 = Transform_get_position_m1104419803(L_7, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_9 = __this->get_remainingDelta_4();
+		Vector3_t2243707580  L_10 = V_1;
+		Vector3_t2243707580  L_11 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, L_9, L_10, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_12 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_8, L_11, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		Transform_set_position_m2469242620(L_7, L_12, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_13 = V_1;
+		__this->set_remainingDelta_4(L_13);
+		return;
+	}
+}
+// System.Void Lean.Touch.LeanTranslateSmooth::Translate(UnityEngine.Vector2)
+extern "C"  void LeanTranslateSmooth_Translate_m1624748624 (LeanTranslateSmooth_t748462924 * __this, Vector2_t2243707579  ___screenDelta0, const MethodInfo* method)
+{
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector3_t2243707580  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Vector3_t2243707580  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Vector3_t2243707580  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	{
+		Transform_t3275118058 * L_0 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Vector3_t2243707580  L_1 = Transform_get_position_m1104419803(L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		Camera_t189460977 * L_2 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_3 = V_0;
+		NullCheck(L_2);
+		Vector3_t2243707580  L_4 = Camera_WorldToScreenPoint_m638747266(L_2, L_3, /*hidden argument*/NULL);
+		V_1 = L_4;
+		Vector3_t2243707580  L_5 = V_1;
+		Vector2_t2243707579  L_6 = ___screenDelta0;
+		Vector3_t2243707580  L_7 = Vector2_op_Implicit_m176791411(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_8 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_5, L_7, /*hidden argument*/NULL);
+		V_1 = L_8;
+		Camera_t189460977 * L_9 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_10 = V_1;
+		NullCheck(L_9);
+		Vector3_t2243707580  L_11 = Camera_ScreenToWorldPoint_m929392728(L_9, L_10, /*hidden argument*/NULL);
+		V_2 = L_11;
+		Vector3_t2243707580  L_12 = V_2;
+		Vector3_t2243707580  L_13 = V_0;
+		Vector3_t2243707580  L_14 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, L_12, L_13, /*hidden argument*/NULL);
+		V_3 = L_14;
+		Vector3_t2243707580  L_15 = __this->get_remainingDelta_4();
+		Vector3_t2243707580  L_16 = V_3;
+		Vector3_t2243707580  L_17 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_15, L_16, /*hidden argument*/NULL);
+		__this->set_remainingDelta_4(L_17);
+		return;
+	}
+}
+// System.Void testScript::.ctor()
+extern "C"  void testScript__ctor_m2970773478 (testScript_t860672111 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void testScript::Start()
+extern "C"  void testScript_Start_m444832922 (testScript_t860672111 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void testScript::Update()
+extern "C"  void testScript_Update_m1326373911 (testScript_t860672111 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void UserInterfaceButtons::.ctor()
+extern "C"  void UserInterfaceButtons__ctor_m2471314662 (UserInterfaceButtons_t987458907 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_scalingSpeed_2((0.03f));
+		__this->set_rotationSpeed_3((70.0f));
+		__this->set_translationSpeed_4((5.0f));
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UserInterfaceButtons::Update()
+extern "C"  void UserInterfaceButtons_Update_m759377607 (UserInterfaceButtons_t987458907 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_repeatScaleUp_5();
+		if (!L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		UserInterfaceButtons_ScaleUpButton_m1730932353(__this, /*hidden argument*/NULL);
+	}
+
+IL_0011:
+	{
+		bool L_1 = __this->get_repeatScaleDown_6();
+		if (!L_1)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		UserInterfaceButtons_ScaleDownButton_m354173396(__this, /*hidden argument*/NULL);
+	}
+
+IL_0022:
+	{
+		bool L_2 = __this->get_repeatRotateRight_8();
+		if (!L_2)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		UserInterfaceButtons_RotationRightButton_m3174211630(__this, /*hidden argument*/NULL);
+	}
+
+IL_0033:
+	{
+		bool L_3 = __this->get_repeatRotateLeft_7();
+		if (!L_3)
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		UserInterfaceButtons_RotationLeftButton_m3003998291(__this, /*hidden argument*/NULL);
+	}
+
+IL_0044:
+	{
+		bool L_4 = __this->get_repeatPositionUp_9();
+		if (!L_4)
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		UserInterfaceButtons_PositionUpButton_m2695760618(__this, /*hidden argument*/NULL);
+	}
+
+IL_0055:
+	{
+		bool L_5 = __this->get_repeatPositionDown_10();
+		if (!L_5)
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		UserInterfaceButtons_PositionDownButton_m1093730519(__this, /*hidden argument*/NULL);
+	}
+
+IL_0066:
+	{
+		bool L_6 = __this->get_repeatPositionLeft_11();
+		if (!L_6)
+		{
+			goto IL_0077;
+		}
+	}
+	{
+		UserInterfaceButtons_PositionLeftButton_m2721024126(__this, /*hidden argument*/NULL);
+	}
+
+IL_0077:
+	{
+		bool L_7 = __this->get_repeatPositionRight_12();
+		if (!L_7)
+		{
+			goto IL_0088;
+		}
+	}
+	{
+		UserInterfaceButtons_PositionRightButton_m1358020529(__this, /*hidden argument*/NULL);
+	}
+
+IL_0088:
+	{
+		return;
+	}
+}
+// System.Void UserInterfaceButtons::CloseAppButton()
+extern "C"  void UserInterfaceButtons_CloseAppButton_m3556095755 (UserInterfaceButtons_t987458907 * __this, const MethodInfo* method)
+{
+	{
+		Application_Quit_m3885595876(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UserInterfaceButtons::RotationRightButton()
+extern Il2CppCodeGenString* _stringLiteral1601830955;
+extern const uint32_t UserInterfaceButtons_RotationRightButton_m3174211630_MetadataUsageId;
+extern "C"  void UserInterfaceButtons_RotationRightButton_m3174211630 (UserInterfaceButtons_t987458907 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UserInterfaceButtons_RotationRightButton_m3174211630_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = GameObject_FindWithTag_m1929006324(NULL /*static, unused*/, _stringLiteral1601830955, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Transform_t3275118058 * L_1 = GameObject_get_transform_m909382139(L_0, /*hidden argument*/NULL);
+		float L_2 = __this->get_rotationSpeed_3();
+		float L_3 = Time_get_deltaTime_m2233168104(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		Transform_Rotate_m4255273365(L_1, (0.0f), ((float)((float)((-L_2))*(float)L_3)), (0.0f), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UserInterfaceButtons::RotationLeftButton()
+extern Il2CppCodeGenString* _stringLiteral1601830955;
+extern const uint32_t UserInterfaceButtons_RotationLeftButton_m3003998291_MetadataUsageId;
+extern "C"  void UserInterfaceButtons_RotationLeftButton_m3003998291 (UserInterfaceButtons_t987458907 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UserInterfaceButtons_RotationLeftButton_m3003998291_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = GameObject_FindWithTag_m1929006324(NULL /*static, unused*/, _stringLiteral1601830955, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Transform_t3275118058 * L_1 = GameObject_get_transform_m909382139(L_0, /*hidden argument*/NULL);
+		float L_2 = __this->get_rotationSpeed_3();
+		float L_3 = Time_get_deltaTime_m2233168104(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		Transform_Rotate_m4255273365(L_1, (0.0f), ((float)((float)L_2*(float)L_3)), (0.0f), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UserInterfaceButtons::RotationRightButtonRepeat()
+extern "C"  void UserInterfaceButtons_RotationRightButtonRepeat_m3435763423 (UserInterfaceButtons_t987458907 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_repeatRotateRight_8((bool)1);
+		return;
+	}
+}
+// System.Void UserInterfaceButtons::RotationLeftButtonRepeat()
+extern "C"  void UserInterfaceButtons_RotationLeftButtonRepeat_m726227256 (UserInterfaceButtons_t987458907 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_repeatRotateLeft_7((bool)1);
+		return;
+	}
+}
+// System.Void UserInterfaceButtons::ScaleUpButton()
+extern Il2CppCodeGenString* _stringLiteral1601830955;
+extern const uint32_t UserInterfaceButtons_ScaleUpButton_m1730932353_MetadataUsageId;
+extern "C"  void UserInterfaceButtons_ScaleUpButton_m1730932353 (UserInterfaceButtons_t987458907 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UserInterfaceButtons_ScaleUpButton_m1730932353_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = GameObject_FindWithTag_m1929006324(NULL /*static, unused*/, _stringLiteral1601830955, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Transform_t3275118058 * L_1 = GameObject_get_transform_m909382139(L_0, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_2 = L_1;
+		NullCheck(L_2);
+		Vector3_t2243707580  L_3 = Transform_get_localScale_m3074381503(L_2, /*hidden argument*/NULL);
+		float L_4 = __this->get_scalingSpeed_2();
+		float L_5 = __this->get_scalingSpeed_2();
+		float L_6 = __this->get_scalingSpeed_2();
+		Vector3_t2243707580  L_7;
+		memset(&L_7, 0, sizeof(L_7));
+		Vector3__ctor_m2638739322(&L_7, L_4, L_5, L_6, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_8 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_3, L_7, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Transform_set_localScale_m2325460848(L_2, L_8, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UserInterfaceButtons::ScaleUpButtonRepeat()
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1543969273;
+extern const uint32_t UserInterfaceButtons_ScaleUpButtonRepeat_m3836879070_MetadataUsageId;
+extern "C"  void UserInterfaceButtons_ScaleUpButtonRepeat_m3836879070 (UserInterfaceButtons_t987458907 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UserInterfaceButtons_ScaleUpButtonRepeat_m3836879070_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_repeatScaleUp_5((bool)1);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, _stringLiteral1543969273, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UserInterfaceButtons::ScaleDownButtonRepeat()
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1367191786;
+extern const uint32_t UserInterfaceButtons_ScaleDownButtonRepeat_m2427573637_MetadataUsageId;
+extern "C"  void UserInterfaceButtons_ScaleDownButtonRepeat_m2427573637 (UserInterfaceButtons_t987458907 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UserInterfaceButtons_ScaleDownButtonRepeat_m2427573637_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_repeatScaleDown_6((bool)1);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, _stringLiteral1367191786, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UserInterfaceButtons::PositionDownButtonRepeat()
+extern "C"  void UserInterfaceButtons_PositionDownButtonRepeat_m3043693916 (UserInterfaceButtons_t987458907 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_repeatPositionDown_10((bool)1);
+		return;
+	}
+}
+// System.Void UserInterfaceButtons::PositionUpButtonRepeat()
+extern "C"  void UserInterfaceButtons_PositionUpButtonRepeat_m2166640171 (UserInterfaceButtons_t987458907 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_repeatPositionUp_9((bool)1);
+		return;
+	}
+}
+// System.Void UserInterfaceButtons::PositionLeftButtonRepeat()
+extern "C"  void UserInterfaceButtons_PositionLeftButtonRepeat_m2654668741 (UserInterfaceButtons_t987458907 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_repeatPositionLeft_11((bool)1);
+		return;
+	}
+}
+// System.Void UserInterfaceButtons::PositionRightButtonRepeat()
+extern "C"  void UserInterfaceButtons_PositionRightButtonRepeat_m1992323146 (UserInterfaceButtons_t987458907 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_repeatPositionRight_12((bool)1);
+		return;
+	}
+}
+// System.Void UserInterfaceButtons::ScaleUpButtonOff()
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3424913979;
+extern const uint32_t UserInterfaceButtons_ScaleUpButtonOff_m3987025028_MetadataUsageId;
+extern "C"  void UserInterfaceButtons_ScaleUpButtonOff_m3987025028 (UserInterfaceButtons_t987458907 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UserInterfaceButtons_ScaleUpButtonOff_m3987025028_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_repeatScaleUp_5((bool)0);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, _stringLiteral3424913979, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UserInterfaceButtons::ScaleDownButtonOff()
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3424913979;
+extern const uint32_t UserInterfaceButtons_ScaleDownButtonOff_m162414453_MetadataUsageId;
+extern "C"  void UserInterfaceButtons_ScaleDownButtonOff_m162414453 (UserInterfaceButtons_t987458907 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UserInterfaceButtons_ScaleDownButtonOff_m162414453_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_repeatScaleDown_6((bool)0);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, _stringLiteral3424913979, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UserInterfaceButtons::RotateLeftButtonOff()
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3424913979;
+extern const uint32_t UserInterfaceButtons_RotateLeftButtonOff_m1779934065_MetadataUsageId;
+extern "C"  void UserInterfaceButtons_RotateLeftButtonOff_m1779934065 (UserInterfaceButtons_t987458907 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UserInterfaceButtons_RotateLeftButtonOff_m1779934065_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_repeatRotateLeft_7((bool)0);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, _stringLiteral3424913979, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UserInterfaceButtons::RotateRightButtonOff()
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3424913979;
+extern const uint32_t UserInterfaceButtons_RotateRightButtonOff_m2326936552_MetadataUsageId;
+extern "C"  void UserInterfaceButtons_RotateRightButtonOff_m2326936552 (UserInterfaceButtons_t987458907 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UserInterfaceButtons_RotateRightButtonOff_m2326936552_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_repeatRotateRight_8((bool)0);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, _stringLiteral3424913979, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UserInterfaceButtons::PositionRightButtonOff()
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3424913979;
+extern const uint32_t UserInterfaceButtons_PositionRightButtonOff_m2070922864_MetadataUsageId;
+extern "C"  void UserInterfaceButtons_PositionRightButtonOff_m2070922864 (UserInterfaceButtons_t987458907 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UserInterfaceButtons_PositionRightButtonOff_m2070922864_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_repeatPositionRight_12((bool)0);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, _stringLiteral3424913979, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UserInterfaceButtons::PositionLeftButtonOff()
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3424913979;
+extern const uint32_t UserInterfaceButtons_PositionLeftButtonOff_m2075365253_MetadataUsageId;
+extern "C"  void UserInterfaceButtons_PositionLeftButtonOff_m2075365253 (UserInterfaceButtons_t987458907 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UserInterfaceButtons_PositionLeftButtonOff_m2075365253_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_repeatPositionLeft_11((bool)0);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, _stringLiteral3424913979, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UserInterfaceButtons::PositionUpButtonOff()
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3424913979;
+extern const uint32_t UserInterfaceButtons_PositionUpButtonOff_m121572759_MetadataUsageId;
+extern "C"  void UserInterfaceButtons_PositionUpButtonOff_m121572759 (UserInterfaceButtons_t987458907 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UserInterfaceButtons_PositionUpButtonOff_m121572759_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_repeatPositionUp_9((bool)0);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, _stringLiteral3424913979, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UserInterfaceButtons::PositionDownButtonOff()
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3424913979;
+extern const uint32_t UserInterfaceButtons_PositionDownButtonOff_m1407418734_MetadataUsageId;
+extern "C"  void UserInterfaceButtons_PositionDownButtonOff_m1407418734 (UserInterfaceButtons_t987458907 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UserInterfaceButtons_PositionDownButtonOff_m1407418734_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_repeatPositionDown_10((bool)0);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, _stringLiteral3424913979, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UserInterfaceButtons::ScaleDownButton()
+extern Il2CppCodeGenString* _stringLiteral1601830955;
+extern const uint32_t UserInterfaceButtons_ScaleDownButton_m354173396_MetadataUsageId;
+extern "C"  void UserInterfaceButtons_ScaleDownButton_m354173396 (UserInterfaceButtons_t987458907 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UserInterfaceButtons_ScaleDownButton_m354173396_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = GameObject_FindWithTag_m1929006324(NULL /*static, unused*/, _stringLiteral1601830955, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Transform_t3275118058 * L_1 = GameObject_get_transform_m909382139(L_0, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_2 = L_1;
+		NullCheck(L_2);
+		Vector3_t2243707580  L_3 = Transform_get_localScale_m3074381503(L_2, /*hidden argument*/NULL);
+		float L_4 = __this->get_scalingSpeed_2();
+		float L_5 = __this->get_scalingSpeed_2();
+		float L_6 = __this->get_scalingSpeed_2();
+		Vector3_t2243707580  L_7;
+		memset(&L_7, 0, sizeof(L_7));
+		Vector3__ctor_m2638739322(&L_7, ((-L_4)), ((-L_5)), ((-L_6)), /*hidden argument*/NULL);
+		Vector3_t2243707580  L_8 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_3, L_7, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Transform_set_localScale_m2325460848(L_2, L_8, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UserInterfaceButtons::PositionUpButton()
+extern Il2CppCodeGenString* _stringLiteral1601830955;
+extern const uint32_t UserInterfaceButtons_PositionUpButton_m2695760618_MetadataUsageId;
+extern "C"  void UserInterfaceButtons_PositionUpButton_m2695760618 (UserInterfaceButtons_t987458907 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UserInterfaceButtons_PositionUpButton_m2695760618_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = GameObject_FindWithTag_m1929006324(NULL /*static, unused*/, _stringLiteral1601830955, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Transform_t3275118058 * L_1 = GameObject_get_transform_m909382139(L_0, /*hidden argument*/NULL);
+		float L_2 = __this->get_translationSpeed_4();
+		float L_3 = Time_get_deltaTime_m2233168104(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		Transform_Translate_m3577349508(L_1, (0.0f), (0.0f), ((float)((float)((-L_2))*(float)L_3)), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UserInterfaceButtons::PositionDownButton()
+extern Il2CppCodeGenString* _stringLiteral1601830955;
+extern const uint32_t UserInterfaceButtons_PositionDownButton_m1093730519_MetadataUsageId;
+extern "C"  void UserInterfaceButtons_PositionDownButton_m1093730519 (UserInterfaceButtons_t987458907 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UserInterfaceButtons_PositionDownButton_m1093730519_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = GameObject_FindWithTag_m1929006324(NULL /*static, unused*/, _stringLiteral1601830955, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Transform_t3275118058 * L_1 = GameObject_get_transform_m909382139(L_0, /*hidden argument*/NULL);
+		float L_2 = __this->get_translationSpeed_4();
+		float L_3 = Time_get_deltaTime_m2233168104(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		Transform_Translate_m3577349508(L_1, (0.0f), (0.0f), ((float)((float)L_2*(float)L_3)), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UserInterfaceButtons::PositionRightButton()
+extern Il2CppCodeGenString* _stringLiteral1601830955;
+extern const uint32_t UserInterfaceButtons_PositionRightButton_m1358020529_MetadataUsageId;
+extern "C"  void UserInterfaceButtons_PositionRightButton_m1358020529 (UserInterfaceButtons_t987458907 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UserInterfaceButtons_PositionRightButton_m1358020529_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = GameObject_FindWithTag_m1929006324(NULL /*static, unused*/, _stringLiteral1601830955, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Transform_t3275118058 * L_1 = GameObject_get_transform_m909382139(L_0, /*hidden argument*/NULL);
+		float L_2 = __this->get_translationSpeed_4();
+		float L_3 = Time_get_deltaTime_m2233168104(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		Transform_Translate_m3577349508(L_1, ((float)((float)((-L_2))*(float)L_3)), (0.0f), (0.0f), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UserInterfaceButtons::PositionLeftButton()
+extern Il2CppCodeGenString* _stringLiteral1601830955;
+extern const uint32_t UserInterfaceButtons_PositionLeftButton_m2721024126_MetadataUsageId;
+extern "C"  void UserInterfaceButtons_PositionLeftButton_m2721024126 (UserInterfaceButtons_t987458907 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UserInterfaceButtons_PositionLeftButton_m2721024126_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = GameObject_FindWithTag_m1929006324(NULL /*static, unused*/, _stringLiteral1601830955, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Transform_t3275118058 * L_1 = GameObject_get_transform_m909382139(L_0, /*hidden argument*/NULL);
+		float L_2 = __this->get_translationSpeed_4();
+		float L_3 = Time_get_deltaTime_m2233168104(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		Transform_Translate_m3577349508(L_1, ((float)((float)L_2*(float)L_3)), (0.0f), (0.0f), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UserInterfaceButtons::ChangeScene(System.String)
+extern "C"  void UserInterfaceButtons_ChangeScene_m2748810612 (UserInterfaceButtons_t987458907 * __this, String_t* ___a0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___a0;
+		Application_LoadLevel_m393995325(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UserInterfaceButtons::AnyButton()
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3068683316;
+extern Il2CppCodeGenString* _stringLiteral1120217838;
+extern const uint32_t UserInterfaceButtons_AnyButton_m1333126496_MetadataUsageId;
+extern "C"  void UserInterfaceButtons_AnyButton_m1333126496 (UserInterfaceButtons_t987458907 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UserInterfaceButtons_AnyButton_m1333126496_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, _stringLiteral3068683316, /*hidden argument*/NULL);
+		Application_OpenURL_m3882634228(NULL /*static, unused*/, _stringLiteral1120217838, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void VRIntegrationHelper::.ctor()
+extern "C"  void VRIntegrationHelper__ctor_m4069773343 (VRIntegrationHelper_t556656694 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void VRIntegrationHelper::Awake()
+extern const MethodInfo* Component_GetComponent_TisCamera_t189460977_m3276577584_MethodInfo_var;
+extern const uint32_t VRIntegrationHelper_Awake_m681899862_MetadataUsageId;
+extern "C"  void VRIntegrationHelper_Awake_m681899862 (VRIntegrationHelper_t556656694 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VRIntegrationHelper_Awake_m681899862_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Camera_t189460977 * L_0 = Component_GetComponent_TisCamera_t189460977_m3276577584(__this, /*hidden argument*/Component_GetComponent_TisCamera_t189460977_m3276577584_MethodInfo_var);
+		NullCheck(L_0);
+		Camera_set_fieldOfView_m3974156396(L_0, (90.0f), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void VRIntegrationHelper::Start()
+extern Il2CppClass* VuforiaBehaviour_t359035403_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const MethodInfo* VRIntegrationHelper_OnVuforiaStarted_m1154042475_MethodInfo_var;
+extern const uint32_t VRIntegrationHelper_Start_m536586683_MetadataUsageId;
+extern "C"  void VRIntegrationHelper_Start_m536586683 (VRIntegrationHelper_t556656694 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VRIntegrationHelper_Start_m536586683_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaBehaviour_t359035403_il2cpp_TypeInfo_var);
+		VuforiaBehaviour_t359035403 * L_0 = VuforiaBehaviour_get_Instance_m790681192(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)VRIntegrationHelper_OnVuforiaStarted_m1154042475_MethodInfo_var);
+		Action_t3226471752 * L_2 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_2, __this, L_1, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		VuforiaAbstractBehaviour_RegisterVuforiaStartedCallback_m3664350367(L_0, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void VRIntegrationHelper::OnVuforiaStarted()
+extern Il2CppClass* DigitalEyewearBehaviour_t495394589_il2cpp_TypeInfo_var;
+extern Il2CppClass* VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisHideExcessAreaAbstractBehaviour_t2687577327_m1183342011_MethodInfo_var;
+extern const uint32_t VRIntegrationHelper_OnVuforiaStarted_m1154042475_MetadataUsageId;
+extern "C"  void VRIntegrationHelper_OnVuforiaStarted_m1154042475 (VRIntegrationHelper_t556656694 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VRIntegrationHelper_OnVuforiaStarted_m1154042475_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(DigitalEyewearBehaviour_t495394589_il2cpp_TypeInfo_var);
+		DigitalEyewearBehaviour_t495394589 * L_0 = DigitalEyewearBehaviour_get_Instance_m3807753842(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Camera_t189460977 * L_1 = DigitalEyewearAbstractBehaviour_get_PrimaryCamera_m2911375652(L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var);
+		((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->set_mLeftCamera_4(L_1);
+		DigitalEyewearBehaviour_t495394589 * L_2 = DigitalEyewearBehaviour_get_Instance_m3807753842(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Camera_t189460977 * L_3 = DigitalEyewearAbstractBehaviour_get_SecondaryCamera_m3931999956(L_2, /*hidden argument*/NULL);
+		((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->set_mRightCamera_5(L_3);
+		Camera_t189460977 * L_4 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_4);
+		HideExcessAreaAbstractBehaviour_t2687577327 * L_5 = Component_GetComponent_TisHideExcessAreaAbstractBehaviour_t2687577327_m1183342011(L_4, /*hidden argument*/Component_GetComponent_TisHideExcessAreaAbstractBehaviour_t2687577327_m1183342011_MethodInfo_var);
+		((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->set_mLeftExcessAreaBehaviour_6(L_5);
+		Camera_t189460977 * L_6 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		NullCheck(L_6);
+		HideExcessAreaAbstractBehaviour_t2687577327 * L_7 = Component_GetComponent_TisHideExcessAreaAbstractBehaviour_t2687577327_m1183342011(L_6, /*hidden argument*/Component_GetComponent_TisHideExcessAreaAbstractBehaviour_t2687577327_m1183342011_MethodInfo_var);
+		((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->set_mRightExcessAreaBehaviour_7(L_7);
+		return;
+	}
+}
+// System.Void VRIntegrationHelper::LateUpdate()
+extern Il2CppClass* VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var;
+extern Il2CppClass* DigitalEyewearBehaviour_t495394589_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* VuforiaBehaviour_t359035403_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponentInChildren_TisBackgroundPlaneBehaviour_t2431285219_m4080560834_MethodInfo_var;
+extern const uint32_t VRIntegrationHelper_LateUpdate_m4039758880_MetadataUsageId;
+extern "C"  void VRIntegrationHelper_LateUpdate_m4039758880 (VRIntegrationHelper_t556656694 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VRIntegrationHelper_LateUpdate_m4039758880_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Rect_t3681755626  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Vector3_t2243707580  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Vector3_t2243707580  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	Vector3_t2243707580  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	Rect_t3681755626  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	Vector3_t2243707580  V_6;
+	memset(&V_6, 0, sizeof(V_6));
+	Vector3_t2243707580  V_7;
+	memset(&V_7, 0, sizeof(V_7));
+	BackgroundPlaneBehaviour_t2431285219 * V_8 = NULL;
+	{
+		bool L_0 = __this->get_IsLeft_12();
+		if (!L_0)
+		{
+			goto IL_02dd;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var);
+		bool L_1 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCameraDataAcquired_10();
+		if (!L_1)
+		{
+			goto IL_02dd;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var);
+		bool L_2 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCameraDataAcquired_11();
+		if (!L_2)
+		{
+			goto IL_02dd;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(DigitalEyewearBehaviour_t495394589_il2cpp_TypeInfo_var);
+		DigitalEyewearBehaviour_t495394589 * L_3 = DigitalEyewearBehaviour_get_Instance_m3807753842(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		Transform_t3275118058 * L_4 = DigitalEyewearAbstractBehaviour_get_CentralAnchorPoint_m1622684502(L_3, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var);
+		Camera_t189460977 * L_5 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_5);
+		Transform_t3275118058 * L_6 = Component_get_transform_m2697483695(L_5, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		Quaternion_t4030073918  L_7 = Transform_get_localRotation_m4001487205(L_6, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		Transform_set_localRotation_m2055111962(L_4, L_7, /*hidden argument*/NULL);
+		DigitalEyewearBehaviour_t495394589 * L_8 = DigitalEyewearBehaviour_get_Instance_m3807753842(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		Transform_t3275118058 * L_9 = DigitalEyewearAbstractBehaviour_get_CentralAnchorPoint_m1622684502(L_8, /*hidden argument*/NULL);
+		Camera_t189460977 * L_10 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_10);
+		Transform_t3275118058 * L_11 = Component_get_transform_m2697483695(L_10, /*hidden argument*/NULL);
+		NullCheck(L_11);
+		Vector3_t2243707580  L_12 = Transform_get_localPosition_m2533925116(L_11, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		Transform_set_localPosition_m1026930133(L_9, L_12, /*hidden argument*/NULL);
+		Camera_t189460977 * L_13 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_13);
+		Transform_t3275118058 * L_14 = Component_get_transform_m2697483695(L_13, /*hidden argument*/NULL);
+		NullCheck(L_14);
+		Vector3_t2243707580  L_15 = Transform_get_localPosition_m2533925116(L_14, /*hidden argument*/NULL);
+		V_0 = L_15;
+		Camera_t189460977 * L_16 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_16);
+		Rect_t3681755626  L_17 = Camera_get_pixelRect_m2084185953(L_16, /*hidden argument*/NULL);
+		V_1 = L_17;
+		Camera_t189460977 * L_18 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_18);
+		Transform_t3275118058 * L_19 = Component_get_transform_m2697483695(L_18, /*hidden argument*/NULL);
+		NullCheck(L_19);
+		Vector3_t2243707580  L_20 = Transform_get_right_m440863970(L_19, /*hidden argument*/NULL);
+		V_3 = L_20;
+		Vector3_t2243707580  L_21 = Vector3_get_normalized_m936072361((&V_3), /*hidden argument*/NULL);
+		Camera_t189460977 * L_22 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_22);
+		float L_23 = Camera_get_stereoSeparation_m287594473(L_22, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_24 = Vector3_op_Multiply_m1351554733(NULL /*static, unused*/, L_21, L_23, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_25 = Vector3_op_Multiply_m1351554733(NULL /*static, unused*/, L_24, (-0.5f), /*hidden argument*/NULL);
+		V_2 = L_25;
+		Camera_t189460977 * L_26 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_26);
+		Transform_t3275118058 * L_27 = Component_get_transform_m2697483695(L_26, /*hidden argument*/NULL);
+		Camera_t189460977 * L_28 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_28);
+		Transform_t3275118058 * L_29 = Component_get_transform_m2697483695(L_28, /*hidden argument*/NULL);
+		NullCheck(L_29);
+		Vector3_t2243707580  L_30 = Transform_get_position_m1104419803(L_29, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_31 = V_2;
+		Vector3_t2243707580  L_32 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_30, L_31, /*hidden argument*/NULL);
+		NullCheck(L_27);
+		Transform_set_position_m2469242620(L_27, L_32, /*hidden argument*/NULL);
+		Camera_t189460977 * L_33 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		Rect_t3681755626  L_34 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCameraPixelRect_8();
+		NullCheck(L_33);
+		Camera_set_pixelRect_m1366013782(L_33, L_34, /*hidden argument*/NULL);
+		Camera_t189460977 * L_35 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		NullCheck(L_35);
+		Transform_t3275118058 * L_36 = Component_get_transform_m2697483695(L_35, /*hidden argument*/NULL);
+		NullCheck(L_36);
+		Vector3_t2243707580  L_37 = Transform_get_localPosition_m2533925116(L_36, /*hidden argument*/NULL);
+		V_4 = L_37;
+		Camera_t189460977 * L_38 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		NullCheck(L_38);
+		Rect_t3681755626  L_39 = Camera_get_pixelRect_m2084185953(L_38, /*hidden argument*/NULL);
+		V_5 = L_39;
+		Camera_t189460977 * L_40 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		NullCheck(L_40);
+		Transform_t3275118058 * L_41 = Component_get_transform_m2697483695(L_40, /*hidden argument*/NULL);
+		NullCheck(L_41);
+		Vector3_t2243707580  L_42 = Transform_get_right_m440863970(L_41, /*hidden argument*/NULL);
+		V_7 = L_42;
+		Vector3_t2243707580  L_43 = Vector3_get_normalized_m936072361((&V_7), /*hidden argument*/NULL);
+		Camera_t189460977 * L_44 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		NullCheck(L_44);
+		float L_45 = Camera_get_stereoSeparation_m287594473(L_44, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_46 = Vector3_op_Multiply_m1351554733(NULL /*static, unused*/, L_43, L_45, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_47 = Vector3_op_Multiply_m1351554733(NULL /*static, unused*/, L_46, (0.5f), /*hidden argument*/NULL);
+		V_6 = L_47;
+		Camera_t189460977 * L_48 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		NullCheck(L_48);
+		Transform_t3275118058 * L_49 = Component_get_transform_m2697483695(L_48, /*hidden argument*/NULL);
+		Camera_t189460977 * L_50 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		NullCheck(L_50);
+		Transform_t3275118058 * L_51 = Component_get_transform_m2697483695(L_50, /*hidden argument*/NULL);
+		NullCheck(L_51);
+		Vector3_t2243707580  L_52 = Transform_get_position_m1104419803(L_51, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_53 = V_6;
+		Vector3_t2243707580  L_54 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_52, L_53, /*hidden argument*/NULL);
+		NullCheck(L_49);
+		Transform_set_position_m2469242620(L_49, L_54, /*hidden argument*/NULL);
+		Camera_t189460977 * L_55 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		Rect_t3681755626  L_56 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCameraPixelRect_9();
+		NullCheck(L_55);
+		Camera_set_pixelRect_m1366013782(L_55, L_56, /*hidden argument*/NULL);
+		Camera_t189460977 * L_57 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_57);
+		BackgroundPlaneBehaviour_t2431285219 * L_58 = Component_GetComponentInChildren_TisBackgroundPlaneBehaviour_t2431285219_m4080560834(L_57, /*hidden argument*/Component_GetComponentInChildren_TisBackgroundPlaneBehaviour_t2431285219_m4080560834_MethodInfo_var);
+		V_8 = L_58;
+		BackgroundPlaneBehaviour_t2431285219 * L_59 = V_8;
+		Camera_t189460977 * L_60 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_60);
+		Transform_t3275118058 * L_61 = Component_get_transform_m2697483695(L_60, /*hidden argument*/NULL);
+		NullCheck(L_61);
+		Vector3_t2243707580  L_62 = Transform_get_position_m1104419803(L_61, /*hidden argument*/NULL);
+		DigitalEyewearBehaviour_t495394589 * L_63 = DigitalEyewearBehaviour_get_Instance_m3807753842(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_63);
+		Transform_t3275118058 * L_64 = DigitalEyewearAbstractBehaviour_get_CentralAnchorPoint_m1622684502(L_63, /*hidden argument*/NULL);
+		NullCheck(L_64);
+		Vector3_t2243707580  L_65 = Transform_get_position_m1104419803(L_64, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_66 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, L_62, L_65, /*hidden argument*/NULL);
+		NullCheck(L_59);
+		BackgroundPlaneAbstractBehaviour_set_BackgroundOffset_m48119280(L_59, L_66, /*hidden argument*/NULL);
+		HideExcessAreaAbstractBehaviour_t2687577327 * L_67 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftExcessAreaBehaviour_6();
+		Camera_t189460977 * L_68 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_68);
+		Transform_t3275118058 * L_69 = Component_get_transform_m2697483695(L_68, /*hidden argument*/NULL);
+		NullCheck(L_69);
+		Vector3_t2243707580  L_70 = Transform_get_position_m1104419803(L_69, /*hidden argument*/NULL);
+		DigitalEyewearBehaviour_t495394589 * L_71 = DigitalEyewearBehaviour_get_Instance_m3807753842(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_71);
+		Transform_t3275118058 * L_72 = DigitalEyewearAbstractBehaviour_get_CentralAnchorPoint_m1622684502(L_71, /*hidden argument*/NULL);
+		NullCheck(L_72);
+		Vector3_t2243707580  L_73 = Transform_get_position_m1104419803(L_72, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_74 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, L_70, L_73, /*hidden argument*/NULL);
+		NullCheck(L_67);
+		HideExcessAreaAbstractBehaviour_set_PlaneOffset_m3820567390(L_67, L_74, /*hidden argument*/NULL);
+		HideExcessAreaAbstractBehaviour_t2687577327 * L_75 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightExcessAreaBehaviour_7();
+		Camera_t189460977 * L_76 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		NullCheck(L_76);
+		Transform_t3275118058 * L_77 = Component_get_transform_m2697483695(L_76, /*hidden argument*/NULL);
+		NullCheck(L_77);
+		Vector3_t2243707580  L_78 = Transform_get_position_m1104419803(L_77, /*hidden argument*/NULL);
+		DigitalEyewearBehaviour_t495394589 * L_79 = DigitalEyewearBehaviour_get_Instance_m3807753842(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_79);
+		Transform_t3275118058 * L_80 = DigitalEyewearAbstractBehaviour_get_CentralAnchorPoint_m1622684502(L_79, /*hidden argument*/NULL);
+		NullCheck(L_80);
+		Vector3_t2243707580  L_81 = Transform_get_position_m1104419803(L_80, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_82 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, L_78, L_81, /*hidden argument*/NULL);
+		NullCheck(L_75);
+		HideExcessAreaAbstractBehaviour_set_PlaneOffset_m3820567390(L_75, L_82, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_83 = __this->get_TrackableParent_13();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_84 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_83, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_84)
+		{
+			goto IL_020f;
+		}
+	}
+	{
+		Transform_t3275118058 * L_85 = __this->get_TrackableParent_13();
+		Vector3_t2243707580  L_86 = Vector3_get_zero_m1527993324(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_85);
+		Transform_set_localPosition_m1026930133(L_85, L_86, /*hidden argument*/NULL);
+	}
+
+IL_020f:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaBehaviour_t359035403_il2cpp_TypeInfo_var);
+		VuforiaBehaviour_t359035403 * L_87 = VuforiaBehaviour_get_Instance_m790681192(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_87);
+		VuforiaAbstractBehaviour_UpdateState_m1825955469(L_87, (bool)0, (bool)1, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_88 = __this->get_TrackableParent_13();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_89 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_88, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_89)
+		{
+			goto IL_0249;
+		}
+	}
+	{
+		Transform_t3275118058 * L_90 = __this->get_TrackableParent_13();
+		Transform_t3275118058 * L_91 = L_90;
+		NullCheck(L_91);
+		Vector3_t2243707580  L_92 = Transform_get_position_m1104419803(L_91, /*hidden argument*/NULL);
+		BackgroundPlaneBehaviour_t2431285219 * L_93 = V_8;
+		NullCheck(L_93);
+		Vector3_t2243707580  L_94 = BackgroundPlaneAbstractBehaviour_get_BackgroundOffset_m599181539(L_93, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_95 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_92, L_94, /*hidden argument*/NULL);
+		NullCheck(L_91);
+		Transform_set_position_m2469242620(L_91, L_95, /*hidden argument*/NULL);
+	}
+
+IL_0249:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaBehaviour_t359035403_il2cpp_TypeInfo_var);
+		VuforiaBehaviour_t359035403 * L_96 = VuforiaBehaviour_get_Instance_m790681192(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var);
+		Matrix4x4_t2933234003  L_97 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCameraMatrixOriginal_2();
+		NullCheck(L_96);
+		VuforiaAbstractBehaviour_ApplyCorrectedProjectionMatrix_m651222753(L_96, L_97, (bool)1, /*hidden argument*/NULL);
+		VuforiaBehaviour_t359035403 * L_98 = VuforiaBehaviour_get_Instance_m790681192(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Matrix4x4_t2933234003  L_99 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCameraMatrixOriginal_3();
+		NullCheck(L_98);
+		VuforiaAbstractBehaviour_ApplyCorrectedProjectionMatrix_m651222753(L_98, L_99, (bool)0, /*hidden argument*/NULL);
+		Camera_t189460977 * L_100 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		Camera_t189460977 * L_101 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_101);
+		Matrix4x4_t2933234003  L_102 = Camera_get_projectionMatrix_m2365994324(L_101, /*hidden argument*/NULL);
+		Camera_t189460977 * L_103 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		NullCheck(L_103);
+		Matrix4x4_t2933234003  L_104 = Camera_get_projectionMatrix_m2365994324(L_103, /*hidden argument*/NULL);
+		NullCheck(L_100);
+		Camera_SetStereoProjectionMatrices_m1833429783(L_100, L_102, L_104, /*hidden argument*/NULL);
+		Camera_t189460977 * L_105 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		Camera_t189460977 * L_106 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_106);
+		Matrix4x4_t2933234003  L_107 = Camera_get_projectionMatrix_m2365994324(L_106, /*hidden argument*/NULL);
+		Camera_t189460977 * L_108 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		NullCheck(L_108);
+		Matrix4x4_t2933234003  L_109 = Camera_get_projectionMatrix_m2365994324(L_108, /*hidden argument*/NULL);
+		NullCheck(L_105);
+		Camera_SetStereoProjectionMatrices_m1833429783(L_105, L_107, L_109, /*hidden argument*/NULL);
+		Camera_t189460977 * L_110 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_110);
+		Transform_t3275118058 * L_111 = Component_get_transform_m2697483695(L_110, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_112 = V_0;
+		NullCheck(L_111);
+		Transform_set_localPosition_m1026930133(L_111, L_112, /*hidden argument*/NULL);
+		Camera_t189460977 * L_113 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		Rect_t3681755626  L_114 = V_1;
+		NullCheck(L_113);
+		Camera_set_pixelRect_m1366013782(L_113, L_114, /*hidden argument*/NULL);
+		Camera_t189460977 * L_115 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		NullCheck(L_115);
+		Transform_t3275118058 * L_116 = Component_get_transform_m2697483695(L_115, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_117 = V_4;
+		NullCheck(L_116);
+		Transform_set_localPosition_m1026930133(L_116, L_117, /*hidden argument*/NULL);
+		Camera_t189460977 * L_118 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		Rect_t3681755626  L_119 = V_5;
+		NullCheck(L_118);
+		Camera_set_pixelRect_m1366013782(L_118, L_119, /*hidden argument*/NULL);
+	}
+
+IL_02dd:
+	{
+		return;
+	}
+}
+// System.Void VRIntegrationHelper::OnPreRender()
+extern Il2CppClass* VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var;
+extern Il2CppClass* VuforiaRuntimeUtilities_t3083157244_il2cpp_TypeInfo_var;
+extern const uint32_t VRIntegrationHelper_OnPreRender_m1211949763_MetadataUsageId;
+extern "C"  void VRIntegrationHelper_OnPreRender_m1211949763 (VRIntegrationHelper_t556656694 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VRIntegrationHelper_OnPreRender_m1211949763_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get_IsLeft_12();
+		if (!L_0)
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var);
+		bool L_1 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCameraDataAcquired_10();
+		if (L_1)
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var);
+		Camera_t189460977 * L_2 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_2);
+		Matrix4x4_t2933234003  L_3 = Camera_get_projectionMatrix_m2365994324(L_2, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaRuntimeUtilities_t3083157244_il2cpp_TypeInfo_var);
+		bool L_4 = VuforiaRuntimeUtilities_MatrixIsNaN_m431823786(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		if (L_4)
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var);
+		Camera_t189460977 * L_5 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_5);
+		Matrix4x4_t2933234003  L_6 = Camera_get_projectionMatrix_m2365994324(L_5, /*hidden argument*/NULL);
+		((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->set_mLeftCameraMatrixOriginal_2(L_6);
+		Camera_t189460977 * L_7 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_7);
+		Rect_t3681755626  L_8 = Camera_get_pixelRect_m2084185953(L_7, /*hidden argument*/NULL);
+		((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->set_mLeftCameraPixelRect_8(L_8);
+		((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->set_mLeftCameraDataAcquired_10((bool)1);
+	}
+
+IL_004d:
+	{
+		goto IL_0094;
+	}
+
+IL_0052:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var);
+		bool L_9 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCameraDataAcquired_11();
+		if (L_9)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var);
+		Camera_t189460977 * L_10 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		NullCheck(L_10);
+		Matrix4x4_t2933234003  L_11 = Camera_get_projectionMatrix_m2365994324(L_10, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaRuntimeUtilities_t3083157244_il2cpp_TypeInfo_var);
+		bool L_12 = VuforiaRuntimeUtilities_MatrixIsNaN_m431823786(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+		if (L_12)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var);
+		Camera_t189460977 * L_13 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		NullCheck(L_13);
+		Matrix4x4_t2933234003  L_14 = Camera_get_projectionMatrix_m2365994324(L_13, /*hidden argument*/NULL);
+		((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->set_mRightCameraMatrixOriginal_3(L_14);
+		Camera_t189460977 * L_15 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		NullCheck(L_15);
+		Rect_t3681755626  L_16 = Camera_get_pixelRect_m2084185953(L_15, /*hidden argument*/NULL);
+		((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->set_mRightCameraPixelRect_9(L_16);
+		((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->set_mRightCameraDataAcquired_11((bool)1);
+	}
+
+IL_0094:
+	{
+		return;
+	}
+}
+// System.Void VRIntegrationHelper::.cctor()
+extern "C"  void VRIntegrationHelper__cctor_m708693476 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Vuforia.AndroidUnityPlayer::.ctor()
+extern "C"  void AndroidUnityPlayer__ctor_m2233000524 (AndroidUnityPlayer_t852788525 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.AndroidUnityPlayer::LoadNativeLibraries()
+extern "C"  void AndroidUnityPlayer_LoadNativeLibraries_m694869242 (AndroidUnityPlayer_t852788525 * __this, const MethodInfo* method)
+{
+	{
+		AndroidUnityPlayer_LoadNativeLibrariesFromJava_m2955245326(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.AndroidUnityPlayer::InitializePlatform()
+extern "C"  void AndroidUnityPlayer_InitializePlatform_m2952017853 (AndroidUnityPlayer_t852788525 * __this, const MethodInfo* method)
+{
+	{
+		AndroidUnityPlayer_InitAndroidPlatform_m1583405850(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Vuforia.VuforiaUnity/InitError Vuforia.AndroidUnityPlayer::Start(System.String)
+extern "C"  int32_t AndroidUnityPlayer_Start_m1796253047 (AndroidUnityPlayer_t852788525 * __this, String_t* ___licenseKey0, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		String_t* L_0 = ___licenseKey0;
+		int32_t L_1 = AndroidUnityPlayer_InitVuforia_m879900664(__this, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) < ((int32_t)0)))
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		AndroidUnityPlayer_InitializeSurface_m1417263607(__this, /*hidden argument*/NULL);
+	}
+
+IL_0015:
+	{
+		int32_t L_3 = V_0;
+		return (int32_t)(L_3);
+	}
+}
+// System.Void Vuforia.AndroidUnityPlayer::Update()
+extern Il2CppClass* SurfaceUtilities_t4096327849_il2cpp_TypeInfo_var;
+extern const uint32_t AndroidUnityPlayer_Update_m4198269979_MetadataUsageId;
+extern "C"  void AndroidUnityPlayer_Update_m4198269979 (AndroidUnityPlayer_t852788525 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidUnityPlayer_Update_m4198269979_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(SurfaceUtilities_t4096327849_il2cpp_TypeInfo_var);
+		bool L_0 = SurfaceUtilities_HasSurfaceBeenRecreated_m2740261893(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		AndroidUnityPlayer_InitializeSurface_m1417263607(__this, /*hidden argument*/NULL);
+		goto IL_0031;
+	}
+
+IL_0015:
+	{
+		int32_t L_1 = Screen_get_orientation_m879255848(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_2 = __this->get_mScreenOrientation_2();
+		if ((((int32_t)L_1) == ((int32_t)L_2)))
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		AndroidUnityPlayer_ResetUnityScreenOrientation_m2917504922(__this, /*hidden argument*/NULL);
+	}
+
+IL_002b:
+	{
+		AndroidUnityPlayer_CheckOrientation_m2044239264(__this, /*hidden argument*/NULL);
+	}
+
+IL_0031:
+	{
+		int32_t L_3 = __this->get_mFramesSinceLastOrientationReset_4();
+		__this->set_mFramesSinceLastOrientationReset_4(((int32_t)((int32_t)L_3+(int32_t)1)));
+		return;
+	}
+}
+// System.Void Vuforia.AndroidUnityPlayer::OnPause()
+extern Il2CppClass* VuforiaUnity_t657456673_il2cpp_TypeInfo_var;
+extern const uint32_t AndroidUnityPlayer_OnPause_m2222496097_MetadataUsageId;
+extern "C"  void AndroidUnityPlayer_OnPause_m2222496097 (AndroidUnityPlayer_t852788525 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidUnityPlayer_OnPause_m2222496097_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaUnity_t657456673_il2cpp_TypeInfo_var);
+		VuforiaUnity_OnPause_m2422224752(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.AndroidUnityPlayer::OnResume()
+extern Il2CppClass* VuforiaUnity_t657456673_il2cpp_TypeInfo_var;
+extern const uint32_t AndroidUnityPlayer_OnResume_m3489453528_MetadataUsageId;
+extern "C"  void AndroidUnityPlayer_OnResume_m3489453528 (AndroidUnityPlayer_t852788525 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidUnityPlayer_OnResume_m3489453528_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaUnity_t657456673_il2cpp_TypeInfo_var);
+		VuforiaUnity_OnResume_m2186520633(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.AndroidUnityPlayer::OnDestroy()
+extern Il2CppClass* VuforiaUnity_t657456673_il2cpp_TypeInfo_var;
+extern const uint32_t AndroidUnityPlayer_OnDestroy_m3206719289_MetadataUsageId;
+extern "C"  void AndroidUnityPlayer_OnDestroy_m3206719289 (AndroidUnityPlayer_t852788525 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidUnityPlayer_OnDestroy_m3206719289_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaUnity_t657456673_il2cpp_TypeInfo_var);
+		VuforiaUnity_Deinit_m4072609744(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.AndroidUnityPlayer::Dispose()
+extern "C"  void AndroidUnityPlayer_Dispose_m2709691617 (AndroidUnityPlayer_t852788525 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Vuforia.AndroidUnityPlayer::LoadNativeLibrariesFromJava()
+extern "C"  void AndroidUnityPlayer_LoadNativeLibrariesFromJava_m2955245326 (AndroidUnityPlayer_t852788525 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Vuforia.AndroidUnityPlayer::InitAndroidPlatform()
+extern "C"  void AndroidUnityPlayer_InitAndroidPlatform_m1583405850 (AndroidUnityPlayer_t852788525 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Int32 Vuforia.AndroidUnityPlayer::InitVuforia(System.String)
+extern "C"  int32_t AndroidUnityPlayer_InitVuforia_m879900664 (AndroidUnityPlayer_t852788525 * __this, String_t* ___licenseKey0, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		V_0 = (-1);
+		int32_t L_0 = V_0;
+		return L_0;
+	}
+}
+// System.Void Vuforia.AndroidUnityPlayer::InitializeSurface()
+extern Il2CppClass* SurfaceUtilities_t4096327849_il2cpp_TypeInfo_var;
+extern const uint32_t AndroidUnityPlayer_InitializeSurface_m1417263607_MetadataUsageId;
+extern "C"  void AndroidUnityPlayer_InitializeSurface_m1417263607 (AndroidUnityPlayer_t852788525 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidUnityPlayer_InitializeSurface_m1417263607_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(SurfaceUtilities_t4096327849_il2cpp_TypeInfo_var);
+		SurfaceUtilities_OnSurfaceCreated_m3675640541(NULL /*static, unused*/, /*hidden argument*/NULL);
+		AndroidUnityPlayer_ResetUnityScreenOrientation_m2917504922(__this, /*hidden argument*/NULL);
+		AndroidUnityPlayer_CheckOrientation_m2044239264(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.AndroidUnityPlayer::ResetUnityScreenOrientation()
+extern "C"  void AndroidUnityPlayer_ResetUnityScreenOrientation_m2917504922 (AndroidUnityPlayer_t852788525 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = Screen_get_orientation_m879255848(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_mScreenOrientation_2(L_0);
+		__this->set_mFramesSinceLastOrientationReset_4(0);
+		return;
+	}
+}
+// System.Void Vuforia.AndroidUnityPlayer::CheckOrientation()
+extern Il2CppClass* SurfaceUtilities_t4096327849_il2cpp_TypeInfo_var;
+extern const uint32_t AndroidUnityPlayer_CheckOrientation_m2044239264_MetadataUsageId;
+extern "C"  void AndroidUnityPlayer_CheckOrientation_m2044239264 (AndroidUnityPlayer_t852788525 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidUnityPlayer_CheckOrientation_m2044239264_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		int32_t L_0 = __this->get_mFramesSinceLastOrientationReset_4();
+		V_0 = (bool)((((int32_t)L_0) < ((int32_t)((int32_t)25)))? 1 : 0);
+		bool L_1 = V_0;
+		if (L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		int32_t L_2 = __this->get_mFramesSinceLastJavaOrientationCheck_5();
+		V_0 = (bool)((((int32_t)L_2) > ((int32_t)((int32_t)60)))? 1 : 0);
+	}
+
+IL_001c:
+	{
+		bool L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		int32_t L_4 = __this->get_mScreenOrientation_2();
+		V_1 = L_4;
+		int32_t L_5 = V_1;
+		V_2 = L_5;
+		int32_t L_6 = V_2;
+		int32_t L_7 = __this->get_mJavaScreenOrientation_3();
+		if ((((int32_t)L_6) == ((int32_t)L_7)))
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		int32_t L_8 = V_2;
+		__this->set_mJavaScreenOrientation_3(L_8);
+		int32_t L_9 = __this->get_mJavaScreenOrientation_3();
+		IL2CPP_RUNTIME_CLASS_INIT(SurfaceUtilities_t4096327849_il2cpp_TypeInfo_var);
+		SurfaceUtilities_SetSurfaceOrientation_m3106547277(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+	}
+
+IL_0049:
+	{
+		__this->set_mFramesSinceLastJavaOrientationCheck_5(0);
+		goto IL_0063;
+	}
+
+IL_0055:
+	{
+		int32_t L_10 = __this->get_mFramesSinceLastJavaOrientationCheck_5();
+		__this->set_mFramesSinceLastJavaOrientationCheck_5(((int32_t)((int32_t)L_10+(int32_t)1)));
+	}
+
+IL_0063:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.BackgroundPlaneBehaviour::.ctor()
+extern Il2CppClass* BackgroundPlaneAbstractBehaviour_t3732945727_il2cpp_TypeInfo_var;
+extern const uint32_t BackgroundPlaneBehaviour__ctor_m2808006244_MetadataUsageId;
+extern "C"  void BackgroundPlaneBehaviour__ctor_m2808006244 (BackgroundPlaneBehaviour_t2431285219 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BackgroundPlaneBehaviour__ctor_m2808006244_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(BackgroundPlaneAbstractBehaviour_t3732945727_il2cpp_TypeInfo_var);
+		BackgroundPlaneAbstractBehaviour__ctor_m1193949827(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.CloudRecoBehaviour::.ctor()
+extern "C"  void CloudRecoBehaviour__ctor_m2555627024 (CloudRecoBehaviour_t3077176941 * __this, const MethodInfo* method)
+{
+	{
+		CloudRecoAbstractBehaviour__ctor_m3604390285(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.ComponentFactoryStarterBehaviour::.ctor()
+extern "C"  void ComponentFactoryStarterBehaviour__ctor_m1215525256 (ComponentFactoryStarterBehaviour_t3249343815 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.ComponentFactoryStarterBehaviour::Awake()
+extern const Il2CppType* Action_t3226471752_0_0_0_var;
+extern Il2CppClass* Attribute_t542643598_il2cpp_TypeInfo_var;
+extern Il2CppClass* FactorySetter_t648583075_il2cpp_TypeInfo_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const MethodInfo* Enumerable_ToList_TisMethodInfo_t_m2736443864_MethodInfo_var;
+extern const MethodInfo* List_1_AddRange_m1093450066_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m2150560895_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m1945415651_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2294671071_MethodInfo_var;
+extern const MethodInfo* Enumerator_Dispose_m186564181_MethodInfo_var;
+extern const uint32_t ComponentFactoryStarterBehaviour_Awake_m583572645_MetadataUsageId;
+extern "C"  void ComponentFactoryStarterBehaviour_Awake_m583572645 (ComponentFactoryStarterBehaviour_t3249343815 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ComponentFactoryStarterBehaviour_Awake_m583572645_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t2699667469 * V_0 = NULL;
+	MethodInfo_t * V_1 = NULL;
+	Enumerator_t2234397143  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Attribute_t542643598 * V_3 = NULL;
+	ObjectU5BU5D_t3614634134* V_4 = NULL;
+	int32_t V_5 = 0;
+	Action_t3226471752 * V_6 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Type_t * L_0 = Object_GetType_m191970594(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		MethodInfoU5BU5D_t152480188* L_1 = VirtFuncInvoker1< MethodInfoU5BU5D_t152480188*, int32_t >::Invoke(53 /* System.Reflection.MethodInfo[] System.Type::GetMethods(System.Reflection.BindingFlags) */, L_0, ((int32_t)38));
+		List_1_t2699667469 * L_2 = Enumerable_ToList_TisMethodInfo_t_m2736443864(NULL /*static, unused*/, (Il2CppObject*)(Il2CppObject*)L_1, /*hidden argument*/Enumerable_ToList_TisMethodInfo_t_m2736443864_MethodInfo_var);
+		V_0 = L_2;
+		List_1_t2699667469 * L_3 = V_0;
+		Type_t * L_4 = Object_GetType_m191970594(__this, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		MethodInfoU5BU5D_t152480188* L_5 = VirtFuncInvoker1< MethodInfoU5BU5D_t152480188*, int32_t >::Invoke(53 /* System.Reflection.MethodInfo[] System.Type::GetMethods(System.Reflection.BindingFlags) */, L_4, ((int32_t)22));
+		NullCheck(L_3);
+		List_1_AddRange_m1093450066(L_3, (Il2CppObject*)(Il2CppObject*)L_5, /*hidden argument*/List_1_AddRange_m1093450066_MethodInfo_var);
+		List_1_t2699667469 * L_6 = V_0;
+		NullCheck(L_6);
+		Enumerator_t2234397143  L_7 = List_1_GetEnumerator_m2150560895(L_6, /*hidden argument*/List_1_GetEnumerator_m2150560895_MethodInfo_var);
+		V_2 = L_7;
+	}
+
+IL_002d:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0098;
+		}
+
+IL_0032:
+		{
+			MethodInfo_t * L_8 = Enumerator_get_Current_m1945415651((&V_2), /*hidden argument*/Enumerator_get_Current_m1945415651_MethodInfo_var);
+			V_1 = L_8;
+			MethodInfo_t * L_9 = V_1;
+			NullCheck(L_9);
+			ObjectU5BU5D_t3614634134* L_10 = VirtFuncInvoker1< ObjectU5BU5D_t3614634134*, bool >::Invoke(12 /* System.Object[] System.Reflection.MemberInfo::GetCustomAttributes(System.Boolean) */, L_9, (bool)1);
+			V_4 = L_10;
+			V_5 = 0;
+			goto IL_008d;
+		}
+
+IL_004b:
+		{
+			ObjectU5BU5D_t3614634134* L_11 = V_4;
+			int32_t L_12 = V_5;
+			NullCheck(L_11);
+			int32_t L_13 = L_12;
+			Il2CppObject * L_14 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
+			V_3 = ((Attribute_t542643598 *)CastclassClass(L_14, Attribute_t542643598_il2cpp_TypeInfo_var));
+			Attribute_t542643598 * L_15 = V_3;
+			if (!((FactorySetter_t648583075 *)IsInstClass(L_15, FactorySetter_t648583075_il2cpp_TypeInfo_var)))
+			{
+				goto IL_0087;
+			}
+		}
+
+IL_0061:
+		{
+			IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+			Type_t * L_16 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Action_t3226471752_0_0_0_var), /*hidden argument*/NULL);
+			MethodInfo_t * L_17 = V_1;
+			Delegate_t3022476291 * L_18 = Delegate_CreateDelegate_m2101460062(NULL /*static, unused*/, L_16, __this, L_17, /*hidden argument*/NULL);
+			V_6 = ((Action_t3226471752 *)IsInstSealed(L_18, Action_t3226471752_il2cpp_TypeInfo_var));
+			Action_t3226471752 * L_19 = V_6;
+			if (!L_19)
+			{
+				goto IL_0087;
+			}
+		}
+
+IL_0080:
+		{
+			Action_t3226471752 * L_20 = V_6;
+			NullCheck(L_20);
+			Action_Invoke_m3801112262(L_20, /*hidden argument*/NULL);
+		}
+
+IL_0087:
+		{
+			int32_t L_21 = V_5;
+			V_5 = ((int32_t)((int32_t)L_21+(int32_t)1));
+		}
+
+IL_008d:
+		{
+			int32_t L_22 = V_5;
+			ObjectU5BU5D_t3614634134* L_23 = V_4;
+			NullCheck(L_23);
+			if ((((int32_t)L_22) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_23)->max_length)))))))
+			{
+				goto IL_004b;
+			}
+		}
+
+IL_0098:
+		{
+			bool L_24 = Enumerator_MoveNext_m2294671071((&V_2), /*hidden argument*/Enumerator_MoveNext_m2294671071_MethodInfo_var);
+			if (L_24)
+			{
+				goto IL_0032;
+			}
+		}
+
+IL_00a4:
+		{
+			IL2CPP_LEAVE(0xB7, FINALLY_00a9);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_00a9;
+	}
+
+FINALLY_00a9:
+	{ // begin finally (depth: 1)
+		Enumerator_Dispose_m186564181((&V_2), /*hidden argument*/Enumerator_Dispose_m186564181_MethodInfo_var);
+		IL2CPP_END_FINALLY(169)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(169)
+	{
+		IL2CPP_JUMP_TBL(0xB7, IL_00b7)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_00b7:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.ComponentFactoryStarterBehaviour::SetBehaviourComponentFactory()
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppClass* VuforiaBehaviourComponentFactory_t1383853028_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1055265386;
+extern const uint32_t ComponentFactoryStarterBehaviour_SetBehaviourComponentFactory_m3496159002_MetadataUsageId;
+extern "C"  void ComponentFactoryStarterBehaviour_SetBehaviourComponentFactory_m3496159002 (ComponentFactoryStarterBehaviour_t3249343815 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ComponentFactoryStarterBehaviour_SetBehaviourComponentFactory_m3496159002_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, _stringLiteral1055265386, /*hidden argument*/NULL);
+		VuforiaBehaviourComponentFactory_t1383853028 * L_0 = (VuforiaBehaviourComponentFactory_t1383853028 *)il2cpp_codegen_object_new(VuforiaBehaviourComponentFactory_t1383853028_il2cpp_TypeInfo_var);
+		VuforiaBehaviourComponentFactory__ctor_m4023364043(L_0, /*hidden argument*/NULL);
+		BehaviourComponentFactory_set_Instance_m3406469245(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.CylinderTargetBehaviour::.ctor()
+extern "C"  void CylinderTargetBehaviour__ctor_m2197210535 (CylinderTargetBehaviour_t2091399712 * __this, const MethodInfo* method)
+{
+	{
+		CylinderTargetAbstractBehaviour__ctor_m3025238902(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.DatabaseLoadBehaviour::.ctor()
+extern "C"  void DatabaseLoadBehaviour__ctor_m1834104267 (DatabaseLoadBehaviour_t450246482 * __this, const MethodInfo* method)
+{
+	{
+		DatabaseLoadAbstractBehaviour__ctor_m3414578076(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.DatabaseLoadBehaviour::AddOSSpecificExternalDatasetSearchDirs()
+extern "C"  void DatabaseLoadBehaviour_AddOSSpecificExternalDatasetSearchDirs_m528687951 (DatabaseLoadBehaviour_t450246482 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Vuforia.DefaultInitializationErrorHandler::.ctor()
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const uint32_t DefaultInitializationErrorHandler__ctor_m2781804906_MetadataUsageId;
+extern "C"  void DefaultInitializationErrorHandler__ctor_m2781804906 (DefaultInitializationErrorHandler_t965510117 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DefaultInitializationErrorHandler__ctor_m2781804906_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set_mErrorText_2(L_0);
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.DefaultInitializationErrorHandler::Awake()
+extern const Il2CppType* VuforiaAbstractBehaviour_t3319870759_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* VuforiaAbstractBehaviour_t3319870759_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t1951195598_il2cpp_TypeInfo_var;
+extern const MethodInfo* DefaultInitializationErrorHandler_OnVuforiaInitializationError_m1319028211_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3262798437_MethodInfo_var;
+extern const uint32_t DefaultInitializationErrorHandler_Awake_m2567656739_MetadataUsageId;
+extern "C"  void DefaultInitializationErrorHandler_Awake_m2567656739 (DefaultInitializationErrorHandler_t965510117 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DefaultInitializationErrorHandler_Awake_m2567656739_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	VuforiaAbstractBehaviour_t3319870759 * V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(VuforiaAbstractBehaviour_t3319870759_0_0_0_var), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_t1021602117 * L_1 = Object_FindObjectOfType_m2330404063(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = ((VuforiaAbstractBehaviour_t3319870759 *)CastclassClass(L_1, VuforiaAbstractBehaviour_t3319870759_il2cpp_TypeInfo_var));
+		VuforiaAbstractBehaviour_t3319870759 * L_2 = V_0;
+		bool L_3 = Object_op_Implicit_m2856731593(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		VuforiaAbstractBehaviour_t3319870759 * L_4 = V_0;
+		IntPtr_t L_5;
+		L_5.set_m_value_0((void*)(void*)DefaultInitializationErrorHandler_OnVuforiaInitializationError_m1319028211_MethodInfo_var);
+		Action_1_t1951195598 * L_6 = (Action_1_t1951195598 *)il2cpp_codegen_object_new(Action_1_t1951195598_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3262798437(L_6, __this, L_5, /*hidden argument*/Action_1__ctor_m3262798437_MethodInfo_var);
+		NullCheck(L_4);
+		VuforiaAbstractBehaviour_RegisterVuforiaInitErrorCallback_m1232626107(L_4, L_6, /*hidden argument*/NULL);
+	}
+
+IL_0032:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.DefaultInitializationErrorHandler::OnGUI()
+extern Il2CppClass* WindowFunction_t3486805455_il2cpp_TypeInfo_var;
+extern Il2CppClass* GUI_t4082743951_il2cpp_TypeInfo_var;
+extern const MethodInfo* DefaultInitializationErrorHandler_DrawWindowContent_m1741663736_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3233100706;
+extern const uint32_t DefaultInitializationErrorHandler_OnGUI_m2796165714_MetadataUsageId;
+extern "C"  void DefaultInitializationErrorHandler_OnGUI_m2796165714 (DefaultInitializationErrorHandler_t965510117 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DefaultInitializationErrorHandler_OnGUI_m2796165714_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get_mErrorOccurred_3();
+		if (!L_0)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		int32_t L_1 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_2 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t3681755626  L_3;
+		memset(&L_3, 0, sizeof(L_3));
+		Rect__ctor_m1220545469(&L_3, (0.0f), (0.0f), (((float)((float)L_1))), (((float)((float)L_2))), /*hidden argument*/NULL);
+		IntPtr_t L_4;
+		L_4.set_m_value_0((void*)(void*)DefaultInitializationErrorHandler_DrawWindowContent_m1741663736_MethodInfo_var);
+		WindowFunction_t3486805455 * L_5 = (WindowFunction_t3486805455 *)il2cpp_codegen_object_new(WindowFunction_t3486805455_il2cpp_TypeInfo_var);
+		WindowFunction__ctor_m977095815(L_5, __this, L_4, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_Window_m2988139263(NULL /*static, unused*/, 0, L_3, L_5, _stringLiteral3233100706, /*hidden argument*/NULL);
+	}
+
+IL_003e:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.DefaultInitializationErrorHandler::OnDestroy()
+extern const Il2CppType* VuforiaAbstractBehaviour_t3319870759_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* VuforiaAbstractBehaviour_t3319870759_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t1951195598_il2cpp_TypeInfo_var;
+extern const MethodInfo* DefaultInitializationErrorHandler_OnVuforiaInitializationError_m1319028211_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3262798437_MethodInfo_var;
+extern const uint32_t DefaultInitializationErrorHandler_OnDestroy_m3502240837_MetadataUsageId;
+extern "C"  void DefaultInitializationErrorHandler_OnDestroy_m3502240837 (DefaultInitializationErrorHandler_t965510117 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DefaultInitializationErrorHandler_OnDestroy_m3502240837_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	VuforiaAbstractBehaviour_t3319870759 * V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(VuforiaAbstractBehaviour_t3319870759_0_0_0_var), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_t1021602117 * L_1 = Object_FindObjectOfType_m2330404063(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = ((VuforiaAbstractBehaviour_t3319870759 *)CastclassClass(L_1, VuforiaAbstractBehaviour_t3319870759_il2cpp_TypeInfo_var));
+		VuforiaAbstractBehaviour_t3319870759 * L_2 = V_0;
+		bool L_3 = Object_op_Implicit_m2856731593(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		VuforiaAbstractBehaviour_t3319870759 * L_4 = V_0;
+		IntPtr_t L_5;
+		L_5.set_m_value_0((void*)(void*)DefaultInitializationErrorHandler_OnVuforiaInitializationError_m1319028211_MethodInfo_var);
+		Action_1_t1951195598 * L_6 = (Action_1_t1951195598 *)il2cpp_codegen_object_new(Action_1_t1951195598_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3262798437(L_6, __this, L_5, /*hidden argument*/Action_1__ctor_m3262798437_MethodInfo_var);
+		NullCheck(L_4);
+		VuforiaAbstractBehaviour_UnregisterVuforiaInitErrorCallback_m351599706(L_4, L_6, /*hidden argument*/NULL);
+	}
+
+IL_0032:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.DefaultInitializationErrorHandler::DrawWindowContent(System.Int32)
+extern Il2CppClass* GUI_t4082743951_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3033402446;
+extern const uint32_t DefaultInitializationErrorHandler_DrawWindowContent_m1741663736_MetadataUsageId;
+extern "C"  void DefaultInitializationErrorHandler_DrawWindowContent_m1741663736 (DefaultInitializationErrorHandler_t965510117 * __this, int32_t ___id0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DefaultInitializationErrorHandler_DrawWindowContent_m1741663736_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_1 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t3681755626  L_2;
+		memset(&L_2, 0, sizeof(L_2));
+		Rect__ctor_m1220545469(&L_2, (10.0f), (25.0f), (((float)((float)((int32_t)((int32_t)L_0-(int32_t)((int32_t)20)))))), (((float)((float)((int32_t)((int32_t)L_1-(int32_t)((int32_t)95)))))), /*hidden argument*/NULL);
+		String_t* L_3 = __this->get_mErrorText_2();
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_Label_m2412846501(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		int32_t L_4 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_5 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t3681755626  L_6;
+		memset(&L_6, 0, sizeof(L_6));
+		Rect__ctor_m1220545469(&L_6, (((float)((float)((int32_t)((int32_t)((int32_t)((int32_t)L_4/(int32_t)2))-(int32_t)((int32_t)75)))))), (((float)((float)((int32_t)((int32_t)L_5-(int32_t)((int32_t)60)))))), (150.0f), (50.0f), /*hidden argument*/NULL);
+		bool L_7 = GUI_Button_m3054448581(NULL /*static, unused*/, L_6, _stringLiteral3033402446, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_0063;
+		}
+	}
+	{
+		Application_Quit_m3885595876(NULL /*static, unused*/, /*hidden argument*/NULL);
+	}
+
+IL_0063:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.DefaultInitializationErrorHandler::SetErrorCode(Vuforia.VuforiaUnity/InitError)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral649327173;
+extern Il2CppCodeGenString* _stringLiteral819182375;
+extern Il2CppCodeGenString* _stringLiteral2499172356;
+extern Il2CppCodeGenString* _stringLiteral2968979042;
+extern Il2CppCodeGenString* _stringLiteral3603496816;
+extern Il2CppCodeGenString* _stringLiteral3442848064;
+extern Il2CppCodeGenString* _stringLiteral1812102461;
+extern Il2CppCodeGenString* _stringLiteral2487108583;
+extern Il2CppCodeGenString* _stringLiteral2986049441;
+extern Il2CppCodeGenString* _stringLiteral557470275;
+extern Il2CppCodeGenString* _stringLiteral2104855582;
+extern const uint32_t DefaultInitializationErrorHandler_SetErrorCode_m617037449_MetadataUsageId;
+extern "C"  void DefaultInitializationErrorHandler_SetErrorCode_m617037449 (DefaultInitializationErrorHandler_t965510117 * __this, int32_t ___errorCode0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DefaultInitializationErrorHandler_SetErrorCode_m617037449_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = __this->get_mErrorText_2();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_1 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral649327173, L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		int32_t L_2 = ___errorCode0;
+		if (((int32_t)((int32_t)L_2+(int32_t)((int32_t)10))) == 0)
+		{
+			goto IL_004b;
+		}
+		if (((int32_t)((int32_t)L_2+(int32_t)((int32_t)10))) == 1)
+		{
+			goto IL_00ab;
+		}
+		if (((int32_t)((int32_t)L_2+(int32_t)((int32_t)10))) == 2)
+		{
+			goto IL_009b;
+		}
+		if (((int32_t)((int32_t)L_2+(int32_t)((int32_t)10))) == 3)
+		{
+			goto IL_007b;
+		}
+		if (((int32_t)((int32_t)L_2+(int32_t)((int32_t)10))) == 4)
+		{
+			goto IL_008b;
+		}
+		if (((int32_t)((int32_t)L_2+(int32_t)((int32_t)10))) == 5)
+		{
+			goto IL_006b;
+		}
+		if (((int32_t)((int32_t)L_2+(int32_t)((int32_t)10))) == 6)
+		{
+			goto IL_005b;
+		}
+		if (((int32_t)((int32_t)L_2+(int32_t)((int32_t)10))) == 7)
+		{
+			goto IL_00bb;
+		}
+		if (((int32_t)((int32_t)L_2+(int32_t)((int32_t)10))) == 8)
+		{
+			goto IL_00cb;
+		}
+		if (((int32_t)((int32_t)L_2+(int32_t)((int32_t)10))) == 9)
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		goto IL_00eb;
+	}
+
+IL_004b:
+	{
+		__this->set_mErrorText_2(_stringLiteral819182375);
+		goto IL_00eb;
+	}
+
+IL_005b:
+	{
+		__this->set_mErrorText_2(_stringLiteral2499172356);
+		goto IL_00eb;
+	}
+
+IL_006b:
+	{
+		__this->set_mErrorText_2(_stringLiteral2968979042);
+		goto IL_00eb;
+	}
+
+IL_007b:
+	{
+		__this->set_mErrorText_2(_stringLiteral3603496816);
+		goto IL_00eb;
+	}
+
+IL_008b:
+	{
+		__this->set_mErrorText_2(_stringLiteral3442848064);
+		goto IL_00eb;
+	}
+
+IL_009b:
+	{
+		__this->set_mErrorText_2(_stringLiteral1812102461);
+		goto IL_00eb;
+	}
+
+IL_00ab:
+	{
+		__this->set_mErrorText_2(_stringLiteral2487108583);
+		goto IL_00eb;
+	}
+
+IL_00bb:
+	{
+		__this->set_mErrorText_2(_stringLiteral2986049441);
+		goto IL_00eb;
+	}
+
+IL_00cb:
+	{
+		__this->set_mErrorText_2(_stringLiteral557470275);
+		goto IL_00eb;
+	}
+
+IL_00db:
+	{
+		__this->set_mErrorText_2(_stringLiteral2104855582);
+		goto IL_00eb;
+	}
+
+IL_00eb:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.DefaultInitializationErrorHandler::SetErrorOccurred(System.Boolean)
+extern "C"  void DefaultInitializationErrorHandler_SetErrorOccurred_m3043577076 (DefaultInitializationErrorHandler_t965510117 * __this, bool ___errorOccurred0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___errorOccurred0;
+		__this->set_mErrorOccurred_3(L_0);
+		return;
+	}
+}
+// System.Void Vuforia.DefaultInitializationErrorHandler::OnVuforiaInitializationError(Vuforia.VuforiaUnity/InitError)
+extern "C"  void DefaultInitializationErrorHandler_OnVuforiaInitializationError_m1319028211 (DefaultInitializationErrorHandler_t965510117 * __this, int32_t ___initError0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___initError0;
+		if (!L_0)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		int32_t L_1 = ___initError0;
+		DefaultInitializationErrorHandler_SetErrorCode_m617037449(__this, L_1, /*hidden argument*/NULL);
+		DefaultInitializationErrorHandler_SetErrorOccurred_m3043577076(__this, (bool)1, /*hidden argument*/NULL);
+	}
+
+IL_0014:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.DefaultSmartTerrainEventHandler::.ctor()
+extern "C"  void DefaultSmartTerrainEventHandler__ctor_m2500188526 (DefaultSmartTerrainEventHandler_t870608571 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.DefaultSmartTerrainEventHandler::Start()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t245871341_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2023440477_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisReconstructionBehaviour_t4009935945_m3509900328_MethodInfo_var;
+extern const MethodInfo* DefaultSmartTerrainEventHandler_OnPropCreated_m2699063839_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m206058748_MethodInfo_var;
+extern const MethodInfo* DefaultSmartTerrainEventHandler_OnSurfaceCreated_m3013324307_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m1475023678_MethodInfo_var;
+extern const uint32_t DefaultSmartTerrainEventHandler_Start_m2088335438_MetadataUsageId;
+extern "C"  void DefaultSmartTerrainEventHandler_Start_m2088335438 (DefaultSmartTerrainEventHandler_t870608571 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DefaultSmartTerrainEventHandler_Start_m2088335438_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ReconstructionBehaviour_t4009935945 * L_0 = Component_GetComponent_TisReconstructionBehaviour_t4009935945_m3509900328(__this, /*hidden argument*/Component_GetComponent_TisReconstructionBehaviour_t4009935945_m3509900328_MethodInfo_var);
+		__this->set_mReconstructionBehaviour_2(L_0);
+		ReconstructionBehaviour_t4009935945 * L_1 = __this->get_mReconstructionBehaviour_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Implicit_m2856731593(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_004a;
+		}
+	}
+	{
+		ReconstructionBehaviour_t4009935945 * L_3 = __this->get_mReconstructionBehaviour_2();
+		IntPtr_t L_4;
+		L_4.set_m_value_0((void*)(void*)DefaultSmartTerrainEventHandler_OnPropCreated_m2699063839_MethodInfo_var);
+		Action_1_t245871341 * L_5 = (Action_1_t245871341 *)il2cpp_codegen_object_new(Action_1_t245871341_il2cpp_TypeInfo_var);
+		Action_1__ctor_m206058748(L_5, __this, L_4, /*hidden argument*/Action_1__ctor_m206058748_MethodInfo_var);
+		NullCheck(L_3);
+		ReconstructionAbstractBehaviour_RegisterPropCreatedCallback_m4192941617(L_3, L_5, /*hidden argument*/NULL);
+		ReconstructionBehaviour_t4009935945 * L_6 = __this->get_mReconstructionBehaviour_2();
+		IntPtr_t L_7;
+		L_7.set_m_value_0((void*)(void*)DefaultSmartTerrainEventHandler_OnSurfaceCreated_m3013324307_MethodInfo_var);
+		Action_1_t2023440477 * L_8 = (Action_1_t2023440477 *)il2cpp_codegen_object_new(Action_1_t2023440477_il2cpp_TypeInfo_var);
+		Action_1__ctor_m1475023678(L_8, __this, L_7, /*hidden argument*/Action_1__ctor_m1475023678_MethodInfo_var);
+		NullCheck(L_6);
+		ReconstructionAbstractBehaviour_RegisterSurfaceCreatedCallback_m3624331525(L_6, L_8, /*hidden argument*/NULL);
+	}
+
+IL_004a:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.DefaultSmartTerrainEventHandler::OnDestroy()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t245871341_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2023440477_il2cpp_TypeInfo_var;
+extern const MethodInfo* DefaultSmartTerrainEventHandler_OnPropCreated_m2699063839_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m206058748_MethodInfo_var;
+extern const MethodInfo* DefaultSmartTerrainEventHandler_OnSurfaceCreated_m3013324307_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m1475023678_MethodInfo_var;
+extern const uint32_t DefaultSmartTerrainEventHandler_OnDestroy_m904284311_MetadataUsageId;
+extern "C"  void DefaultSmartTerrainEventHandler_OnDestroy_m904284311 (DefaultSmartTerrainEventHandler_t870608571 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DefaultSmartTerrainEventHandler_OnDestroy_m904284311_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ReconstructionBehaviour_t4009935945 * L_0 = __this->get_mReconstructionBehaviour_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Implicit_m2856731593(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		ReconstructionBehaviour_t4009935945 * L_2 = __this->get_mReconstructionBehaviour_2();
+		IntPtr_t L_3;
+		L_3.set_m_value_0((void*)(void*)DefaultSmartTerrainEventHandler_OnPropCreated_m2699063839_MethodInfo_var);
+		Action_1_t245871341 * L_4 = (Action_1_t245871341 *)il2cpp_codegen_object_new(Action_1_t245871341_il2cpp_TypeInfo_var);
+		Action_1__ctor_m206058748(L_4, __this, L_3, /*hidden argument*/Action_1__ctor_m206058748_MethodInfo_var);
+		NullCheck(L_2);
+		ReconstructionAbstractBehaviour_UnregisterPropCreatedCallback_m2048741868(L_2, L_4, /*hidden argument*/NULL);
+		ReconstructionBehaviour_t4009935945 * L_5 = __this->get_mReconstructionBehaviour_2();
+		IntPtr_t L_6;
+		L_6.set_m_value_0((void*)(void*)DefaultSmartTerrainEventHandler_OnSurfaceCreated_m3013324307_MethodInfo_var);
+		Action_1_t2023440477 * L_7 = (Action_1_t2023440477 *)il2cpp_codegen_object_new(Action_1_t2023440477_il2cpp_TypeInfo_var);
+		Action_1__ctor_m1475023678(L_7, __this, L_6, /*hidden argument*/Action_1__ctor_m1475023678_MethodInfo_var);
+		NullCheck(L_5);
+		ReconstructionAbstractBehaviour_UnregisterSurfaceCreatedCallback_m1039740100(L_5, L_7, /*hidden argument*/NULL);
+	}
+
+IL_003e:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.DefaultSmartTerrainEventHandler::OnPropCreated(Vuforia.Prop)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t DefaultSmartTerrainEventHandler_OnPropCreated_m2699063839_MetadataUsageId;
+extern "C"  void DefaultSmartTerrainEventHandler_OnPropCreated_m2699063839 (DefaultSmartTerrainEventHandler_t870608571 * __this, Il2CppObject * ___prop0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DefaultSmartTerrainEventHandler_OnPropCreated_m2699063839_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ReconstructionBehaviour_t4009935945 * L_0 = __this->get_mReconstructionBehaviour_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Implicit_m2856731593(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		ReconstructionBehaviour_t4009935945 * L_2 = __this->get_mReconstructionBehaviour_2();
+		PropBehaviour_t966064926 * L_3 = __this->get_PropTemplate_3();
+		Il2CppObject * L_4 = ___prop0;
+		NullCheck(L_2);
+		ReconstructionAbstractBehaviour_AssociateProp_m920258964(L_2, L_3, L_4, /*hidden argument*/NULL);
+	}
+
+IL_0023:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.DefaultSmartTerrainEventHandler::OnSurfaceCreated(Vuforia.Surface)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t DefaultSmartTerrainEventHandler_OnSurfaceCreated_m3013324307_MetadataUsageId;
+extern "C"  void DefaultSmartTerrainEventHandler_OnSurfaceCreated_m3013324307 (DefaultSmartTerrainEventHandler_t870608571 * __this, Il2CppObject * ___surface0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DefaultSmartTerrainEventHandler_OnSurfaceCreated_m3013324307_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ReconstructionBehaviour_t4009935945 * L_0 = __this->get_mReconstructionBehaviour_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Implicit_m2856731593(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		ReconstructionBehaviour_t4009935945 * L_2 = __this->get_mReconstructionBehaviour_2();
+		SurfaceBehaviour_t2405314212 * L_3 = __this->get_SurfaceTemplate_4();
+		Il2CppObject * L_4 = ___surface0;
+		NullCheck(L_2);
+		ReconstructionAbstractBehaviour_AssociateSurface_m4192971254(L_2, L_3, L_4, /*hidden argument*/NULL);
+	}
+
+IL_0023:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.DefaultTrackableEventHandler::.ctor()
+extern "C"  void DefaultTrackableEventHandler__ctor_m205667975 (DefaultTrackableEventHandler_t1082256726 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.DefaultTrackableEventHandler::Start()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisTrackableBehaviour_t1779888572_m2013987957_MethodInfo_var;
+extern const uint32_t DefaultTrackableEventHandler_Start_m93544099_MetadataUsageId;
+extern "C"  void DefaultTrackableEventHandler_Start_m93544099 (DefaultTrackableEventHandler_t1082256726 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DefaultTrackableEventHandler_Start_m93544099_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TrackableBehaviour_t1779888572 * L_0 = Component_GetComponent_TisTrackableBehaviour_t1779888572_m2013987957(__this, /*hidden argument*/Component_GetComponent_TisTrackableBehaviour_t1779888572_m2013987957_MethodInfo_var);
+		__this->set_mTrackableBehaviour_2(L_0);
+		TrackableBehaviour_t1779888572 * L_1 = __this->get_mTrackableBehaviour_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Implicit_m2856731593(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		TrackableBehaviour_t1779888572 * L_3 = __this->get_mTrackableBehaviour_2();
+		NullCheck(L_3);
+		TrackableBehaviour_RegisterTrackableEventHandler_m1156666476(L_3, __this, /*hidden argument*/NULL);
+	}
+
+IL_0028:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.DefaultTrackableEventHandler::OnTrackableStateChanged(Vuforia.TrackableBehaviour/Status,Vuforia.TrackableBehaviour/Status)
+extern "C"  void DefaultTrackableEventHandler_OnTrackableStateChanged_m2460643418 (DefaultTrackableEventHandler_t1082256726 * __this, int32_t ___previousStatus0, int32_t ___newStatus1, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___newStatus1;
+		if ((((int32_t)L_0) == ((int32_t)2)))
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		int32_t L_1 = ___newStatus1;
+		if ((((int32_t)L_1) == ((int32_t)3)))
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		int32_t L_2 = ___newStatus1;
+		if ((!(((uint32_t)L_2) == ((uint32_t)4))))
+		{
+			goto IL_0020;
+		}
+	}
+
+IL_0015:
+	{
+		DefaultTrackableEventHandler_OnTrackingFound_m1963976755(__this, /*hidden argument*/NULL);
+		goto IL_0026;
+	}
+
+IL_0020:
+	{
+		DefaultTrackableEventHandler_OnTrackingLost_m3813626281(__this, /*hidden argument*/NULL);
+	}
+
+IL_0026:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.DefaultTrackableEventHandler::OnTrackingFound()
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponentsInChildren_TisRenderer_t257310565_m1076536047_MethodInfo_var;
+extern const MethodInfo* Component_GetComponentsInChildren_TisCollider_t3497673348_m496323568_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1040926105;
+extern Il2CppCodeGenString* _stringLiteral759218142;
+extern const uint32_t DefaultTrackableEventHandler_OnTrackingFound_m1963976755_MetadataUsageId;
+extern "C"  void DefaultTrackableEventHandler_OnTrackingFound_m1963976755 (DefaultTrackableEventHandler_t1082256726 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DefaultTrackableEventHandler_OnTrackingFound_m1963976755_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	RendererU5BU5D_t2810717544* V_0 = NULL;
+	ColliderU5BU5D_t462843629* V_1 = NULL;
+	Renderer_t257310565 * V_2 = NULL;
+	RendererU5BU5D_t2810717544* V_3 = NULL;
+	int32_t V_4 = 0;
+	Collider_t3497673348 * V_5 = NULL;
+	ColliderU5BU5D_t462843629* V_6 = NULL;
+	int32_t V_7 = 0;
+	{
+		RendererU5BU5D_t2810717544* L_0 = Component_GetComponentsInChildren_TisRenderer_t257310565_m1076536047(__this, (bool)1, /*hidden argument*/Component_GetComponentsInChildren_TisRenderer_t257310565_m1076536047_MethodInfo_var);
+		V_0 = L_0;
+		ColliderU5BU5D_t462843629* L_1 = Component_GetComponentsInChildren_TisCollider_t3497673348_m496323568(__this, (bool)1, /*hidden argument*/Component_GetComponentsInChildren_TisCollider_t3497673348_m496323568_MethodInfo_var);
+		V_1 = L_1;
+		RendererU5BU5D_t2810717544* L_2 = V_0;
+		V_3 = L_2;
+		V_4 = 0;
+		goto IL_002c;
+	}
+
+IL_001a:
+	{
+		RendererU5BU5D_t2810717544* L_3 = V_3;
+		int32_t L_4 = V_4;
+		NullCheck(L_3);
+		int32_t L_5 = L_4;
+		Renderer_t257310565 * L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		V_2 = L_6;
+		Renderer_t257310565 * L_7 = V_2;
+		NullCheck(L_7);
+		Renderer_set_enabled_m142717579(L_7, (bool)1, /*hidden argument*/NULL);
+		int32_t L_8 = V_4;
+		V_4 = ((int32_t)((int32_t)L_8+(int32_t)1));
+	}
+
+IL_002c:
+	{
+		int32_t L_9 = V_4;
+		RendererU5BU5D_t2810717544* L_10 = V_3;
+		NullCheck(L_10);
+		if ((((int32_t)L_9) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_10)->max_length)))))))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		ColliderU5BU5D_t462843629* L_11 = V_1;
+		V_6 = L_11;
+		V_7 = 0;
+		goto IL_0056;
+	}
+
+IL_0041:
+	{
+		ColliderU5BU5D_t462843629* L_12 = V_6;
+		int32_t L_13 = V_7;
+		NullCheck(L_12);
+		int32_t L_14 = L_13;
+		Collider_t3497673348 * L_15 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
+		V_5 = L_15;
+		Collider_t3497673348 * L_16 = V_5;
+		NullCheck(L_16);
+		Collider_set_enabled_m3489100454(L_16, (bool)1, /*hidden argument*/NULL);
+		int32_t L_17 = V_7;
+		V_7 = ((int32_t)((int32_t)L_17+(int32_t)1));
+	}
+
+IL_0056:
+	{
+		int32_t L_18 = V_7;
+		ColliderU5BU5D_t462843629* L_19 = V_6;
+		NullCheck(L_19);
+		if ((((int32_t)L_18) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_19)->max_length)))))))
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		TrackableBehaviour_t1779888572 * L_20 = __this->get_mTrackableBehaviour_2();
+		NullCheck(L_20);
+		String_t* L_21 = TrackableBehaviour_get_TrackableName_m3173853042(L_20, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_22 = String_Concat_m612901809(NULL /*static, unused*/, _stringLiteral1040926105, L_21, _stringLiteral759218142, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_22, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.DefaultTrackableEventHandler::OnTrackingLost()
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponentsInChildren_TisRenderer_t257310565_m1076536047_MethodInfo_var;
+extern const MethodInfo* Component_GetComponentsInChildren_TisCollider_t3497673348_m496323568_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1040926105;
+extern Il2CppCodeGenString* _stringLiteral3033297088;
+extern const uint32_t DefaultTrackableEventHandler_OnTrackingLost_m3813626281_MetadataUsageId;
+extern "C"  void DefaultTrackableEventHandler_OnTrackingLost_m3813626281 (DefaultTrackableEventHandler_t1082256726 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DefaultTrackableEventHandler_OnTrackingLost_m3813626281_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	RendererU5BU5D_t2810717544* V_0 = NULL;
+	ColliderU5BU5D_t462843629* V_1 = NULL;
+	Renderer_t257310565 * V_2 = NULL;
+	RendererU5BU5D_t2810717544* V_3 = NULL;
+	int32_t V_4 = 0;
+	Collider_t3497673348 * V_5 = NULL;
+	ColliderU5BU5D_t462843629* V_6 = NULL;
+	int32_t V_7 = 0;
+	{
+		RendererU5BU5D_t2810717544* L_0 = Component_GetComponentsInChildren_TisRenderer_t257310565_m1076536047(__this, (bool)1, /*hidden argument*/Component_GetComponentsInChildren_TisRenderer_t257310565_m1076536047_MethodInfo_var);
+		V_0 = L_0;
+		ColliderU5BU5D_t462843629* L_1 = Component_GetComponentsInChildren_TisCollider_t3497673348_m496323568(__this, (bool)1, /*hidden argument*/Component_GetComponentsInChildren_TisCollider_t3497673348_m496323568_MethodInfo_var);
+		V_1 = L_1;
+		RendererU5BU5D_t2810717544* L_2 = V_0;
+		V_3 = L_2;
+		V_4 = 0;
+		goto IL_002c;
+	}
+
+IL_001a:
+	{
+		RendererU5BU5D_t2810717544* L_3 = V_3;
+		int32_t L_4 = V_4;
+		NullCheck(L_3);
+		int32_t L_5 = L_4;
+		Renderer_t257310565 * L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		V_2 = L_6;
+		Renderer_t257310565 * L_7 = V_2;
+		NullCheck(L_7);
+		Renderer_set_enabled_m142717579(L_7, (bool)0, /*hidden argument*/NULL);
+		int32_t L_8 = V_4;
+		V_4 = ((int32_t)((int32_t)L_8+(int32_t)1));
+	}
+
+IL_002c:
+	{
+		int32_t L_9 = V_4;
+		RendererU5BU5D_t2810717544* L_10 = V_3;
+		NullCheck(L_10);
+		if ((((int32_t)L_9) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_10)->max_length)))))))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		ColliderU5BU5D_t462843629* L_11 = V_1;
+		V_6 = L_11;
+		V_7 = 0;
+		goto IL_0056;
+	}
+
+IL_0041:
+	{
+		ColliderU5BU5D_t462843629* L_12 = V_6;
+		int32_t L_13 = V_7;
+		NullCheck(L_12);
+		int32_t L_14 = L_13;
+		Collider_t3497673348 * L_15 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
+		V_5 = L_15;
+		Collider_t3497673348 * L_16 = V_5;
+		NullCheck(L_16);
+		Collider_set_enabled_m3489100454(L_16, (bool)0, /*hidden argument*/NULL);
+		int32_t L_17 = V_7;
+		V_7 = ((int32_t)((int32_t)L_17+(int32_t)1));
+	}
+
+IL_0056:
+	{
+		int32_t L_18 = V_7;
+		ColliderU5BU5D_t462843629* L_19 = V_6;
+		NullCheck(L_19);
+		if ((((int32_t)L_18) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_19)->max_length)))))))
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		TrackableBehaviour_t1779888572 * L_20 = __this->get_mTrackableBehaviour_2();
+		NullCheck(L_20);
+		String_t* L_21 = TrackableBehaviour_get_TrackableName_m3173853042(L_20, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_22 = String_Concat_m612901809(NULL /*static, unused*/, _stringLiteral1040926105, L_21, _stringLiteral3033297088, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_22, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.DeviceTrackerBehaviour::.ctor()
+extern Il2CppClass* DeviceTrackerAbstractBehaviour_t2651534015_il2cpp_TypeInfo_var;
+extern const uint32_t DeviceTrackerBehaviour__ctor_m1101790568_MetadataUsageId;
+extern "C"  void DeviceTrackerBehaviour__ctor_m1101790568 (DeviceTrackerBehaviour_t1884988499 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DeviceTrackerBehaviour__ctor_m1101790568_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(DeviceTrackerAbstractBehaviour_t2651534015_il2cpp_TypeInfo_var);
+		DeviceTrackerAbstractBehaviour__ctor_m2417598235(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.DigitalEyewearBehaviour::.ctor()
+extern "C"  void DigitalEyewearBehaviour__ctor_m1415568416 (DigitalEyewearBehaviour_t495394589 * __this, const MethodInfo* method)
+{
+	{
+		DigitalEyewearAbstractBehaviour__ctor_m1578138673(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Vuforia.DigitalEyewearBehaviour Vuforia.DigitalEyewearBehaviour::get_Instance()
+extern Il2CppClass* DigitalEyewearBehaviour_t495394589_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* Object_FindObjectOfType_TisDigitalEyewearBehaviour_t495394589_m275374148_MethodInfo_var;
+extern const uint32_t DigitalEyewearBehaviour_get_Instance_m3807753842_MetadataUsageId;
+extern "C"  DigitalEyewearBehaviour_t495394589 * DigitalEyewearBehaviour_get_Instance_m3807753842 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DigitalEyewearBehaviour_get_Instance_m3807753842_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(DigitalEyewearBehaviour_t495394589_il2cpp_TypeInfo_var);
+		DigitalEyewearBehaviour_t495394589 * L_0 = ((DigitalEyewearBehaviour_t495394589_StaticFields*)DigitalEyewearBehaviour_t495394589_il2cpp_TypeInfo_var->static_fields)->get_mDigitalEyewearBehaviour_28();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		DigitalEyewearBehaviour_t495394589 * L_2 = Object_FindObjectOfType_TisDigitalEyewearBehaviour_t495394589_m275374148(NULL /*static, unused*/, /*hidden argument*/Object_FindObjectOfType_TisDigitalEyewearBehaviour_t495394589_m275374148_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(DigitalEyewearBehaviour_t495394589_il2cpp_TypeInfo_var);
+		((DigitalEyewearBehaviour_t495394589_StaticFields*)DigitalEyewearBehaviour_t495394589_il2cpp_TypeInfo_var->static_fields)->set_mDigitalEyewearBehaviour_28(L_2);
+	}
+
+IL_001a:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(DigitalEyewearBehaviour_t495394589_il2cpp_TypeInfo_var);
+		DigitalEyewearBehaviour_t495394589 * L_3 = ((DigitalEyewearBehaviour_t495394589_StaticFields*)DigitalEyewearBehaviour_t495394589_il2cpp_TypeInfo_var->static_fields)->get_mDigitalEyewearBehaviour_28();
+		return L_3;
+	}
+}
+// System.Void Vuforia.DigitalEyewearBehaviour::.cctor()
+extern "C"  void DigitalEyewearBehaviour__cctor_m2294357409 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Vuforia.GLErrorHandler::.ctor()
+extern "C"  void GLErrorHandler__ctor_m2689292648 (GLErrorHandler_t3809113141 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.GLErrorHandler::SetError(System.String)
+extern Il2CppClass* GLErrorHandler_t3809113141_il2cpp_TypeInfo_var;
+extern const uint32_t GLErrorHandler_SetError_m381241178_MetadataUsageId;
+extern "C"  void GLErrorHandler_SetError_m381241178 (Il2CppObject * __this /* static, unused */, String_t* ___errorText0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GLErrorHandler_SetError_m381241178_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___errorText0;
+		IL2CPP_RUNTIME_CLASS_INIT(GLErrorHandler_t3809113141_il2cpp_TypeInfo_var);
+		((GLErrorHandler_t3809113141_StaticFields*)GLErrorHandler_t3809113141_il2cpp_TypeInfo_var->static_fields)->set_mErrorText_2(L_0);
+		((GLErrorHandler_t3809113141_StaticFields*)GLErrorHandler_t3809113141_il2cpp_TypeInfo_var->static_fields)->set_mErrorOccurred_3((bool)1);
+		return;
+	}
+}
+// System.Void Vuforia.GLErrorHandler::OnGUI()
+extern Il2CppClass* GLErrorHandler_t3809113141_il2cpp_TypeInfo_var;
+extern Il2CppClass* WindowFunction_t3486805455_il2cpp_TypeInfo_var;
+extern Il2CppClass* GUI_t4082743951_il2cpp_TypeInfo_var;
+extern const MethodInfo* GLErrorHandler_DrawWindowContent_m161374698_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2015436302;
+extern const uint32_t GLErrorHandler_OnGUI_m3766403336_MetadataUsageId;
+extern "C"  void GLErrorHandler_OnGUI_m3766403336 (GLErrorHandler_t3809113141 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GLErrorHandler_OnGUI_m3766403336_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GLErrorHandler_t3809113141_il2cpp_TypeInfo_var);
+		bool L_0 = ((GLErrorHandler_t3809113141_StaticFields*)GLErrorHandler_t3809113141_il2cpp_TypeInfo_var->static_fields)->get_mErrorOccurred_3();
+		if (!L_0)
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		int32_t L_1 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_2 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t3681755626  L_3;
+		memset(&L_3, 0, sizeof(L_3));
+		Rect__ctor_m1220545469(&L_3, (0.0f), (0.0f), (((float)((float)L_1))), (((float)((float)L_2))), /*hidden argument*/NULL);
+		IntPtr_t L_4;
+		L_4.set_m_value_0((void*)(void*)GLErrorHandler_DrawWindowContent_m161374698_MethodInfo_var);
+		WindowFunction_t3486805455 * L_5 = (WindowFunction_t3486805455 *)il2cpp_codegen_object_new(WindowFunction_t3486805455_il2cpp_TypeInfo_var);
+		WindowFunction__ctor_m977095815(L_5, __this, L_4, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_Window_m2988139263(NULL /*static, unused*/, 0, L_3, L_5, _stringLiteral2015436302, /*hidden argument*/NULL);
+	}
+
+IL_003d:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.GLErrorHandler::DrawWindowContent(System.Int32)
+extern Il2CppClass* GLErrorHandler_t3809113141_il2cpp_TypeInfo_var;
+extern Il2CppClass* GUI_t4082743951_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3033402446;
+extern const uint32_t GLErrorHandler_DrawWindowContent_m161374698_MetadataUsageId;
+extern "C"  void GLErrorHandler_DrawWindowContent_m161374698 (GLErrorHandler_t3809113141 * __this, int32_t ___id0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GLErrorHandler_DrawWindowContent_m161374698_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_1 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t3681755626  L_2;
+		memset(&L_2, 0, sizeof(L_2));
+		Rect__ctor_m1220545469(&L_2, (10.0f), (25.0f), (((float)((float)((int32_t)((int32_t)L_0-(int32_t)((int32_t)20)))))), (((float)((float)((int32_t)((int32_t)L_1-(int32_t)((int32_t)95)))))), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GLErrorHandler_t3809113141_il2cpp_TypeInfo_var);
+		String_t* L_3 = ((GLErrorHandler_t3809113141_StaticFields*)GLErrorHandler_t3809113141_il2cpp_TypeInfo_var->static_fields)->get_mErrorText_2();
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_Label_m2412846501(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		int32_t L_4 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_5 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t3681755626  L_6;
+		memset(&L_6, 0, sizeof(L_6));
+		Rect__ctor_m1220545469(&L_6, (((float)((float)((int32_t)((int32_t)((int32_t)((int32_t)L_4/(int32_t)2))-(int32_t)((int32_t)75)))))), (((float)((float)((int32_t)((int32_t)L_5-(int32_t)((int32_t)60)))))), (150.0f), (50.0f), /*hidden argument*/NULL);
+		bool L_7 = GUI_Button_m3054448581(NULL /*static, unused*/, L_6, _stringLiteral3033402446, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		Application_Quit_m3885595876(NULL /*static, unused*/, /*hidden argument*/NULL);
+	}
+
+IL_0062:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.GLErrorHandler::.cctor()
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* GLErrorHandler_t3809113141_il2cpp_TypeInfo_var;
+extern const uint32_t GLErrorHandler__cctor_m454494933_MetadataUsageId;
+extern "C"  void GLErrorHandler__cctor_m454494933 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GLErrorHandler__cctor_m454494933_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		((GLErrorHandler_t3809113141_StaticFields*)GLErrorHandler_t3809113141_il2cpp_TypeInfo_var->static_fields)->set_mErrorText_2(L_0);
+		return;
+	}
+}
+// System.Void Vuforia.HideExcessAreaBehaviour::.ctor()
+extern "C"  void HideExcessAreaBehaviour__ctor_m1434979708 (HideExcessAreaBehaviour_t3495034315 * __this, const MethodInfo* method)
+{
+	{
+		HideExcessAreaAbstractBehaviour__ctor_m283987487(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.ImageTargetBehaviour::.ctor()
+extern "C"  void ImageTargetBehaviour__ctor_m2964661606 (ImageTargetBehaviour_t2654589389 * __this, const MethodInfo* method)
+{
+	{
+		ImageTargetAbstractBehaviour__ctor_m3584284597(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.IOSUnityPlayer::.ctor()
+extern "C"  void IOSUnityPlayer__ctor_m676692974 (IOSUnityPlayer_t3656371703 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.IOSUnityPlayer::LoadNativeLibraries()
+extern "C"  void IOSUnityPlayer_LoadNativeLibraries_m1172109064 (IOSUnityPlayer_t3656371703 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Vuforia.IOSUnityPlayer::InitializePlatform()
+extern "C"  void IOSUnityPlayer_InitializePlatform_m286541247 (IOSUnityPlayer_t3656371703 * __this, const MethodInfo* method)
+{
+	{
+		IOSUnityPlayer_setPlatFormNative_m2804175766(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Vuforia.VuforiaUnity/InitError Vuforia.IOSUnityPlayer::Start(System.String)
+extern Il2CppClass* VuforiaRenderer_t2933102835_il2cpp_TypeInfo_var;
+extern const uint32_t IOSUnityPlayer_Start_m2082355513_MetadataUsageId;
+extern "C"  int32_t IOSUnityPlayer_Start_m2082355513 (IOSUnityPlayer_t3656371703 * __this, String_t* ___licenseKey0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSUnityPlayer_Start_m2082355513_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaRenderer_t2933102835_il2cpp_TypeInfo_var);
+		VuforiaRenderer_t2933102835 * L_0 = VuforiaRenderer_get_Instance_m1621768183(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		int32_t L_1 = VirtFuncInvoker0< int32_t >::Invoke(15 /* Vuforia.VuforiaRenderer/RendererAPI Vuforia.VuforiaRenderer::GetRendererAPI() */, L_0);
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		int32_t L_3 = Screen_get_orientation_m879255848(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_4 = ___licenseKey0;
+		int32_t L_5 = IOSUnityPlayer_initQCARiOS_m4109121394(NULL /*static, unused*/, L_2, L_3, L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
+		int32_t L_6 = V_1;
+		if ((((int32_t)L_6) < ((int32_t)0)))
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		IOSUnityPlayer_InitializeSurface_m4219932605(__this, /*hidden argument*/NULL);
+	}
+
+IL_0025:
+	{
+		int32_t L_7 = V_1;
+		return (int32_t)(L_7);
+	}
+}
+// System.Void Vuforia.IOSUnityPlayer::Update()
+extern Il2CppClass* SurfaceUtilities_t4096327849_il2cpp_TypeInfo_var;
+extern const uint32_t IOSUnityPlayer_Update_m3611099589_MetadataUsageId;
+extern "C"  void IOSUnityPlayer_Update_m3611099589 (IOSUnityPlayer_t3656371703 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSUnityPlayer_Update_m3611099589_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(SurfaceUtilities_t4096327849_il2cpp_TypeInfo_var);
+		bool L_0 = SurfaceUtilities_HasSurfaceBeenRecreated_m2740261893(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		IOSUnityPlayer_InitializeSurface_m4219932605(__this, /*hidden argument*/NULL);
+		goto IL_002b;
+	}
+
+IL_0015:
+	{
+		int32_t L_1 = Screen_get_orientation_m879255848(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_2 = __this->get_mScreenOrientation_0();
+		if ((((int32_t)L_1) == ((int32_t)L_2)))
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		IOSUnityPlayer_SetUnityScreenOrientation_m3793088327(__this, /*hidden argument*/NULL);
+	}
+
+IL_002b:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.IOSUnityPlayer::Dispose()
+extern "C"  void IOSUnityPlayer_Dispose_m444239215 (IOSUnityPlayer_t3656371703 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Vuforia.IOSUnityPlayer::OnPause()
+extern Il2CppClass* VuforiaUnity_t657456673_il2cpp_TypeInfo_var;
+extern const uint32_t IOSUnityPlayer_OnPause_m2518700507_MetadataUsageId;
+extern "C"  void IOSUnityPlayer_OnPause_m2518700507 (IOSUnityPlayer_t3656371703 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSUnityPlayer_OnPause_m2518700507_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaUnity_t657456673_il2cpp_TypeInfo_var);
+		VuforiaUnity_OnPause_m2422224752(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.IOSUnityPlayer::OnResume()
+extern Il2CppClass* VuforiaUnity_t657456673_il2cpp_TypeInfo_var;
+extern const uint32_t IOSUnityPlayer_OnResume_m921094382_MetadataUsageId;
+extern "C"  void IOSUnityPlayer_OnResume_m921094382 (IOSUnityPlayer_t3656371703 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSUnityPlayer_OnResume_m921094382_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaUnity_t657456673_il2cpp_TypeInfo_var);
+		VuforiaUnity_OnResume_m2186520633(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.IOSUnityPlayer::OnDestroy()
+extern Il2CppClass* VuforiaUnity_t657456673_il2cpp_TypeInfo_var;
+extern const uint32_t IOSUnityPlayer_OnDestroy_m3703758411_MetadataUsageId;
+extern "C"  void IOSUnityPlayer_OnDestroy_m3703758411 (IOSUnityPlayer_t3656371703 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSUnityPlayer_OnDestroy_m3703758411_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaUnity_t657456673_il2cpp_TypeInfo_var);
+		VuforiaUnity_Deinit_m4072609744(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.IOSUnityPlayer::InitializeSurface()
+extern Il2CppClass* SurfaceUtilities_t4096327849_il2cpp_TypeInfo_var;
+extern const uint32_t IOSUnityPlayer_InitializeSurface_m4219932605_MetadataUsageId;
+extern "C"  void IOSUnityPlayer_InitializeSurface_m4219932605 (IOSUnityPlayer_t3656371703 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSUnityPlayer_InitializeSurface_m4219932605_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(SurfaceUtilities_t4096327849_il2cpp_TypeInfo_var);
+		SurfaceUtilities_OnSurfaceCreated_m3675640541(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IOSUnityPlayer_SetUnityScreenOrientation_m3793088327(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.IOSUnityPlayer::SetUnityScreenOrientation()
+extern Il2CppClass* SurfaceUtilities_t4096327849_il2cpp_TypeInfo_var;
+extern const uint32_t IOSUnityPlayer_SetUnityScreenOrientation_m3793088327_MetadataUsageId;
+extern "C"  void IOSUnityPlayer_SetUnityScreenOrientation_m3793088327 (IOSUnityPlayer_t3656371703 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSUnityPlayer_SetUnityScreenOrientation_m3793088327_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = Screen_get_orientation_m879255848(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_mScreenOrientation_0(L_0);
+		int32_t L_1 = __this->get_mScreenOrientation_0();
+		IL2CPP_RUNTIME_CLASS_INIT(SurfaceUtilities_t4096327849_il2cpp_TypeInfo_var);
+		SurfaceUtilities_SetSurfaceOrientation_m3106547277(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		int32_t L_2 = __this->get_mScreenOrientation_0();
+		IOSUnityPlayer_setSurfaceOrientationiOS_m3165018273(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+extern "C" void DEFAULT_CALL setPlatFormNative();
+// System.Void Vuforia.IOSUnityPlayer::setPlatFormNative()
+extern "C"  void IOSUnityPlayer_setPlatFormNative_m2804175766 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(setPlatFormNative)();
+
+}
+extern "C" int32_t DEFAULT_CALL initQCARiOS(int32_t, int32_t, char*);
+// System.Int32 Vuforia.IOSUnityPlayer::initQCARiOS(System.Int32,System.Int32,System.String)
+extern "C"  int32_t IOSUnityPlayer_initQCARiOS_m4109121394 (Il2CppObject * __this /* static, unused */, int32_t ___rendererAPI0, int32_t ___screenOrientation1, String_t* ___licenseKey2, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, char*);
+
+	// Marshaling of parameter '___licenseKey2' to native representation
+	char* ____licenseKey2_marshaled = NULL;
+	____licenseKey2_marshaled = il2cpp_codegen_marshal_string(___licenseKey2);
+
+	// Native function invocation
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(initQCARiOS)(___rendererAPI0, ___screenOrientation1, ____licenseKey2_marshaled);
+
+	// Marshaling cleanup of parameter '___licenseKey2' native representation
+	il2cpp_codegen_marshal_free(____licenseKey2_marshaled);
+	____licenseKey2_marshaled = NULL;
+
+	return returnValue;
+}
+extern "C" void DEFAULT_CALL setSurfaceOrientationiOS(int32_t);
+// System.Void Vuforia.IOSUnityPlayer::setSurfaceOrientationiOS(System.Int32)
+extern "C"  void IOSUnityPlayer_setSurfaceOrientationiOS_m3165018273 (Il2CppObject * __this /* static, unused */, int32_t ___screenOrientation0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(setSurfaceOrientationiOS)(___screenOrientation0);
+
+}
+// System.Void Vuforia.KeepAliveBehaviour::.ctor()
+extern "C"  void KeepAliveBehaviour__ctor_m2618660328 (KeepAliveBehaviour_t1532923751 * __this, const MethodInfo* method)
+{
+	{
+		KeepAliveAbstractBehaviour__ctor_m3694701863(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.MarkerBehaviour::.ctor()
+extern "C"  void MarkerBehaviour__ctor_m109505184 (MarkerBehaviour_t1265232977 * __this, const MethodInfo* method)
+{
+	{
+		MarkerAbstractBehaviour__ctor_m2689139661(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.MaskOutBehaviour::.ctor()
+extern "C"  void MaskOutBehaviour__ctor_m3872076058 (MaskOutBehaviour_t2994129365 * __this, const MethodInfo* method)
+{
+	{
+		MaskOutAbstractBehaviour__ctor_m3743365693(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.MaskOutBehaviour::Start()
+extern Il2CppClass* VuforiaRuntimeUtilities_t3083157244_il2cpp_TypeInfo_var;
+extern Il2CppClass* MaterialU5BU5D_t3123989686_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRenderer_t257310565_m2803939486_MethodInfo_var;
+extern const uint32_t MaskOutBehaviour_Start_m3914251470_MetadataUsageId;
+extern "C"  void MaskOutBehaviour_Start_m3914251470 (MaskOutBehaviour_t2994129365 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MaskOutBehaviour_Start_m3914251470_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Renderer_t257310565 * V_0 = NULL;
+	int32_t V_1 = 0;
+	MaterialU5BU5D_t3123989686* V_2 = NULL;
+	int32_t V_3 = 0;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaRuntimeUtilities_t3083157244_il2cpp_TypeInfo_var);
+		bool L_0 = VuforiaRuntimeUtilities_IsVuforiaEnabled_m1774515559(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		Renderer_t257310565 * L_1 = Component_GetComponent_TisRenderer_t257310565_m2803939486(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t257310565_m2803939486_MethodInfo_var);
+		V_0 = L_1;
+		Renderer_t257310565 * L_2 = V_0;
+		NullCheck(L_2);
+		MaterialU5BU5D_t3123989686* L_3 = Renderer_get_materials_m810004692(L_2, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		V_1 = (((int32_t)((int32_t)(((Il2CppArray *)L_3)->max_length))));
+		int32_t L_4 = V_1;
+		if ((!(((uint32_t)L_4) == ((uint32_t)1))))
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		Renderer_t257310565 * L_5 = V_0;
+		Material_t193706927 * L_6 = ((MaskOutAbstractBehaviour_t3489038957 *)__this)->get_maskMaterial_2();
+		NullCheck(L_5);
+		Renderer_set_sharedMaterial_m391095487(L_5, L_6, /*hidden argument*/NULL);
+		goto IL_005b;
+	}
+
+IL_0032:
+	{
+		int32_t L_7 = V_1;
+		V_2 = ((MaterialU5BU5D_t3123989686*)SZArrayNew(MaterialU5BU5D_t3123989686_il2cpp_TypeInfo_var, (uint32_t)L_7));
+		V_3 = 0;
+		goto IL_004d;
+	}
+
+IL_0040:
+	{
+		MaterialU5BU5D_t3123989686* L_8 = V_2;
+		int32_t L_9 = V_3;
+		Material_t193706927 * L_10 = ((MaskOutAbstractBehaviour_t3489038957 *)__this)->get_maskMaterial_2();
+		NullCheck(L_8);
+		ArrayElementTypeCheck (L_8, L_10);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(L_9), (Material_t193706927 *)L_10);
+		int32_t L_11 = V_3;
+		V_3 = ((int32_t)((int32_t)L_11+(int32_t)1));
+	}
+
+IL_004d:
+	{
+		int32_t L_12 = V_3;
+		int32_t L_13 = V_1;
+		if ((((int32_t)L_12) < ((int32_t)L_13)))
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		Renderer_t257310565 * L_14 = V_0;
+		MaterialU5BU5D_t3123989686* L_15 = V_2;
+		NullCheck(L_14);
+		Renderer_set_sharedMaterials_m2669445156(L_14, L_15, /*hidden argument*/NULL);
+	}
+
+IL_005b:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.MultiTargetBehaviour::.ctor()
+extern "C"  void MultiTargetBehaviour__ctor_m3457059082 (MultiTargetBehaviour_t3504654311 * __this, const MethodInfo* method)
+{
+	{
+		MultiTargetAbstractBehaviour__ctor_m3602545575(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.ObjectTargetBehaviour::.ctor()
+extern "C"  void ObjectTargetBehaviour__ctor_m26156260 (ObjectTargetBehaviour_t3836044259 * __this, const MethodInfo* method)
+{
+	{
+		ObjectTargetAbstractBehaviour__ctor_m4149910295(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.PropBehaviour::.ctor()
+extern "C"  void PropBehaviour__ctor_m2238867581 (PropBehaviour_t966064926 * __this, const MethodInfo* method)
+{
+	{
+		PropAbstractBehaviour__ctor_m1260771068(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.ReconstructionBehaviour::.ctor()
+extern "C"  void ReconstructionBehaviour__ctor_m2616285522 (ReconstructionBehaviour_t4009935945 * __this, const MethodInfo* method)
+{
+	{
+		ReconstructionAbstractBehaviour__ctor_m2037226869(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.ReconstructionFromTargetBehaviour::.ctor()
+extern "C"  void ReconstructionFromTargetBehaviour__ctor_m2764930605 (ReconstructionFromTargetBehaviour_t2111803406 * __this, const MethodInfo* method)
+{
+	{
+		ReconstructionFromTargetAbstractBehaviour__ctor_m2704257964(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.SmartTerrainTrackerBehaviour::.ctor()
+extern "C"  void SmartTerrainTrackerBehaviour__ctor_m1862741924 (SmartTerrainTrackerBehaviour_t3844158157 * __this, const MethodInfo* method)
+{
+	{
+		SmartTerrainTrackerAbstractBehaviour__ctor_m2604970325(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.SurfaceBehaviour::.ctor()
+extern "C"  void SurfaceBehaviour__ctor_m1448804633 (SurfaceBehaviour_t2405314212 * __this, const MethodInfo* method)
+{
+	{
+		SurfaceAbstractBehaviour__ctor_m4051989004(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.TextRecoBehaviour::.ctor()
+extern "C"  void TextRecoBehaviour__ctor_m2446679806 (TextRecoBehaviour_t3400239837 * __this, const MethodInfo* method)
+{
+	{
+		TextRecoAbstractBehaviour__ctor_m3986867921(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.TurnOffBehaviour::.ctor()
+extern "C"  void TurnOffBehaviour__ctor_m1873134682 (TurnOffBehaviour_t3058161409 * __this, const MethodInfo* method)
+{
+	{
+		TurnOffAbstractBehaviour__ctor_m1043676009(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.TurnOffBehaviour::Awake()
+extern Il2CppClass* VuforiaRuntimeUtilities_t3083157244_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisMeshRenderer_t1268241104_m3385851477_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisMeshFilter_t3026937449_m1427366350_MethodInfo_var;
+extern const uint32_t TurnOffBehaviour_Awake_m4285356927_MetadataUsageId;
+extern "C"  void TurnOffBehaviour_Awake_m4285356927 (TurnOffBehaviour_t3058161409 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TurnOffBehaviour_Awake_m4285356927_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	MeshRenderer_t1268241104 * V_0 = NULL;
+	MeshFilter_t3026937449 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaRuntimeUtilities_t3083157244_il2cpp_TypeInfo_var);
+		bool L_0 = VuforiaRuntimeUtilities_IsVuforiaEnabled_m1774515559(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		MeshRenderer_t1268241104 * L_1 = Component_GetComponent_TisMeshRenderer_t1268241104_m3385851477(__this, /*hidden argument*/Component_GetComponent_TisMeshRenderer_t1268241104_m3385851477_MethodInfo_var);
+		V_0 = L_1;
+		MeshRenderer_t1268241104 * L_2 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		MeshFilter_t3026937449 * L_3 = Component_GetComponent_TisMeshFilter_t3026937449_m1427366350(__this, /*hidden argument*/Component_GetComponent_TisMeshFilter_t3026937449_m1427366350_MethodInfo_var);
+		V_1 = L_3;
+		MeshFilter_t3026937449 * L_4 = V_1;
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+	}
+
+IL_0024:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.TurnOffWordBehaviour::.ctor()
+extern "C"  void TurnOffWordBehaviour__ctor_m2227245698 (TurnOffWordBehaviour_t584991835 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.TurnOffWordBehaviour::Awake()
+extern Il2CppClass* VuforiaRuntimeUtilities_t3083157244_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisMeshRenderer_t1268241104_m3385851477_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3423762541;
+extern const uint32_t TurnOffWordBehaviour_Awake_m2854048885_MetadataUsageId;
+extern "C"  void TurnOffWordBehaviour_Awake_m2854048885 (TurnOffWordBehaviour_t584991835 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TurnOffWordBehaviour_Awake_m2854048885_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	MeshRenderer_t1268241104 * V_0 = NULL;
+	Transform_t3275118058 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaRuntimeUtilities_t3083157244_il2cpp_TypeInfo_var);
+		bool L_0 = VuforiaRuntimeUtilities_IsVuforiaEnabled_m1774515559(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		MeshRenderer_t1268241104 * L_1 = Component_GetComponent_TisMeshRenderer_t1268241104_m3385851477(__this, /*hidden argument*/Component_GetComponent_TisMeshRenderer_t1268241104_m3385851477_MethodInfo_var);
+		V_0 = L_1;
+		MeshRenderer_t1268241104 * L_2 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_3 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		Transform_t3275118058 * L_4 = Transform_FindChild_m2677714886(L_3, _stringLiteral3423762541, /*hidden argument*/NULL);
+		V_1 = L_4;
+		Transform_t3275118058 * L_5 = V_1;
+		bool L_6 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_5, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_6)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		Transform_t3275118058 * L_7 = V_1;
+		NullCheck(L_7);
+		GameObject_t1756533147 * L_8 = Component_get_gameObject_m3105766835(L_7, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+	}
+
+IL_003f:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.UserDefinedTargetBuildingBehaviour::.ctor()
+extern "C"  void UserDefinedTargetBuildingBehaviour__ctor_m2304938643 (UserDefinedTargetBuildingBehaviour_t4184040062 * __this, const MethodInfo* method)
+{
+	{
+		UserDefinedTargetBuildingAbstractBehaviour__ctor_m3581213318(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.VideoBackgroundBehaviour::.ctor()
+extern Il2CppClass* VideoBackgroundAbstractBehaviour_t395384314_il2cpp_TypeInfo_var;
+extern const uint32_t VideoBackgroundBehaviour__ctor_m2133855431_MetadataUsageId;
+extern "C"  void VideoBackgroundBehaviour__ctor_m2133855431 (VideoBackgroundBehaviour_t3161817952 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VideoBackgroundBehaviour__ctor_m2133855431_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VideoBackgroundAbstractBehaviour_t395384314_il2cpp_TypeInfo_var);
+		VideoBackgroundAbstractBehaviour__ctor_m397100456(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.VideoBackgroundManager::.ctor()
+extern "C"  void VideoBackgroundManager__ctor_m1028119993 (VideoBackgroundManager_t3515346924 * __this, const MethodInfo* method)
+{
+	{
+		VideoBackgroundManagerAbstractBehaviour__ctor_m3638037263(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Vuforia.VideoBackgroundManager Vuforia.VideoBackgroundManager::get_Instance()
+extern Il2CppClass* VideoBackgroundManager_t3515346924_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* Object_FindObjectOfType_TisVideoBackgroundManager_t3515346924_m3187505723_MethodInfo_var;
+extern const uint32_t VideoBackgroundManager_get_Instance_m232925854_MetadataUsageId;
+extern "C"  VideoBackgroundManager_t3515346924 * VideoBackgroundManager_get_Instance_m232925854 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VideoBackgroundManager_get_Instance_m232925854_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VideoBackgroundManager_t3515346924_il2cpp_TypeInfo_var);
+		VideoBackgroundManager_t3515346924 * L_0 = ((VideoBackgroundManager_t3515346924_StaticFields*)VideoBackgroundManager_t3515346924_il2cpp_TypeInfo_var->static_fields)->get_mInstance_9();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		VideoBackgroundManager_t3515346924 * L_2 = Object_FindObjectOfType_TisVideoBackgroundManager_t3515346924_m3187505723(NULL /*static, unused*/, /*hidden argument*/Object_FindObjectOfType_TisVideoBackgroundManager_t3515346924_m3187505723_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(VideoBackgroundManager_t3515346924_il2cpp_TypeInfo_var);
+		((VideoBackgroundManager_t3515346924_StaticFields*)VideoBackgroundManager_t3515346924_il2cpp_TypeInfo_var->static_fields)->set_mInstance_9(L_2);
+	}
+
+IL_001a:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VideoBackgroundManager_t3515346924_il2cpp_TypeInfo_var);
+		VideoBackgroundManager_t3515346924 * L_3 = ((VideoBackgroundManager_t3515346924_StaticFields*)VideoBackgroundManager_t3515346924_il2cpp_TypeInfo_var->static_fields)->get_mInstance_9();
+		return L_3;
+	}
+}
+// System.Void Vuforia.VideoBackgroundManager::.cctor()
+extern "C"  void VideoBackgroundManager__cctor_m2298157356 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Vuforia.VirtualButtonBehaviour::.ctor()
+extern "C"  void VirtualButtonBehaviour__ctor_m3984899111 (VirtualButtonBehaviour_t2515041812 * __this, const MethodInfo* method)
+{
+	{
+		VirtualButtonAbstractBehaviour__ctor_m855896756(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.VuforiaBehaviour::.ctor()
+extern "C"  void VuforiaBehaviour__ctor_m3143982076 (VuforiaBehaviour_t359035403 * __this, const MethodInfo* method)
+{
+	{
+		VuforiaAbstractBehaviour__ctor_m3900338923(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.VuforiaBehaviour::Awake()
+extern Il2CppClass* NullUnityPlayer_t754446093_il2cpp_TypeInfo_var;
+extern Il2CppClass* AndroidUnityPlayer_t852788525_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSUnityPlayer_t3656371703_il2cpp_TypeInfo_var;
+extern Il2CppClass* VuforiaRuntimeUtilities_t3083157244_il2cpp_TypeInfo_var;
+extern Il2CppClass* PlayModeUnityPlayer_t918240325_il2cpp_TypeInfo_var;
+extern Il2CppClass* WSAUnityPlayer_t425981959_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisComponentFactoryStarterBehaviour_t3249343815_m658142107_MethodInfo_var;
+extern const uint32_t VuforiaBehaviour_Awake_m3772880569_MetadataUsageId;
+extern "C"  void VuforiaBehaviour_Awake_m3772880569 (VuforiaBehaviour_t359035403 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaBehaviour_Awake_m3772880569_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppObject * V_0 = NULL;
+	{
+		NullUnityPlayer_t754446093 * L_0 = (NullUnityPlayer_t754446093 *)il2cpp_codegen_object_new(NullUnityPlayer_t754446093_il2cpp_TypeInfo_var);
+		NullUnityPlayer__ctor_m483624113(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		int32_t L_1 = Application_get_platform_m3989224144(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_1) == ((uint32_t)((int32_t)11)))))
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		AndroidUnityPlayer_t852788525 * L_2 = (AndroidUnityPlayer_t852788525 *)il2cpp_codegen_object_new(AndroidUnityPlayer_t852788525_il2cpp_TypeInfo_var);
+		AndroidUnityPlayer__ctor_m2233000524(L_2, /*hidden argument*/NULL);
+		V_0 = L_2;
+		goto IL_0058;
+	}
+
+IL_001d:
+	{
+		int32_t L_3 = Application_get_platform_m3989224144(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_3) == ((uint32_t)8))))
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		IOSUnityPlayer_t3656371703 * L_4 = (IOSUnityPlayer_t3656371703 *)il2cpp_codegen_object_new(IOSUnityPlayer_t3656371703_il2cpp_TypeInfo_var);
+		IOSUnityPlayer__ctor_m676692974(L_4, /*hidden argument*/NULL);
+		V_0 = L_4;
+		goto IL_0058;
+	}
+
+IL_0033:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaRuntimeUtilities_t3083157244_il2cpp_TypeInfo_var);
+		bool L_5 = VuforiaRuntimeUtilities_IsPlayMode_m2939358997(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		PlayModeUnityPlayer_t918240325 * L_6 = (PlayModeUnityPlayer_t918240325 *)il2cpp_codegen_object_new(PlayModeUnityPlayer_t918240325_il2cpp_TypeInfo_var);
+		PlayModeUnityPlayer__ctor_m2126346857(L_6, /*hidden argument*/NULL);
+		V_0 = L_6;
+		goto IL_0058;
+	}
+
+IL_0048:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaRuntimeUtilities_t3083157244_il2cpp_TypeInfo_var);
+		bool L_7 = VuforiaRuntimeUtilities_IsWSARuntime_m3848252715(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_0058;
+		}
+	}
+	{
+		WSAUnityPlayer_t425981959 * L_8 = (WSAUnityPlayer_t425981959 *)il2cpp_codegen_object_new(WSAUnityPlayer_t425981959_il2cpp_TypeInfo_var);
+		WSAUnityPlayer__ctor_m1279021334(L_8, /*hidden argument*/NULL);
+		V_0 = L_8;
+	}
+
+IL_0058:
+	{
+		Il2CppObject * L_9 = V_0;
+		VuforiaAbstractBehaviour_SetUnityPlayerImplementation_m4082041552(__this, L_9, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_10 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		GameObject_AddComponent_TisComponentFactoryStarterBehaviour_t3249343815_m658142107(L_10, /*hidden argument*/GameObject_AddComponent_TisComponentFactoryStarterBehaviour_t3249343815_m658142107_MethodInfo_var);
+		VuforiaAbstractBehaviour_Awake_m232471254(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Vuforia.VuforiaBehaviour Vuforia.VuforiaBehaviour::get_Instance()
+extern Il2CppClass* VuforiaBehaviour_t359035403_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* Object_FindObjectOfType_TisVuforiaBehaviour_t359035403_m318208984_MethodInfo_var;
+extern const uint32_t VuforiaBehaviour_get_Instance_m790681192_MetadataUsageId;
+extern "C"  VuforiaBehaviour_t359035403 * VuforiaBehaviour_get_Instance_m790681192 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaBehaviour_get_Instance_m790681192_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaBehaviour_t359035403_il2cpp_TypeInfo_var);
+		VuforiaBehaviour_t359035403 * L_0 = ((VuforiaBehaviour_t359035403_StaticFields*)VuforiaBehaviour_t359035403_il2cpp_TypeInfo_var->static_fields)->get_mVuforiaBehaviour_44();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		VuforiaBehaviour_t359035403 * L_2 = Object_FindObjectOfType_TisVuforiaBehaviour_t359035403_m318208984(NULL /*static, unused*/, /*hidden argument*/Object_FindObjectOfType_TisVuforiaBehaviour_t359035403_m318208984_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaBehaviour_t359035403_il2cpp_TypeInfo_var);
+		((VuforiaBehaviour_t359035403_StaticFields*)VuforiaBehaviour_t359035403_il2cpp_TypeInfo_var->static_fields)->set_mVuforiaBehaviour_44(L_2);
+	}
+
+IL_001a:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaBehaviour_t359035403_il2cpp_TypeInfo_var);
+		VuforiaBehaviour_t359035403 * L_3 = ((VuforiaBehaviour_t359035403_StaticFields*)VuforiaBehaviour_t359035403_il2cpp_TypeInfo_var->static_fields)->get_mVuforiaBehaviour_44();
+		return L_3;
+	}
+}
+// System.Void Vuforia.VuforiaBehaviour::.cctor()
+extern "C"  void VuforiaBehaviour__cctor_m1552098219 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Vuforia.VuforiaBehaviourComponentFactory::.ctor()
+extern "C"  void VuforiaBehaviourComponentFactory__ctor_m4023364043 (VuforiaBehaviourComponentFactory_t1383853028 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Vuforia.MaskOutAbstractBehaviour Vuforia.VuforiaBehaviourComponentFactory::AddMaskOutBehaviour(UnityEngine.GameObject)
+extern const MethodInfo* GameObject_AddComponent_TisMaskOutBehaviour_t2994129365_m1425322069_MethodInfo_var;
+extern const uint32_t VuforiaBehaviourComponentFactory_AddMaskOutBehaviour_m3602623915_MetadataUsageId;
+extern "C"  MaskOutAbstractBehaviour_t3489038957 * VuforiaBehaviourComponentFactory_AddMaskOutBehaviour_m3602623915 (VuforiaBehaviourComponentFactory_t1383853028 * __this, GameObject_t1756533147 * ___gameObject0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaBehaviourComponentFactory_AddMaskOutBehaviour_m3602623915_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = ___gameObject0;
+		NullCheck(L_0);
+		MaskOutBehaviour_t2994129365 * L_1 = GameObject_AddComponent_TisMaskOutBehaviour_t2994129365_m1425322069(L_0, /*hidden argument*/GameObject_AddComponent_TisMaskOutBehaviour_t2994129365_m1425322069_MethodInfo_var);
+		return L_1;
+	}
+}
+// Vuforia.VirtualButtonAbstractBehaviour Vuforia.VuforiaBehaviourComponentFactory::AddVirtualButtonBehaviour(UnityEngine.GameObject)
+extern const MethodInfo* GameObject_AddComponent_TisVirtualButtonBehaviour_t2515041812_m3118105184_MethodInfo_var;
+extern const uint32_t VuforiaBehaviourComponentFactory_AddVirtualButtonBehaviour_m273150123_MetadataUsageId;
+extern "C"  VirtualButtonAbstractBehaviour_t2478279366 * VuforiaBehaviourComponentFactory_AddVirtualButtonBehaviour_m273150123 (VuforiaBehaviourComponentFactory_t1383853028 * __this, GameObject_t1756533147 * ___gameObject0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaBehaviourComponentFactory_AddVirtualButtonBehaviour_m273150123_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = ___gameObject0;
+		NullCheck(L_0);
+		VirtualButtonBehaviour_t2515041812 * L_1 = GameObject_AddComponent_TisVirtualButtonBehaviour_t2515041812_m3118105184(L_0, /*hidden argument*/GameObject_AddComponent_TisVirtualButtonBehaviour_t2515041812_m3118105184_MethodInfo_var);
+		return L_1;
+	}
+}
+// Vuforia.TurnOffAbstractBehaviour Vuforia.VuforiaBehaviourComponentFactory::AddTurnOffBehaviour(UnityEngine.GameObject)
+extern const MethodInfo* GameObject_AddComponent_TisTurnOffBehaviour_t3058161409_m2052882313_MethodInfo_var;
+extern const uint32_t VuforiaBehaviourComponentFactory_AddTurnOffBehaviour_m3691970091_MetadataUsageId;
+extern "C"  TurnOffAbstractBehaviour_t4084926705 * VuforiaBehaviourComponentFactory_AddTurnOffBehaviour_m3691970091 (VuforiaBehaviourComponentFactory_t1383853028 * __this, GameObject_t1756533147 * ___gameObject0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaBehaviourComponentFactory_AddTurnOffBehaviour_m3691970091_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = ___gameObject0;
+		NullCheck(L_0);
+		TurnOffBehaviour_t3058161409 * L_1 = GameObject_AddComponent_TisTurnOffBehaviour_t3058161409_m2052882313(L_0, /*hidden argument*/GameObject_AddComponent_TisTurnOffBehaviour_t3058161409_m2052882313_MethodInfo_var);
+		return L_1;
+	}
+}
+// Vuforia.ImageTargetAbstractBehaviour Vuforia.VuforiaBehaviourComponentFactory::AddImageTargetBehaviour(UnityEngine.GameObject)
+extern const MethodInfo* GameObject_AddComponent_TisImageTargetBehaviour_t2654589389_m3351511077_MethodInfo_var;
+extern const uint32_t VuforiaBehaviourComponentFactory_AddImageTargetBehaviour_m110195307_MetadataUsageId;
+extern "C"  ImageTargetAbstractBehaviour_t3327552701 * VuforiaBehaviourComponentFactory_AddImageTargetBehaviour_m110195307 (VuforiaBehaviourComponentFactory_t1383853028 * __this, GameObject_t1756533147 * ___gameObject0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaBehaviourComponentFactory_AddImageTargetBehaviour_m110195307_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = ___gameObject0;
+		NullCheck(L_0);
+		ImageTargetBehaviour_t2654589389 * L_1 = GameObject_AddComponent_TisImageTargetBehaviour_t2654589389_m3351511077(L_0, /*hidden argument*/GameObject_AddComponent_TisImageTargetBehaviour_t2654589389_m3351511077_MethodInfo_var);
+		return L_1;
+	}
+}
+// Vuforia.MarkerAbstractBehaviour Vuforia.VuforiaBehaviourComponentFactory::AddMarkerBehaviour(UnityEngine.GameObject)
+extern const MethodInfo* GameObject_AddComponent_TisMarkerBehaviour_t1265232977_m2946636553_MethodInfo_var;
+extern const uint32_t VuforiaBehaviourComponentFactory_AddMarkerBehaviour_m30823051_MetadataUsageId;
+extern "C"  MarkerAbstractBehaviour_t1456101953 * VuforiaBehaviourComponentFactory_AddMarkerBehaviour_m30823051 (VuforiaBehaviourComponentFactory_t1383853028 * __this, GameObject_t1756533147 * ___gameObject0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaBehaviourComponentFactory_AddMarkerBehaviour_m30823051_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = ___gameObject0;
+		NullCheck(L_0);
+		MarkerBehaviour_t1265232977 * L_1 = GameObject_AddComponent_TisMarkerBehaviour_t1265232977_m2946636553(L_0, /*hidden argument*/GameObject_AddComponent_TisMarkerBehaviour_t1265232977_m2946636553_MethodInfo_var);
+		return L_1;
+	}
+}
+// Vuforia.MultiTargetAbstractBehaviour Vuforia.VuforiaBehaviourComponentFactory::AddMultiTargetBehaviour(UnityEngine.GameObject)
+extern const MethodInfo* GameObject_AddComponent_TisMultiTargetBehaviour_t3504654311_m1135184387_MethodInfo_var;
+extern const uint32_t VuforiaBehaviourComponentFactory_AddMultiTargetBehaviour_m1008182955_MetadataUsageId;
+extern "C"  MultiTargetAbstractBehaviour_t3616801211 * VuforiaBehaviourComponentFactory_AddMultiTargetBehaviour_m1008182955 (VuforiaBehaviourComponentFactory_t1383853028 * __this, GameObject_t1756533147 * ___gameObject0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaBehaviourComponentFactory_AddMultiTargetBehaviour_m1008182955_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = ___gameObject0;
+		NullCheck(L_0);
+		MultiTargetBehaviour_t3504654311 * L_1 = GameObject_AddComponent_TisMultiTargetBehaviour_t3504654311_m1135184387(L_0, /*hidden argument*/GameObject_AddComponent_TisMultiTargetBehaviour_t3504654311_m1135184387_MethodInfo_var);
+		return L_1;
+	}
+}
+// Vuforia.CylinderTargetAbstractBehaviour Vuforia.VuforiaBehaviourComponentFactory::AddCylinderTargetBehaviour(UnityEngine.GameObject)
+extern const MethodInfo* GameObject_AddComponent_TisCylinderTargetBehaviour_t2091399712_m912348918_MethodInfo_var;
+extern const uint32_t VuforiaBehaviourComponentFactory_AddCylinderTargetBehaviour_m2573942991_MetadataUsageId;
+extern "C"  CylinderTargetAbstractBehaviour_t665872082 * VuforiaBehaviourComponentFactory_AddCylinderTargetBehaviour_m2573942991 (VuforiaBehaviourComponentFactory_t1383853028 * __this, GameObject_t1756533147 * ___gameObject0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaBehaviourComponentFactory_AddCylinderTargetBehaviour_m2573942991_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = ___gameObject0;
+		NullCheck(L_0);
+		CylinderTargetBehaviour_t2091399712 * L_1 = GameObject_AddComponent_TisCylinderTargetBehaviour_t2091399712_m912348918(L_0, /*hidden argument*/GameObject_AddComponent_TisCylinderTargetBehaviour_t2091399712_m912348918_MethodInfo_var);
+		return L_1;
+	}
+}
+// Vuforia.WordAbstractBehaviour Vuforia.VuforiaBehaviourComponentFactory::AddWordBehaviour(UnityEngine.GameObject)
+extern const MethodInfo* GameObject_AddComponent_TisWordBehaviour_t3366478421_m80916061_MethodInfo_var;
+extern const uint32_t VuforiaBehaviourComponentFactory_AddWordBehaviour_m3806508403_MetadataUsageId;
+extern "C"  WordAbstractBehaviour_t2878458725 * VuforiaBehaviourComponentFactory_AddWordBehaviour_m3806508403 (VuforiaBehaviourComponentFactory_t1383853028 * __this, GameObject_t1756533147 * ___gameObject0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaBehaviourComponentFactory_AddWordBehaviour_m3806508403_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = ___gameObject0;
+		NullCheck(L_0);
+		WordBehaviour_t3366478421 * L_1 = GameObject_AddComponent_TisWordBehaviour_t3366478421_m80916061(L_0, /*hidden argument*/GameObject_AddComponent_TisWordBehaviour_t3366478421_m80916061_MethodInfo_var);
+		return L_1;
+	}
+}
+// Vuforia.TextRecoAbstractBehaviour Vuforia.VuforiaBehaviourComponentFactory::AddTextRecoBehaviour(UnityEngine.GameObject)
+extern const MethodInfo* GameObject_AddComponent_TisTextRecoBehaviour_t3400239837_m3447592645_MethodInfo_var;
+extern const uint32_t VuforiaBehaviourComponentFactory_AddTextRecoBehaviour_m2915043667_MetadataUsageId;
+extern "C"  TextRecoAbstractBehaviour_t2386081773 * VuforiaBehaviourComponentFactory_AddTextRecoBehaviour_m2915043667 (VuforiaBehaviourComponentFactory_t1383853028 * __this, GameObject_t1756533147 * ___gameObject0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaBehaviourComponentFactory_AddTextRecoBehaviour_m2915043667_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = ___gameObject0;
+		NullCheck(L_0);
+		TextRecoBehaviour_t3400239837 * L_1 = GameObject_AddComponent_TisTextRecoBehaviour_t3400239837_m3447592645(L_0, /*hidden argument*/GameObject_AddComponent_TisTextRecoBehaviour_t3400239837_m3447592645_MethodInfo_var);
+		return L_1;
+	}
+}
+// Vuforia.ObjectTargetAbstractBehaviour Vuforia.VuforiaBehaviourComponentFactory::AddObjectTargetBehaviour(UnityEngine.GameObject)
+extern const MethodInfo* GameObject_AddComponent_TisObjectTargetBehaviour_t3836044259_m2560584915_MethodInfo_var;
+extern const uint32_t VuforiaBehaviourComponentFactory_AddObjectTargetBehaviour_m3475568395_MetadataUsageId;
+extern "C"  ObjectTargetAbstractBehaviour_t2805337095 * VuforiaBehaviourComponentFactory_AddObjectTargetBehaviour_m3475568395 (VuforiaBehaviourComponentFactory_t1383853028 * __this, GameObject_t1756533147 * ___gameObject0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaBehaviourComponentFactory_AddObjectTargetBehaviour_m3475568395_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = ___gameObject0;
+		NullCheck(L_0);
+		ObjectTargetBehaviour_t3836044259 * L_1 = GameObject_AddComponent_TisObjectTargetBehaviour_t3836044259_m2560584915(L_0, /*hidden argument*/GameObject_AddComponent_TisObjectTargetBehaviour_t3836044259_m2560584915_MethodInfo_var);
+		return L_1;
+	}
+}
+// Vuforia.VuMarkAbstractBehaviour Vuforia.VuforiaBehaviourComponentFactory::AddVuMarkBehaviour(UnityEngine.GameObject)
+extern const MethodInfo* GameObject_AddComponent_TisVuMarkBehaviour_t2060629989_m1435287781_MethodInfo_var;
+extern const uint32_t VuforiaBehaviourComponentFactory_AddVuMarkBehaviour_m2639490483_MetadataUsageId;
+extern "C"  VuMarkAbstractBehaviour_t1830666997 * VuforiaBehaviourComponentFactory_AddVuMarkBehaviour_m2639490483 (VuforiaBehaviourComponentFactory_t1383853028 * __this, GameObject_t1756533147 * ___gameObject0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaBehaviourComponentFactory_AddVuMarkBehaviour_m2639490483_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = ___gameObject0;
+		NullCheck(L_0);
+		VuMarkBehaviour_t2060629989 * L_1 = GameObject_AddComponent_TisVuMarkBehaviour_t2060629989_m1435287781(L_0, /*hidden argument*/GameObject_AddComponent_TisVuMarkBehaviour_t2060629989_m1435287781_MethodInfo_var);
+		return L_1;
+	}
+}
+// System.Void Vuforia.VuMarkBehaviour::.ctor()
+extern "C"  void VuMarkBehaviour__ctor_m1415860126 (VuMarkBehaviour_t2060629989 * __this, const MethodInfo* method)
+{
+	{
+		VuMarkAbstractBehaviour__ctor_m326197713(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.WebCamBehaviour::.ctor()
+extern "C"  void WebCamBehaviour__ctor_m2114979319 (WebCamBehaviour_t407765638 * __this, const MethodInfo* method)
+{
+	{
+		WebCamAbstractBehaviour__ctor_m535376024(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.WireframeBehaviour::.ctor()
+extern "C"  void WireframeBehaviour__ctor_m420914080 (WireframeBehaviour_t2494532455 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_ShowLines_3((bool)1);
+		Color_t2020392075  L_0 = Color_get_green_m2671273823(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_LineColor_4(L_0);
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.WireframeBehaviour::Start()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* Material_t193706927_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral599011397;
+extern const uint32_t WireframeBehaviour_Start_m2184757344_MetadataUsageId;
+extern "C"  void WireframeBehaviour_Start_m2184757344 (WireframeBehaviour_t2494532455 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WireframeBehaviour_Start_m2184757344_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Material_t193706927 * L_0 = __this->get_lineMaterial_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		Material_t193706927 * L_2 = __this->get_lineMaterial_2();
+		Material_t193706927 * L_3 = (Material_t193706927 *)il2cpp_codegen_object_new(Material_t193706927_il2cpp_TypeInfo_var);
+		Material__ctor_m1440882780(L_3, L_2, /*hidden argument*/NULL);
+		__this->set_mLineMaterial_5(L_3);
+		goto IL_0031;
+	}
+
+IL_0027:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m2503577968(NULL /*static, unused*/, _stringLiteral599011397, /*hidden argument*/NULL);
+	}
+
+IL_0031:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.WireframeBehaviour::OnRenderObject()
+extern Il2CppClass* VuforiaManager_t2424874861_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_GetComponentsInChildren_TisCamera_t189460977_m3116941434_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisMeshFilter_t3026937449_m1427366350_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral599011397;
+extern Il2CppCodeGenString* _stringLiteral895546098;
+extern const uint32_t WireframeBehaviour_OnRenderObject_m2411339956_MetadataUsageId;
+extern "C"  void WireframeBehaviour_OnRenderObject_m2411339956 (WireframeBehaviour_t2494532455 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WireframeBehaviour_OnRenderObject_m2411339956_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	CameraU5BU5D_t3079764780* V_1 = NULL;
+	bool V_2 = false;
+	Camera_t189460977 * V_3 = NULL;
+	CameraU5BU5D_t3079764780* V_4 = NULL;
+	int32_t V_5 = 0;
+	MeshFilter_t3026937449 * V_6 = NULL;
+	Mesh_t1356156583 * V_7 = NULL;
+	Vector3U5BU5D_t1172311765* V_8 = NULL;
+	Int32U5BU5D_t3030399641* V_9 = NULL;
+	int32_t V_10 = 0;
+	Vector3_t2243707580  V_11;
+	memset(&V_11, 0, sizeof(V_11));
+	Vector3_t2243707580  V_12;
+	memset(&V_12, 0, sizeof(V_12));
+	Vector3_t2243707580  V_13;
+	memset(&V_13, 0, sizeof(V_13));
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaManager_t2424874861_il2cpp_TypeInfo_var);
+		VuforiaManager_t2424874861 * L_0 = VuforiaManager_get_Instance_m425433003(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Transform_t3275118058 * L_1 = VirtFuncInvoker0< Transform_t3275118058 * >::Invoke(10 /* UnityEngine.Transform Vuforia.VuforiaManager::get_ARCameraTransform() */, L_0);
+		NullCheck(L_1);
+		GameObject_t1756533147 * L_2 = Component_get_gameObject_m3105766835(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		NullCheck(L_3);
+		CameraU5BU5D_t3079764780* L_4 = GameObject_GetComponentsInChildren_TisCamera_t189460977_m3116941434(L_3, /*hidden argument*/GameObject_GetComponentsInChildren_TisCamera_t189460977_m3116941434_MethodInfo_var);
+		V_1 = L_4;
+		V_2 = (bool)0;
+		CameraU5BU5D_t3079764780* L_5 = V_1;
+		V_4 = L_5;
+		V_5 = 0;
+		goto IL_0042;
+	}
+
+IL_0024:
+	{
+		CameraU5BU5D_t3079764780* L_6 = V_4;
+		int32_t L_7 = V_5;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		Camera_t189460977 * L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		V_3 = L_9;
+		Camera_t189460977 * L_10 = Camera_get_current_m2639890517(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t189460977 * L_11 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_12 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
+		if (!L_12)
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		V_2 = (bool)1;
+	}
+
+IL_003c:
+	{
+		int32_t L_13 = V_5;
+		V_5 = ((int32_t)((int32_t)L_13+(int32_t)1));
+	}
+
+IL_0042:
+	{
+		int32_t L_14 = V_5;
+		CameraU5BU5D_t3079764780* L_15 = V_4;
+		NullCheck(L_15);
+		if ((((int32_t)L_14) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_15)->max_length)))))))
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		bool L_16 = V_2;
+		if (L_16)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0054:
+	{
+		bool L_17 = __this->get_ShowLines_3();
+		if (L_17)
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0060:
+	{
+		MeshFilter_t3026937449 * L_18 = Component_GetComponent_TisMeshFilter_t3026937449_m1427366350(__this, /*hidden argument*/Component_GetComponent_TisMeshFilter_t3026937449_m1427366350_MethodInfo_var);
+		V_6 = L_18;
+		MeshFilter_t3026937449 * L_19 = V_6;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_20 = Object_op_Implicit_m2856731593(NULL /*static, unused*/, L_19, /*hidden argument*/NULL);
+		if (L_20)
+		{
+			goto IL_0075;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0075:
+	{
+		Material_t193706927 * L_21 = __this->get_mLineMaterial_5();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_22 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_21, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_22)
+		{
+			goto IL_0091;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m2503577968(NULL /*static, unused*/, _stringLiteral599011397, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0091:
+	{
+		MeshFilter_t3026937449 * L_23 = V_6;
+		NullCheck(L_23);
+		Mesh_t1356156583 * L_24 = MeshFilter_get_sharedMesh_m1310789932(L_23, /*hidden argument*/NULL);
+		V_7 = L_24;
+		Mesh_t1356156583 * L_25 = V_7;
+		NullCheck(L_25);
+		Vector3U5BU5D_t1172311765* L_26 = Mesh_get_vertices_m626989480(L_25, /*hidden argument*/NULL);
+		V_8 = L_26;
+		Mesh_t1356156583 * L_27 = V_7;
+		NullCheck(L_27);
+		Int32U5BU5D_t3030399641* L_28 = Mesh_get_triangles_m3988715512(L_27, /*hidden argument*/NULL);
+		V_9 = L_28;
+		GL_PushMatrix_m1979053131(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_29 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_29);
+		Matrix4x4_t2933234003  L_30 = Transform_get_localToWorldMatrix_m2868579006(L_29, /*hidden argument*/NULL);
+		GL_MultMatrix_m767401141(NULL /*static, unused*/, L_30, /*hidden argument*/NULL);
+		Material_t193706927 * L_31 = __this->get_mLineMaterial_5();
+		NullCheck(L_31);
+		Material_SetPass_m2448940266(L_31, 0, /*hidden argument*/NULL);
+		Material_t193706927 * L_32 = __this->get_mLineMaterial_5();
+		Color_t2020392075  L_33 = __this->get_LineColor_4();
+		NullCheck(L_32);
+		Material_SetColor_m650857509(L_32, _stringLiteral895546098, L_33, /*hidden argument*/NULL);
+		GL_Begin_m3874173032(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		V_10 = 0;
+		goto IL_015f;
+	}
+
+IL_00f2:
+	{
+		Vector3U5BU5D_t1172311765* L_34 = V_8;
+		Int32U5BU5D_t3030399641* L_35 = V_9;
+		int32_t L_36 = V_10;
+		NullCheck(L_35);
+		int32_t L_37 = L_36;
+		int32_t L_38 = (L_35)->GetAt(static_cast<il2cpp_array_size_t>(L_37));
+		NullCheck(L_34);
+		V_11 = (*(Vector3_t2243707580 *)((L_34)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_38))));
+		Vector3U5BU5D_t1172311765* L_39 = V_8;
+		Int32U5BU5D_t3030399641* L_40 = V_9;
+		int32_t L_41 = V_10;
+		NullCheck(L_40);
+		int32_t L_42 = ((int32_t)((int32_t)L_41+(int32_t)1));
+		int32_t L_43 = (L_40)->GetAt(static_cast<il2cpp_array_size_t>(L_42));
+		NullCheck(L_39);
+		V_12 = (*(Vector3_t2243707580 *)((L_39)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_43))));
+		Vector3U5BU5D_t1172311765* L_44 = V_8;
+		Int32U5BU5D_t3030399641* L_45 = V_9;
+		int32_t L_46 = V_10;
+		NullCheck(L_45);
+		int32_t L_47 = ((int32_t)((int32_t)L_46+(int32_t)2));
+		int32_t L_48 = (L_45)->GetAt(static_cast<il2cpp_array_size_t>(L_47));
+		NullCheck(L_44);
+		V_13 = (*(Vector3_t2243707580 *)((L_44)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_48))));
+		Vector3_t2243707580  L_49 = V_11;
+		GL_Vertex_m4110027235(NULL /*static, unused*/, L_49, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_50 = V_12;
+		GL_Vertex_m4110027235(NULL /*static, unused*/, L_50, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_51 = V_12;
+		GL_Vertex_m4110027235(NULL /*static, unused*/, L_51, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_52 = V_13;
+		GL_Vertex_m4110027235(NULL /*static, unused*/, L_52, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_53 = V_13;
+		GL_Vertex_m4110027235(NULL /*static, unused*/, L_53, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_54 = V_11;
+		GL_Vertex_m4110027235(NULL /*static, unused*/, L_54, /*hidden argument*/NULL);
+		int32_t L_55 = V_10;
+		V_10 = ((int32_t)((int32_t)L_55+(int32_t)3));
+	}
+
+IL_015f:
+	{
+		int32_t L_56 = V_10;
+		Int32U5BU5D_t3030399641* L_57 = V_9;
+		NullCheck(L_57);
+		if ((((int32_t)L_56) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_57)->max_length)))))))
+		{
+			goto IL_00f2;
+		}
+	}
+	{
+		GL_End_m2374230645(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GL_PopMatrix_m856033754(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.WireframeBehaviour::OnDrawGizmos()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisMeshFilter_t3026937449_m1427366350_MethodInfo_var;
+extern const uint32_t WireframeBehaviour_OnDrawGizmos_m4179942854_MetadataUsageId;
+extern "C"  void WireframeBehaviour_OnDrawGizmos_m4179942854 (WireframeBehaviour_t2494532455 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WireframeBehaviour_OnDrawGizmos_m4179942854_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	MeshFilter_t3026937449 * V_0 = NULL;
+	Mesh_t1356156583 * V_1 = NULL;
+	Vector3U5BU5D_t1172311765* V_2 = NULL;
+	Int32U5BU5D_t3030399641* V_3 = NULL;
+	int32_t V_4 = 0;
+	Vector3_t2243707580  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	Vector3_t2243707580  V_6;
+	memset(&V_6, 0, sizeof(V_6));
+	Vector3_t2243707580  V_7;
+	memset(&V_7, 0, sizeof(V_7));
+	{
+		bool L_0 = __this->get_ShowLines_3();
+		if (!L_0)
+		{
+			goto IL_00f9;
+		}
+	}
+	{
+		bool L_1 = Behaviour_get_enabled_m4079055610(__this, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_00f9;
+		}
+	}
+	{
+		MeshFilter_t3026937449 * L_2 = Component_GetComponent_TisMeshFilter_t3026937449_m1427366350(__this, /*hidden argument*/Component_GetComponent_TisMeshFilter_t3026937449_m1427366350_MethodInfo_var);
+		V_0 = L_2;
+		MeshFilter_t3026937449 * L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Implicit_m2856731593(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		if (L_4)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0029:
+	{
+		GameObject_t1756533147 * L_5 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		Transform_t3275118058 * L_6 = GameObject_get_transform_m909382139(L_5, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		Vector3_t2243707580  L_7 = Transform_get_position_m1104419803(L_6, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_8 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		Transform_t3275118058 * L_9 = GameObject_get_transform_m909382139(L_8, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		Quaternion_t4030073918  L_10 = Transform_get_rotation_m1033555130(L_9, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_11 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		NullCheck(L_11);
+		Transform_t3275118058 * L_12 = GameObject_get_transform_m909382139(L_11, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		Vector3_t2243707580  L_13 = Transform_get_lossyScale_m1638545862(L_12, /*hidden argument*/NULL);
+		Matrix4x4_t2933234003  L_14 = Matrix4x4_TRS_m1913765359(NULL /*static, unused*/, L_7, L_10, L_13, /*hidden argument*/NULL);
+		Gizmos_set_matrix_m1590313986(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
+		Color_t2020392075  L_15 = __this->get_LineColor_4();
+		Gizmos_set_color_m494992840(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
+		MeshFilter_t3026937449 * L_16 = V_0;
+		NullCheck(L_16);
+		Mesh_t1356156583 * L_17 = MeshFilter_get_sharedMesh_m1310789932(L_16, /*hidden argument*/NULL);
+		V_1 = L_17;
+		Mesh_t1356156583 * L_18 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_19 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_18, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_19)
+		{
+			goto IL_00f9;
+		}
+	}
+	{
+		Mesh_t1356156583 * L_20 = V_1;
+		NullCheck(L_20);
+		Vector3U5BU5D_t1172311765* L_21 = Mesh_get_vertices_m626989480(L_20, /*hidden argument*/NULL);
+		V_2 = L_21;
+		Mesh_t1356156583 * L_22 = V_1;
+		NullCheck(L_22);
+		Int32U5BU5D_t3030399641* L_23 = Mesh_get_triangles_m3988715512(L_22, /*hidden argument*/NULL);
+		V_3 = L_23;
+		V_4 = 0;
+		goto IL_00ef;
+	}
+
+IL_0097:
+	{
+		Vector3U5BU5D_t1172311765* L_24 = V_2;
+		Int32U5BU5D_t3030399641* L_25 = V_3;
+		int32_t L_26 = V_4;
+		NullCheck(L_25);
+		int32_t L_27 = L_26;
+		int32_t L_28 = (L_25)->GetAt(static_cast<il2cpp_array_size_t>(L_27));
+		NullCheck(L_24);
+		V_5 = (*(Vector3_t2243707580 *)((L_24)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_28))));
+		Vector3U5BU5D_t1172311765* L_29 = V_2;
+		Int32U5BU5D_t3030399641* L_30 = V_3;
+		int32_t L_31 = V_4;
+		NullCheck(L_30);
+		int32_t L_32 = ((int32_t)((int32_t)L_31+(int32_t)1));
+		int32_t L_33 = (L_30)->GetAt(static_cast<il2cpp_array_size_t>(L_32));
+		NullCheck(L_29);
+		V_6 = (*(Vector3_t2243707580 *)((L_29)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_33))));
+		Vector3U5BU5D_t1172311765* L_34 = V_2;
+		Int32U5BU5D_t3030399641* L_35 = V_3;
+		int32_t L_36 = V_4;
+		NullCheck(L_35);
+		int32_t L_37 = ((int32_t)((int32_t)L_36+(int32_t)2));
+		int32_t L_38 = (L_35)->GetAt(static_cast<il2cpp_array_size_t>(L_37));
+		NullCheck(L_34);
+		V_7 = (*(Vector3_t2243707580 *)((L_34)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_38))));
+		Vector3_t2243707580  L_39 = V_5;
+		Vector3_t2243707580  L_40 = V_6;
+		Gizmos_DrawLine_m1315654064(NULL /*static, unused*/, L_39, L_40, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_41 = V_6;
+		Vector3_t2243707580  L_42 = V_7;
+		Gizmos_DrawLine_m1315654064(NULL /*static, unused*/, L_41, L_42, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_43 = V_7;
+		Vector3_t2243707580  L_44 = V_5;
+		Gizmos_DrawLine_m1315654064(NULL /*static, unused*/, L_43, L_44, /*hidden argument*/NULL);
+		int32_t L_45 = V_4;
+		V_4 = ((int32_t)((int32_t)L_45+(int32_t)3));
+	}
+
+IL_00ef:
+	{
+		int32_t L_46 = V_4;
+		Int32U5BU5D_t3030399641* L_47 = V_3;
+		NullCheck(L_47);
+		if ((((int32_t)L_46) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_47)->max_length)))))))
+		{
+			goto IL_0097;
+		}
+	}
+
+IL_00f9:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.WireframeTrackableEventHandler::.ctor()
+extern "C"  void WireframeTrackableEventHandler__ctor_m4253736968 (WireframeTrackableEventHandler_t1535150527 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.WireframeTrackableEventHandler::Start()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisTrackableBehaviour_t1779888572_m2013987957_MethodInfo_var;
+extern const uint32_t WireframeTrackableEventHandler_Start_m1475947192_MetadataUsageId;
+extern "C"  void WireframeTrackableEventHandler_Start_m1475947192 (WireframeTrackableEventHandler_t1535150527 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WireframeTrackableEventHandler_Start_m1475947192_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TrackableBehaviour_t1779888572 * L_0 = Component_GetComponent_TisTrackableBehaviour_t1779888572_m2013987957(__this, /*hidden argument*/Component_GetComponent_TisTrackableBehaviour_t1779888572_m2013987957_MethodInfo_var);
+		__this->set_mTrackableBehaviour_2(L_0);
+		TrackableBehaviour_t1779888572 * L_1 = __this->get_mTrackableBehaviour_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Implicit_m2856731593(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		TrackableBehaviour_t1779888572 * L_3 = __this->get_mTrackableBehaviour_2();
+		NullCheck(L_3);
+		TrackableBehaviour_RegisterTrackableEventHandler_m1156666476(L_3, __this, /*hidden argument*/NULL);
+	}
+
+IL_0028:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.WireframeTrackableEventHandler::OnTrackableStateChanged(Vuforia.TrackableBehaviour/Status,Vuforia.TrackableBehaviour/Status)
+extern "C"  void WireframeTrackableEventHandler_OnTrackableStateChanged_m106630617 (WireframeTrackableEventHandler_t1535150527 * __this, int32_t ___previousStatus0, int32_t ___newStatus1, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___newStatus1;
+		if ((((int32_t)L_0) == ((int32_t)2)))
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		int32_t L_1 = ___newStatus1;
+		if ((!(((uint32_t)L_1) == ((uint32_t)3))))
+		{
+			goto IL_0019;
+		}
+	}
+
+IL_000e:
+	{
+		WireframeTrackableEventHandler_OnTrackingFound_m563781220(__this, /*hidden argument*/NULL);
+		goto IL_001f;
+	}
+
+IL_0019:
+	{
+		WireframeTrackableEventHandler_OnTrackingLost_m3180126272(__this, /*hidden argument*/NULL);
+	}
+
+IL_001f:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.WireframeTrackableEventHandler::OnTrackingFound()
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponentsInChildren_TisRenderer_t257310565_m1076536047_MethodInfo_var;
+extern const MethodInfo* Component_GetComponentsInChildren_TisCollider_t3497673348_m496323568_MethodInfo_var;
+extern const MethodInfo* Component_GetComponentsInChildren_TisWireframeBehaviour_t2494532455_m1655243706_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1040926105;
+extern Il2CppCodeGenString* _stringLiteral759218142;
+extern const uint32_t WireframeTrackableEventHandler_OnTrackingFound_m563781220_MetadataUsageId;
+extern "C"  void WireframeTrackableEventHandler_OnTrackingFound_m563781220 (WireframeTrackableEventHandler_t1535150527 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WireframeTrackableEventHandler_OnTrackingFound_m563781220_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	RendererU5BU5D_t2810717544* V_0 = NULL;
+	ColliderU5BU5D_t462843629* V_1 = NULL;
+	WireframeBehaviourU5BU5D_t2935582494* V_2 = NULL;
+	Renderer_t257310565 * V_3 = NULL;
+	RendererU5BU5D_t2810717544* V_4 = NULL;
+	int32_t V_5 = 0;
+	Collider_t3497673348 * V_6 = NULL;
+	ColliderU5BU5D_t462843629* V_7 = NULL;
+	int32_t V_8 = 0;
+	WireframeBehaviour_t2494532455 * V_9 = NULL;
+	WireframeBehaviourU5BU5D_t2935582494* V_10 = NULL;
+	int32_t V_11 = 0;
+	{
+		RendererU5BU5D_t2810717544* L_0 = Component_GetComponentsInChildren_TisRenderer_t257310565_m1076536047(__this, (bool)1, /*hidden argument*/Component_GetComponentsInChildren_TisRenderer_t257310565_m1076536047_MethodInfo_var);
+		V_0 = L_0;
+		ColliderU5BU5D_t462843629* L_1 = Component_GetComponentsInChildren_TisCollider_t3497673348_m496323568(__this, (bool)1, /*hidden argument*/Component_GetComponentsInChildren_TisCollider_t3497673348_m496323568_MethodInfo_var);
+		V_1 = L_1;
+		WireframeBehaviourU5BU5D_t2935582494* L_2 = Component_GetComponentsInChildren_TisWireframeBehaviour_t2494532455_m1655243706(__this, (bool)1, /*hidden argument*/Component_GetComponentsInChildren_TisWireframeBehaviour_t2494532455_m1655243706_MethodInfo_var);
+		V_2 = L_2;
+		RendererU5BU5D_t2810717544* L_3 = V_0;
+		V_4 = L_3;
+		V_5 = 0;
+		goto IL_0036;
+	}
+
+IL_0023:
+	{
+		RendererU5BU5D_t2810717544* L_4 = V_4;
+		int32_t L_5 = V_5;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		Renderer_t257310565 * L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		V_3 = L_7;
+		Renderer_t257310565 * L_8 = V_3;
+		NullCheck(L_8);
+		Renderer_set_enabled_m142717579(L_8, (bool)1, /*hidden argument*/NULL);
+		int32_t L_9 = V_5;
+		V_5 = ((int32_t)((int32_t)L_9+(int32_t)1));
+	}
+
+IL_0036:
+	{
+		int32_t L_10 = V_5;
+		RendererU5BU5D_t2810717544* L_11 = V_4;
+		NullCheck(L_11);
+		if ((((int32_t)L_10) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_11)->max_length)))))))
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		ColliderU5BU5D_t462843629* L_12 = V_1;
+		V_7 = L_12;
+		V_8 = 0;
+		goto IL_0061;
+	}
+
+IL_004c:
+	{
+		ColliderU5BU5D_t462843629* L_13 = V_7;
+		int32_t L_14 = V_8;
+		NullCheck(L_13);
+		int32_t L_15 = L_14;
+		Collider_t3497673348 * L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+		V_6 = L_16;
+		Collider_t3497673348 * L_17 = V_6;
+		NullCheck(L_17);
+		Collider_set_enabled_m3489100454(L_17, (bool)1, /*hidden argument*/NULL);
+		int32_t L_18 = V_8;
+		V_8 = ((int32_t)((int32_t)L_18+(int32_t)1));
+	}
+
+IL_0061:
+	{
+		int32_t L_19 = V_8;
+		ColliderU5BU5D_t462843629* L_20 = V_7;
+		NullCheck(L_20);
+		if ((((int32_t)L_19) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_20)->max_length)))))))
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		WireframeBehaviourU5BU5D_t2935582494* L_21 = V_2;
+		V_10 = L_21;
+		V_11 = 0;
+		goto IL_008c;
+	}
+
+IL_0077:
+	{
+		WireframeBehaviourU5BU5D_t2935582494* L_22 = V_10;
+		int32_t L_23 = V_11;
+		NullCheck(L_22);
+		int32_t L_24 = L_23;
+		WireframeBehaviour_t2494532455 * L_25 = (L_22)->GetAt(static_cast<il2cpp_array_size_t>(L_24));
+		V_9 = L_25;
+		WireframeBehaviour_t2494532455 * L_26 = V_9;
+		NullCheck(L_26);
+		Behaviour_set_enabled_m1796096907(L_26, (bool)1, /*hidden argument*/NULL);
+		int32_t L_27 = V_11;
+		V_11 = ((int32_t)((int32_t)L_27+(int32_t)1));
+	}
+
+IL_008c:
+	{
+		int32_t L_28 = V_11;
+		WireframeBehaviourU5BU5D_t2935582494* L_29 = V_10;
+		NullCheck(L_29);
+		if ((((int32_t)L_28) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_29)->max_length)))))))
+		{
+			goto IL_0077;
+		}
+	}
+	{
+		TrackableBehaviour_t1779888572 * L_30 = __this->get_mTrackableBehaviour_2();
+		NullCheck(L_30);
+		String_t* L_31 = TrackableBehaviour_get_TrackableName_m3173853042(L_30, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_32 = String_Concat_m612901809(NULL /*static, unused*/, _stringLiteral1040926105, L_31, _stringLiteral759218142, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_32, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.WireframeTrackableEventHandler::OnTrackingLost()
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponentsInChildren_TisRenderer_t257310565_m1076536047_MethodInfo_var;
+extern const MethodInfo* Component_GetComponentsInChildren_TisCollider_t3497673348_m496323568_MethodInfo_var;
+extern const MethodInfo* Component_GetComponentsInChildren_TisWireframeBehaviour_t2494532455_m1655243706_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1040926105;
+extern Il2CppCodeGenString* _stringLiteral3033297088;
+extern const uint32_t WireframeTrackableEventHandler_OnTrackingLost_m3180126272_MetadataUsageId;
+extern "C"  void WireframeTrackableEventHandler_OnTrackingLost_m3180126272 (WireframeTrackableEventHandler_t1535150527 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WireframeTrackableEventHandler_OnTrackingLost_m3180126272_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	RendererU5BU5D_t2810717544* V_0 = NULL;
+	ColliderU5BU5D_t462843629* V_1 = NULL;
+	WireframeBehaviourU5BU5D_t2935582494* V_2 = NULL;
+	Renderer_t257310565 * V_3 = NULL;
+	RendererU5BU5D_t2810717544* V_4 = NULL;
+	int32_t V_5 = 0;
+	Collider_t3497673348 * V_6 = NULL;
+	ColliderU5BU5D_t462843629* V_7 = NULL;
+	int32_t V_8 = 0;
+	WireframeBehaviour_t2494532455 * V_9 = NULL;
+	WireframeBehaviourU5BU5D_t2935582494* V_10 = NULL;
+	int32_t V_11 = 0;
+	{
+		RendererU5BU5D_t2810717544* L_0 = Component_GetComponentsInChildren_TisRenderer_t257310565_m1076536047(__this, (bool)1, /*hidden argument*/Component_GetComponentsInChildren_TisRenderer_t257310565_m1076536047_MethodInfo_var);
+		V_0 = L_0;
+		ColliderU5BU5D_t462843629* L_1 = Component_GetComponentsInChildren_TisCollider_t3497673348_m496323568(__this, (bool)1, /*hidden argument*/Component_GetComponentsInChildren_TisCollider_t3497673348_m496323568_MethodInfo_var);
+		V_1 = L_1;
+		WireframeBehaviourU5BU5D_t2935582494* L_2 = Component_GetComponentsInChildren_TisWireframeBehaviour_t2494532455_m1655243706(__this, (bool)1, /*hidden argument*/Component_GetComponentsInChildren_TisWireframeBehaviour_t2494532455_m1655243706_MethodInfo_var);
+		V_2 = L_2;
+		RendererU5BU5D_t2810717544* L_3 = V_0;
+		V_4 = L_3;
+		V_5 = 0;
+		goto IL_0036;
+	}
+
+IL_0023:
+	{
+		RendererU5BU5D_t2810717544* L_4 = V_4;
+		int32_t L_5 = V_5;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		Renderer_t257310565 * L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		V_3 = L_7;
+		Renderer_t257310565 * L_8 = V_3;
+		NullCheck(L_8);
+		Renderer_set_enabled_m142717579(L_8, (bool)0, /*hidden argument*/NULL);
+		int32_t L_9 = V_5;
+		V_5 = ((int32_t)((int32_t)L_9+(int32_t)1));
+	}
+
+IL_0036:
+	{
+		int32_t L_10 = V_5;
+		RendererU5BU5D_t2810717544* L_11 = V_4;
+		NullCheck(L_11);
+		if ((((int32_t)L_10) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_11)->max_length)))))))
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		ColliderU5BU5D_t462843629* L_12 = V_1;
+		V_7 = L_12;
+		V_8 = 0;
+		goto IL_0061;
+	}
+
+IL_004c:
+	{
+		ColliderU5BU5D_t462843629* L_13 = V_7;
+		int32_t L_14 = V_8;
+		NullCheck(L_13);
+		int32_t L_15 = L_14;
+		Collider_t3497673348 * L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+		V_6 = L_16;
+		Collider_t3497673348 * L_17 = V_6;
+		NullCheck(L_17);
+		Collider_set_enabled_m3489100454(L_17, (bool)0, /*hidden argument*/NULL);
+		int32_t L_18 = V_8;
+		V_8 = ((int32_t)((int32_t)L_18+(int32_t)1));
+	}
+
+IL_0061:
+	{
+		int32_t L_19 = V_8;
+		ColliderU5BU5D_t462843629* L_20 = V_7;
+		NullCheck(L_20);
+		if ((((int32_t)L_19) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_20)->max_length)))))))
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		WireframeBehaviourU5BU5D_t2935582494* L_21 = V_2;
+		V_10 = L_21;
+		V_11 = 0;
+		goto IL_008c;
+	}
+
+IL_0077:
+	{
+		WireframeBehaviourU5BU5D_t2935582494* L_22 = V_10;
+		int32_t L_23 = V_11;
+		NullCheck(L_22);
+		int32_t L_24 = L_23;
+		WireframeBehaviour_t2494532455 * L_25 = (L_22)->GetAt(static_cast<il2cpp_array_size_t>(L_24));
+		V_9 = L_25;
+		WireframeBehaviour_t2494532455 * L_26 = V_9;
+		NullCheck(L_26);
+		Behaviour_set_enabled_m1796096907(L_26, (bool)0, /*hidden argument*/NULL);
+		int32_t L_27 = V_11;
+		V_11 = ((int32_t)((int32_t)L_27+(int32_t)1));
+	}
+
+IL_008c:
+	{
+		int32_t L_28 = V_11;
+		WireframeBehaviourU5BU5D_t2935582494* L_29 = V_10;
+		NullCheck(L_29);
+		if ((((int32_t)L_28) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_29)->max_length)))))))
+		{
+			goto IL_0077;
+		}
+	}
+	{
+		TrackableBehaviour_t1779888572 * L_30 = __this->get_mTrackableBehaviour_2();
+		NullCheck(L_30);
+		String_t* L_31 = TrackableBehaviour_get_TrackableName_m3173853042(L_30, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_32 = String_Concat_m612901809(NULL /*static, unused*/, _stringLiteral1040926105, L_31, _stringLiteral3033297088, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_32, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.WordBehaviour::.ctor()
+extern "C"  void WordBehaviour__ctor_m581909702 (WordBehaviour_t3366478421 * __this, const MethodInfo* method)
+{
+	{
+		WordAbstractBehaviour__ctor_m1415816009(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.WSAUnityPlayer::.ctor()
+extern "C"  void WSAUnityPlayer__ctor_m1279021334 (WSAUnityPlayer_t425981959 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.WSAUnityPlayer::LoadNativeLibraries()
+extern "C"  void WSAUnityPlayer_LoadNativeLibraries_m2310474608 (WSAUnityPlayer_t425981959 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Vuforia.WSAUnityPlayer::InitializePlatform()
+extern "C"  void WSAUnityPlayer_InitializePlatform_m2450540007 (WSAUnityPlayer_t425981959 * __this, const MethodInfo* method)
+{
+	{
+		WSAUnityPlayer_setPlatFormNative_m413995854(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Vuforia.VuforiaUnity/InitError Vuforia.WSAUnityPlayer::Start(System.String)
+extern "C"  int32_t WSAUnityPlayer_Start_m3611544449 (WSAUnityPlayer_t425981959 * __this, String_t* ___licenseKey0, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		String_t* L_0 = ___licenseKey0;
+		int32_t L_1 = WSAUnityPlayer_initVuforiaWSA_m2461582347(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) < ((int32_t)0)))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		WSAUnityPlayer_InitializeSurface_m2485130165(__this, /*hidden argument*/NULL);
+	}
+
+IL_0014:
+	{
+		int32_t L_3 = V_0;
+		return (int32_t)(L_3);
+	}
+}
+// System.Void Vuforia.WSAUnityPlayer::Update()
+extern Il2CppClass* SurfaceUtilities_t4096327849_il2cpp_TypeInfo_var;
+extern const uint32_t WSAUnityPlayer_Update_m3453039605_MetadataUsageId;
+extern "C"  void WSAUnityPlayer_Update_m3453039605 (WSAUnityPlayer_t425981959 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WSAUnityPlayer_Update_m3453039605_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(SurfaceUtilities_t4096327849_il2cpp_TypeInfo_var);
+		bool L_0 = SurfaceUtilities_HasSurfaceBeenRecreated_m2740261893(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		WSAUnityPlayer_InitializeSurface_m2485130165(__this, /*hidden argument*/NULL);
+		goto IL_002e;
+	}
+
+IL_0015:
+	{
+		int32_t L_1 = WSAUnityPlayer_GetActualScreenOrientation_m2906081196(__this, /*hidden argument*/NULL);
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		int32_t L_3 = __this->get_mScreenOrientation_0();
+		if ((((int32_t)L_2) == ((int32_t)L_3)))
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		WSAUnityPlayer_SetUnityScreenOrientation_m3964512799(__this, /*hidden argument*/NULL);
+	}
+
+IL_002e:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.WSAUnityPlayer::Dispose()
+extern "C"  void WSAUnityPlayer_Dispose_m459169223 (WSAUnityPlayer_t425981959 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Vuforia.WSAUnityPlayer::OnPause()
+extern Il2CppClass* VuforiaUnity_t657456673_il2cpp_TypeInfo_var;
+extern const uint32_t WSAUnityPlayer_OnPause_m2815166635_MetadataUsageId;
+extern "C"  void WSAUnityPlayer_OnPause_m2815166635 (WSAUnityPlayer_t425981959 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WSAUnityPlayer_OnPause_m2815166635_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaUnity_t657456673_il2cpp_TypeInfo_var);
+		VuforiaUnity_OnPause_m2422224752(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.WSAUnityPlayer::OnResume()
+extern Il2CppClass* VuforiaUnity_t657456673_il2cpp_TypeInfo_var;
+extern const uint32_t WSAUnityPlayer_OnResume_m2572251502_MetadataUsageId;
+extern "C"  void WSAUnityPlayer_OnResume_m2572251502 (WSAUnityPlayer_t425981959 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WSAUnityPlayer_OnResume_m2572251502_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaUnity_t657456673_il2cpp_TypeInfo_var);
+		VuforiaUnity_OnResume_m2186520633(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.WSAUnityPlayer::OnDestroy()
+extern Il2CppClass* VuforiaUnity_t657456673_il2cpp_TypeInfo_var;
+extern const uint32_t WSAUnityPlayer_OnDestroy_m3845019931_MetadataUsageId;
+extern "C"  void WSAUnityPlayer_OnDestroy_m3845019931 (WSAUnityPlayer_t425981959 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WSAUnityPlayer_OnDestroy_m3845019931_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaUnity_t657456673_il2cpp_TypeInfo_var);
+		VuforiaUnity_Deinit_m4072609744(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.WSAUnityPlayer::InitializeSurface()
+extern Il2CppClass* SurfaceUtilities_t4096327849_il2cpp_TypeInfo_var;
+extern const uint32_t WSAUnityPlayer_InitializeSurface_m2485130165_MetadataUsageId;
+extern "C"  void WSAUnityPlayer_InitializeSurface_m2485130165 (WSAUnityPlayer_t425981959 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WSAUnityPlayer_InitializeSurface_m2485130165_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(SurfaceUtilities_t4096327849_il2cpp_TypeInfo_var);
+		SurfaceUtilities_OnSurfaceCreated_m3675640541(NULL /*static, unused*/, /*hidden argument*/NULL);
+		WSAUnityPlayer_SetUnityScreenOrientation_m3964512799(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.WSAUnityPlayer::SetUnityScreenOrientation()
+extern Il2CppClass* SurfaceUtilities_t4096327849_il2cpp_TypeInfo_var;
+extern const uint32_t WSAUnityPlayer_SetUnityScreenOrientation_m3964512799_MetadataUsageId;
+extern "C"  void WSAUnityPlayer_SetUnityScreenOrientation_m3964512799 (WSAUnityPlayer_t425981959 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WSAUnityPlayer_SetUnityScreenOrientation_m3964512799_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = WSAUnityPlayer_GetActualScreenOrientation_m2906081196(__this, /*hidden argument*/NULL);
+		__this->set_mScreenOrientation_0(L_0);
+		int32_t L_1 = __this->get_mScreenOrientation_0();
+		IL2CPP_RUNTIME_CLASS_INIT(SurfaceUtilities_t4096327849_il2cpp_TypeInfo_var);
+		SurfaceUtilities_SetSurfaceOrientation_m3106547277(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		int32_t L_2 = __this->get_mScreenOrientation_0();
+		WSAUnityPlayer_setSurfaceOrientationWSA_m2082052129(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// UnityEngine.ScreenOrientation Vuforia.WSAUnityPlayer::GetActualScreenOrientation()
+extern Il2CppClass* Input_t1785128008_il2cpp_TypeInfo_var;
+extern const uint32_t WSAUnityPlayer_GetActualScreenOrientation_m2906081196_MetadataUsageId;
+extern "C"  int32_t WSAUnityPlayer_GetActualScreenOrientation_m2906081196 (WSAUnityPlayer_t425981959 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WSAUnityPlayer_GetActualScreenOrientation_m2906081196_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = Screen_get_orientation_m879255848(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if ((!(((uint32_t)L_1) == ((uint32_t)5))))
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		int32_t L_2 = Input_get_deviceOrientation_m2415424840(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		if (((int32_t)((int32_t)L_3-(int32_t)1)) == 0)
+		{
+			goto IL_003e;
+		}
+		if (((int32_t)((int32_t)L_3-(int32_t)1)) == 1)
+		{
+			goto IL_0045;
+		}
+		if (((int32_t)((int32_t)L_3-(int32_t)1)) == 2)
+		{
+			goto IL_0030;
+		}
+		if (((int32_t)((int32_t)L_3-(int32_t)1)) == 3)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		goto IL_004c;
+	}
+
+IL_0030:
+	{
+		V_0 = 3;
+		goto IL_0053;
+	}
+
+IL_0037:
+	{
+		V_0 = 4;
+		goto IL_0053;
+	}
+
+IL_003e:
+	{
+		V_0 = 1;
+		goto IL_0053;
+	}
+
+IL_0045:
+	{
+		V_0 = 2;
+		goto IL_0053;
+	}
+
+IL_004c:
+	{
+		V_0 = 3;
+		goto IL_0053;
+	}
+
+IL_0053:
+	{
+		int32_t L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Void Vuforia.WSAUnityPlayer::setPlatFormNative()
+extern "C"  void WSAUnityPlayer_setPlatFormNative_m413995854 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = 0;
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("VuforiaWrapper"), "setPlatFormNative", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+
+		if (il2cppPInvokeFunc == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'setPlatFormNative'"));
+		}
+	}
+
+	// Native function invocation
+	il2cppPInvokeFunc();
+
+}
+// System.Int32 Vuforia.WSAUnityPlayer::initVuforiaWSA(System.String)
+extern "C"  int32_t WSAUnityPlayer_initVuforiaWSA_m2461582347 (Il2CppObject * __this /* static, unused */, String_t* ___licenseKey0, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*);
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(char*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("VuforiaWrapper"), "initVuforiaWSA", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+
+		if (il2cppPInvokeFunc == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'initVuforiaWSA'"));
+		}
+	}
+
+	// Marshaling of parameter '___licenseKey0' to native representation
+	char* ____licenseKey0_marshaled = NULL;
+	____licenseKey0_marshaled = il2cpp_codegen_marshal_string(___licenseKey0);
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(____licenseKey0_marshaled);
+
+	// Marshaling cleanup of parameter '___licenseKey0' native representation
+	il2cpp_codegen_marshal_free(____licenseKey0_marshaled);
+	____licenseKey0_marshaled = NULL;
+
+	return returnValue;
+}
+// System.Void Vuforia.WSAUnityPlayer::setSurfaceOrientationWSA(System.Int32)
+extern "C"  void WSAUnityPlayer_setSurfaceOrientationWSA_m2082052129 (Il2CppObject * __this /* static, unused */, int32_t ___screenOrientation0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("VuforiaWrapper"), "setSurfaceOrientationWSA", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+
+		if (il2cppPInvokeFunc == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'setSurfaceOrientationWSA'"));
+		}
+	}
+
+	// Native function invocation
+	il2cppPInvokeFunc(___screenOrientation0);
+
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
