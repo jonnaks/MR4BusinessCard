@@ -16,6 +16,7 @@ public class UserInterfaceButtons : MonoBehaviour
 	bool repeatPositionDown = false;
 	bool repeatPositionLeft = false;
 	bool repeatPositionRight = false;
+	bool audioOn = false;
 
 	//egna
 	public GameObject buttonName;
@@ -225,8 +226,18 @@ public class UserInterfaceButtons : MonoBehaviour
 
 	public void AudioButton ()
 	{
-		this.GetComponent<AudioSource> ().Play ();
-		Debug.Log ("AudioButton");
+		if (audioOn == false) {
+			this.GetComponent<AudioSource> ().Play ();
+
+			Debug.Log ("AudioButton-play");
+			audioOn = true;
+		} 
+		else {
+			this.GetComponent<AudioSource> ().Pause ();
+			audioOn = false;
+			Debug.Log ("AudioButton-pause");
+
+		}
 	}
 
 
