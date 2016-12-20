@@ -106,10 +106,33 @@ public class SwipeImage : MonoBehaviour
 			//swipe upwards
 			if (currentSwipe.y > 0 && currentSwipe.x > -0.5f && currentSwipe.x < 0.5f) {
 				Debug.Log ("up swipe");
+				page[i].GetComponent<RectTransform>().localPosition = new Vector3 (0,0,-6); // set to original position
+				page[i].SetActive (false);
+				//				model[i].SetActive (false);	
+				image[i].color =  new Color(1.0f,1.0f,1.0f,1.0f);
+				i--;
+
+				if (i < 0)
+					i = amount-1;
+
+				//				model[i].SetActive (true);
+				page[i].SetActive (true);
 			}
 			//swipe down
 			if (currentSwipe.y < 0 && currentSwipe.x > -0.5f && currentSwipe.x < 0.5f) {
 				Debug.Log ("down swipe");
+				page[i].GetComponent<RectTransform>().localPosition = new Vector3 (0,0,-6); // set to original position
+				page[i].SetActive (false);
+				//				model[i].SetActive (false);
+				image[i].color =  new Color(1.0f,1.0f,1.0f,1.0f);
+				i++;
+
+				if (i > (amount-1))
+					i=0;
+
+				page[i].SetActive (true);
+				//				model[i].SetActive (true);
+
 			}
 			//swipe left
 			if (currentSwipe.x < 0 && currentSwipe.y > -0.5f && currentSwipe.y < 0.5f) {
